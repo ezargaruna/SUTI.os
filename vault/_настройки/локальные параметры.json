@@ -1,0 +1,9 @@
+{
+  "format": "suti.local.v1",
+  "locale": "ru",
+  "theme": "system",
+  "start_here": "личное",
+  "included_packs": ["язык", "учёба", "дела", "помощник"],
+  "sync": "off",
+  "agent_access": "ask_each_time"
+}

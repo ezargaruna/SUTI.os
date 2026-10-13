@@ -1,0 +1,38 @@
+/* optional local reading surface · enable in Obsidian if wanted */
+:root {
+  --suti-ivory: #F4F0E8;
+  --suti-ink: #25342F;
+  --suti-petrol: #365958;
+  --suti-turquoise: #57B8B0;
+  --suti-peach: #DE9A73;
+  --suti-sunlight: #D6AD58;
+  --suti-moss: #687064;
+  --suti-aqua: #DDF2EF;
+}
+
+.theme-light {
+  --background-primary: var(--suti-ivory);
+  --text-normal: var(--suti-ink);
+  --interactive-accent: var(--suti-petrol);
+  --link-color: #2F7773;
+  --link-color-hover: var(--suti-petrol);
+}
+
+.theme-dark {
+  --background-primary: #25342F;
+  --background-secondary: #365958;
+  --text-normal: var(--suti-ivory);
+  --interactive-accent: var(--suti-turquoise);
+  --link-color: #83D4CC;
+}
+
+body.suti-high-contrast {
+  --background-primary: #FFFFFF;
+  --background-secondary: #FFFFFF;
+  --text-normal: #000000;
+  --text-muted: #222222;
+  --text-faint: #333333;
+  --interactive-accent: #003D3A;
+  --link-color: #003D3A;
+  --background-modifier-border: #000000;
+}

@@ -1,0 +1,10 @@
+{
+  "id": "suti-os-open",
+  "version": "0.1.0",
+  "status": "public-preview",
+  "locale": "ru",
+  "format": "portable-markdown-vault",
+  "installer_questions_max": 5,
+  "network_during_install": false,
+  "imports_personal_data": false
+}
