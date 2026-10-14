@@ -1,0 +1,1233 @@
+[
+  {
+    "family": "Literata",
+    "source": "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/literata/Literata-Italic%5Bopsz%2Cwght%5D.ttf",
+    "commit": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+    "source_sha256": "d483dfaeba9cbf4ce71d32a52ee65df82f7e35b15fff8d1011cdb242d1fcd465",
+    "version": "Version 3.103;gftools[0.9.29]",
+    "axes": {
+      "opsz": [
+        7.0,
+        72.0
+      ],
+      "wght": [
+        200.0,
+        900.0
+      ]
+    },
+    "outputs": [
+      {
+        "file": "assets/fonts/literata/italic.woff2",
+        "sha256": "123ff11b1c2888435d447a26923eca67248e564f94239409436be553dd0a1f3b",
+        "bytes": 396940
+      }
+    ]
+  },
+  {
+    "family": "Literata",
+    "source": "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/literata/Literata%5Bopsz%2Cwght%5D.ttf",
+    "commit": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+    "source_sha256": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440",
+    "version": "Version 3.103;gftools[0.9.29]",
+    "axes": {
+      "opsz": [
+        7.0,
+        72.0
+      ],
+      "wght": [
+        200.0,
+        900.0
+      ]
+    },
+    "outputs": [
+      {
+        "file": "assets/fonts/literata/regular.woff2",
+        "sha256": "5e3890e69b89757de4731407cb60cba7dd2a6a7875ef47a082829e7fe62e0634",
+        "bytes": 397056
+      }
+    ]
+  },
+  {
+    "family": "Onest",
+    "source": "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/onest/Onest%5Bwght%5D.ttf",
+    "commit": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+    "source_sha256": "966c5c29b4755da84b6854d5c21dd4eaa2420225d0e9874de602de176d4a9f31",
+    "version": "Version 2.001",
+    "axes": {
+      "wght": [
+        100.0,
+        900.0
+      ]
+    },
+    "outputs": [
+      {
+        "file": "assets/fonts/onest/regular.woff2",
+        "sha256": "41a24956b48e195e78bb4a6b82191c328155fe41d7fd2bb29cb3a3f297f97c4f",
+        "bytes": 84164
+      }
+    ]
+  },
+  {
+    "family": "Noto Sans SC",
+    "source": "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+    "commit": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+    "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+    "version": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603",
+    "axes": {
+      "wght": [
+        100.0,
+        900.0
+      ]
+    },
+    "outputs": [
+      {
+        "file": "assets/fonts/notosanssc/regular-000.woff2",
+        "sha256": "3d491c7c7ba95abffeb843b21365344472628386168efb2c1c7a4816a2f0f26d",
+        "bytes": 53412
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-001.woff2",
+        "sha256": "6c4a91e2066396b0df0ac43f9194abfa79dc82e19a289fe43b78cdab0ca373ea",
+        "bytes": 5832
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-002.woff2",
+        "sha256": "72d757050c6fa9628f9adad9c9e23f61c7ab49e86ec333a17000600392451b8a",
+        "bytes": 2460
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-003.woff2",
+        "sha256": "b53cbd0510b79714389d1244449ff6fbb9264dbe116ddd5509371a9ac47f1ea2",
+        "bytes": 8564
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-004.woff2",
+        "sha256": "12a2ca0f2528c1417cfa5fd8f40efa780852f7719c1b93eb30cd535be6aaa991",
+        "bytes": 9172
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-005.woff2",
+        "sha256": "74b73f3099b06fb7d423481107b8d95342ae1fb93d3563300901ec00dfd961f3",
+        "bytes": 7800
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-006.woff2",
+        "sha256": "b08eb1d1da337721f0eb50ae1b4a82711b27b656fb95711f03bdf1bc30b5b34a",
+        "bytes": 6416
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-007.woff2",
+        "sha256": "e1d6d0157d09c4b8f9da5be8ba78d496f4fd62d995d86b3fdcaabd1b2864fcce",
+        "bytes": 8012
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-008.woff2",
+        "sha256": "c044f9fc8d065de3bc37c3d203f554eb7641079b258d3af79ee12067fe3be706",
+        "bytes": 7256
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-009.woff2",
+        "sha256": "1169eacc71e8828925d38ef74592fce7a70a903ab0d3510d3292abe6188b5ea8",
+        "bytes": 3320
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-010.woff2",
+        "sha256": "2907980136737495f04d8370a81e2a702eb90d88fa89394e5fe7531ff9c5436a",
+        "bytes": 19504
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-011.woff2",
+        "sha256": "91ee546e2c806b6486a90c083b24056b5d01a51231db45ed6934014aa2f262ff",
+        "bytes": 4516
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-012.woff2",
+        "sha256": "a0a0b1c608f8aa5c689992097afabbb42c8a659929b87e83e1bf0920013b1471",
+        "bytes": 10304
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-013.woff2",
+        "sha256": "9a5c223472c1c86853240daed1559445a54de47053d21c81bde95655425e1dbf",
+        "bytes": 5428
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-014.woff2",
+        "sha256": "231616220d51f90c4db0fcf1f747d092609bf31452e21c33013a991dd385ecf9",
+        "bytes": 1704
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-015.woff2",
+        "sha256": "69e934e0fa4a21f7df185dffcb7087e357e47634e0ad5980e59be39735adc4e5",
+        "bytes": 1216
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-016.woff2",
+        "sha256": "b13d703f7d7b9372f204cd91bbeac2c6a740788536612eb8c9baab088cc8c3d3",
+        "bytes": 22692
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-017.woff2",
+        "sha256": "73e3e83171de29688659001bba133dd92105130775f4a7c73aa756c57d6cd38d",
+        "bytes": 42756
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-018.woff2",
+        "sha256": "17de61e68ba59ced1f525784cdb47d77530b9eab07bf2b4cc2f3e426bf4c23a9",
+        "bytes": 139432
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-019.woff2",
+        "sha256": "1a5219911288035a0f9ff7de56841dc36f369ab864885301a0c106977657a0fc",
+        "bytes": 31840
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-020.woff2",
+        "sha256": "d5ce7ea0806087d6a16ca4ca1ac8a77c158cceb50879c5024377904fdfe836e1",
+        "bytes": 43664
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-021.woff2",
+        "sha256": "154a9ac6f30915c3e3b46276e9d25272eb9c2a67a0eb17da90cf4d1d5dcb0e56",
+        "bytes": 72188
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-022.woff2",
+        "sha256": "6ca9069df380ebfed5e03d2920fe2ed5025eef8a1c414500a2598cf98ef5da10",
+        "bytes": 77696
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-023.woff2",
+        "sha256": "6edf2764744d81f0826ad8db75b2306f8eab85cbaecf286689f1217dced8000b",
+        "bytes": 77776
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-024.woff2",
+        "sha256": "4027a1ea8498cc051370c732fca141c9de10d0e305535fd19b37cf8ca3998de1",
+        "bytes": 85348
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-025.woff2",
+        "sha256": "40c808180837c02908de20e8d4361dd553e36571b16d01d717dbbb52de2c9475",
+        "bytes": 83788
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-026.woff2",
+        "sha256": "f64b279b5b008201587beb55ed05e983eb3e75b31fb8af86f65b5052ecc195cd",
+        "bytes": 85724
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-027.woff2",
+        "sha256": "7117f9a689608ad0c3e5fe253dc45afc61fcd4edf0470866ca366bbba4fc6d11",
+        "bytes": 85732
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-028.woff2",
+        "sha256": "1b4623cdd93d2be890a3333b08b62e5a23f5e914ec44031b014860e7dacc5ad1",
+        "bytes": 87276
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-029.woff2",
+        "sha256": "3149298c8f8db0de63a790fb48735f63db164d17a5c73aab6b1be6c67c44a23f",
+        "bytes": 92920
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-030.woff2",
+        "sha256": "f2fbbb7f299d4bef98c2f5c344cc7c6ac0bbec1460e6c9c74bb458ac3dc744b3",
+        "bytes": 94980
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-031.woff2",
+        "sha256": "e86232bfb7f35f07ec612f1d687286ac430880a133ac809b7fe19856e0de4cb0",
+        "bytes": 100748
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-032.woff2",
+        "sha256": "147b4842681ce5f93d2ec86329b0b7bdf63f89e0d97d9dd4e58ff9da96e98908",
+        "bytes": 85780
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-033.woff2",
+        "sha256": "0747c674a1448dc48bce1a461a34f421eca37a308f4ab2305b449ca2f5620871",
+        "bytes": 95376
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-034.woff2",
+        "sha256": "39c275f313cb8e483c1284e3ae48e9e6d309182656a7faa464afe3ff35610b78",
+        "bytes": 80628
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-035.woff2",
+        "sha256": "1e7546236fdb5bae3f646d59af36cdb9adda007dd27e95656083d3667562d03d",
+        "bytes": 88180
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-036.woff2",
+        "sha256": "2cbd39973b99e1b556d2f946e655679724d8ff7aa433c6d566ee017e4435d99e",
+        "bytes": 108452
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-037.woff2",
+        "sha256": "8d3130a8049ab07a821d05537d286b60ebc22bebad7a44477747b282a079093e",
+        "bytes": 95840
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-038.woff2",
+        "sha256": "68a4894804ee7987f6f7c78a852c02a2099bda9bb1e15b129a4de385b1e7d8d8",
+        "bytes": 80996
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-039.woff2",
+        "sha256": "a8fc6bd5eecc200a958f373a4a5933eae3c2a0b96366dbaf89fc9f482798276f",
+        "bytes": 100292
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-040.woff2",
+        "sha256": "d9002b519f084c842ad399dee7535fd2c2c7e9ad031059e06e7beb85fb554781",
+        "bytes": 90020
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-041.woff2",
+        "sha256": "f9efbbd145ca97a523a7f5011436c8fa52403dc0f2b4823d0163dc70e1f53e62",
+        "bytes": 93120
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-042.woff2",
+        "sha256": "c4583092a852210ed939939687946c47fae9cad47b14e8d04f646384cff61fd5",
+        "bytes": 85972
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-043.woff2",
+        "sha256": "4c2ab4af8144b4d36a726de778caaaf6cce46159ccfa4a1962116f23289d1e1f",
+        "bytes": 96040
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-044.woff2",
+        "sha256": "17807df74c565b27713925120415dbd3018b086405fa31764892b98e74fb9d88",
+        "bytes": 92052
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-045.woff2",
+        "sha256": "cdbd70690071c4ba9f266ba4557d6b7da36f91511ab03af46d2f2486cc4abb1c",
+        "bytes": 102052
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-046.woff2",
+        "sha256": "b335d7e92d394d713ca852c5c319bb7a881bbf18e245c14dc0f461214ac74928",
+        "bytes": 111384
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-047.woff2",
+        "sha256": "05c05a2b2b20703741a394d471f39a78e00515ca59448f8a48042e6d93abcbba",
+        "bytes": 82072
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-048.woff2",
+        "sha256": "d362b7d90af1595cee8cd2fdee5ccf2ebd8dc3f6d2104cf7806629734fffd6f5",
+        "bytes": 52600
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-049.woff2",
+        "sha256": "77b9c4414271bc107b3fa2f6c47d0ca696556dda662511254e1128f8523bef54",
+        "bytes": 61400
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-050.woff2",
+        "sha256": "487b92188378417f9b41b0ed5ea7b6c36d99d7211d02f70da21716e11d72c27d",
+        "bytes": 78156
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-051.woff2",
+        "sha256": "7d1548712598155390ce50874d94e468b20f62acd71e5e50a956f2f06649c634",
+        "bytes": 76816
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-052.woff2",
+        "sha256": "f1c2a5ffe4d1a18bbd01ce58c9b0aa8d6fa77241766fa522209544333279d384",
+        "bytes": 83804
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-053.woff2",
+        "sha256": "2abd22b534bbf89f01d5efbce832b07febf7dcff13f0bb789705e58c693c042e",
+        "bytes": 64280
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-054.woff2",
+        "sha256": "614daaa3f068b3c36350ff80c2b0717b12ab18300143502adc42165e8c124f17",
+        "bytes": 55940
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-055.woff2",
+        "sha256": "3953191b7aea18124c911a9392a7fdb397835014d3c0c1fbb9d887b2d41d8cbd",
+        "bytes": 71376
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-056.woff2",
+        "sha256": "c55358ef1739e0b31527d6892e4f9abe0d6f2fe6d86b1398e7269e80d14d03f9",
+        "bytes": 86856
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-057.woff2",
+        "sha256": "54bf156ed815965c7dcab26abda7e458b6d51e7d6986d38d43b31f662684d626",
+        "bytes": 62544
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-058.woff2",
+        "sha256": "b73b74c4b240ca0e8fded2407ccda4fea064ef1ee0dc3c2b6e22eeae49248594",
+        "bytes": 80356
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-059.woff2",
+        "sha256": "4af4189a20c2d4079ec06a1645c516295da227eab60a51293ff89d882161a10a",
+        "bytes": 74616
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-060.woff2",
+        "sha256": "4ef652d367e90728467ed602bec4b90c3479ccec8c2cf41a0235b5830bae1eac",
+        "bytes": 88872
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-061.woff2",
+        "sha256": "cd279c27ce780fd3c2adbfc7daddb84e69435c9106213dd5f353e448f5df7d32",
+        "bytes": 89084
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-062.woff2",
+        "sha256": "1861d601809c3a0387327940719fb0361d55fec552152af4c5dfe42d976af1a7",
+        "bytes": 65176
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-063.woff2",
+        "sha256": "48e6066c3c51b0dc983abbafa176b48e22af9a89c2da810cd7958fb20ecef5c1",
+        "bytes": 83492
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-064.woff2",
+        "sha256": "d0da04719dbcf4e6e4ac486724ec67e0bb1ebf5152ac3819c21f8e428dc5e6a1",
+        "bytes": 77020
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-065.woff2",
+        "sha256": "f211b350939f9390b45a72ec60e07c2e33454908ff5dcf1b192e74e197a91b1d",
+        "bytes": 75236
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-066.woff2",
+        "sha256": "ef04b38e43f05007d91f4741a666b54f65b0de7c6ac97d14b3132ea59363a91d",
+        "bytes": 75132
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-067.woff2",
+        "sha256": "19d3590d95be7f8da590d3af461dc6cd502180e79d2590cee6739fdea7aeb955",
+        "bytes": 99944
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-068.woff2",
+        "sha256": "29cad4dd9b8a87783e38f5a3beff1d47b55a29bd0b60ec0fb4594f58eaf5907f",
+        "bytes": 69656
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-069.woff2",
+        "sha256": "8af54f39e75cc618a682e7f2bd1acb692ebda408a6f95849b71c678965858be4",
+        "bytes": 75120
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-070.woff2",
+        "sha256": "683d7d7c3f2d9328c637f161e2aeb341a610ae52eaf562ebaed180f219100269",
+        "bytes": 96676
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-071.woff2",
+        "sha256": "0c85ab66565f40ccb5656607e72e7fe96893015a1fccc9ac80064002f1cf90a3",
+        "bytes": 93332
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-072.woff2",
+        "sha256": "b9e04239b40a9be51587f941d64a28bf2ba1144e86cdd34dc597b0f73d02d1c2",
+        "bytes": 69660
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-073.woff2",
+        "sha256": "6afc1abf49057853c3a2be0937d9d49ac30037057aed77bd8a87a391a5d166b2",
+        "bytes": 67060
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-074.woff2",
+        "sha256": "e4cf927e831b760bac7726d0b2addac1c259b5451dafa97442244f0da4cfc7c7",
+        "bytes": 77900
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-075.woff2",
+        "sha256": "e59334498050d8bcac1e730ae3a11bad40730b0a7989951e911fde4001507a2d",
+        "bytes": 87804
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-076.woff2",
+        "sha256": "dff84fe2627a8c7d51a502d6a02fd3ccd8f2a0355c4e89276979a7696c10514f",
+        "bytes": 104692
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-077.woff2",
+        "sha256": "c259a232a2d68e73e0ead2eaa79ac2a8ac4f8b4541eaa7a0cb51d513ab4d8e19",
+        "bytes": 96892
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-078.woff2",
+        "sha256": "d627c8e77145acf713edbac2c15239db64f98540ed63c21d867ea9b558a8653d",
+        "bytes": 68352
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-079.woff2",
+        "sha256": "a0d07fbd7a086567f498f7ac9b417a260c1eedd20a9e23456027e8a5694426ad",
+        "bytes": 74776
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-080.woff2",
+        "sha256": "76ae9565fb6b5dccdac1902a2b0becb7b3bf67388641d43ba7845033eeb764c8",
+        "bytes": 87468
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-081.woff2",
+        "sha256": "132daeb57cb988d4180e3ae12e028b391b99bd0e78c0817c50a53dd1b7382631",
+        "bytes": 101096
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-082.woff2",
+        "sha256": "124b5ac0e62c7b3fe4ac8c33e98df29e5c5697951d30640f1d492f2badfa742a",
+        "bytes": 97956
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-083.woff2",
+        "sha256": "ee9f8ae543e14d8b9d6ecb6c22a578850166a5ecd0b89d97dd6a434b4b85d12b",
+        "bytes": 95200
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-084.woff2",
+        "sha256": "622548a5dd858532a7eb057712ea0e74ef226b5fcd6ae525ef19b4b59e0da7d2",
+        "bytes": 87072
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-085.woff2",
+        "sha256": "c9c91fe072ede59a97190ebacb5d37dfa3e340cbecb938fcc445687828e5e7a7",
+        "bytes": 83824
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-086.woff2",
+        "sha256": "c2ab70888b8ecd633652c7e6fdc5761b42097bca2798ab7fef51c7403ea6952e",
+        "bytes": 90840
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-087.woff2",
+        "sha256": "9cb443e40bc302802367041a08e3f257d5e663cc13311a8252198c61fe66d67b",
+        "bytes": 75948
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-088.woff2",
+        "sha256": "8ef6fd2484d718678554381bc16c86b287db5d2f0f14d5a590cd0742be7e5eb6",
+        "bytes": 88756
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-089.woff2",
+        "sha256": "fa8a69074818c4a01b1047883a2a1f12a92433c9a4588353b9978d8ebb141504",
+        "bytes": 73948
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-090.woff2",
+        "sha256": "95f04a3e831ac3e1b0723b56d6994b4ef096d7cb623fd468a5cfaeb5cd36d891",
+        "bytes": 74900
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-091.woff2",
+        "sha256": "f8f4ec3d1286bf98a2de84307d51c28a96e7aede51729521a9c9e4d937086e11",
+        "bytes": 82704
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-092.woff2",
+        "sha256": "99d1cd8468ea9c205625108be765ac4228e18fcb02801b2879b00b3b49e14664",
+        "bytes": 92380
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-093.woff2",
+        "sha256": "ff69409856654ccf0fa3bdd250c1a57109b06853e28f023bbda40d2c61b73ca9",
+        "bytes": 90024
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-094.woff2",
+        "sha256": "d61c4f829eb7be55654015b40f62167114fad15eb627ac3566cda4ee4c90c30d",
+        "bytes": 100728
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-095.woff2",
+        "sha256": "e7706578e8eab27b68369cb9818e7c619b51b47e0adbda25840582115bc67471",
+        "bytes": 98772
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-096.woff2",
+        "sha256": "07a4d4c26cbfc6f7fc6d644c38903c9987d91359b6e9e0d6c28d6576f2e93c3c",
+        "bytes": 115700
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-097.woff2",
+        "sha256": "0575c56c4f6f414265c09758542a960c2565ef2d04f8d01069634b496bef55ec",
+        "bytes": 93956
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-098.woff2",
+        "sha256": "565ebbffd7842586901e83fbdb081a9ff5094c68a2e2a2d62c7d015ea6c22b71",
+        "bytes": 75496
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-099.woff2",
+        "sha256": "092ade1d93acf60bb7e5e72ed7f28a36e25bb1922b5d06988214f535de8f9445",
+        "bytes": 90260
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-100.woff2",
+        "sha256": "73636bb07adc2188a2618a6b2b9e5cc6ea1c0263f9eb2c3c429907393209aac9",
+        "bytes": 70212
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-101.woff2",
+        "sha256": "c350d018799d68450e7a5781b23c3d8dbbdab74426a2018915020c204264af50",
+        "bytes": 68012
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-102.woff2",
+        "sha256": "3775a31edfdfe2714c1c2f66d8860b999369f3acd71888c7ee494b8f465977e6",
+        "bytes": 80388
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-103.woff2",
+        "sha256": "2927f2f52c3fbab82f5019848e24d791ea33aed3c8bf8022b049fbbc88dd5578",
+        "bytes": 95844
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-104.woff2",
+        "sha256": "ac1a87eee1c9132dd3e50e8eb464d831817fd40eb31abc96fdbe7e6984432c95",
+        "bytes": 91472
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-105.woff2",
+        "sha256": "58127b971e52285f653b46ccba833287e366c89ab3e2993cd44530f331e9580a",
+        "bytes": 92432
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-106.woff2",
+        "sha256": "9929d064ce9f9764581bc6b4c12b15cac6837f30ca712f54dc223f0c6444336a",
+        "bytes": 92984
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-107.woff2",
+        "sha256": "415853e2896e8cfd609eedc12b7502c3ff58865ef3c1fe9816449286ff7e5050",
+        "bytes": 102200
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-108.woff2",
+        "sha256": "475db382cf89f4cb6620be4b25a743ba2aa445413fa6c7c1808a8ccb2cd3c8d9",
+        "bytes": 64756
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-109.woff2",
+        "sha256": "7f8d9d438ab472a819f3af238bdca559f4088b3cc7da96b5de8fd711ac63db5b",
+        "bytes": 88328
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-110.woff2",
+        "sha256": "e6b78d23a7c83f762facc60166ebd187373216c6758c1c96062a20b9d2b86578",
+        "bytes": 88992
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-111.woff2",
+        "sha256": "44ef07260c6aa5aae623139a536fca6096371e2276d450078b864346dac82a23",
+        "bytes": 80596
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-112.woff2",
+        "sha256": "3784c886c901cee227c69427308e3c99cc5e382d61931a228e3120cc977a21f9",
+        "bytes": 86228
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-113.woff2",
+        "sha256": "5bc72ba8de514363b7f7cef4c46482647fb94c513b0bca5e84a6c25f1d26d900",
+        "bytes": 74640
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-114.woff2",
+        "sha256": "f9f2b4b61f2f42e31b4a946f230bf7d0ca604163f0846eabcb615f0cb69d04f9",
+        "bytes": 85064
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-115.woff2",
+        "sha256": "02d1c11c00c6c745a91a5e39a82b2b495ef6d0a7b1d012f565def71c50c01daf",
+        "bytes": 88200
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-116.woff2",
+        "sha256": "e7e1c28dfd3190db4492ef108c26cbaaa836877c8dea56454ce33660467feab9",
+        "bytes": 76164
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-117.woff2",
+        "sha256": "e52f2003dfcc38ca63bf383415066e860c72509d894e48ec18a516fc9800119c",
+        "bytes": 96076
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-118.woff2",
+        "sha256": "1ad8ebddab829b6af6c05f9891a4d9b3ff534a687e0d7795462e1ba18663b38d",
+        "bytes": 99428
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-119.woff2",
+        "sha256": "9fa602bc3135dd7013bebda8e6abd9c8eeebdf63dd3f213e2b69da4ea0deb8a4",
+        "bytes": 80840
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-120.woff2",
+        "sha256": "d393d42aeb8c47a4c5b528f57286b743c8b663f67cf1573b7f7a4af672a9b024",
+        "bytes": 82120
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-121.woff2",
+        "sha256": "20e5654975ae12aaf56eccb9d7ddb1773df3c7cc106327e373022539c978d6bb",
+        "bytes": 81520
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-122.woff2",
+        "sha256": "44c45c4bf427130fabe04ac8a8783542f31d02491b4663e4b73e640c4c8028e2",
+        "bytes": 92892
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-123.woff2",
+        "sha256": "fd571ae7fcd38f2daf4690a8edff9f4d62080d617ec7d68d71280a05e84dc842",
+        "bytes": 93196
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-124.woff2",
+        "sha256": "02a7848da02fce536f8c4c4133d2be482ecf1b30c3e5c30ce00b7d15e4e0eacb",
+        "bytes": 100676
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-125.woff2",
+        "sha256": "8a77e4ceaac30b3523dbb41a7694c592de73417a5236f2d24cb2c4a3eb08b1e9",
+        "bytes": 99780
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-126.woff2",
+        "sha256": "e2c4607da4902f63771d356752f964d1a2adc03b3299a3ae9dab803eec534fcc",
+        "bytes": 94344
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-127.woff2",
+        "sha256": "d9be36e5bc6c7f20b277471bb45210860e0cd97106d483b992038d044dc9dfab",
+        "bytes": 103996
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-128.woff2",
+        "sha256": "df2d156a3d59cee24487906cd3f769efc4ec43410bba9c56f8b271cced87e27a",
+        "bytes": 114000
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-129.woff2",
+        "sha256": "a3cf1454c2ccb11b6dc7adbb8e386e4f3f5a4600c25655e230ad4ce6353ee9f4",
+        "bytes": 94588
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-130.woff2",
+        "sha256": "02cbd4fc4588b70df6578f008f2ca7afe388168a48a62016679b71bcaf11a481",
+        "bytes": 29004
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-131.woff2",
+        "sha256": "df9073b3fc32966df1ab5e0dfa189fae1818ac8e4b788a5827493124ca9d718c",
+        "bytes": 12232
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-132.woff2",
+        "sha256": "50a7d8d05c3ab97f99dacb2acca18f1d422841ad278598c51351a86e9c7af8f2",
+        "bytes": 1584
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-133.woff2",
+        "sha256": "842132eeca411f737099107803af3313a60087a7794eae9a5e92dad7b4f47912",
+        "bytes": 6284
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-134.woff2",
+        "sha256": "bae15658b351e4b2afff73793c56b22c36b3979529823cf633a2a3cedf916ef0",
+        "bytes": 60844
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-135.woff2",
+        "sha256": "8adeef5553f910d5e6516efed2c970573ddac318d679266e545ad7d7721a5a23",
+        "bytes": 20188
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-136.woff2",
+        "sha256": "f56bae839408d79ca3f8931c8a44eb1e71995ac404ee08e01c6d56bf13c3efbc",
+        "bytes": 16080
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-137.woff2",
+        "sha256": "858e9364a2b8d16339b3ee92c6fe7779254b6aa24db05993a2f38fb64e488158",
+        "bytes": 1380
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-138.woff2",
+        "sha256": "80dccfc3c043778696ca3e565cf2e4d3bc612d183f035618c690bc5bb0443a1f",
+        "bytes": 1412
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-139.woff2",
+        "sha256": "292c322db0b248f8138121318ad09aefab6e8cbd35666c8fbaca7adf48ab49f9",
+        "bytes": 1468
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-140.woff2",
+        "sha256": "779f89efdb1d29ef7cbfdd4737bc9d6d4a52ef5e3673c13f651677a2266e1422",
+        "bytes": 1384
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-141.woff2",
+        "sha256": "5e0299e886839f7a659672d93073d72cca49d1ff198655362d51dac1f4c87969",
+        "bytes": 1364
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-142.woff2",
+        "sha256": "3a815c5d839a3b52c9d1f26bb5b1e349361cfed13495365e4ba2145c44c0e04e",
+        "bytes": 1556
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-143.woff2",
+        "sha256": "1676fbaf2b481dcf7f5575c1293d8eb56bf195d0b06332485472173af65d18ed",
+        "bytes": 1200
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-144.woff2",
+        "sha256": "641f7708351a2f4dd4330cd4ee4ee6b9e3efb1890a7047bde66183815c0b8b8b",
+        "bytes": 1288
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-145.woff2",
+        "sha256": "166ad249a88f203d1fbae263e298d27e8596efce755d7531009fd2083e89e0e3",
+        "bytes": 1524
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-146.woff2",
+        "sha256": "ad0209de8c86cd93b4cb9d4a0203e1f2d604dd64d6d26daa08b7d97609b68388",
+        "bytes": 1632
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-147.woff2",
+        "sha256": "c6a3b8a19e5e05cc3fb04bdcb00cf44bae6a5dccf756f9b5be0ee9ee26c4eb86",
+        "bytes": 1436
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-148.woff2",
+        "sha256": "7c0043562710fcf255929767fadd880a4edb60e8a2ced06c5647ad346f1c9cad",
+        "bytes": 1400
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-149.woff2",
+        "sha256": "3fcf17e6ca9fc6fb41e68b03f6c1dc0e9e3c7d2b728e58d3680175c4976f811f",
+        "bytes": 1500
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-150.woff2",
+        "sha256": "4b152f1df68736fc97450e43aaf8ed385383405d158c2a6c011b5f538d56be0b",
+        "bytes": 1104
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-151.woff2",
+        "sha256": "42033056f53a69a63ba28e870789f893c22c11a86cc408e5f8ddff39960795bf",
+        "bytes": 1404
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-152.woff2",
+        "sha256": "e95c68029ae9e25f632878f6adb289b2220e5ab77b02f660b7d26fee815c220a",
+        "bytes": 2504
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-153.woff2",
+        "sha256": "d08c747dc673336180d72d534a5297adbc350e5ba08a34964a2252d1921f00fd",
+        "bytes": 1900
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-154.woff2",
+        "sha256": "e64d25c0189563e19cee0ee734a7eb7bda2d9d73d9499a5142a5e2497f682516",
+        "bytes": 1248
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-155.woff2",
+        "sha256": "814ecfc9cbe05be1836080aed70d4f523a4c0fd8292624523ba0f543d468ccc3",
+        "bytes": 1496
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-156.woff2",
+        "sha256": "29be8bd0c7d5ffb93f1f4a646dccd5ff2839711d81400c7166f1c36e29487c39",
+        "bytes": 1644
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-157.woff2",
+        "sha256": "34af067f948bdc0ab46787875ca28233544235735a5de2aa80f0d6b8bbaadede",
+        "bytes": 1632
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-158.woff2",
+        "sha256": "07f4f4bfa5d7b2a7635dc73c7533421547a8c359a598553e1b9997fbc03d8c1f",
+        "bytes": 1256
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-159.woff2",
+        "sha256": "29744f49984f5eaf1dc27e547fa2ae7152347537d73f005fbc051864620b292e",
+        "bytes": 1604
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-160.woff2",
+        "sha256": "78ddd741462b6ad9f78a34628b00f65e578a8d5210869aa80e4a2b744d02e888",
+        "bytes": 1204
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-161.woff2",
+        "sha256": "1556a9daedaecb1368790c2a3d8dbe60fe17bd29b5d33b9a4f88cef7a6128668",
+        "bytes": 1208
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-162.woff2",
+        "sha256": "cb30228d638eb1a6a96b05d8e0b9d539c98fa00656e16b88d07c531bb4b5c747",
+        "bytes": 1496
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-163.woff2",
+        "sha256": "02a16e025d004c90fd5c75aaa72e6ecda36106da4243a53b7ec161994066a337",
+        "bytes": 1524
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-164.woff2",
+        "sha256": "2f448784909d6380c9d7e0adcb0e103931e799a7c634a41a2c925e8200eec39f",
+        "bytes": 1404
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-165.woff2",
+        "sha256": "4bcb97fd1880b08959209c6eddf54500ebced6953ab4118aecdeb0ee26b94a9e",
+        "bytes": 1616
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-166.woff2",
+        "sha256": "fd2d0971d27c1052a4f5b56888c0910b15a731c5360f68fb4fae748aded144f6",
+        "bytes": 1624
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-167.woff2",
+        "sha256": "b190c1ea8db2155dd88f73c4accae480d32ea9166ebcd3bd29b34ed9ee163525",
+        "bytes": 1888
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-168.woff2",
+        "sha256": "1e8dc10fbcc6483382d154e07a24387ce91edb7b5c45239c84850754b3adc364",
+        "bytes": 1488
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-169.woff2",
+        "sha256": "4c257d5d49d0d0c4d30665a4dd4e7a8234fbaf5ffa20471b9fa18ed59b0605c3",
+        "bytes": 1664
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-170.woff2",
+        "sha256": "1dfa63eab643ee1f39975e11578695807de27e301e194bee9771b86cc4ae17e6",
+        "bytes": 2992
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-171.woff2",
+        "sha256": "c10a1e39b6f2d2c6e98f221ac0d568dcbc63c3ebad2df3a0d161dde5e9bdde66",
+        "bytes": 1684
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-172.woff2",
+        "sha256": "78ccad664cc0206844e241e5da9c60793a13ed9e95454c501ad939093586bd79",
+        "bytes": 1260
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-173.woff2",
+        "sha256": "d16243c8e71f1f72d806aa7375e5762fce839b63739fb220fd6132239360e666",
+        "bytes": 1304
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-174.woff2",
+        "sha256": "f3c4e668d6c1bd5e7eed6fd88a6d991bba65b8db10cb31c0bf84a5d1563cc605",
+        "bytes": 2668
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-175.woff2",
+        "sha256": "f89f6da24296a19e2cf82dd5ca716ff8df028e24edd0856b0ffc46cf1a031d9f",
+        "bytes": 1444
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-176.woff2",
+        "sha256": "04de629d21725dd713f9e0a6ce0fb4ad9c2b86faa668de264e67bcf7765fa6c2",
+        "bytes": 1536
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-177.woff2",
+        "sha256": "270f06b2999bf7a707f1f8752e65a4586cc4588ac62d3a9c28b75f4753a8c91a",
+        "bytes": 1560
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-178.woff2",
+        "sha256": "7c5bb0a46e17d58c1eb2093acdd22a930498d1b5d331f2165fb50b65484de807",
+        "bytes": 2032
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-179.woff2",
+        "sha256": "a2f36d7009ec1090a451df42ceae1162d4eef03398c29dec4c2079bffbed556f",
+        "bytes": 1304
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-180.woff2",
+        "sha256": "be718d148f8437e547af664df3897fdc7cf8207adc3f1583968a57bfc3aa973c",
+        "bytes": 3804
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-181.woff2",
+        "sha256": "09e6830c900d63899e82a8511d976de8e1739a6b1aa7087218ec020ba632e7ec",
+        "bytes": 3252
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-182.woff2",
+        "sha256": "5d359ee242393737ede34da02cd80dae7e2abe0243f6c97b24367d33332fc8ff",
+        "bytes": 4072
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-183.woff2",
+        "sha256": "4376a692961ae91c2f016674dbb118c73bf3bc3942bbdad7be2aa403489551e5",
+        "bytes": 4596
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-184.woff2",
+        "sha256": "ebe89e3b4979f9f57f003179c239ca0de0c3fb4682ea678a43f6351b150e8f95",
+        "bytes": 6412
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-185.woff2",
+        "sha256": "0fcae4a9cdbb465869355990a92c85821eb825daec88e1dc9524fc3f6ac609e4",
+        "bytes": 3712
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-186.woff2",
+        "sha256": "86c542a19766902f582da80b8885fe620192fbbe4d5384ce75cc92df7d6cb8cb",
+        "bytes": 2876
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-187.woff2",
+        "sha256": "2cf90c572c9cf8b6e50257cc9d8e46d2174c1080c70c533cbcaaea5203b144d7",
+        "bytes": 1464
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-188.woff2",
+        "sha256": "d0e5cb0170724e37b1985faaabd97a6d2285e7291566cdaf631c95b54c8c4000",
+        "bytes": 2220
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-189.woff2",
+        "sha256": "6d911f9b5104400381a91b5e3e25569b18b98ff461fc166d562cbc48b597721d",
+        "bytes": 1392
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-190.woff2",
+        "sha256": "c689408a98991b30a12828f404c18ed5353e03c24c3dc7a106bb5db5f5c9e120",
+        "bytes": 2208
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-191.woff2",
+        "sha256": "ae9934ed1e059f07bb15edf048c892ab47bbd91f146475b3df7d9881430d10a6",
+        "bytes": 1384
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-192.woff2",
+        "sha256": "3bd83eccb88268d3a6f22cb3eb19c4a8b4fddb2e2c02cf8a165fe2ff0ce784af",
+        "bytes": 2408
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-193.woff2",
+        "sha256": "2860b4a1d354b16759ba4b7f7b6c0f1e49672cb2ca6de4397b5862e1b9675c1d",
+        "bytes": 1992
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-194.woff2",
+        "sha256": "54035ae051749fac1519ecd4d66492805b7ec35fec9b15de93ff0dec1365e135",
+        "bytes": 2124
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-195.woff2",
+        "sha256": "289d001cacace2b5866d7534c462a71574274e04e5d0ce58afb5f435d95ecbf2",
+        "bytes": 2752
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-196.woff2",
+        "sha256": "422a79a11b7cfd9cb2e046dcfdff76b84f44193015cca9d7ef7cd03c24f97c9c",
+        "bytes": 2032
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-197.woff2",
+        "sha256": "62002bc3a8b380dbfe6812aa3cebe7e898cac37824416604b1d3de895c8865d7",
+        "bytes": 1428
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-198.woff2",
+        "sha256": "fab37264cb83e4d3d4a5ba600b10fc322310801af815634aaeea4184450c71d2",
+        "bytes": 6168
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-199.woff2",
+        "sha256": "30f00d83eae810a9aed38846d7dd673fd069744f770d5bd1e0aa9fb20f2c174c",
+        "bytes": 3184
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-200.woff2",
+        "sha256": "7692474835c394af9089c0791ba44c26f5c2d8a82a90ff791d8104663990d11d",
+        "bytes": 2268
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-201.woff2",
+        "sha256": "3e41ea84a3c686d23e39d01125ac754213497ee7dde1c845985ddfe959dad038",
+        "bytes": 2340
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-202.woff2",
+        "sha256": "667ecac040d11078a88313466af45bd3ed48ae47c8f3ae0e394cd78af64ad90b",
+        "bytes": 2892
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-203.woff2",
+        "sha256": "304f12da9fb03bff98dddd94f1f7a94c4cc035fa3294084975d5f170c5cafe40",
+        "bytes": 10848
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-204.woff2",
+        "sha256": "89db35869c366e04775d1935f1b74105b08ca6c32b7e28d50f768a8fb2a83ce6",
+        "bytes": 3588
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-205.woff2",
+        "sha256": "8b5ddd3f6f07eb6ea80b3756c9da99ec7afede4c1cac67159477d68e8c3082e4",
+        "bytes": 6848
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-206.woff2",
+        "sha256": "37bec6511a4326606ff5e3a5d371d697ce9b225764e13841d576d013e93c2395",
+        "bytes": 5824
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-207.woff2",
+        "sha256": "251681ce3d5c18af2d83fe138a631cd3de0b442e60a0b7a5f394ae78027d4792",
+        "bytes": 1156
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-208.woff2",
+        "sha256": "ecec54368462e0c78107bf3c7b8129ccbfc25fbb3307a07c652bf6904e5f4741",
+        "bytes": 1904
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-209.woff2",
+        "sha256": "04c4b4734b4ee8e0737b0b5d7108c718d8cb2b43277958c3a103781a9c5055dc",
+        "bytes": 3808
+      },
+      {
+        "file": "assets/fonts/notosanssc/regular-210.woff2",
+        "sha256": "12cea92eae039b5247bc63aa5441631b3b62d187e8ec9493d13225dd76cfc9aa",
+        "bytes": 2528
+      }
+    ]
+  },
+  {
+    "family": "Noto Sans Arabic",
+    "source": "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/notosansarabic/NotoSansArabic%5Bwdth%2Cwght%5D.ttf",
+    "commit": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+    "source_sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+    "version": "Version 2.012",
+    "axes": {
+      "wght": [
+        100.0,
+        900.0
+      ],
+      "wdth": [
+        62.5,
+        100.0
+      ]
+    },
+    "outputs": [
+      {
+        "file": "assets/fonts/notosansarabic/regular.woff2",
+        "sha256": "30afd5b9b02e5fb1718a4fa5593dfe70dbe71345bce003a00477be4448bf8c27",
+        "bytes": 361624
+      }
+    ]
+  },
+  {
+    "family": "Noto Sans Devanagari",
+    "source": "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/notosansdevanagari/NotoSansDevanagari%5Bwdth%2Cwght%5D.ttf",
+    "commit": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+    "source_sha256": "14ec4af41f27482216d1c2229f417ff9b1425e1babb014e57d1d40d03229853e",
+    "version": "Version 2.007",
+    "axes": {
+      "wght": [
+        100.0,
+        900.0
+      ],
+      "wdth": [
+        62.5,
+        100.0
+      ]
+    },
+    "outputs": [
+      {
+        "file": "assets/fonts/notosansdevanagari/regular.woff2",
+        "sha256": "5d652259636da30ea4c756d86432c231fa3925e6cbedca1e8394d53ede2916b1",
+        "bytes": 263840
+      }
+    ]
+  },
+  {
+    "family": "Noto Sans Symbols 2",
+    "source": "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/notosanssymbols2/NotoSansSymbols2-Regular.ttf",
+    "commit": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+    "source_sha256": "7d5fb73b7ca67a6798101741f5d280a3d016a56a197afcd4199dbb57b4b82a21",
+    "version": "Version 2.008; ttfautohint (v1.8.4.7-5d5b)",
+    "axes": {},
+    "outputs": [
+      {
+        "file": "assets/fonts/notosanssymbols2/regular.woff2",
+        "sha256": "273013616d98e7d874e52fed85e74d832fcec22bb10e250c517135473ddc401d",
+        "bytes": 3844
+      }
+    ]
+  },
+  {
+    "family": "IBM Plex Mono",
+    "source": "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+    "commit": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+    "source_sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+    "version": "Version 2.3",
+    "axes": {},
+    "outputs": [
+      {
+        "file": "assets/fonts/ibmplexmono/regular-500.woff2",
+        "sha256": "91c1b965c2033a6fbcdfe7b89dbc338cb14044ece58883faac7fb8a0b2b83548",
+        "bytes": 40096
+      }
+    ]
+  },
+  {
+    "family": "IBM Plex Mono",
+    "source": "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be272583c3224dcb70f9da6eadbb/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+    "commit": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+    "source_sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+    "version": "Version 2.3",
+    "axes": {},
+    "outputs": [
+      {
+        "file": "assets/fonts/ibmplexmono/regular.woff2",
+        "sha256": "25a031ca56bde8377e916a3ac5f942aee337a65c8c592de4742a8f0bada2f89b",
+        "bytes": 39184
+      }
+    ]
+  }
+]

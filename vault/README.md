@@ -31,7 +31,7 @@ SUTI — переносимая среда для ясного мышления,
 
 ## установить открытую копию
 
-скачай архив [suti-os-open.zip](https://github.com/ezargaruna/suti-os-open/releases/latest/download/suti-os-open.zip) или открой [последние выпуски](https://github.com/ezargaruna/suti-os-open/releases/latest). распакуй архив и открой папку `vault` в Obsidian или любом редакторе Markdown. подробная инструкция для macOS, Linux, Windows и ручной установки находится в [[установка.md]].
+скачай архив [SUTI.os.zip](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os.zip) или открой [последние выпуски](https://github.com/ezargaruna/SUTI.os/releases/latest). распакуй архив и открой папку `SUTI.os/vault` в Obsidian или любом редакторе Markdown. подробная инструкция для macOS, Linux, Windows и ручной установки находится в [[установка.md]].
 
 В начале SUTI использует простые слова. специальные термины и подробные схемы открываются отдельно: [[_контуры/открытый/настройки/язык по уровням.md|язык по уровням]].
 

@@ -1,0 +1,658 @@
+<!doctype html>
+<html lang="ru" data-theme="day">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F4F0E8">
+  <meta name="description" content="SUTI.world помогает настроить язык для жизни: выбрать важную ситуацию, найти точные слова и попробовать их в действии.">
+  <title>SUTI.world — язык твоей сути</title>
+  <style>
+    @font-face { font-family: "Onest"; src: url("https://ezargaruna.github.io/suticore/assets/fonts/Onest-Variable.woff2") format("woff2"); font-style: normal; font-weight: 100 900; font-display: swap; }
+    :root {
+      color-scheme: light;
+      --suti-ivory: #F4F0E8;
+      --suti-ink: #25342F;
+      --suti-petrol: #365958;
+      --suti-turquoise: #57B8B0;
+      --suti-peach: #DE9A73;
+      --suti-sunlight: #D6AD58;
+      --suti-moss: #687064;
+      --suti-aqua: #DDF2EF;
+      --suti-bg: var(--suti-ivory);
+      --suti-bg-soft: #F7F4ED;
+      --suti-bg-cool: var(--suti-aqua);
+      --suti-surface: #FCF8F2;
+      --suti-surface-raised: #FFFDF8;
+      --suti-surface-soft: var(--suti-aqua);
+      --suti-surface-warm: var(--suti-bg-soft);
+      --suti-text: var(--suti-ink);
+      --suti-muted: #52615A;
+      --suti-line: #D8D0C1;
+      --suti-border-strong: var(--suti-petrol);
+      --suti-structure: var(--suti-petrol);
+      --suti-action: var(--suti-peach);
+      --suti-action-hover: #D78B62;
+      --suti-link: var(--suti-petrol);
+      --suti-on-action: var(--suti-ink);
+      --suti-accent: var(--suti-sunlight);
+      --suti-light: var(--suti-sunlight);
+      --suti-water: var(--suti-turquoise);
+      --suti-interactive: var(--suti-turquoise);
+      --suti-explore: var(--suti-petrol);
+      --suti-font-display: "Onest", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --suti-font-body: "Onest", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --suti-focus: var(--suti-petrol);
+      --suti-shadow: rgb(37 52 47 / 7%);
+      --suti-font: var(--suti-font-body);
+      --suti-max: 1160px;
+      --suti-gutter: clamp(20px, 5vw, 72px);
+      --suti-radius: 18px;
+      --suti-ease: cubic-bezier(.22, .61, .36, 1);
+      --suti-type-scale: 1;
+      font-family: var(--suti-font-body);
+      font-size: 16px;
+      line-height: 1.6;
+      background: var(--suti-bg);
+      color: var(--suti-text);
+      scroll-behavior: smooth;
+      scroll-padding-top: 24px;
+    }
+    [data-theme="night"] {
+      color-scheme: dark;
+      --suti-bg: #101A18;
+      --suti-bg-soft: #16221F;
+      --suti-bg-cool: #19302C;
+      --suti-surface: #17231F;
+      --suti-surface-raised: #1C2B26;
+      --suti-surface-soft: #20332E;
+      --suti-surface-warm: #1A2924;
+      --suti-text: #F4F0E8;
+      --suti-muted: #C4C8BE;
+      --suti-line: #405149;
+      --suti-border-strong: #A8BBB1;
+      --suti-structure: #A8BBB1;
+      --suti-link: #A9DCD5;
+      --suti-action: var(--suti-peach);
+      --suti-action-hover: #E8A885;
+      --suti-on-action: #25342F;
+      --suti-explore: #A9DCD5;
+      --suti-shadow: #00000030;
+    }
+    [data-theme="contrast"] {
+      color-scheme: light;
+      --suti-bg: #FFFFFF;
+      --suti-surface: #FFFFFF;
+      --suti-bg-soft: #FFFFFF;
+      --suti-bg-cool: #FFFFFF;
+      --suti-surface-raised: #FFFFFF;
+      --suti-surface-soft: #F0F0F0;
+      --suti-surface-warm: #FFFFFF;
+      --suti-text: #111111;
+      --suti-muted: #333333;
+      --suti-line: #555555;
+      --suti-border-strong: #111111;
+      --suti-structure: #111111;
+      --suti-action: #111111;
+      --suti-action-hover: #333333;
+      --suti-link: #111111;
+      --suti-on-action: #FFFFFF;
+      --suti-focus: #111111;
+      --suti-explore: #111111;
+      --suti-shadow: transparent;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-width: 320px; background: var(--suti-bg); color: var(--suti-text); font-family: var(--suti-font-body); transition: background-color 260ms var(--suti-ease), color 260ms var(--suti-ease); }
+    a { color: inherit; text-underline-offset: .22em; text-decoration-thickness: .07em; }
+    button, select { color: inherit; font: inherit; }
+    button, a, select { -webkit-tap-highlight-color: transparent; }
+    :focus-visible { outline: 3px solid var(--suti-focus); outline-offset: 4px; }
+    .skip { position: absolute; z-index: 5; top: -5rem; left: 1rem; padding: .75rem 1rem; border-radius: 10px; background: var(--suti-surface); }
+    .skip:focus { top: 1rem; }
+    .wrap { width: min(100% - 2 * var(--suti-gutter), var(--suti-max)); margin-inline: auto; }
+    .topbar { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border-bottom: 1px solid var(--suti-line); }
+    .sample-map, .crystal-card { margin-top: 24px; padding: 24px; border: 1px solid var(--suti-line); border-radius: 18px; background: var(--suti-surface); }
+    .sample-map { border-left: 3px solid var(--suti-turquoise); }
+    .crystal-card label, .open-card details label { display:block; margin:12px 0 6px; font-weight:600; }
+    .crystal-card textarea, .open-card textarea { width:100%; min-height:64px; margin-bottom:8px; padding:10px 12px; border:1px solid var(--suti-line); border-radius:10px; background:var(--suti-bg); color:var(--suti-text); font:inherit; }
+    .tool-result { margin-top:12px; padding:14px; border-left:2px solid var(--suti-turquoise); background:var(--suti-surface-soft); white-space:pre-wrap; }
+    .clarity-progress::before { content:""; display:block; height:4px; margin-bottom:12px; border-radius:4px; background:linear-gradient(90deg,var(--suti-turquoise) var(--progress,0%),var(--suti-line) var(--progress,0%)); }
+    .clarity-step-actions .primary { cursor:pointer; }
+    .clarity-question textarea { width:100%; min-height:145px; padding:12px 14px; border:1px solid var(--suti-line); border-radius:12px; background:var(--suti-bg); color:var(--suti-text); font:inherit; }
+    .clarity-form [hidden] { display:none !important; }
+    @media(max-width:780px){.site-nav{gap:16px}.clarity-step-actions{justify-content:stretch}.clarity-step-actions>*{flex:1}.topbar-tools{gap:4px}.type-size-tools button{min-width:34px}.theme-tools button{min-width:38px;padding:6px}}
+    .site-nav { display: flex; align-items: center; gap: 22px; min-height: 50px; overflow-x: auto; border-bottom: 1px solid var(--suti-line); scrollbar-width: thin; }
+    .site-nav a { min-height: 44px; display: inline-flex; align-items: center; flex: 0 0 auto; color: var(--suti-muted); font-size: .86rem; text-decoration: none; }
+    .site-nav a:hover, .site-nav a:focus-visible { color: var(--suti-link); text-decoration-color: var(--suti-turquoise); text-decoration-line: underline; }
+    [data-theme="night"] .site-nav a:hover, [data-theme="night"] .site-nav a:focus-visible { color: var(--suti-turquoise); }
+    .wordmark { position: relative; display: block; flex: 0 0 auto; width: clamp(176px, 23vw, 250px); line-height: 0; text-decoration: none; }
+    .wordmark img { display: none; width: 100%; height: auto; }
+    [data-theme="day"] .wordmark .logo-day,
+    [data-theme="night"] .wordmark .logo-night,
+    [data-theme="contrast"] .wordmark .logo-contrast { display: block; }
+    .wordmark-tagline { position: absolute; left: 51%; right: 0; bottom: 3%; height: 18%; display: flex; align-items: center; justify-content: center; overflow: hidden; background: var(--logo-cover); color: var(--logo-caption); font-size: clamp(7px, .58vw, 9px); font-weight: 500; letter-spacing: .025em; line-height: 1.2; white-space: nowrap; }
+    [data-theme="day"] .wordmark { --logo-cover: #F4F0E8; --logo-caption: #25342F; }
+    [data-theme="night"] .wordmark { --logo-cover: #071310; --logo-caption: #F1EBDD; }
+    [data-theme="contrast"] .wordmark { --logo-cover: #FFFFFF; --logo-caption: #111111; }
+    .topbar-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 14px; }
+    .locale-switch { display: flex; align-items: center; }
+    .locale-switch select { min-height: 42px; padding: 7px 32px 7px 12px; border: 1px solid var(--suti-line); border-radius: 12px; background: var(--suti-surface); color: var(--suti-text); cursor: pointer; }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+    .type-size-tools { display: flex; align-items: center; gap: 3px; color: var(--suti-muted); }
+    .type-size-tools button { min-width: 40px; min-height: 44px; padding: 6px; border: 1px solid transparent; border-radius: 10px; background: transparent; color: inherit; cursor: pointer; font-size: .82rem; font-weight: 650; }
+    .type-size-tools button:hover:not(:disabled) { border-color: var(--suti-line); background: var(--suti-surface); }
+    .type-size-tools button:disabled { opacity: .45; cursor: default; }
+    .type-size-tools output { min-width: 38px; text-align: center; font-size: .72rem; font-variant-numeric: tabular-nums; }
+    .theme-tools { display: flex; gap: 5px; align-items: center; }
+    .theme-tools button { min-width: 44px; min-height: 44px; padding: 7px 10px; border: 1px solid transparent; border-radius: 999px; background: transparent; cursor: pointer; font-size: .82rem; }
+    .theme-tools button[aria-pressed="true"] { border-color: var(--suti-line); background: var(--suti-surface); }
+    .hero { min-height: 610px; padding-block: clamp(70px, 10vw, 132px); display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(270px, .9fr); gap: clamp(36px, 8vw, 120px); align-items: center; }
+    .eyebrow { margin: 0 0 16px; color: var(--suti-petrol); font-size: .88rem; font-weight: 600; letter-spacing: .025em; }
+    [data-theme="night"] .eyebrow { color: var(--suti-turquoise); }
+    [data-theme="contrast"] .eyebrow { color: var(--suti-text); }
+    h1, h2, h3, p { margin-top: 0; }
+    h1, h2, h3 { font-family: var(--suti-font-display); text-wrap: balance; }
+    .hero-highlight { text-decoration: underline; text-decoration-color: var(--suti-turquoise); text-decoration-thickness: .085em; text-underline-offset: .12em; }
+    h1 { max-width: 12ch; margin-bottom: 22px; font-size: clamp(3.2rem, calc(7.6vw * var(--suti-type-scale)), 6rem); line-height: .99; letter-spacing: -.065em; font-weight: 650; }
+    h2 { margin-bottom: 14px; font-size: clamp(2rem, calc(4.4vw * var(--suti-type-scale)), 3.5rem); line-height: 1.08; letter-spacing: -.05em; font-weight: 600; }
+    h3 { margin-bottom: 10px; font-size: 1.32rem; line-height: 1.25; letter-spacing: -.03em; font-weight: 600; }
+    .lead { max-width: 39ch; margin-bottom: 30px; color: var(--suti-muted); font-size: clamp(1.2rem, calc(2vw * var(--suti-type-scale)), 1.52rem); line-height: 1.45; }
+    .primary { display: inline-flex; min-height: 52px; align-items: center; justify-content: center; gap: 12px; padding: 12px 22px; border: 1px solid var(--suti-action); border-radius: 999px; background: var(--suti-action); color: var(--suti-on-action); font-weight: 600; text-decoration: none; transition: transform 180ms var(--suti-ease), box-shadow 180ms var(--suti-ease), background 180ms var(--suti-ease); }
+    .primary:hover { transform: translateY(-2px); box-shadow: 0 8px 22px var(--suti-shadow); }
+    .primary > span { color: var(--suti-water); font-size: 1.15em; }
+    .hero-aside { max-width: 370px; justify-self: end; }
+    .living-mark { width: min(100%, 350px); aspect-ratio: 1; margin-inline: auto; position: relative; display: grid; place-items: center; }
+    .living-mark svg { width: 91%; position: relative; z-index: 1; overflow: visible; }
+    .living-mark .leaves { transform-box: fill-box; transform-origin: 50% 100%; animation: leaf-breathe 9s ease-in-out infinite; }
+    .living-mark .orbit { fill: none; stroke: var(--suti-sunlight); stroke-width: 1.7; stroke-linecap: round; opacity: .72;  }
+    .living-mark .sun { transform-box: fill-box; transform-origin: center; animation: sunlight-pulse 6.5s ease-in-out infinite; }
+    .living-mark .wave { transform-box: fill-box; transform-origin: 50% 50%; animation: wave-breathe 8s ease-in-out infinite; }
+    .mark-caption { max-width: 28ch; margin: 0 auto; color: var(--suti-muted); text-align: center; font-size: .86rem; }
+    .section { padding-block: clamp(66px, 9vw, 112px); border-top: 1px solid var(--suti-line); }
+    .section-head { max-width: 700px; margin-bottom: 32px; }
+    .section-head p:last-child { margin-bottom: 0; color: var(--suti-muted); }
+    .setup { background: var(--suti-surface); }
+    .clarity-form { display: block; max-width: 760px; }
+    .clarity-disclosure { max-width:860px; border:1px solid var(--suti-line); border-radius:22px; padding:clamp(20px,4vw,38px); background:var(--suti-bg); }
+    .clarity-disclosure > summary { min-height:52px; display:flex; align-items:center; justify-content:space-between; color:var(--suti-link); font-size:1.1rem; font-weight:650; cursor:pointer; }
+    .clarity-depth { margin:18px 0 6px; }
+    .clarity-depth legend { margin-bottom:12px; font-weight:600; }
+    .depth-options { display:flex; flex-wrap:wrap; gap:8px; }
+    .depth-options label { position:relative; }
+    .depth-options input { position:absolute; opacity:0; }
+    .depth-options span { min-height:44px; display:grid; place-items:center; padding:8px 14px; border:1px solid var(--suti-line); border-radius:12px; cursor:pointer; }
+    .depth-options input:checked + span { border-color:var(--suti-turquoise); background:color-mix(in srgb,var(--suti-turquoise) 16%,var(--suti-bg)); }
+    .depth-options input:focus-visible + span { outline:3px solid var(--suti-focus); outline-offset:3px; }
+    .clarity-question[hidden] { display:none; }
+    .clarity-question { min-width: 0; margin: 0; padding: 22px 0; border: 0; border-bottom: 1px solid var(--suti-line); background: transparent; }
+    .clarity-question legend { margin-bottom: 8px; font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 600; }
+    .clarity-question .question-hint { color: var(--suti-muted); }
+    .clarity-question legend::first-letter { color: var(--suti-turquoise); }
+    .clarity-question textarea { min-height: 145px; }
+    .clarity-step-actions { display: none; }
+    .clarity-form textarea { width: 100%; resize: vertical; padding: 12px 14px; border: 1px solid var(--suti-line); border-radius: 12px; background: var(--suti-bg); color: var(--suti-text); font: inherit; }
+    .clarity-question label { display: block; margin-bottom: 8px; font-weight: 600; }
+    .clarity-actions { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+    .clarity-actions .primary { cursor: pointer; }
+    .quiet-action { min-height: 48px; padding: 10px 16px; border: 1px solid var(--suti-line); border-radius: 999px; background: transparent; cursor: pointer; }
+    .local-note { color: var(--suti-muted); font-size: .84rem; }
+    .pearl-output { display: none; margin-top: 22px; padding: 22px; border: 1px solid var(--suti-line); border-left: 3px solid var(--suti-turquoise); border-radius: 14px; background: var(--suti-surface); }
+    .pearl-output[data-open="true"] { display: block; }
+    .pearl-output blockquote { margin: 0; padding-left: 16px; border-left: 1px solid var(--suti-peach); }
+    .pearl-output p { margin-bottom: 10px; }
+    .setup-shell { display: grid; grid-template-columns: minmax(0, .82fr) minmax(340px, 1.18fr); align-items: start; gap: clamp(32px, 8vw, 100px); }
+    .setup-intro { position: sticky; top: 30px; }
+    .setup-intro .small-note { color: var(--suti-muted); font-size: .92rem; }
+    .practice-card { padding: clamp(22px, 4vw, 38px); border: 1px solid var(--suti-line); border-top: 3px solid var(--suti-peach); border-radius: var(--suti-radius); background: var(--suti-bg); box-shadow: 0 18px 50px var(--suti-shadow); }
+    .field { margin-bottom: 22px; }
+    .field > label, .field legend { display: block; margin-bottom: 9px; font-weight: 600; }
+    .field select { width: 100%; min-height: 50px; padding: 10px 14px; border: 1px solid var(--suti-line); border-radius: 12px; background: var(--suti-surface); }
+    .intent-input { width: 100%; min-height: 50px; padding: 10px 14px; border: 1px solid var(--suti-line); border-radius: 12px; background: var(--suti-surface); color: var(--suti-text); }
+    .intent-input::placeholder { color: var(--suti-muted); opacity: 1; }
+    fieldset.field { min-width: 0; padding: 0; border: 0; }
+    .choice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+    .choice { position: relative; }
+    .choice input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+    .choice span { min-height: 48px; display: flex; align-items: center; gap: 9px; padding: 10px 12px; border: 1px solid var(--suti-line); border-radius: 12px; background: var(--suti-surface); cursor: pointer; transition: border-color 180ms var(--suti-ease), background 180ms var(--suti-ease), transform 180ms var(--suti-ease); }
+    .choice span::before { content: ""; width: 9px; height: 9px; flex: 0 0 auto; border: 1.5px solid var(--suti-petrol); border-radius: 50%; }
+    .choice input:checked + span { border-color: var(--suti-petrol); background: color-mix(in srgb, var(--suti-aqua) 50%, var(--suti-surface)); }
+    .choice input:checked + span::before { border-color: var(--suti-petrol); background: var(--suti-turquoise); box-shadow: inset 0 0 0 2px var(--suti-surface); }
+    .choice input[type="checkbox"] + span::before { width: 15px; height: 15px; border-radius: 4px; }
+    .choice input[type="checkbox"]:checked + span::before { content: "✓"; display: grid; place-items: center; border-color: var(--suti-petrol); background: var(--suti-turquoise); box-shadow: none; color: var(--suti-ink); font-size: 10px; font-weight: 800; }
+    .choice input:focus-visible + span { outline: 3px solid var(--suti-focus); outline-offset: 3px; }
+    .practice-card .primary { width: 100%; border-radius: 14px; cursor: pointer; }
+    .privacy-note { margin: 12px 0 0; color: var(--suti-muted); font-size: .8rem; text-align: center; }
+    .practice-result { display: none; margin-top: 20px; padding: 20px; border-left: 3px solid var(--suti-turquoise); border-radius: 0 14px 14px 0; background: var(--suti-surface-soft); animation: arrive 360ms var(--suti-ease) both; }
+    .practice-result[data-open="true"] { display: block; }
+    .practice-result h3 { font-size: 1.12rem; }
+    .practice-result p { margin-bottom: 8px; }
+    .practice-result ul { display: grid; gap: 12px; padding-left: 1.2rem; }
+    .practice-result li { color: var(--suti-muted); }
+    .practice-result li strong { color: var(--suti-text); }
+    .practice-result .return-link { color: var(--suti-link); font-weight: 600; text-decoration-color: var(--suti-turquoise); }
+    [data-theme="night"] .practice-result .return-link { color: var(--suti-turquoise); }
+    .practice-result .micro { color: var(--suti-muted); font-size: .86rem; }
+    .method-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; counter-reset: route; }
+    .method-step { min-height: 205px; padding: 22px; border-radius: 18px; background: var(--suti-surface); counter-increment: route; transition: transform 220ms var(--suti-ease), box-shadow 220ms var(--suti-ease); }
+    .method-step:hover { transform: translateY(-4px); box-shadow: 0 14px 36px var(--suti-shadow); }
+    .method-step::before { content: "0" counter(route); display: inline-block; margin-bottom: 25px; color: var(--suti-petrol); font-size: .78rem; font-weight: 650; letter-spacing: .1em; }
+    .method-step p { margin-bottom: 0; color: var(--suti-muted); font-size: .9rem; }
+    .principle-line { margin-top: 24px; padding-left: 16px; border-left: 2px solid var(--suti-sunlight); color: var(--suti-muted); }
+    .services { background: var(--suti-surface-warm); }
+    .service-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .offer-group + .offer-group { margin-top: 30px; }
+    .offer-group-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
+    .offer-group-head h3 { margin: 0; }
+    .offer-group-head p { margin: 0; color: var(--suti-muted); font-size: .86rem; }
+    .offer-group.business .service-grid { grid-template-columns: minmax(0, 620px); }
+    .open-grid, .game-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+    .module-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin-top:22px; }
+    .module-card { min-width:0; padding:22px; border:1px solid var(--suti-line); border-radius:18px; background:var(--suti-surface); }
+    .module-card summary { min-height:44px; display:flex; align-items:center; color:var(--suti-link); font-weight:600; cursor:pointer; }
+    .module-card .quiet-action { margin-top:8px; }
+    .module-prompt { white-space:pre-wrap; color:var(--suti-muted); }
+    .open-card, .game-card { padding: 22px; border: 1px solid var(--suti-line); border-radius: 18px; background: var(--suti-surface); }
+    .open-card h3, .game-card h3 { margin-bottom: 9px; }
+    .open-card p, .game-card p { color: var(--suti-muted); }
+    .open-card a, .game-card a { min-height: 44px; display: inline-flex; align-items: center; color: var(--suti-link); font-weight: 600; text-decoration-color: var(--suti-turquoise); }
+    [data-theme="night"] .open-card a, [data-theme="night"] .game-card a { color: var(--suti-turquoise); }
+    .service { min-height: 260px; display: flex; flex-direction: column; padding: 24px; border: 1px solid var(--suti-line); border-radius: 18px; background: var(--suti-surface); transition: transform 220ms var(--suti-ease), box-shadow 220ms var(--suti-ease); }
+    .service:hover { transform: translateY(-2px); box-shadow: 0 12px 34px var(--suti-shadow); }
+    .service-tag { margin-bottom: 18px; color: var(--suti-petrol); font-size: .82rem; font-weight: 600; letter-spacing: .02em; }
+    .service p { color: var(--suti-muted); }
+    .service a { width: fit-content; min-height: 44px; display: inline-flex; align-items: center; margin-top: auto; color: var(--suti-link); font-weight: 600; text-decoration-color: var(--suti-turquoise); }
+    [data-theme="night"] .service a, [data-theme="night"] .service-tag { color: var(--suti-turquoise); }
+    .service-detail { margin: 6px 0 18px; border-block: 1px solid var(--suti-line); }
+    .service-detail summary { min-height: 44px; display: flex; align-items: center; justify-content: space-between; gap: 10px; color: var(--suti-petrol); cursor: pointer; font-size: .85rem; font-weight: 600; list-style: none; }
+    .service-detail summary::-webkit-details-marker, .price-panel summary::-webkit-details-marker { display: none; }
+    .service-detail summary::after, .price-panel summary::after { content: "+"; color: var(--suti-turquoise); font-size: 1.2rem; font-weight: 400; transition: transform 180ms var(--suti-ease); }
+    .service-detail[open] summary::after, .price-panel[open] summary::after { transform: rotate(45deg); }
+    [data-theme="night"] .service-detail summary { color: var(--suti-turquoise); }
+    .service-detail p, .service-detail li { color: var(--suti-muted); font-size: .88rem; }
+    .service-detail p:last-child { margin-bottom: 16px; }
+    .service-detail ol { display: grid; gap: 7px; padding-left: 1.25rem; }
+    .service-detail li::marker { color: var(--suti-turquoise); }
+    .service-example { padding: 12px 14px; border-left: 2px solid var(--suti-peach); background: var(--suti-surface-soft); }
+    .price-panel { margin-top: 28px; padding: 0 20px; border: 1px solid var(--suti-line); border-left: 3px solid var(--suti-peach); border-radius: 16px; background: var(--suti-surface); }
+    .price-panel summary { min-height: 58px; display: flex; align-items: center; justify-content: space-between; gap: 12px; cursor: pointer; font-weight: 600; list-style: none; }
+    .price-panel summary .symbol { margin-right: 9px; color: var(--suti-turquoise); }
+    .price-panel-body { padding: 0 0 20px; }
+    .price-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+    .price-item { padding: 16px; border-radius: 12px; background: var(--suti-surface-soft); }
+    .price-item h3 { font-size: .95rem; }
+    .price-item p { margin-bottom: 8px; color: var(--suti-muted); font-size: .84rem; }
+    .price-item strong { display: block; color: var(--suti-petrol); font-size: .82rem; }
+    [data-theme="night"] .price-item strong { color: var(--suti-turquoise); }
+    .price-note { margin: 16px 0 0; color: var(--suti-muted); font-size: .84rem; }
+    .symbol { font-family: var(--suti-font-display); }
+    .who-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 9vw, 120px); }
+    .who-grid p { color: var(--suti-muted); }
+    .who-grid .strong { color: var(--suti-text); font-size: 1.12rem; }
+    details { margin-top: 20px; padding-block: 14px; border-top: 1px solid var(--suti-line); border-bottom: 1px solid var(--suti-line); }
+    summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; font-weight: 600; }
+    details p { margin: 12px 0 0; color: var(--suti-muted); }
+    footer { padding-block: 24px 38px; border-top: 1px solid var(--suti-line); color: var(--suti-muted); font-size: .84rem; }
+    .footer-row { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .footer-row p { margin: 0; }
+    .footer-row a { min-height: 44px; display: inline-flex; align-items: center; color: var(--suti-link); text-decoration-color: var(--suti-turquoise); }
+    [data-theme="night"] .footer-row a { color: var(--suti-turquoise); }
+
+    .author-note { margin-top:32px; padding:20px 0 0; border-top:1px solid var(--suti-line); color:var(--suti-muted); } .author-note p { margin-bottom:8px; } .author-note strong { color:var(--suti-text); } .author-note a { color:var(--suti-link); text-decoration-color:var(--suti-turquoise); } [data-theme="night"] .author-note a { color:var(--suti-turquoise); }
+    .wordmark { display:grid; grid-template-columns:48px auto; grid-template-rows:34px 16px; column-gap:10px; align-items:center; width:auto; min-width:210px; line-height:1; }
+    .wordmark .logo-master { display:block; grid-row:1 / 3; width:48px; height:48px; object-fit:cover; object-position:52% 50%; border-radius:50%; mix-blend-mode:multiply; }
+    .wordmark-name { align-self:end; color:var(--suti-ink); font-size:1.42rem; font-weight:700; letter-spacing:-.065em; }
+    .wordmark-name > .brand-sigil { color:var(--suti-turquoise); margin-right:.18em; font-size:.78em; letter-spacing:0; }
+    .wordmark-name > span:not(.brand-sigil) { color:var(--suti-sunlight); }
+    .wordmark-tagline { position:static; display:block; grid-column:2; grid-row:2; height:auto; overflow:visible; background:none; color:var(--suti-muted); font-size:.68rem; letter-spacing:.02em; text-align:left; }
+    [data-theme="night"] .wordmark-name { color:var(--suti-text); }
+    [data-theme="night"] .wordmark .logo-master { mix-blend-mode:screen; filter:invert(1) hue-rotate(150deg) saturate(.75); }
+    [data-theme="contrast"] .wordmark .logo-master { filter:grayscale(1) contrast(1.4); mix-blend-mode:multiply; }
+    .hero h1 { max-width:20ch; font-size:clamp(3rem,4.7vw,4rem); letter-spacing:-.04em; }
+    .hero { min-height:570px; padding-block:clamp(88px,12vw,150px); }
+    .section { padding-block:clamp(82px,11vw,136px); }
+    .setup { background:color-mix(in srgb,var(--suti-surface) 88%,var(--suti-aqua)); }
+    .services { background:color-mix(in srgb,var(--suti-surface-warm) 70%,var(--suti-bg)); }
+    .service,.open-card,.practice-card,.sample-map,.crystal-card { box-shadow:0 14px 38px var(--suti-shadow); }
+    .open-card,.service,.practice-card { transition:transform 360ms var(--suti-ease),box-shadow 360ms var(--suti-ease),border-color 360ms var(--suti-ease); }
+    .open-card:hover,.service:hover,.practice-card:focus-within { transform:translateY(-3px); box-shadow:0 20px 48px var(--suti-shadow); border-color:color-mix(in srgb,var(--suti-turquoise) 44%,var(--suti-line)); }
+    .living-mark { transition: transform 280ms var(--suti-ease), opacity 280ms var(--suti-ease); }
+    .living-mark:hover { transform: translateY(-2px); }
+    .clarity-question { animation:arrive 420ms var(--suti-ease) both; }
+    .open-card:nth-child(2) { border-top:2px solid var(--suti-peach); }
+    .open-card:nth-child(3) { border-top:2px solid var(--suti-turquoise); }
+    .primary { box-shadow:0 6px 18px color-mix(in srgb,var(--suti-petrol) 13%,transparent); }
+    @keyframes soft-float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-5px)} }
+    @media(prefers-reduced-motion:reduce){.living-mark,.living-mark:hover{transform:none;transition:none}}
+
+    @keyframes orbit-breathe { 0%, 100% { opacity: .46; } 50% { opacity: .78; } }
+    @keyframes sunlight-pulse { 0%, 100% { transform: scale(.97); opacity: .9; } 50% { transform: scale(1.035); opacity: 1; } }
+    @keyframes leaf-breathe { 0%, 100% { transform: rotate(-.35deg) scaleY(.995); } 50% { transform: rotate(.35deg) scaleY(1.005); } }
+    @keyframes wave-breathe { 0%, 100% { transform: scaleX(.985); opacity: .78; } 50% { transform: scaleX(1.015); opacity: 1; } }
+    @keyframes arrive { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @media (max-width: 780px) {
+      .topbar { min-height: 70px; flex-wrap: wrap; padding-block: 12px; }
+      .wordmark { width: clamp(170px, 38vw, 220px); }
+      .topbar-tools { margin-left: auto; gap: 8px; }
+      .hero { min-height: auto; grid-template-columns: 1fr; gap: 34px; padding-block: 74px; }
+      .hero-aside { justify-self: center; }
+      .living-mark { width: min(72vw, 300px); }
+      .setup-shell { grid-template-columns: 1fr; }
+      .setup-intro { position: static; }
+      .method-grid { grid-template-columns: repeat(2, 1fr); }
+      .service-grid { grid-template-columns: 1fr; }
+      .open-grid, .game-grid { grid-template-columns: 1fr; }
+      .module-grid { grid-template-columns:1fr; }
+      .price-grid { grid-template-columns: 1fr; }
+      .service { min-height: 220px; }
+    }
+    @media (max-width: 520px) {
+      :root { --suti-gutter: 20px; }
+      .topbar { align-items: center; }
+      .topbar-tools { width: 100%; display: grid; grid-template-columns: auto 1fr; align-items: center; justify-content: initial; gap: 4px 8px; }
+      .type-size-tools { grid-column: 1; }
+      .locale-switch { grid-column: 2; justify-content: flex-end; }
+      .theme-tools { grid-column: 1 / -1; justify-content: center; }
+      .locale-switch select { max-width: 180px; }
+      .theme-tools { gap: 1px; }
+      .theme-tools button { min-width: 36px; padding-inline: 7px; font-size: .72rem; }
+      .hero h1 { max-width: 18ch; font-size: clamp(2.35rem, calc(11vw * var(--suti-type-scale)), 3.2rem); line-height: 1.06; }
+      .lead { max-width: 100%; overflow-wrap: break-word; }
+      .choice-grid, .method-grid, .who-grid { grid-template-columns: 1fr; }
+      .method-step { min-height: 160px; }
+      .method-step::before { margin-bottom: 14px; }
+      .footer-row { align-items: flex-start; flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto; animation: none !important; transition-duration: .01ms; }
+    }
+
+    /* SUTI Design System 2027 · surface styling */
+    :root { --suti-gutter: clamp(20px, 5.2vw, 80px); --suti-max: 1240px; }
+    body { font-family: var(--suti-font-body); line-height: 1.65; transition-duration: 180ms; }
+    .topbar { min-height: 84px; border-color: var(--suti-line); }
+    .site-nav { gap: clamp(18px, 2.4vw, 32px); border-color: var(--suti-line); }
+    .site-nav a { color: var(--suti-text); font-size: .92rem; }
+    .site-nav a:hover, .site-nav a:focus-visible { color: var(--suti-link); text-decoration-color: var(--suti-light); }
+    .wordmark-name { font-family: var(--suti-font-body); font-size: 1.32rem; font-weight: 600; letter-spacing: -.045em; }
+    .wordmark-name > .brand-sigil { color: var(--suti-light); }
+    .wordmark-name > span:not(.brand-sigil) { color: var(--suti-structure); }
+    .wordmark-tagline { font-size: .72rem; letter-spacing: 0; }
+    .hero { min-height: 540px; padding-block: clamp(72px, 9vw, 120px); background: radial-gradient(ellipse at 88% 50%, color-mix(in srgb, var(--suti-bg-cool) 54%, transparent), transparent 43%); }
+    h1, h2, h3 { font-family: var(--suti-font-display); letter-spacing: -.035em; }
+    h1 { max-width: 15ch; font-size: clamp(2.8rem, calc(6vw * var(--suti-type-scale)), 5.1rem); line-height: 1.04; font-weight: 600; }
+    h2 { font-size: clamp(1.9rem, calc(3.5vw * var(--suti-type-scale)), 3rem); line-height: 1.16; font-weight: 550; }
+    h3 { font-size: 1.25rem; line-height: 1.35; font-weight: 550; }
+    .eyebrow { color: var(--suti-structure); font-size: .82rem; font-weight: 550; letter-spacing: .025em; }
+    [data-theme="night"] .eyebrow { color: var(--suti-water); }
+    [data-theme="contrast"] .eyebrow { color: var(--suti-text); }
+    .hero-highlight { text-decoration-color: var(--suti-light); text-decoration-thickness: .06em; text-underline-offset: .16em; }
+    .lead { color: var(--suti-text); font-size: clamp(1.1rem, calc(1.5vw * var(--suti-type-scale)), 1.3rem); line-height: 1.55; }
+    .primary { min-height: 52px; padding-inline: 22px; border-color: var(--suti-action); border-radius: 14px; background: var(--suti-action); color: var(--suti-on-action); box-shadow: none; transition: background-color 160ms var(--suti-ease), border-color 160ms var(--suti-ease), transform 160ms var(--suti-ease); }
+    .primary:hover { transform: translateY(-1px); border-color: var(--suti-action-hover); background: var(--suti-action-hover); box-shadow: none; }
+    .primary > span { color: inherit; }
+    .quiet-action, .locale-switch select, .theme-tools button, .type-size-tools button { border-radius: 10px; }
+    .theme-tools button[aria-pressed="true"] { border-color: var(--suti-border-strong); background: var(--suti-surface-soft); }
+    .section { padding-block: clamp(68px, 8vw, 104px); border-color: var(--suti-line); }
+    .setup { background: var(--suti-bg-cool); }
+    .services { background: var(--suti-bg-soft); }
+    .practice-card, .open-card, .service, .module-card, .sample-map, .crystal-card, .game-card, .clarity-disclosure { border: 1px solid var(--suti-line); border-radius: var(--suti-radius); background: var(--suti-surface); box-shadow: none; }
+    .practice-card, .open-card, .service { transition: border-color 160ms var(--suti-ease), background-color 160ms var(--suti-ease); }
+    .open-card:hover, .service:hover, .practice-card:focus-within { transform: none; border-color: var(--suti-border-strong); box-shadow: none; }
+    .sample-map { border-left: 3px solid var(--suti-structure); }
+    .practice-card { border-top: 3px solid var(--suti-action); }
+    .method-step { border: 1px solid var(--suti-line); border-radius: var(--suti-radius); background: var(--suti-surface); transition: border-color 160ms var(--suti-ease); }
+    .method-step:hover { transform: none; border-color: var(--suti-border-strong); box-shadow: none; }
+    .method-step::before { color: var(--suti-structure); font-weight: 600; }
+    .open-card:nth-child(2), .open-card:nth-child(3) { border-top: 1px solid var(--suti-line); }
+    .service-tag, .service-detail summary, .price-item strong { color: var(--suti-structure); }
+    .service-detail summary::after, .price-panel summary::after, .price-panel summary .symbol { color: var(--suti-light); }
+    .service-example, .tool-result, .practice-result { border-left-color: var(--suti-structure); background: var(--suti-surface-soft); }
+    .price-panel { border-left-color: var(--suti-action); box-shadow: none; }
+    .price-item { background: var(--suti-surface-soft); }
+    .principle-line { border-left-color: var(--suti-light); }
+    .choice span { transition: border-color 160ms var(--suti-ease), background-color 160ms var(--suti-ease); }
+    .clarity-question { animation: none; }
+    .practice-result { animation-duration: 180ms; }
+    .choice input:checked + span { border-color: var(--suti-structure); background: var(--suti-surface-soft); }
+    .choice input:checked + span::before { border-color: var(--suti-structure); background: var(--suti-water); }
+    .choice input[type="checkbox"]:checked + span::before { color: var(--suti-text); }
+    .clarity-progress::before { background: linear-gradient(90deg, var(--suti-structure) var(--progress, 0%), var(--suti-line) var(--progress, 0%)); }
+    .pearl-output { border-left-color: var(--suti-structure); }
+    .pearl-output blockquote { border-left-color: var(--suti-action); }
+    .living-mark, .living-mark:hover, .living-mark .leaves, .living-mark .sun, .living-mark .wave { transform: none; animation: none; }
+    .living-mark { transition: none; }
+    .living-mark .orbit { stroke: var(--suti-light); opacity: .6; }
+    [data-theme="contrast"] .wordmark .logo-master { filter: grayscale(1) contrast(1.4); mix-blend-mode: multiply; }
+    [data-theme="night"] .open-card a, [data-theme="night"] .game-card a, [data-theme="night"] .service a, [data-theme="night"] .footer-row a, [data-theme="night"] .author-note a { color: var(--suti-link); }
+    [data-theme="night"] .service-tag, [data-theme="night"] .service-detail summary { color: var(--suti-link); }
+    [data-theme="contrast"] .setup, [data-theme="contrast"] .services { background: var(--suti-bg); }
+    [data-theme="contrast"] .primary { border-color: var(--suti-action); background: var(--suti-action); color: var(--suti-on-action); }
+    [data-theme="contrast"] .sample-map, [data-theme="contrast"] .practice-card, [data-theme="contrast"] .open-card, [data-theme="contrast"] .service, [data-theme="contrast"] .method-step, [data-theme="contrast"] .module-card, [data-theme="contrast"] .crystal-card { border-color: var(--suti-border-strong); }
+    :focus-visible { outline-color: var(--suti-focus); }
+    @media (max-width: 780px) {
+      .hero { background: radial-gradient(ellipse at 50% 82%, color-mix(in srgb, var(--suti-bg-cool) 50%, transparent), transparent 42%); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">перейти к содержанию</a>
+  <header class="wrap topbar">
+    <a class="wordmark" href="#top" aria-label="∴ SUTI.world — на главную"><img class="logo-master" src="https://ezargaruna.github.io/suticore/assets/brand/suti-mark-main.png" alt=""><span class="wordmark-name"><span class="brand-sigil" aria-hidden="true">∴</span>SUTI<span>.</span>world</span><span class="wordmark-tagline" data-i18n="footer-tagline">язык твоей сути</span></a>
+    <div class="topbar-tools">
+      <div class="type-size-tools" role="group" aria-label="размер текста">
+        <button type="button" data-text-size="down" aria-label="уменьшить размер текста" data-i18n-aria="size-down">A−</button>
+        <output id="text-size-value" aria-live="polite">100%</output>
+        <button type="button" data-text-size="up" aria-label="увеличить размер текста" data-i18n-aria="size-up">A+</button>
+      </div>
+      <label class="locale-switch"><span class="sr-only" data-i18n="locale-label">язык страницы</span><select id="locale-select" aria-label="выбрать язык" data-i18n-aria="locale-label"><option value="ru">Русский</option><option value="en">English</option><option value="es">Español</option><option value="pt">Português</option></select></label>
+      <div class="theme-tools" role="group" aria-label="тема оформления" data-i18n-aria="theme-label">
+        <button type="button" data-theme-choice="day" aria-pressed="true" data-i18n="theme-day">день</button>
+        <button type="button" data-theme-choice="night" aria-pressed="false" data-i18n="theme-night">ночь</button>
+        <button type="button" data-theme-choice="contrast" aria-pressed="false" aria-label="контрастная тема" data-i18n="theme-contrast" data-i18n-aria="theme-contrast-label">контраст</button>
+      </div>
+    </div>
+  </header>
+  <nav class="wrap site-nav" aria-label="основная навигация" data-i18n-aria="nav-label"><a href="#clarity" data-i18n="nav-start">начать</a><a href="#library" data-i18n="nav-library">библиотека</a><a href="#language" data-i18n="nav-language">язык</a><a href="#together" data-i18n="nav-work">работать вместе</a></nav>
+  <main id="main">
+    <section class="wrap hero" id="top" aria-labelledby="hero-title">
+      <div>
+        <p class="eyebrow" data-i18n="hero-eyebrow"><span class="symbol" aria-hidden="true">◎</span> SUTI.world · язык твоей сути</p>
+        <h1 id="hero-title" data-i18n-html="hero-title">понять важное<br>найти <span class="hero-highlight">свои слова</span></h1>
+        <p class="lead" data-i18n="hero-lead">помоги себе разобраться в вопросе, собери ясную карту и выбери следующий шаг</p>
+        <a class="primary" href="#clarity" data-i18n-html="hero-cta">разобраться в вопросе <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-aside">
+        <div class="living-mark" aria-hidden="true">
+          <svg viewBox="0 0 360 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="orbit" d="M89 207C40 149 69 69 132 48C196 27 282 68 294 139"/>
+            <circle class="orbit-dot" cx="294" cy="139" r="5" fill="var(--suti-sunlight)"/>
+            <circle class="sun" cx="180" cy="75" r="22" fill="var(--suti-sunlight)"/>
+            <g class="leaves">
+              <path d="M170 225C118 195 97 139 119 89C126 72 139 58 154 48C157 91 177 126 198 157C215 183 202 211 170 225Z" fill="var(--suti-petrol)"/>
+              <path d="M181 225C192 177 222 137 270 119C266 161 246 193 214 211C203 218 192 223 181 225Z" fill="var(--suti-turquoise)"/>
+              <path d="M173 226C184 189 183 151 170 111M181 224C199 192 225 164 258 141" stroke="var(--suti-bg)" stroke-width="2" stroke-linecap="round" opacity=".82"/>
+            </g>
+            <path class="wave" d="M48 244C96 221 126 258 169 251C211 244 244 218 278 226C292 229 303 234 313 241" stroke="var(--suti-petrol)" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <p class="mark-caption" data-i18n-html="mark-caption">живой язык начинается<br>с того, что важно тебе</p>
+      </div>
+    </section>
+
+    <section class="section setup" id="clarity" aria-labelledby="clarity-title">
+      <div class="wrap"><div class="section-head"><p class="eyebrow">◇ бесплатно · без регистрации</p><h2 id="clarity-title" data-i18n="clarity-title">один вопрос → одна карта → свой шаг</h2><p data-i18n="clarity-intro">ответы необязательны. можно пропустить вопрос, вернуться и всё изменить. карта собирается только на этом устройстве</p></div>
+      <details class="clarity-disclosure"><summary data-i18n="clarity-open">развернуть практику</summary><form class="clarity-form practice-card" id="clarity-form"><fieldset class="clarity-depth"><legend data-i18n="depth-label">выбери глубину</legend><div class="depth-options"><label><input type="radio" name="depth" value="simple" checked><span data-i18n="depth-simple">коротко · 2 вопроса</span></label><label><input type="radio" name="depth" value="steady"><span data-i18n="depth-steady">средне · 4 вопроса</span></label><label><input type="radio" name="depth" value="deep"><span data-i18n="depth-deep">глубоко · 6 вопросов</span></label></div><p class="question-hint" data-i18n="depth-note">можно менять глубину, пропускать ответы и вернуться позже</p></fieldset>
+        <fieldset class="clarity-question" data-depth-min="simple"><legend data-i18n="q1">⌖ что сейчас происходит?</legend><p class="question-hint" data-i18n="hint">можно ответить одной фразой или оставить поле пустым</p><textarea name="q1" rows="3"></textarea></fieldset>
+        <fieldset class="clarity-question" data-depth-min="steady" hidden><legend data-i18n="q2">◇ что здесь известно?</legend><p class="question-hint" data-i18n="hint-fact">отметь то, что можно подтвердить</p><textarea name="q2" rows="3"></textarea></fieldset>
+        <fieldset class="clarity-question" data-depth-min="steady" hidden><legend data-i18n="q3">≈ как ты это понимаешь?</legend><p class="question-hint" data-i18n="hint-interpretation">это твоя версия происходящего; её можно пересмотреть</p><textarea name="q3" rows="3"></textarea></fieldset>
+        <fieldset class="clarity-question" data-depth-min="deep" hidden><legend data-i18n="q4">◎ что чувствуешь и что важно?</legend><p class="question-hint" data-i18n="hint-feeling">чувства и значимость определяешь только ты</p><textarea name="q4" rows="3"></textarea></fieldset>
+        <fieldset class="clarity-question" data-depth-min="simple"><legend data-i18n="q5">⟁ какой шаг хочешь попробовать?</legend><p class="question-hint" data-i18n="hint-step">достаточно небольшого и выполнимого действия</p><textarea name="q5" rows="3"></textarea></fieldset>
+        <fieldset class="clarity-question" data-depth-min="deep" hidden><legend data-i18n="q6">↺ что стоит сохранить?</legend><p class="question-hint" data-i18n="hint-return">например, полезное различие или вопрос для возвращения</p><textarea name="q6" rows="3"></textarea></fieldset>
+        <div class="clarity-actions"><button class="primary" type="button" id="clarity-build" data-i18n="build-map">собрать карту ясности</button><button class="quiet-action" type="button" id="clarity-delete" data-i18n="clear">очистить ответы</button></div><p class="local-note" data-i18n="local-note">ничего не отправляется и не сохраняется автоматически. можно вернуться и изменить ответы</p>
+        <article class="pearl-output" id="clarity-result" aria-live="polite"></article><div class="clarity-actions" id="map-actions" hidden><button class="quiet-action" id="copy-map" type="button" data-i18n="copy">скопировать карту</button><button class="quiet-action" id="download-map" type="button" data-i18n="download">скачать .md</button><button class="quiet-action" id="copy-map-prompt" type="button" data-i18n="copy-prompt">скопировать промпт</button><button class="quiet-action" id="download-map-prompt" type="button" data-i18n="download-prompt">скачать промпт .md</button></div>
+      </form></details></div>
+    </section>
+    <section class="section" id="library" aria-labelledby="library-title"><div class="wrap"><div class="section-head"><p class="eyebrow">◇ открытая библиотека</p><h2 id="library-title" data-i18n="library-title">три способа прояснить</h2><p data-i18n="library-intro">короткие инструменты для вопроса, разговора и языка. ответы остаются у тебя</p></div><div class="open-grid">
+      <article class="open-card"><h3 data-i18n="tool-one-title">факт · версия · чувство</h3><p data-i18n="tool-one-desc">разложи ситуацию на то, что произошло, как ты это понимаешь и что чувствуешь</p><details><summary data-i18n="try-tool">попробовать инструмент</summary><label for="f1" data-i18n="fact-label">что произошло?</label><textarea id="f1" rows="2"></textarea><label for="f2" data-i18n="version-label">как ты это понимаешь?</label><textarea id="f2" rows="2"></textarea><label for="f3" data-i18n="feeling-label">что чувствуешь?</label><textarea id="f3" rows="2"></textarea><button class="quiet-action" type="button" data-compose="fact" data-i18n="compose">собрать заметку</button><button class="quiet-action" type="button" data-reset="fact" data-i18n="clear">очистить</button><div class="tool-result" id="tool-result-fact" aria-live="polite"></div></details></article>
+      <article class="open-card"><h3 data-i18n="tool-two-title">подготовить разговор</h3><p data-i18n="tool-two-desc">сформулируй, что хочешь обсудить, что важно сказать и о чём спросить</p><details><summary data-i18n="try-tool">попробовать инструмент</summary><label for="t1" data-i18n="topic-label">тема разговора</label><textarea id="t1" rows="2"></textarea><label for="t2" data-i18n="important-label">что важно донести?</label><textarea id="t2" rows="2"></textarea><label for="t3" data-i18n="question-label">что хочешь спросить?</label><textarea id="t3" rows="2"></textarea><button class="quiet-action" type="button" data-compose="talk" data-i18n="compose">собрать заметку</button><button class="quiet-action" type="button" data-reset="talk" data-i18n="clear">очистить</button><div class="tool-result" id="tool-result-talk" aria-live="polite"></div></details></article>
+      <article class="open-card"><h3 data-i18n="samurai-title">пауза перед действием</h3><p data-i18n="samurai-desc">короткая текстовая практика: заметить импульс, выбрать действие и посмотреть на его след</p><details><summary data-i18n="open-practice">открыть практику</summary><p data-i18n="samurai-prompt">что ты заметил(а)? что можно проверить? какой небольшой шаг сейчас доступен?</p><p class="local-note" data-i18n="samurai-note">авторская практика внимания. не предсказание и не терапия; можно остановиться в любой момент</p><p><a href="https://ezargaruna.github.io/suticore/samurai-dharma.html" data-i18n="samurai-more">посмотреть путь игры ↗</a></p></details></article>
+      <article class="open-card"><h3 data-i18n="game-pause-title">◌ место для паузы</h3><p data-i18n="game-pause-desc">короткий ход, чтобы заметить импульс до ответа</p><details><summary data-i18n="open-practice">открыть практику</summary><p data-i18n="game-pause-prompt">вспомни недавний момент. что происходило до импульса? что изменится, если подождать один вдох?</p><button class="quiet-action copy-module-prompt" type="button" data-prompt-key="game-pause-prompt" data-i18n="copy-prompt">скопировать промпт</button></details></article>
+      <article class="open-card"><h3 data-i18n="game-choice-title">◇ две версии</h3><p data-i18n="game-choice-desc">попробуй увидеть ещё одно объяснение ситуации</p><details><summary data-i18n="open-practice">открыть практику</summary><p data-i18n="game-choice-prompt">запиши первую версию. затем придумай другое объяснение, не объявляя ни одно из них фактом</p><button class="quiet-action copy-module-prompt" type="button" data-prompt-key="game-choice-prompt" data-i18n="copy-prompt">скопировать промпт</button></details></article>
+      <article class="open-card"><h3 data-i18n="game-return-title">↺ след и возвращение</h3><p data-i18n="game-return-desc">сверь ожидание с тем, что произошло</p><details><summary data-i18n="open-practice">открыть практику</summary><p data-i18n="game-return-prompt">что ты попробовал? что действительно изменилось? что оставить, изменить или отпустить?</p><button class="quiet-action copy-module-prompt" type="button" data-prompt-key="game-return-prompt" data-i18n="copy-prompt">скопировать промпт</button></details></article>
+    </div><div class="sample-map"><p class="eyebrow">∴ пример</p><h3 data-i18n="sample-title">карта ясности · подготовить разговор</h3><p data-i18n="sample-copy">ситуация: нужно попросить коллегу перенести срок. известно: срок уже обозначен. важно: предупредить заранее и предложить новый план. следующий шаг: написать короткое сообщение с причиной и конкретной датой</p></div><p><a href="https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os.zip" data-i18n="gift-link">забрать открытое хранилище SUTI.os ↓</a> · <a href="https://github.com/ezargaruna/SUTI.os/releases" data-i18n="gift-source">исходники и выпуски на GitHub</a></p></div></section>
+    <section class="section" id="field-of-ours" aria-labelledby="field-of-ours-title">
+      <div class="wrap"><div class="section-head"><p class="eyebrow">∴ SUTI.os · открытый вход</p><h2 id="field-of-ours-title" data-i18n="field-title">поле своих</h2><p data-i18n="field-desc">человек и контекст · свой язык · следующий шаг. выбери, что оставить себе</p></div>
+        <article class="sample-map"><h3 data-i18n="field-triad">человек → язык → действие</h3><p data-i18n="field-note">тримурти — авторский образ трёх связанных частей, а не тест или скрытый механизм</p><p data-i18n="field-yzh">язэхъ сохранён как отдельная авторская языковая мастерская — «белый куб SUTI»</p><p><a href="https://github.com/ezargaruna/SUTI.os/blob/main/vault/%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D0%B5/%D1%8F%D0%B7%D1%8B%D0%BA/%D0%BF%D0%BE%D0%BB%D0%B5%20%D1%81%D0%B2%D0%BE%D0%B8%D1%85.md" data-i18n="field-read">открыть карту поля своих</a> · <a href="https://github.com/ezargaruna/SUTI.os/blob/main/vault/%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D0%B5/%D1%8F%D0%B7%D1%8B%D0%BA/%D1%8F%D0%B7%D1%8D%D1%85%D1%8A%20%E2%80%94%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%BA%D1%83%D0%B1.md" data-i18n="field-yzh-link">смотреть мастерскую язэхъ</a> · <a href="https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os.zip" data-i18n="field-download">скачать открытую копию</a> · <a href="https://github.com/ezargaruna/SUTI.os" data-i18n="field-guide">инструкция по установке</a></p></article>
+      </div>
+    </section>
+    <section class="section" id="language" aria-labelledby="language-title"><div class="wrap"><div class="section-head"><p class="eyebrow">≋ язык · практика</p><h2 id="language-title" data-i18n="language-title">учись для того, что тебе предстоит</h2><p data-i18n="language-intro">выбери язык и жизненные ситуации — получишь короткий маршрут практики</p></div><div class="setup-shell"><div class="crystal-card"><h3 data-i18n="crystal-title">языковой кристалл</h3><p data-i18n="crystal-desc">слово → значение → контекст → твой пример. заполни только то, что уже знаешь</p><label for="cw" data-i18n="word-label">слово или фраза</label><input class="intent-input" id="cw" maxlength="100"><label for="cc" data-i18n="context-label">где встретилось или пригодится?</label><textarea id="cc" rows="2"></textarea><label for="ce" data-i18n="example-label">твой пример</label><textarea id="ce" rows="2"></textarea><button class="quiet-action" id="crystal-build" type="button" data-i18n="build-crystal">собрать заметку</button><button class="quiet-action" id="crystal-clear" type="button" data-i18n="clear">очистить</button><div class="tool-result" id="crystal-result" aria-live="polite"></div></div><form class="practice-card" id="practice-form"><div class="field"><label for="language-select" data-i18n="choose-language">какой язык нужен сейчас?</label><select id="language-select" name="language"><optgroup label="часто используемые" data-i18n-label="common-languages"><option value="английский">English</option><option value="испанский">Español</option><option value="португальский">Português</option><option value="русский">Русский</option><option value="китайский">中文 · мандарин</option><option value="хинди">हिन्दी · Hindi</option><option value="арабский">العربية · Arabic</option><option value="французский">Français</option><option value="бенгальский">বাংলা · Bengali</option></optgroup><optgroup label="исследовательские языковые линзы" data-i18n-label="research-languages"><option value="латынь">Latina · латинский</option><option value="санскрит">संस्कृतम् · Sanskrit</option><option value="язэхъ">язэхъ · YZH (авторский эксперимент)</option></optgroup><option value="другой" data-i18n="other">другой язык…</option></select></div><div class="field"><label for="intent" data-i18n="express-label">что хочется выразить?</label><input class="intent-input" id="intent" name="intent" maxlength="160" placeholder="например: попросить объяснить ещё раз"></div><fieldset class="field"><legend data-i18n="situations-label">где хочется увереннее? можно выбрать несколько</legend><div class="choice-grid"><label class="choice"><input type="checkbox" name="situation" value="говорить с людьми"><span data-i18n="speak">говорить с людьми</span></label><label class="choice"><input type="checkbox" name="situation" value="понимать на слух"><span data-i18n="listen">понимать на слух</span></label><label class="choice"><input type="checkbox" name="situation" value="читать и понимать"><span data-i18n="read">читать и понимать</span></label><label class="choice"><input type="checkbox" name="situation" value="писать свои мысли"><span data-i18n="write">писать свои мысли</span></label><label class="choice"><input type="checkbox" name="situation" value="учёба и работа"><span data-i18n="study">учёба и работа</span></label><label class="choice"><input type="checkbox" name="situation" value="путешествия"><span data-i18n="travel">путешествия</span></label></div></fieldset><fieldset class="field"><legend data-i18n="pace-label">какой темп подходит?</legend><div class="choice-grid"><label class="choice"><input type="radio" name="pace" value="медленно и спокойно" checked><span data-i18n="pace-slow">медленно и спокойно</span></label><label class="choice"><input type="radio" name="pace" value="через пример"><span data-i18n="pace-example">через пример</span></label><label class="choice"><input type="radio" name="pace" value="сразу попробовать"><span data-i18n="pace-try">сразу попробовать</span></label><label class="choice"><input type="radio" name="pace" value="короткий диалог"><span data-i18n="pace-dialog">короткий диалог</span></label></div></fieldset><label for="other-language" data-i18n="other-language-label">не нашёл нужный язык? напиши его здесь</label><input class="intent-input" id="other-language" name="other-language" maxlength="80" hidden><button class="primary" type="submit" data-i18n="build-route">собрать маршрут →</button><p class="privacy-note" data-i18n="local-note">ответы остаются в этом окне</p><div class="practice-result" id="practice-result" data-open="false" aria-live="polite"></div></form></div>
+      <div class="module-grid" aria-label="открытые языковые практики">
+        <article class="module-card"><h3 data-i18n="lang-sound-title">слух и звучание</h3><p data-i18n="lang-sound-desc">коротко послушай, повтори и отметь один звук или ритм</p><details><summary data-i18n="try-tool">попробовать практику</summary><p class="module-prompt" data-i18n="lang-sound-prompt">выбери короткую фразу. послушай один раз, повтори медленно, затем естественно. запиши, что стало слышнее</p><button class="quiet-action copy-module-prompt" type="button" data-prompt-key="lang-sound-prompt" data-i18n="copy-prompt">скопировать промпт</button></details></article>
+        <article class="module-card"><h3 data-i18n="lang-chunks-title">фразы целиком</h3><p data-i18n="lang-chunks-desc">собирай полезные сочетания слов, а не отдельные списки</p><details><summary data-i18n="try-tool">попробовать практику</summary><p class="module-prompt" data-i18n="lang-chunks-prompt">вспомни одну ситуацию. собери три короткие фразы, которыми можно начать, уточнить и завершить разговор</p><button class="quiet-action copy-module-prompt" type="button" data-prompt-key="lang-chunks-prompt" data-i18n="copy-prompt">скопировать промпт</button></details></article>
+        <article class="module-card"><h3 data-i18n="lang-shadow-title">повтор с опорой</h3><p data-i18n="lang-shadow-desc">соедини услышанное с собственным голосом без спешки</p><details><summary data-i18n="try-tool">попробовать практику</summary><p class="module-prompt" data-i18n="lang-shadow-prompt">возьми короткое аудио. слушай фразу, повтори вслед за ней, затем скажи её самостоятельно и сравни только один момент</p><button class="quiet-action copy-module-prompt" type="button" data-prompt-key="lang-shadow-prompt" data-i18n="copy-prompt">скопировать промпт</button></details></article>
+        <article class="module-card"><h3 data-i18n="lang-return-title">возврат к словам</h3><p data-i18n="lang-return-desc">вспомни знакомое без оценки и добавь один новый пример</p><details><summary data-i18n="try-tool">попробовать практику</summary><p class="module-prompt" data-i18n="lang-return-prompt">закрой заметки. вспомни три фразы, которые уже встречал. проверь их и добавь по одному своему примеру</p><button class="quiet-action copy-module-prompt" type="button" data-prompt-key="lang-return-prompt" data-i18n="copy-prompt">скопировать промпт</button></details></article>
+      </div></div></section>
+    <section class="section services" id="together" aria-labelledby="services-title"><div class="wrap"><div class="section-head"><p class="eyebrow">⟁ <span data-i18n="work-label">работать вместе</span></p><h2 id="services-title" data-i18n="work-title">личные и проектные задачи</h2><p data-i18n="work-intro">сначала уточняем вопрос и результат. формат и стоимость согласуются до начала работы</p></div><div class="offer-group"><div class="offer-group-head"><h3 data-i18n="b2c-title">для человека</h3><p data-i18n="b2c-desc">личные задачи и обучение</p></div><div class="service-grid"><article class="service"><span class="service-tag">◎ · 1:1</span><h3 data-i18n="service-self">язык твоей сути</h3><p data-i18n="service-self-desc">собрать слова для важного выбора, разговора или перемены</p><details class="service-detail"><summary data-i18n="details">как проходит работа</summary><p data-i18n="service-self-example">пример: понять, почему текущая работа перестала подходить и что хочется изменить</p><p class="service-example" data-i18n="service-self-result">результат: карта вопроса, точные формулировки и возможные шаги</p></details><a href="https://t.me/saritamah" data-i18n="discuss">обсудить задачу ↗</a></article><article class="service"><span class="service-tag">≋ · обучение</span><h3 data-i18n="service-language">языковая карта</h3><p data-i18n="service-language-desc">учить язык через ситуации, которые скоро понадобятся</p><details class="service-detail"><summary data-i18n="details">как проходит работа</summary><p data-i18n="service-language-example">пример: подготовиться к поездке и рабочим разговорам, не тратя время на пока ненужные темы</p><p class="service-example" data-i18n="service-language-result">результат: последовательность занятий, полезные фразы и способ продолжать самостоятельно</p></details><a href="https://t.me/saritamah" data-i18n="discuss-route">обсудить маршрут ↗</a></article></div></div><div class="offer-group business"><div class="offer-group-head"><h3 data-i18n="b2b-title">для команды и проекта</h3><p data-i18n="b2b-desc">совместная работа</p></div><div class="service-grid"><article class="service"><span class="service-tag">⊕ · команда</span><h3 data-i18n="service-project">язык проекта</h3><p data-i18n="service-project-desc">сделать описание и рабочие формулировки понятными команде и людям</p><details class="service-detail"><summary data-i18n="details">как проходит работа</summary><p data-i18n="service-project-example">пример: команда по-разному объясняет, кому помогает продукт и что делать посетителю сайта</p><p class="service-example" data-i18n="service-project-result">результат: ясное описание, согласованные слова и примеры для сайта или встреч</p></details><a href="https://t.me/saritamah" data-i18n="describe-task">описать задачу ↗</a></article></div></div><details class="price-panel"><summary data-i18n="pricing">форматы и стоимость</summary><div class="price-panel-body"><div class="price-grid"><div class="price-item"><h3 data-i18n="one-to-one">личная работа</h3><p data-i18n="price-self">объём зависит от вопроса и нужного результата</p><strong data-i18n="agree-price">стоимость согласуем заранее</strong></div><div class="price-item"><h3 data-i18n="language-map">языковая карта</h3><p data-i18n="price-language">учитываем язык, ситуации и материалы для практики</p><strong data-i18n="agree-price">стоимость согласуем заранее</strong></div><div class="price-item"><h3 data-i18n="project-language">язык проекта</h3><p data-i18n="price-project">объём зависит от команды и форматов работы</p><strong data-i18n="agree-price">стоимость согласуем заранее</strong></div></div><p class="price-note" data-i18n="price-note">до начала работы согласуем формат, срок и фиксированную стоимость. открытые инструменты сайта доступны бесплатно</p></div></details></div></section>
+  </main>
+  <footer>
+    <div class="wrap footer-row"><p><strong>SUTI.world</strong> · <span data-i18n="footer-tagline">язык твоей сути</span></p><a href="#clarity" data-i18n="footer-return">вернуться к карте ясности ↑</a></div>
+  </footer>
+  <script>
+    const root = document.documentElement;
+    const themeButtons = [...document.querySelectorAll("[data-theme-choice]")];
+    for (const button of themeButtons) {
+      button.addEventListener("click", () => {
+        const theme = button.dataset.themeChoice;
+        root.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]').content = theme === "night" ? "#071310" : theme === "contrast" ? "#FFFFFF" : "#F4F0E8";
+        for (const item of themeButtons) item.setAttribute("aria-pressed", String(item === button));
+        try { localStorage.setItem("suti-theme", theme); } catch { /* private browsing can disable storage */ }
+      });
+    }
+    try {
+      const savedTheme = localStorage.getItem("suti-theme");
+      const savedButton = themeButtons.find(button => button.dataset.themeChoice === savedTheme);
+      if (savedButton) savedButton.click();
+    } catch { /* the page works without local storage */ }
+
+    const textSizeButtons = [...document.querySelectorAll("[data-text-size]")];
+    const textSizeOutput = document.getElementById("text-size-value");
+    const textSizes = [14, 16, 18, 20];
+    let textSize = 16;
+    try {
+      const savedSize = Number(localStorage.getItem("suti-text-size"));
+      if (textSizes.includes(savedSize)) textSize = savedSize;
+    } catch { /* the controls work without local storage */ }
+    const updateTextSize = () => {
+      root.style.fontSize = `${textSize}px`;
+      root.style.setProperty("--suti-type-scale", String(textSize / 16));
+      textSizeOutput.value = `${Math.round(textSize / 16 * 100)}%`;
+      textSizeOutput.textContent = textSizeOutput.value;
+      for (const button of textSizeButtons) {
+        button.disabled = button.dataset.textSize === "down" ? textSize === textSizes[0] : textSize === textSizes[textSizes.length - 1];
+      }
+    };
+    for (const button of textSizeButtons) {
+      button.addEventListener("click", () => {
+        const index = textSizes.indexOf(textSize);
+        textSize = textSizes[Math.max(0, Math.min(textSizes.length - 1, index + (button.dataset.textSize === "up" ? 1 : -1)))];
+        updateTextSize();
+        try { localStorage.setItem("suti-text-size", String(textSize)); } catch { /* preference remains active for this page view */ }
+      });
+    }
+    updateTextSize();
+
+    const translations = {
+      "ru":{"theme-day":"день","theme-night":"ночь","theme-contrast":"контраст","theme-contrast-label":"контрастная тема","locale-label":"выбрать язык","size-down":"уменьшить размер текста","size-up":"увеличить размер текста","theme-label":"тема оформления","mark-caption":"язык начинается с того, что важно тебе","nav-label":"основная навигация","nav-start":"начать","nav-library":"библиотека","nav-language":"язык","nav-work":"работать вместе","work-label":"работа вместе","hero-eyebrow":"◎ SUTI.world · язык твоей сути","hero-title":"понять важное<br>найти <span class=\"hero-highlight\">свои слова</span>","hero-lead":"помоги себе разобраться в вопросе, собери ясную карту и выбери следующий шаг","hero-cta":"разобраться в вопросе <span aria-hidden=\"true\">↓</span>","clarity-title":"один вопрос → одна карта → свой шаг","clarity-intro":"ответы необязательны. можно пропустить вопрос, вернуться и всё изменить. карта собирается только на этом устройстве","q1":"⌖ что сейчас происходит?","q2":"◇ что здесь известно?","q3":"≈ как ты это понимаешь?","q4":"◎ что чувствуешь и что важно?","q5":"⟁ какой шаг хочешь попробовать?","q6":"↺ что стоит сохранить?","hint":"можно ответить одной фразой или оставить пустым","back":"← назад","skip":"пропустить","next":"дальше","build-map":"собрать карту ясности","clear":"очистить ответы","local-note":"ничего не отправляется и не сохраняется автоматически","copy":"скопировать карту","download":"скачать карту .md","delete-map":"удалить карту","library-title":"открытые инструменты и игровые практики","library-intro":"короткие упражнения для ясности, разговора, внимания и языка. можно выбрать одно и вернуться позже","tool-one-title":"факт · версия · чувство","tool-one-desc":"разложи ситуацию на то, что произошло, как ты это понимаешь и что чувствуешь","try-tool":"попробовать инструмент","fact-label":"что произошло?","version-label":"как ты это понимаешь?","feeling-label":"что чувствуешь?","compose":"собрать заметку","tool-two-title":"подготовить разговор","tool-two-desc":"сформулируй, что хочешь обсудить, что важно сказать и о чём спросить","topic-label":"тема разговора","important-label":"что важно донести?","question-label":"что хочешь спросить?","samurai-title":"пауза перед действием","samurai-desc":"короткая текстовая практика: заметить импульс, выбрать действие и посмотреть на его след","open-practice":"открыть практику","samurai-prompt":"что ты заметил(а)? что можно проверить? какой небольшой шаг сейчас доступен?","samurai-note":"авторская практика внимания. не предсказание и не терапия; можно остановиться в любой момент","sample-title":"карта ясности · подготовить разговор","sample-copy":"ситуация: нужно попросить коллегу перенести срок. известно: срок уже обозначен. важно: предупредить заранее и предложить новый план. следующий шаг: написать короткое сообщение с причиной и конкретной датой","gift-link":"забрать открытое хранилище SUTI.os ↓","language-title":"учись для того, что тебе предстоит","language-intro":"выбери язык и жизненные ситуации — получишь короткий маршрут практики","crystal-title":"языковой кристалл","crystal-desc":"слово → значение → контекст → твой пример. заполни только то, что уже знаешь","word-label":"слово или фраза","context-label":"где встретилось или пригодится?","example-label":"твой пример","build-crystal":"собрать заметку","choose-language":"какой язык нужен сейчас?","express-label":"что хочется выразить?","situations-label":"где хочется увереннее? можно выбрать несколько","speak":"говорить с людьми","listen":"понимать на слух","read":"читать и понимать","write":"писать свои мысли","study":"учёба и работа","travel":"путешествия","pace-label":"какой темп подходит?","pace-slow":"медленно и спокойно","pace-example":"через пример","pace-try":"сразу попробовать","pace-dialog":"короткий диалог","build-route":"собрать маршрут →","work-title":"личные и проектные задачи","work-intro":"сначала уточняем вопрос и результат. формат и стоимость согласуются до начала работы","b2c-title":"для человека","b2c-desc":"личные задачи и обучение","b2b-title":"для команды и проекта","b2b-desc":"совместная работа","service-self":"язык твоей сути","service-self-desc":"собрать слова для важного выбора, разговора или перемены","details":"как проходит работа","service-self-example":"пример: понять, почему текущая работа перестала подходить и что хочется изменить","service-self-result":"результат: короткая карта вопроса, точные формулировки и несколько возможных шагов","discuss":"обсудить задачу ↗","service-language":"языковая карта","service-language-desc":"учить язык через ситуации, которые скоро понадобятся","service-language-example":"пример: подготовиться к поездке и рабочим разговорам, не тратя время на пока ненужные темы","service-language-result":"результат: последовательность занятий, полезные фразы и способ продолжать самостоятельно","discuss-route":"обсудить маршрут ↗","service-project":"язык проекта","service-project-desc":"сделать описание и рабочие формулировки понятными команде и людям","service-project-example":"пример: команда по-разному объясняет, кому помогает продукт и что делать посетителю сайта","service-project-result":"результат: ясное описание, согласованные слова и готовые примеры для сайта или встреч","describe-task":"описать задачу ↗","pricing":"форматы и стоимость","one-to-one":"личная работа","price-self":"объём зависит от вопроса и нужного результата","language-map":"языковая карта","price-language":"учитываем язык, ситуации и материалы для практики","project-language":"язык проекта","price-project":"объём зависит от команды и форматов работы","agree-price":"стоимость согласуем заранее","price-note":"до начала работы согласуем формат, срок и фиксированную стоимость. открытые инструменты сайта доступны бесплатно","about-label":"об авторе","about-role":"лингвист · переводчик · преподаватель языков","about-copy":"помогаю человеку или проекту увидеть важное, найти точные слова и выбрать следующий шаг","privacy-copy":"личное не публикуется автоматически. открытую практику можно взять и уйти в любой момент","contact":"связаться по рабочему запросу ↗","vault-download":"скачать открытое хранилище SUTI.os","footer-tagline":"язык твоей сути","footer-return":"вернуться к карте ясности ↑","map-title":"карта ясности","empty":"ответ не добавлен","copied":"скопировано в буфер обмена","deleted":"карта и ответы удалены","progress":"вопрос {n} из 6","finish":"собрать карту","hint-fact":"отметь то, что можно подтвердить","hint-interpretation":"это твоя версия происходящего, её можно пересмотреть","hint-feeling":"чувства и значимость определяешь только ты","hint-step":"достаточно небольшого и выполнимого действия","hint-return":"например, полезное различие или вопрос для возвращения","copy-prompt":"скопировать промпт","download-prompt":"скачать промпт .md","prompt-title":"промпт для бережного разбора карты","prompt-instruction":"Помоги увидеть факты, личные объяснения, чувства и открытые вопросы отдельно. Не ставь диагнозов и не решай за человека. Сначала уточни, чего он хочет от разбора","prompt-boundary":"Ответы принадлежат человеку. Не отправляй и не сохраняй их автоматически. Предложи варианты формулировки и оставь выбор человеку","samurai-more":"узнать о пути игры ↗","game-pause-title":"◌ пауза перед ответом","game-pause-desc":"заметь импульс до того, как выбрать действие","game-pause-prompt":"вспомни недавний момент. что происходило до импульса? что изменится, если подождать один спокойный вдох?","game-choice-title":"◇ две версии","game-choice-desc":"найди ещё одно возможное объяснение ситуации","game-choice-prompt":"запиши первую версию. затем придумай другое объяснение, не называя ни одно из них фактом","game-return-title":"↺ след и возвращение","game-return-desc":"сверь ожидание с тем, что действительно произошло","game-return-prompt":"что ты попробовал? что изменилось на деле? что оставить, изменить или отпустить?","other-language-label":"не нашёл нужный язык? укажи его здесь","lang-sound-title":"слух и звучание","lang-sound-desc":"послушай, повтори и отметь один звук или ритм","lang-sound-prompt":"выбери короткую фразу. послушай один раз, повтори медленно, затем естественно. запиши, что стало слышнее","lang-chunks-title":"фразы целиком","lang-chunks-desc":"собирай полезные сочетания слов, а не отдельные списки","lang-chunks-prompt":"вспомни одну ситуацию. собери три короткие фразы, чтобы начать, уточнить и завершить разговор","lang-shadow-title":"повтор с опорой","lang-shadow-desc":"соедини услышанное с собственным голосом без спешки","lang-shadow-prompt":"возьми короткое аудио. послушай фразу, повтори вслед за ней, затем скажи её самостоятельно и сравни один момент","lang-return-title":"возврат к словам","lang-return-desc":"вспомни знакомое без оценки и добавь один новый пример","lang-return-prompt":"закрой заметки. вспомни три знакомые фразы, проверь их и добавь по одному своему примеру","route-prompt-title":"промпт для языковой практики","route-prompt-instruction":"Составь короткую бережную практику на выбранном языке. Используй простые фразы, поясняй новые слова, не оценивай человека и предложи ему самому выбрать темп","other-language":"другой язык…","other":"другой язык","copy-route-prompt":"скопировать промпт","download-route-prompt":"скачать промпт .md"},
+      "en":{"theme-day":"day","theme-night":"night","theme-contrast":"contrast","theme-contrast-label":"high contrast theme","locale-label":"choose language","size-down":"decrease text size","size-up":"increase text size","theme-label":"appearance theme","mark-caption":"language begins with what matters to you","nav-label":"main navigation","nav-start":"start","nav-library":"library","nav-language":"language","nav-work":"work together","work-label":"work together","hero-eyebrow":"◎ SUTI.world · the language of your essence","hero-title":"understand what matters<br>find <span class=\"hero-highlight\">your words</span>","hero-lead":"make sense of a question, shape a clear map, and choose a next step","hero-cta":"work through a question <span aria-hidden=\"true\">↓</span>","clarity-title":"one question → one map → your next step","clarity-intro":"answers are optional. skip, return, and edit at any time. your map is created on this device","q1":"⌖ what is happening now?","q2":"◇ what is known here?","q3":"≈ how do you understand it?","q4":"◎ what do you feel, and what matters?","q5":"⟁ what step would you like to try?","q6":"↺ what would you like to keep?","hint":"write a phrase or leave this blank","back":"← back","skip":"skip","next":"next","build-map":"make a clarity map","clear":"clear answers","local-note":"nothing is sent or saved automatically","copy":"copy map","download":"download map .md","delete-map":"delete map","library-title":"open tools and game practices","library-intro":"short exercises for clarity, conversation, attention, and language. choose one and return when useful","tool-one-title":"fact · interpretation · feeling","tool-one-desc":"separate what happened, how you understand it, and what you feel","try-tool":"try this tool","fact-label":"what happened?","version-label":"how do you understand it?","feeling-label":"what do you feel?","compose":"make a note","tool-two-title":"prepare for a conversation","tool-two-desc":"write what you want to discuss, say, and ask","topic-label":"conversation topic","important-label":"what matters to convey?","question-label":"what would you like to ask?","samurai-title":"pause before acting","samurai-desc":"a short text practice: notice an impulse, choose an action, and see what follows","open-practice":"open practice","samurai-prompt":"what did you notice? what can you check? what small step is available now?","samurai-note":"an author-created attention practice, not prediction or therapy. stop at any time","sample-title":"clarity map · prepare for a conversation","sample-copy":"situation: ask a colleague to move a deadline. known: a date has been set. what matters: give notice and suggest a new plan. next step: write a short message with a reason and a specific date","gift-link":"get the open SUTI.os vault ↓","language-title":"learn for what is coming up","language-intro":"choose a language and real-life situations for a short practice route","crystal-title":"language crystal","crystal-desc":"word → meaning → context → your example. fill in only what you know","word-label":"word or phrase","context-label":"where did you meet it, or where might you use it?","example-label":"your example","build-crystal":"make a note","choose-language":"which language do you need now?","express-label":"what would you like to express?","situations-label":"where would you like more confidence? choose any","speak":"speaking with people","listen":"understanding speech","read":"reading","write":"writing your thoughts","study":"study and work","travel":"travel","pace-label":"what pace works for you?","pace-slow":"slow and calm","pace-example":"start with an example","pace-try":"try right away","pace-dialog":"short dialogue","build-route":"make a route →","work-title":"personal and project work","work-intro":"we clarify the question and outcome first. scope and price are agreed before work begins","b2c-title":"for individuals","b2c-desc":"personal questions and learning","b2b-title":"for teams and projects","b2b-desc":"collaborative work","service-self":"the language of your essence","service-self-desc":"find words for an important choice, conversation, or change","details":"how it works","service-self-example":"example: understand why a current job no longer fits and what you want to change","service-self-result":"result: a short question map, clear wording, and possible next steps","discuss":"discuss your question ↗","service-language":"language map","service-language-desc":"learn through situations you will soon need","service-language-example":"example: prepare for travel and work conversations without spending time on irrelevant topics","service-language-result":"result: a sequence of lessons, useful phrases, and a way to continue independently","discuss-route":"discuss a route ↗","service-project":"project language","service-project-desc":"make the project description and working language clear to the team and its audience","service-project-example":"example: a team explains differently who a product helps and what a site visitor should do","service-project-result":"result: a clear description, shared wording, and examples for the site or meetings","describe-task":"describe a task ↗","pricing":"formats and pricing","one-to-one":"individual work","price-self":"scope depends on the question and desired outcome","language-map":"language map","price-language":"we consider the language, situations, and practice materials","project-language":"project language","price-project":"scope depends on the team and formats","agree-price":"price agreed in advance","price-note":"we agree scope, timing, and a fixed price before work begins. open site tools remain free","about-label":"about","about-role":"linguist · translator · language teacher","about-copy":"I help people and projects see what matters, find precise words, and choose a next step","privacy-copy":"personal material is never published automatically. use the open practice and leave at any time","contact":"contact about work ↗","vault-download":"download the open SUTI.os vault","footer-tagline":"the language of your essence","footer-return":"return to your clarity map ↑","map-title":"clarity map","empty":"no answer added","copied":"copied to clipboard","deleted":"map and answers deleted","progress":"question {n} of 6","finish":"make your map","hint-fact":"note what can be checked","hint-interpretation":"this is one interpretation; you can revise it","hint-feeling":"you decide what you feel and what matters","hint-step":"a small, doable action is enough","hint-return":"for example, a useful distinction or a question to revisit","copy-prompt":"copy prompt","download-prompt":"download prompt .md","prompt-title":"a careful prompt for reflecting on this map","prompt-instruction":"Help separate facts, personal interpretations, feelings, and open questions. Do not diagnose or decide for the person. First ask what kind of help they want","prompt-boundary":"These answers belong to the person. Do not send or store them automatically. Offer wording options and leave the choice with them","samurai-more":"explore the game path ↗","game-pause-title":"◌ pause before replying","game-pause-desc":"notice an impulse before choosing what to do","game-pause-prompt":"recall a recent moment. what happened before the impulse? what might change if you wait for one calm breath?","game-choice-title":"◇ two possible readings","game-choice-desc":"look for another possible explanation of the situation","game-choice-prompt":"write your first interpretation. then imagine another, without treating either as fact","game-return-title":"↺ trace and return","game-return-desc":"compare what you expected with what actually happened","game-return-prompt":"what did you try? what changed in practice? what would you keep, change, or let go?","other-language-label":"can’t find your language? enter it here","lang-sound-title":"listening and sound","lang-sound-desc":"listen, repeat, and notice one sound or rhythm","lang-sound-prompt":"choose a short phrase. listen once, repeat it slowly, then naturally. note what you can hear now","lang-chunks-title":"useful phrases","lang-chunks-desc":"learn useful word groups in context instead of isolated lists","lang-chunks-prompt":"think of one situation. make three short phrases to begin, clarify, and close a conversation","lang-shadow-title":"repeat with a model","lang-shadow-desc":"connect what you hear with your own voice at an easy pace","lang-shadow-prompt":"choose a short audio clip. listen to a phrase, repeat along, then say it alone and compare one detail","lang-return-title":"return to familiar words","lang-return-desc":"recall what you know without judgment and add one example","lang-return-prompt":"close your notes. recall three familiar phrases, check them, and add one example of your own","route-prompt-title":"prompt for language practice","route-prompt-instruction":"Create a short, gentle practice in the selected language. Use simple phrases, explain new words, avoid judging the learner, and let them choose the pace","other-language":"another language…","other":"another language","copy-route-prompt":"copy prompt","download-route-prompt":"download prompt .md"},
+      "es":{"theme-day":"día","theme-night":"noche","theme-contrast":"contraste","theme-contrast-label":"tema de alto contraste","locale-label":"elegir idioma","size-down":"reducir el texto","size-up":"aumentar el texto","theme-label":"tema visual","mark-caption":"el lenguaje empieza por lo que te importa","nav-label":"navegación principal","nav-start":"empezar","nav-library":"biblioteca","nav-language":"idioma","nav-work":"trabajar juntos","work-label":"trabajar juntos","hero-eyebrow":"◎ SUTI.world · el lenguaje de tu esencia","hero-title":"comprende lo importante<br>encuentra <span class=\"hero-highlight\">tus palabras</span>","hero-lead":"aclára una pregunta, reúne un mapa claro y elige el siguiente paso","hero-cta":"aclarar una pregunta <span aria-hidden=\"true\">↓</span>","clarity-title":"una pregunta → un mapa → tu paso","clarity-intro":"responder es opcional. puedes omitir, volver y editar. el mapa se crea en este dispositivo","q1":"⌖ ¿qué está pasando ahora?","q2":"◇ ¿qué sabemos aquí?","q3":"≈ ¿cómo lo entiendes?","q4":"◎ ¿qué sientes y qué es importante?","q5":"⟁ ¿qué paso quieres probar?","q6":"↺ ¿qué quieres conservar?","hint":"escribe una frase o deja el campo vacío","back":"← atrás","skip":"omitir","next":"siguiente","build-map":"crear mapa de claridad","clear":"borrar respuestas","local-note":"no se envía ni se guarda nada automáticamente","copy":"copiar mapa","download":"descargar mapa .md","delete-map":"borrar mapa","library-title":"herramientas abiertas y prácticas de juego","library-intro":"ejercicios breves para aclarar, conversar, atender y aprender idiomas. elige uno y vuelve cuando te sirva","tool-one-title":"hecho · interpretación · emoción","tool-one-desc":"separa lo ocurrido, cómo lo entiendes y lo que sientes","try-tool":"probar herramienta","fact-label":"¿qué ocurrió?","version-label":"¿cómo lo entiendes?","feeling-label":"¿qué sientes?","compose":"crear nota","tool-two-title":"preparar una conversación","tool-two-desc":"escribe qué quieres hablar, decir y preguntar","topic-label":"tema de conversación","important-label":"¿qué es importante comunicar?","question-label":"¿qué quieres preguntar?","samurai-title":"pausa antes de actuar","samurai-desc":"práctica breve: notar un impulso, elegir una acción y observar su efecto","open-practice":"abrir práctica","samurai-prompt":"¿qué has notado? ¿qué puedes comprobar? ¿qué pequeño paso está disponible?","samurai-note":"práctica de atención de autoría propia, no es predicción ni terapia. puedes parar cuando quieras","sample-title":"mapa de claridad · preparar una conversación","sample-copy":"situación: pedir a un colega cambiar una fecha límite. sabemos: ya hay una fecha acordada. importa: avisar y proponer un plan. paso: escribir un mensaje breve con motivo y fecha concreta","gift-link":"descargar el vault abierto SUTI.os ↓","language-title":"aprende para lo que viene","language-intro":"elige un idioma y situaciones reales para crear una ruta breve","crystal-title":"cristal lingüístico","crystal-desc":"palabra → significado → contexto → tu ejemplo. completa solo lo que sabes","word-label":"palabra o frase","context-label":"¿dónde la viste o dónde la usarías?","example-label":"tu ejemplo","build-crystal":"crear nota","choose-language":"¿qué idioma necesitas ahora?","express-label":"¿qué quieres expresar?","situations-label":"¿en qué situaciones quieres más confianza? puedes elegir varias","speak":"hablar con personas","listen":"comprender al escuchar","read":"leer y comprender","write":"escribir tus ideas","study":"estudio y trabajo","travel":"viajes","pace-label":"¿qué ritmo te va bien?","pace-slow":"despacio y con calma","pace-example":"con un ejemplo","pace-try":"probar enseguida","pace-dialog":"diálogo breve","build-route":"crear ruta →","work-title":"trabajo personal y para proyectos","work-intro":"primero aclaramos la pregunta y el resultado. acordamos alcance y precio antes de empezar","b2c-title":"para personas","b2c-desc":"preguntas personales y aprendizaje","b2b-title":"para equipos y proyectos","b2b-desc":"trabajo colaborativo","service-self":"el lenguaje de tu esencia","service-self-desc":"encontrar palabras para una decisión, conversación o cambio","details":"cómo trabajamos","service-self-example":"ejemplo: entender por qué un trabajo ya no encaja y qué te gustaría cambiar","service-self-result":"resultado: un mapa breve, formulaciones claras y posibles pasos","discuss":"conversar sobre tu pregunta ↗","service-language":"mapa de idiomas","service-language-desc":"aprender mediante situaciones que pronto necesitarás","service-language-example":"ejemplo: prepararte para un viaje y conversaciones laborales","service-language-result":"resultado: una secuencia de estudio, frases útiles y una forma de continuar por tu cuenta","discuss-route":"hablar de la ruta ↗","service-project":"lenguaje del proyecto","service-project-desc":"hacer que la descripción y las palabras de trabajo sean claras para el equipo","service-project-example":"ejemplo: el equipo explica de forma distinta a quién ayuda el producto y qué debe hacer quien visita la web","service-project-result":"resultado: descripción clara, palabras compartidas y ejemplos listos","describe-task":"describir tarea ↗","pricing":"formatos y precios","one-to-one":"trabajo individual","price-self":"el alcance depende de la pregunta y el resultado","language-map":"mapa lingüístico","price-language":"consideramos el idioma, las situaciones y los materiales","project-language":"lenguaje del proyecto","price-project":"el alcance depende del equipo y los formatos","agree-price":"precio acordado de antemano","price-note":"acordamos alcance, plazo y precio fijo antes de empezar. las herramientas abiertas son gratuitas","about-label":"sobre el autor","about-role":"lingüista · traductor · profesor de idiomas","about-copy":"ayudo a personas y proyectos a ver lo importante, encontrar palabras precisas y elegir el siguiente paso","privacy-copy":"lo personal no se publica automáticamente. puedes usar la práctica y salir cuando quieras","contact":"consultar trabajo ↗","vault-download":"descargar el vault abierto SUTI.os","footer-tagline":"el lenguaje de tu esencia","footer-return":"volver al mapa de claridad ↑","map-title":"mapa de claridad","empty":"sin respuesta","copied":"copiado","deleted":"mapa y respuestas eliminados","progress":"pregunta {n} de 6","finish":"crear mapa","hint-fact":"anota lo que se puede comprobar","hint-interpretation":"es una interpretación que puedes revisar","hint-feeling":"tú decides qué sientes y qué es importante","hint-step":"basta con una acción pequeña y posible","hint-return":"por ejemplo, una diferencia útil o una pregunta para retomar","copy-prompt":"copiar prompt","download-prompt":"descargar prompt .md","prompt-title":"una guía cuidadosa para revisar el mapa","prompt-instruction":"Ayuda a separar hechos, interpretaciones personales, emociones y preguntas abiertas. No diagnostiques ni decidas por la persona. Primero pregunta qué tipo de ayuda desea","prompt-boundary":"Estas respuestas pertenecen a la persona. No las envíes ni guardes automáticamente. Ofrece distintas formulaciones y deja la elección en sus manos","samurai-more":"explorar el recorrido del juego ↗","game-pause-title":"◌ una pausa antes de responder","game-pause-desc":"nota el impulso antes de elegir qué hacer","game-pause-prompt":"recuerda un momento reciente. ¿qué ocurrió antes del impulso? ¿qué cambiaría si esperas una respiración tranquila?","game-choice-title":"◇ dos interpretaciones","game-choice-desc":"busca otra explicación posible de la situación","game-choice-prompt":"escribe tu primera interpretación. después imagina otra, sin tratar ninguna como un hecho","game-return-title":"↺ huella y regreso","game-return-desc":"compara lo que esperabas con lo que realmente ocurrió","game-return-prompt":"¿qué probaste? ¿qué cambió en la práctica? ¿qué conservarías, cambiarías o dejarías ir?","other-language-label":"¿no encuentras tu idioma? escríbelo aquí","lang-sound-title":"escucha y sonido","lang-sound-desc":"escucha, repite y observa un sonido o ritmo","lang-sound-prompt":"elige una frase corta. escúchala, repítela despacio y después con naturalidad. anota qué puedes oír ahora","lang-chunks-title":"frases útiles","lang-chunks-desc":"aprende grupos de palabras en contexto, no listas aisladas","lang-chunks-prompt":"piensa en una situación. prepara tres frases breves para empezar, aclarar y cerrar una conversación","lang-shadow-title":"repetir con un modelo","lang-shadow-desc":"conecta lo que escuchas con tu propia voz, sin prisa","lang-shadow-prompt":"elige un audio corto. escucha una frase, repítela a la vez y luego dilo por tu cuenta. compara un solo detalle","lang-return-title":"volver a palabras conocidas","lang-return-desc":"recuerda sin juzgar y añade un ejemplo propio","lang-return-prompt":"cierra tus notas. recuerda tres frases conocidas, compruébalas y añade un ejemplo tuyo","route-prompt-title":"guía para practicar un idioma","route-prompt-instruction":"Crea una práctica breve y amable en el idioma elegido. Usa frases sencillas, explica las palabras nuevas, no evalúes a la persona y deja que elija el ritmo","other-language":"otro idioma…","other":"otro idioma","copy-route-prompt":"copiar prompt","download-route-prompt":"descargar prompt .md"},
+      "pt":{"theme-day":"dia","theme-night":"noite","theme-contrast":"contraste","theme-contrast-label":"tema de alto contraste","locale-label":"escolher idioma","size-down":"diminuir o texto","size-up":"aumentar o texto","theme-label":"tema visual","mark-caption":"a linguagem começa pelo que importa para você","nav-label":"navegação principal","nav-start":"começar","nav-library":"biblioteca","nav-language":"idioma","nav-work":"trabalhar juntos","work-label":"trabalhar juntos","hero-eyebrow":"◎ SUTI.world · a linguagem da sua essência","hero-title":"entenda o que importa<br>encontre <span class=\"hero-highlight\">suas palavras</span>","hero-lead":"esclareça uma questão, reúna um mapa claro e escolha o próximo passo","hero-cta":"esclarecer uma questão <span aria-hidden=\"true\">↓</span>","clarity-title":"uma pergunta → um mapa → seu passo","clarity-intro":"responder é opcional. você pode pular, voltar e editar. o mapa é criado neste dispositivo","q1":"⌖ o que está acontecendo agora?","q2":"◇ o que sabemos aqui?","q3":"≈ como você entende isso?","q4":"◎ o que sente e o que é importante?","q5":"⟁ que passo gostaria de experimentar?","q6":"↺ o que gostaria de guardar?","hint":"escreva uma frase ou deixe em branco","back":"← voltar","skip":"pular","next":"avançar","build-map":"criar mapa de clareza","clear":"limpar respostas","local-note":"nada é enviado ou salvo automaticamente","copy":"copiar mapa","download":"baixar mapa .md","delete-map":"excluir mapa","library-title":"ferramentas abertas e práticas de jogo","library-intro":"exercícios breves para clareza, conversa, atenção e idiomas. escolha um e volte quando fizer sentido","tool-one-title":"fato · interpretação · sentimento","tool-one-desc":"separe o que aconteceu, como você entende e o que sente","try-tool":"experimentar ferramenta","fact-label":"o que aconteceu?","version-label":"como você entende?","feeling-label":"o que sente?","compose":"criar nota","tool-two-title":"preparar uma conversa","tool-two-desc":"anote o que quer conversar, dizer e perguntar","topic-label":"tema da conversa","important-label":"o que é importante comunicar?","question-label":"o que gostaria de perguntar?","samurai-title":"pausa antes de agir","samurai-desc":"prática breve: notar um impulso, escolher uma ação e observar seu efeito","open-practice":"abrir prática","samurai-prompt":"o que você percebeu? o que pode verificar? qual pequeno passo está disponível?","samurai-note":"prática autoral de atenção, não é previsão nem terapia. pare quando quiser","sample-title":"mapa de clareza · preparar uma conversa","sample-copy":"situação: pedir a um colega para mudar um prazo. sabemos: uma data já foi combinada. importa: avisar e sugerir um plano. passo: escrever uma mensagem breve com motivo e data definida","gift-link":"baixar o vault aberto SUTI.os ↓","language-title":"aprenda para o que vem pela frente","language-intro":"escolha um idioma e situações reais para criar uma rota breve","crystal-title":"cristal de linguagem","crystal-desc":"palavra → significado → contexto → seu exemplo. preencha apenas o que souber","word-label":"palavra ou frase","context-label":"onde encontrou ou onde usaria?","example-label":"seu exemplo","build-crystal":"criar nota","choose-language":"qual idioma você precisa agora?","express-label":"o que gostaria de expressar?","situations-label":"em quais situações quer mais confiança? escolha várias","speak":"conversar com pessoas","listen":"compreender ao ouvir","read":"ler e compreender","write":"escrever suas ideias","study":"estudo e trabalho","travel":"viagens","pace-label":"qual ritmo funciona para você?","pace-slow":"devagar e com calma","pace-example":"com um exemplo","pace-try":"experimentar já","pace-dialog":"diálogo breve","build-route":"criar rota →","work-title":"trabalho pessoal e para projetos","work-intro":"primeiro esclarecemos a questão e o resultado. escopo e preço são combinados antes do início","b2c-title":"para pessoas","b2c-desc":"questões pessoais e aprendizagem","b2b-title":"para equipes e projetos","b2b-desc":"trabalho colaborativo","service-self":"a linguagem da sua essência","service-self-desc":"encontrar palavras para uma escolha, conversa ou mudança","details":"como funciona","service-self-example":"exemplo: entender por que um trabalho já não combina e o que você gostaria de mudar","service-self-result":"resultado: um mapa breve, formulações claras e possíveis próximos passos","discuss":"conversar sobre sua questão ↗","service-language":"mapa de idioma","service-language-desc":"aprender por situações que serão úteis em breve","service-language-example":"exemplo: preparar-se para uma viagem e conversas de trabalho","service-language-result":"resultado: sequência de estudos, frases úteis e um jeito de continuar por conta própria","discuss-route":"conversar sobre a rota ↗","service-project":"linguagem do projeto","service-project-desc":"deixar a descrição e as palavras de trabalho claras para a equipe","service-project-example":"exemplo: a equipe explica de formas diferentes para quem serve o produto e o que a pessoa deve fazer no site","service-project-result":"resultado: descrição clara, palavras compartilhadas e exemplos prontos","describe-task":"descrever tarefa ↗","pricing":"formatos e valores","one-to-one":"trabalho individual","price-self":"o escopo depende da questão e do resultado desejado","language-map":"mapa de idioma","price-language":"consideramos idioma, situações e materiais de prática","project-language":"linguagem do projeto","price-project":"o escopo depende da equipe e dos formatos","agree-price":"valor combinado antes","price-note":"combinamos escopo, prazo e valor fixo antes do início. as ferramentas abertas são gratuitas","about-label":"sobre o autor","about-role":"linguista · tradutor · professor de idiomas","about-copy":"ajudo pessoas e projetos a perceber o que importa, encontrar palavras precisas e escolher o próximo passo","privacy-copy":"conteúdo pessoal nunca é publicado automaticamente. use a prática aberta e saia quando quiser","contact":"consultar trabalho ↗","vault-download":"baixar o vault aberto SUTI.os","footer-tagline":"a linguagem da sua essência","footer-return":"voltar ao mapa de clareza ↑","map-title":"mapa de clareza","empty":"sem resposta","copied":"copiado","deleted":"mapa e respostas excluídos","progress":"pergunta {n} de 6","finish":"criar mapa","hint-fact":"anote o que pode ser verificado","hint-interpretation":"essa é uma interpretação que pode ser revista","hint-feeling":"você define o que sente e o que importa","hint-step":"uma ação pequena e possível já basta","hint-return":"por exemplo, uma diferença útil ou uma pergunta para retomar","copy-prompt":"copiar prompt","download-prompt":"baixar prompt .md","prompt-title":"um guia cuidadoso para refletir sobre o mapa","prompt-instruction":"Ajude a separar fatos, interpretações pessoais, sentimentos e perguntas em aberto. Não faça diagnósticos nem decida pela pessoa. Primeiro pergunte que tipo de ajuda ela deseja","prompt-boundary":"Estas respostas pertencem à pessoa. Não as envie nem guarde automaticamente. Ofereça opções de formulação e deixe a escolha com ela","samurai-more":"conhecer o caminho do jogo ↗","game-pause-title":"◌ uma pausa antes de responder","game-pause-desc":"perceba o impulso antes de escolher o que fazer","game-pause-prompt":"lembre de um momento recente. o que veio antes do impulso? o que pode mudar se esperar uma respiração tranquila?","game-choice-title":"◇ duas interpretações","game-choice-desc":"procure outra explicação possível para a situação","game-choice-prompt":"escreva sua primeira interpretação. depois imagine outra, sem tratar nenhuma como fato","game-return-title":"↺ rastro e retorno","game-return-desc":"compare o que esperava com o que realmente aconteceu","game-return-prompt":"o que você experimentou? o que mudou na prática? o que manteria, mudaria ou deixaria ir?","other-language-label":"não encontrou seu idioma? escreva aqui","lang-sound-title":"escuta e som","lang-sound-desc":"escute, repita e perceba um som ou ritmo","lang-sound-prompt":"escolha uma frase curta. escute uma vez, repita devagar e depois naturalmente. anote o que ficou mais audível","lang-chunks-title":"frases úteis","lang-chunks-desc":"aprenda combinações de palavras em contexto, não listas isoladas","lang-chunks-prompt":"pense em uma situação. crie três frases curtas para começar, esclarecer e encerrar uma conversa","lang-shadow-title":"repetição com apoio","lang-shadow-desc":"una o que escuta à sua própria voz, sem pressa","lang-shadow-prompt":"escolha um áudio curto. escute uma frase, repita junto e depois diga sozinho. compare apenas um detalhe","lang-return-title":"voltar às palavras conhecidas","lang-return-desc":"lembre sem se avaliar e acrescente um exemplo próprio","lang-return-prompt":"feche suas notas. lembre três frases conhecidas, confira e acrescente um exemplo seu","route-prompt-title":"guia para praticar um idioma","route-prompt-instruction":"Crie uma prática breve e acolhedora no idioma escolhido. Use frases simples, explique palavras novas, não avalie a pessoa e deixe que ela escolha o ritmo","other-language":"outro idioma…","other":"outro idioma","copy-route-prompt":"copiar prompt","download-route-prompt":"baixar prompt .md"}
+    };
+    Object.assign(translations.ru,{"common-languages":"распространённые языки","research-languages":"исследовательские языковые линзы","clarity-open":"развернуть карту ясности","depth-label":"выбери глубину","depth-simple":"коротко · 2 вопроса","depth-steady":"средне · 4 вопроса","depth-deep":"глубоко · 6 вопросов","depth-note":"можно менять глубину и оставить любой ответ пустым","choose-language":"какой язык хочется изучать?","other-language-label":"не нашёл нужный язык? укажи его здесь","language-fallback":"свой вариант","other":"другой язык","copy-prompt":"скопировать промпт","download-prompt":"скачать промпт .md"});
+    Object.assign(translations.en,{"common-languages":"widely used languages","research-languages":"research language lenses","clarity-open":"open the clarity map","depth-label":"choose a depth","depth-simple":"brief · 2 prompts","depth-steady":"steady · 4 prompts","depth-deep":"deep · 6 prompts","depth-note":"change depth at any time and leave any answer blank","choose-language":"which language would you like to learn?","other-language-label":"can’t find your language? enter it here","language-fallback":"custom language","other":"another language","copy-prompt":"copy prompt","download-prompt":"download prompt .md"});
+    Object.assign(translations.es,{"common-languages":"idiomas de uso extendido","research-languages":"lenguas para investigación","clarity-open":"abrir el mapa de claridad","depth-label":"elige la profundidad","depth-simple":"breve · 2 preguntas","depth-steady":"pausado · 4 preguntas","depth-deep":"profundo · 6 preguntas","depth-note":"puedes cambiar la profundidad y dejar cualquier respuesta en blanco","choose-language":"¿qué idioma te gustaría aprender?","other-language-label":"¿no encuentras tu idioma? escríbelo aquí","language-fallback":"otro idioma","other":"otro idioma","copy-prompt":"copiar prompt","download-prompt":"descargar prompt .md"});
+    Object.assign(translations.pt,{"common-languages":"idiomas de uso amplo","research-languages":"línguas para pesquisa","clarity-open":"abrir o mapa de clareza","depth-label":"escolha a profundidade","depth-simple":"breve · 2 perguntas","depth-steady":"com calma · 4 perguntas","depth-deep":"profundo · 6 perguntas","depth-note":"mude a profundidade quando quiser e deixe qualquer resposta em branco","choose-language":"qual idioma você gostaria de aprender?","other-language-label":"não encontrou seu idioma? escreva aqui","language-fallback":"outro idioma","other":"outro idioma","copy-prompt":"copiar prompt","download-prompt":"baixar prompt .md"});
+
+    Object.assign(translations.ru,{"field-guide":"инструкция по установке"});
+    Object.assign(translations.en,{"field-guide":"installation guide"});
+    Object.assign(translations.es,{"field-guide":"guía de instalación"});
+    Object.assign(translations.pt,{"field-guide":"guia de instalação"});
+    Object.assign(translations.ru,{"gift-source":"исходники и выпуски на GitHub"});
+    Object.assign(translations.ru,{"field-title": "поле своих", "field-desc": "человек и контекст · свой язык · следующий шаг. выбери, что оставить себе", "field-triad": "человек → язык → действие", "field-note": "тримурти — авторский образ трёх связанных частей, а не тест или скрытый механизм", "field-yzh": "язэхъ сохранён как отдельная авторская языковая мастерская — «белый куб SUTI»", "field-read": "открыть карту поля своих", "field-yzh-link": "смотреть мастерскую язэхъ", "field-download": "скачать открытую копию"});
+    Object.assign(translations.en,{"field-title": "a field of your own", "field-desc": "person and context · your words · a next step. choose what to keep private", "field-triad": "person → language → action", "field-note": "trimurti is an authored image for three connected parts, not a test or hidden mechanism", "field-yzh": "Yazekh is kept as a separate authored language workshop: the “SUTI white cube”", "field-read": "open the “field of your own” map", "field-yzh-link": "view the Yazekh workshop", "field-download": "download the open copy"});
+    Object.assign(translations.es,{"field-title": "un campo propio", "field-desc": "persona y contexto · tus palabras · un siguiente paso. elige qué guardar para ti", "field-triad": "persona → lenguaje → acción", "field-note": "trimurti es una imagen de autor para tres partes conectadas, no una prueba ni un mecanismo oculto", "field-yzh": "Yazekh se conserva como taller lingüístico de autor: el «cubo blanco SUTI»", "field-read": "abrir el mapa de un campo propio", "field-yzh-link": "ver el taller Yazekh", "field-download": "descargar la copia abierta"});
+    Object.assign(translations.pt,{"field-title": "um campo próprio", "field-desc": "pessoa e contexto · suas palavras · um próximo passo. escolha o que manter privado", "field-triad": "pessoa → linguagem → ação", "field-note": "trimurti é uma imagem autoral para três partes ligadas, não um teste nem um mecanismo oculto", "field-yzh": "Yazekh fica como uma oficina linguística autoral: o “cubo branco SUTI”", "field-read": "abrir o mapa de um campo próprio", "field-yzh-link": "ver a oficina Yazekh", "field-download": "baixar a cópia aberta"});
+
+    Object.assign(translations.en,{"gift-source":"source and releases on GitHub"});
+    Object.assign(translations.es,{"gift-source":"código y versiones en GitHub"});
+    Object.assign(translations.pt,{"gift-source":"arquivos e versões no GitHub"});
+    let locale = "ru";
+    const applyLocale = code => {
+      locale = translations[code] ? code : "ru";
+      document.documentElement.lang = locale === "pt" ? "pt-BR" : locale;
+      document.title = ({ru:"∴ SUTI.world — язык твоей сути",en:"∴ SUTI.world — the language of your essence",es:"∴ SUTI.world — el lenguaje de tu esencia",pt:"∴ SUTI.world — a linguagem da sua essência"})[locale];
+      for (const el of document.querySelectorAll("[data-i18n]")) { const value=translations[locale][el.dataset.i18n]; if(value)el.textContent=value; }
+      for (const el of document.querySelectorAll("[data-i18n-html]")) { const value=translations[locale][el.dataset.i18nHtml]; if(value)el.innerHTML=value; }
+      for (const el of document.querySelectorAll("[data-i18n-aria]")) { const value=translations[locale][el.dataset.i18nAria]; if(value)el.setAttribute("aria-label",value); }
+      for (const el of document.querySelectorAll("[data-i18n-placeholder]")) { const value=translations[locale][el.dataset.i18nPlaceholder]; if(value)el.placeholder=value; }
+      for (const el of document.querySelectorAll("[data-i18n-label]")) { const value=translations[locale][el.dataset.i18nLabel]; if(value)el.label=value; }
+      document.getElementById("locale-select").value=locale;
+      try { localStorage.setItem("suti-locale",locale); } catch {}
+    };
+    document.getElementById("locale-select").addEventListener("change",e=>applyLocale(e.currentTarget.value));
+    try { const saved=localStorage.getItem("suti-locale"); if(saved)locale=saved; } catch {}
+    const requestedLocale=new URLSearchParams(location.search).get("lang"); if(requestedLocale&&translations[requestedLocale])locale=requestedLocale;
+    const qs=[...document.querySelectorAll(".clarity-question")], form=document.getElementById("clarity-form"); let mapText="", promptText="";
+    const depthOrder={simple:1,steady:2,deep:3};
+    function updateDepth(){const selected=form.querySelector('[name="depth"]:checked')?.value||"simple";qs.forEach(q=>{q.hidden=depthOrder[q.dataset.depthMin]>depthOrder[selected]});}
+    form.querySelectorAll('[name="depth"]').forEach(input=>input.addEventListener("change",updateDepth));
+    updateDepth();
+    applyLocale(locale);
+    const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+    function collectMap(){const t=translations[locale],shown=qs.filter(q=>!q.hidden);return [`# ∴ ${t["map-title"]}`,...shown.map(q=>{const area=q.querySelector("textarea"),answer=area.value.trim();return `## ${t[`q${area.name.slice(1)}`]}\n\n${answer||t.empty}`})].join("\n\n");}
+    function makeMapPrompt(){const t=translations[locale];return `# ${t["prompt-title"]}\n\n${t["prompt-instruction"]}\n\n${collectMap()}\n\n${t["prompt-boundary"]}`;}
+    document.getElementById("clarity-build").addEventListener("click",()=>{mapText=collectMap();promptText=makeMapPrompt();const out=document.getElementById("clarity-result");out.innerHTML=`<h3>${esc(translations[locale]["map-title"])}</h3>`+qs.filter(q=>!q.hidden).map(q=>{const area=q.querySelector("textarea"),v=area.value.trim();return v?`<p><strong>${esc(translations[locale][`q${area.name.slice(1)}`])}</strong><br>${esc(v)}</p>`:""}).join("");if(!out.querySelector("p"))out.innerHTML+=`<p>${esc(translations[locale].empty)}</p>`;out.dataset.open="true";document.getElementById("map-actions").hidden=false;});
+    function clearMap(){form.reset();updateDepth();mapText="";promptText="";document.getElementById("clarity-result").dataset.open="false";document.getElementById("clarity-result").textContent="";document.getElementById("map-actions").hidden=true;}
+    document.getElementById("clarity-delete").addEventListener("click",clearMap);
+    function downloadMarkdown(text,name){const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([text],{type:"text/markdown;charset=utf-8"}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
+    async function copyText(text,button){try{await navigator.clipboard.writeText(text);}catch{const area=document.createElement("textarea");area.value=text;area.style.position="fixed";area.style.opacity="0";document.body.append(area);area.select();document.execCommand("copy");area.remove();}const key=button.dataset.labelKey;button.textContent=translations[locale].copied;setTimeout(()=>button.textContent=translations[locale][key],1600);}
+    document.getElementById("copy-map").dataset.labelKey="copy";
+    document.getElementById("copy-map").addEventListener("click",e=>copyText(collectMap(),e.currentTarget));
+    document.getElementById("download-map").addEventListener("click",()=>downloadMarkdown(collectMap(),"suti-clarity-map.md"));
+    document.getElementById("copy-map-prompt").dataset.labelKey="copy-prompt";
+    document.getElementById("copy-map-prompt").addEventListener("click",e=>copyText(makeMapPrompt(),e.currentTarget));
+    document.getElementById("download-map-prompt").addEventListener("click",()=>downloadMarkdown(makeMapPrompt(),"suti-clarity-prompt.md"));
+    document.querySelectorAll("[data-compose]").forEach(b=>b.addEventListener("click",()=>{const kind=b.dataset.compose, ids=kind==="fact"?["f1","f2","f3"]:["t1","t2","t3"], labels=kind==="fact"?["fact-label","version-label","feeling-label"]:["topic-label","important-label","question-label"];document.getElementById(`tool-result-${kind}`).textContent=ids.map((id,i)=>`${translations[locale][labels[i]]}\n${document.getElementById(id).value.trim()||translations[locale].empty}`).join("\n\n")}));
+    document.querySelectorAll("[data-reset]").forEach(b=>b.addEventListener("click",()=>{const ids=b.dataset.reset==="fact"?["f1","f2","f3"]:["t1","t2","t3"];ids.forEach(id=>document.getElementById(id).value="");document.getElementById(`tool-result-${b.dataset.reset}`).textContent=""}));
+    document.getElementById("crystal-build").addEventListener("click",()=>{const vals=[document.getElementById("cw").value,document.getElementById("cc").value,document.getElementById("ce").value].map(x=>x.trim());document.getElementById("crystal-result").textContent=[translations[locale]["word-label"],vals[0]||translations[locale].empty,translations[locale]["context-label"],vals[1]||translations[locale].empty,translations[locale]["example-label"],vals[2]||translations[locale].empty].join("\n");});
+    document.getElementById("crystal-clear").addEventListener("click",()=>{["cw","cc","ce"].forEach(id=>document.getElementById(id).value="");document.getElementById("crystal-result").textContent=""});
+    const routeKeys={"говорить с людьми":"speak","понимать на слух":"listen","читать и понимать":"read","писать свои мысли":"write","учёба и работа":"study","путешествия":"travel"};
+    const routeWords={
+      ru:{title:"короткий маршрут практики",items:{speak:["начни с приветствия","подготовь одно представление","произнеси его вслух"],listen:["лови знакомые слова","выбери аудио на 20 секунд","послушай и отметь три знакомых слова"],read:["прочитай небольшой фрагмент","выбери короткий абзац","найди главную мысль и одно новое слово"],write:["запиши одну мысль","выбери то, что важно сегодня","напиши просто и перечитай"],study:["подготовь вопрос по делу","выбери один рабочий вопрос","попроси уточнить или объяснить"],travel:["найди нужное направление","выбери место, которое надо найти","составь короткий вопрос"]}},
+      en:{title:"a short practice route",items:{speak:["start with a greeting","prepare a short introduction","say it aloud"],listen:["listen for familiar words","choose a 20-second clip","note three words you recognize"],read:["read a short passage","choose one paragraph","find its main idea and one new word"],write:["write one thought","choose what matters today","write simply and reread"],study:["prepare a question for work","choose one useful question","ask for clarification"],travel:["find a direction","choose a place to locate","prepare a short question"]}},
+      es:{title:"una ruta breve de práctica",items:{speak:["empieza con un saludo","prepara una presentación breve","dila en voz alta"],listen:["escucha palabras conocidas","elige un audio de 20 segundos","anota tres palabras que reconozcas"],read:["lee un texto breve","elige un párrafo","encuentra la idea principal y una palabra nueva"],write:["escribe una idea","elige algo importante hoy","escríbelo de forma sencilla y vuelve a leerlo"],study:["prepara una pregunta útil","elige una pregunta de trabajo","pide una aclaración"],travel:["busca una dirección","elige un lugar","prepara una pregunta breve"]}},
+      pt:{title:"uma rota curta de prática",items:{speak:["comece com uma saudação","prepare uma breve apresentação","diga em voz alta"],listen:["ouça palavras conhecidas","escolha um áudio de 20 segundos","anote três palavras reconhecidas"],read:["leia um trecho curto","escolha um parágrafo","encontre a ideia principal e uma palavra nova"],write:["escreva uma ideia","escolha algo importante hoje","escreva com simplicidade e releia"],study:["prepare uma pergunta útil","escolha uma questão de trabalho","peça um esclarecimento"],travel:["busque uma direção","escolha um lugar","prepare uma pergunta breve"]}}
+    };
+    const languageNames={"английский":"English","испанский":"Español","португальский":"Português","русский":"Русский","китайский":"中文 · мандарин","хинди":"हिन्दी","арабский":"العربية","французский":"Français","бенгальский":"বাংলা","латынь":"Latina","санскрит":"संस्कृतम्","язэхъ":"язэхъ · YZH"};
+    const languageSelect=document.getElementById("language-select"), otherLanguage=document.getElementById("other-language");
+    function updateOtherLanguage(){otherLanguage.hidden=languageSelect.value!=="другой";}
+    languageSelect.addEventListener("change",updateOtherLanguage);updateOtherLanguage();
+    document.querySelectorAll(".copy-module-prompt").forEach(button=>{button.dataset.labelKey="copy-prompt";button.addEventListener("click",()=>copyText(translations[locale][button.dataset.promptKey],button));});
+    document.getElementById("practice-form").addEventListener("submit",e=>{
+      e.preventDefault();
+      const f=new FormData(e.currentTarget),selected=f.getAll("situation").map(String),catalog=routeWords[locale],keys=selected.map(x=>routeKeys[x]).filter(Boolean),intent=String(f.get("intent")||"").trim(),result=document.getElementById("practice-result");
+      const picked=String(f.get("language")||""),target=picked==="другой"?String(f.get("other-language")||"").trim():languageNames[picked]||picked;
+      const steps=keys.map(k=>`<li><strong>${esc(translations[locale][k])}</strong><br>${catalog.items[k].map(esc).join(" · ")}</li>`).join("");
+      result.innerHTML=`<h3>${esc(target||translations[locale].other)} · ${esc(catalog.title)}</h3>${intent?`<p><strong>${esc(translations[locale]["express-label"])}</strong><br>${esc(intent)}</p>`:""}<ul>${steps||`<li>${esc(translations[locale].empty)}</li>`}</ul><p class="local-note">${esc(translations[locale]["prompt-boundary"])}</p><div class="clarity-actions"><button class="quiet-action" id="copy-route-prompt" type="button">${esc(translations[locale]["copy-route-prompt"])}</button><button class="quiet-action" id="download-route-prompt" type="button">${esc(translations[locale]["download-route-prompt"])}</button></div>`;
+      result.dataset.open="true";
+      const prompt=`# ${translations[locale]["route-prompt-title"]}\n\n${translations[locale]["route-prompt-instruction"]}\n\n${translations[locale]["choose-language"]}: ${target||translations[locale].other}\n${translations[locale]["express-label"]}: ${intent||translations[locale].empty}\n\n${keys.map(k=>`${translations[locale][k]}\n${catalog.items[k].join(" · ")}`).join("\n\n")}\n\n${translations[locale]["prompt-boundary"]}`;
+      const copyButton=document.getElementById("copy-route-prompt");copyButton.dataset.labelKey="copy-route-prompt";copyButton.addEventListener("click",()=>copyText(prompt,copyButton));
+      document.getElementById("download-route-prompt").addEventListener("click",()=>downloadMarkdown(prompt,"suti-language-prompt.md"));
+    });
+
+  </script>
+</body>
+</html>

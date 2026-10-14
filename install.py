@@ -8,6 +8,7 @@ import json
 import re
 import shutil
 import sys
+import getpass
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -46,6 +47,16 @@ def safe_name(value: str) -> str:
     return value
 
 
+def vault_name(answer: str) -> str:
+    """Use SUTI.os by default; expand an explicitly selected local username."""
+    answer = answer.strip() or "SUTI.os"
+    if answer.casefold() in {"%username%", "suti.%username%"}:
+        answer = f"SUTI.{getpass.getuser()}"
+    elif not answer.casefold().startswith("suti."):
+        answer = f"SUTI.{answer}"
+    return safe_name(answer)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="локальная установка SUTI.os")
     parser.add_argument("--verify-only", action="store_true", help="только проверить файлы")
@@ -60,7 +71,9 @@ def main() -> None:
     print("SUTI.os · настройка копии")
     print("ответы остаются на этом устройстве · всего не более четырёх вопросов\n")
     # 1
-    name = safe_name(ask("1/4 · как назвать хранилище?", "SUTI"))
+    print("по умолчанию папка будет называться SUTI.os")
+    print("можно заменить os своим именем: SUTI.%username% (имя подставится только локально)")
+    name = vault_name(ask("1/4 · имя папки", "SUTI.os"))
     # 2
     parent = Path(ask("2/4 · куда положить папку?", str(Path.home() / "Documents"))).expanduser()
     target = parent / name
