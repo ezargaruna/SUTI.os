@@ -12,14 +12,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 VAULT = ROOT / "vault"
-PACKS = {
-    "язык": "02 язык",
-    "учёба": "03 учёба",
-    "дела": "04 дела",
-    "помощник": "05 помощник",
-    "команда": "06 команда",
-}
-
 
 def manifest_rows() -> list[tuple[str, str]]:
     rows = []
@@ -66,33 +58,21 @@ def main() -> None:
         raise SystemExit("запусти установщик в интерактивном терминале")
 
     print("SUTI.os · настройка копии")
-    print("ответы остаются на этом устройстве · всего не более пяти вопросов\n")
+    print("ответы остаются на этом устройстве · всего не более четырёх вопросов\n")
     # 1
-    name = safe_name(ask("1/5 · как назвать хранилище?", "SUTI"))
+    name = safe_name(ask("1/4 · как назвать хранилище?", "SUTI"))
     # 2
-    parent = Path(ask("2/5 · куда положить папку?", str(Path.home() / "Documents"))).expanduser()
+    parent = Path(ask("2/4 · куда положить папку?", str(Path.home() / "Documents"))).expanduser()
     target = parent / name
     # 3
     print("\nвыбери стартовый вход: 1 — личный · 2 — язык · 3 — проект/команда")
-    focus_choice = ask("3/5 · с чего начать?", "1")
+    focus_choice = ask("3/4 · с чего начать?", "1")
     focus = {"1": "личное", "2": "язык", "3": "проект"}.get(focus_choice)
     if focus is None:
         raise SystemExit("выбери 1, 2 или 3")
-    # 4
-    print("\nдобавить наборы через запятую: язык, учёба, дела, помощник, команда")
-    print("пустой ответ оставит только основу и выбранный вход")
-    selected = [x.strip().lower() for x in ask("4/5 · какие наборы включить?", "язык, учёба, дела, помощник").split(",") if x.strip()]
-    unknown = sorted(set(selected) - set(PACKS))
-    if unknown:
-        raise SystemExit("неизвестный набор: " + ", ".join(unknown))
-    selected = sorted(set(selected))
-    focus_pack = {"язык": "язык", "проект": "команда"}.get(focus)
-    if focus_pack and focus_pack not in selected:
-        selected.append(focus_pack)
-        selected.sort()
-    # 5
-    print(f"\nимя: {name}\nпапка: {target}\nвход: {focus}\nнаборы: {', '.join(selected) if selected else 'только основа'}")
-    if ask("5/5 · создать новую папку? [да/нет]", "да").lower() not in {"да", "д", "yes", "y"}:
+    # final confirmation
+    print(f"\nимя: {name}\nпапка: {target}\nстартовый вход: {focus}\nсостав: всё открытое хранилище")
+    if ask("4/4 · создать новую папку? [да/нет]", "да").lower() not in {"да", "д", "yes", "y"}:
         print("установка отменена · исходные файлы не изменены")
         return
     if target.exists():
@@ -103,13 +83,10 @@ def main() -> None:
     try:
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copytree(VAULT, staged)
-        for pack, folder in PACKS.items():
-            if pack not in selected:
-                shutil.rmtree(staged / folder, ignore_errors=True)
         settings = {
             "format": "suti.local.v1",
             "start_here": focus,
-            "included_packs": selected,
+            "included_packs": ["all-open-content"],
             "locale": "ru",
             "network": "not used by installer",
             "source_data_imported": False,

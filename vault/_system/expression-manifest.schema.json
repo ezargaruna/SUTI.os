@@ -1,0 +1,39 @@
+{
+  "schema": "suti.expression-manifest/1",
+  "purpose": "Optional, readable metadata for authorial language forms that genuinely help an artifact.",
+  "status": "open-guidance",
+  "applies_to": ["agma", "kenning", "metagram", "protogram", "scriptocereyana", "poetic_manifest"],
+  "required_when_used": ["form", "name", "plain_reading", "purpose", "status"],
+  "fields": {
+    "form": {
+      "type": "enum",
+      "values": ["agma", "kenning", "metagram", "protogram", "scriptocereyana", "poetic_manifest"]
+    },
+    "name": "Short human-readable name; optional if the form is unnamed.",
+    "phrase_or_sign": "The exact phrase or sign; omit personal material from public copies.",
+    "plain_reading": "Required ordinary-language explanation.",
+    "purpose": "What this form helps a person notice, express, remember, or connect.",
+    "scope": "Where the form is useful and where it no longer applies.",
+    "relations": "Only explicit links between branches or ideas; do not imply causality without grounds.",
+    "status": {
+      "type": "enum",
+      "values": ["authorial", "experimental", "traditional_form_study", "unknown"]
+    },
+    "source_or_influence": "Optional attribution or source reference; UNKNOWN when not established.",
+    "tags": "Optional topic labels chosen for retrieval.",
+    "metatags": "Optional artifact labels such as form, status, contour, or reading depth.",
+    "activation": {
+      "default": "none",
+      "meaning": "This metadata never executes code, activates a ritual, grants access, or changes another person."
+    }
+  },
+  "principles": [
+    "Use no manifest if ordinary wording is clearer.",
+    "Keep poetic form and ordinary reading together.",
+    "Do not label an authorial creation as a historical reconstruction.",
+    "Keep tags separate from claims, permission, identity, and evidence.",
+    "A scriptocereyana is a proposed authorial integration form in SUTI: a short text or song with an explicit map of branch relations and readable links.",
+    "Keep metaphoric, symbolic, and factual statements distinguishable.",
+    "No form guarantees an outcome or acts as hidden instruction."
+  ]
+}

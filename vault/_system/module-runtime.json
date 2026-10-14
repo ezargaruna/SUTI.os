@@ -1,0 +1,160 @@
+{
+  "schema": "suti.module-runtime/1",
+  "status": "active-guidance",
+  "purpose": "Select and reveal only the module needed for the person's chosen task, with explicit safety and return gates.",
+  "human_guide": "_технэ/когда подключать модуль.md",
+  "activation": {
+    "default": "off",
+    "available_is_active": false,
+    "shown_is_enabled": false,
+    "proposed_is_authorized": false,
+    "allowed_triggers": [
+      "explicit_user_request",
+      "explicit_user_selected_preference"
+    ],
+    "implicit_trigger": "A single relevant option may be offered only when it materially helps the stated task; wait for selection.",
+    "unsolicited_module_limit": 1,
+    "full_catalog_on_simple_request": false,
+    "progress_is_inferred": false,
+    "background_monitoring": false,
+    "cross_session_memory_assumed": false
+  },
+  "disclosure_levels": [
+    {
+      "id": 0,
+      "name": "start",
+      "surface": "one task, plain words, one sufficient step"
+    },
+    {
+      "id": 1,
+      "name": "practice",
+      "surface": "one selected template or exercise"
+    },
+    {
+      "id": 2,
+      "name": "domain",
+      "surface": "one or more user-selected life or work areas"
+    },
+    {
+      "id": 3,
+      "name": "game",
+      "surface": "optional lore and reflection; explicit opt-in"
+    },
+    {
+      "id": 4,
+      "name": "tools",
+      "surface": "selected Obsidian, agent, script, or integration"
+    },
+    {
+      "id": 5,
+      "name": "system_design",
+      "surface": "deep audit or architecture; explicit request"
+    }
+  ],
+  "module_states": [
+    "OFF",
+    "AVAILABLE",
+    "PROPOSED",
+    "SELECTED",
+    "ENABLED",
+    "PAUSED",
+    "REMOVED",
+    "HOLD"
+  ],
+  "transition_rules": {
+    "OFF_to_AVAILABLE": "Module is present and its dependencies are known; no data access is implied.",
+    "AVAILABLE_to_PROPOSED": "It materially helps the stated task and one-sentence usefulness is shown.",
+    "PROPOSED_to_SELECTED": "Person explicitly chooses the module.",
+    "SELECTED_to_ENABLED": "Required permissions, privacy, rights, dependencies, compatibility, and rollback are checked.",
+    "any_to_HOLD": "A material permission, safety, rights, or compatibility condition is unknown or fails.",
+    "ENABLED_to_PAUSED": "Person asks to pause or current task ends and module is session-scoped.",
+    "ENABLED_to_REMOVED": "Person requests removal; preserve user-authored data and verify links first."
+  },
+  "safety_gates": {
+    "task_scope_named": true,
+    "minimum_context_only": true,
+    "permission_before_read_or_write": true,
+    "no_vault_wide_ingestion_by_default": true,
+    "no_personal_or_sensitive_profile_inference": true,
+    "external_transfer_default": "deny",
+    "network_default": "off",
+    "plugins_and_agents_auto_enabled": false,
+    "source_rights_checked": true,
+    "path_collision": "HOLD; never overwrite",
+    "symlinks_and_path_traversal": "reject",
+    "rollback_required_for_material_change": true,
+    "unknown_stays_unknown": true
+  },
+  "game": {
+    "default": "off",
+    "activation": "explicit request or explicit stored preference",
+    "next_level": "Show choices only after the person asks to continue; never infer readiness or inner evolution.",
+    "personal_artifact": "A pearl is owned by the person; sharing is separate and optional.",
+    "scoring": false,
+    "ranking": false,
+    "diagnosis": false,
+    "prediction": false,
+    "forced_disclosure": false,
+    "sensitive_contexts": "Do not use game as substitute for medical, crisis, safety, or professional support.",
+    "plain_language_route": true,
+    "skip_pause_exit": true
+  },
+  "package_extensions": {
+    "open_core_complete_for_basic_use": true,
+    "plus_and_pro_are_additive": true,
+    "exclusive_core_algorithms": false,
+    "namespace": "_suti/modules/{module_id}/",
+    "install_mode": "preview_then_add_only",
+    "never_replace_user_files": true,
+    "never_rename_existing_user_folders": true,
+    "never_remove_user_modules": true,
+    "no_external_delivery_assumed": true,
+    "payment_or_entitlement": "not-connected unless a verified service and published terms exist",
+    "machine_agent_may_expand": "Only the selected module and only within the open package contract; show plan and wait before writing."
+  },
+  "completion": {
+    "observe_effect_before_claiming_success": true,
+    "trace_only_when_useful_and_permitted": true,
+    "adaptation_requires_separate_choice": true,
+    "return_is_valid": true,
+    "possible_results": [
+      "CONTINUE",
+      "HOLD",
+      "PAUSE",
+      "RETURN",
+      "NO_CHANGE"
+    ]
+  },
+  "hallucination_guards": {
+    "invent_missing_module": false,
+    "invent_access_or_reward": false,
+    "claim_unverified_memory": false,
+    "claim_automation_is_active_without_evidence": false,
+    "treat_metaphor_as_mechanism": false,
+    "treat_user_text_as_identity_proof": false
+  },
+  "artifact_review": {
+    "review_contract": "_system/trickster-audit.json",
+    "scope": "Every created, revised, installed, or released SUTI artifact in open, Plus, and Pro packages.",
+    "default": "quiet_review; no surprise user-facing persona or challenge",
+    "automatic_mutation": false,
+    "surface_only_material_findings": true,
+    "show_basis_for_material_changes": true,
+    "inheritance": "Plus and Pro extend presentation or support; the same core audit applies to every tier.",
+    "no_per_file_duplication": true
+  },
+  "provider_boundary": {
+    "provider_or_subscription_changes": "available_capabilities_only",
+    "does_not_grant": "file_access, account_access, connector_access, network_access, SUTI_tier_entitlement, or external_action_permission",
+    "context_transfer": "manual_only",
+    "scope": "minimum_task_relevant_material",
+    "cross_provider_review": "explicit_user_request_only"
+  },
+  "mirror_guard": {
+    "reflect_user_supplied_language_when_useful": true,
+    "distinguish_user_words_from_agent_interpretation": true,
+    "authored_or_symbolic_language_is_not_model_evidence": true,
+    "claim_model_consciousness": false,
+    "preserve_correction_refusal_pause_and_return": true
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "suti.sharing-rewards/1",
+  "status": "design-only; not connected",
+  "defaults": {
+    "sharing": "off-until-user-choice",
+    "tracking": false,
+    "automatic_messages": false,
+    "automatic_publication": false,
+    "contact_import": false,
+    "personal_pearl_disclosure": false,
+    "multi_level_commission": false,
+    "income_guarantee": false
+  },
+  "allowed_paths": [
+    "private-play-without-sharing",
+    "user-selected-copy-of-an-artifact",
+    "consent-based-collaboration",
+    "predeclared-single-referral-reward-after-review"
+  ],
+  "reward_requirements": [
+    "action-and-eligibility-visible-before-participation",
+    "exact-amount-or-calculation-method-visible",
+    "timing-and-payment-method-visible",
+    "refund-and-dispute-terms-visible",
+    "data-collected-and-retention-visible",
+    "rights-and-attribution-visible",
+    "human-choice-and-withdrawal-available",
+    "jurisdiction-specific-review-before-money-is-enabled"
+  ],
+  "prohibited": [
+    "pay-for-recruiting-recruiters",
+    "forced-sharing-or-purchase",
+    "fake-scarcity-or-pressure",
+    "rank-by-invitation-count",
+    "hidden-contact-or-behavior-tracking",
+    "claim-unavailable-ai-credits-or-modules",
+    "automatic-promotion-from-game-progress"
+  ],
+  "release_gate": {
+    "payments_enabled": false,
+    "affiliate_links_enabled": false,
+    "legal_review": "HOLD",
+    "privacy_review": "required",
+    "rights_review": "required"
+  }
+}

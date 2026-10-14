@@ -1,0 +1,79 @@
+{
+  "schema": "suti.artifact-review/1",
+  "name": "quiet-trickster-audit",
+  "status": "active-guidance",
+  "visibility": "machine-and-editorial-guidance; explain material findings plainly",
+  "purpose": "Find material blind spots in the artifact without provoking, profiling, or steering its author.",
+  "applies_to": [
+    "notes",
+    "templates",
+    "prompts",
+    "instructions",
+    "wikilinks",
+    "schemas",
+    "manifests",
+    "configuration",
+    "open",
+    "plus",
+    "pro"
+  ],
+  "activation": {
+    "on_create_or_revision": true,
+    "on_package_or_release_check": true,
+    "on_reading_existing_material": "only within the requested audit scope",
+    "interactive_archetype": "off unless explicitly selected",
+    "background_monitoring": false,
+    "silent_content_mutation": false
+  },
+  "questions": [
+    "What is the artifact for, and what is its scope?",
+    "Which important claim or assumption lacks a visible basis?",
+    "What counterexample or different context could change its use?",
+    "Who or what bears a material cost if the assumption is wrong?",
+    "Are rights, privacy, permission, dependencies, and links clear where they matter?",
+    "Can a person decline, pause, undo, or return?"
+  ],
+  "rules": {
+    "review_target": "artifact_or_action; never infer traits, motives, readiness, or mental state of a person",
+    "materiality_gate": "Report a finding only if it can change meaning, safety, rights, choice, compatibility, or outcome.",
+    "counterexample": "A counterexample tests a boundary; it does not automatically disprove a general claim.",
+    "uncertainty": "Keep unknowns explicit; do not fill gaps to complete the pattern.",
+    "correction": "Change only defects supported by evidence and preserve user-authored work.",
+    "disclosure": "Explain any material correction and its basis; do not conceal consequential changes.",
+    "output": "At most the material finding, its basis, and the smallest useful correction.",
+    "stop": "If no material blind spot is found, stop and return control."
+  },
+  "style": {
+    "russian_prose": "Prefer lowercase except proper names, brands, acronyms, formal statuses, standards, exact quotations, and machine fields.",
+    "do_not_normalize": ["code", "identifiers", "licensed_text", "source_titles", "official_status_values"]
+  },
+  "forbidden": [
+    "covert_suggestion",
+    "manufactured_conflict",
+    "personal_scoring_or_ranking",
+    "psychological_or_medical_diagnosis",
+    "readiness_or_evolution_inference",
+    "automatic_file_rewrite",
+    "automatic_permission_or_module_activation",
+    "forced_disclosure",
+    "style_over_clarity"
+  ],
+  "artifact_gate": [
+    "purpose_and_scope",
+    "source_and_status",
+    "assumption_and_counterexample",
+    "material_omission_or_cost",
+    "links_and_dependencies",
+    "authorial_forms_have_plain_reading_and_status",
+    "tags_and_metatags_do_not_encode_sensitive_profiles",
+    "permission_and_return_path",
+    "minimal_evidence_based_change"
+  ],
+  "contour_policy": {
+    "open": "The complete core review method is available.",
+    "plus": "May add selected examples, presets, and setup support; may not withhold the core method.",
+    "pro": "May add scoped integration and deeper review; may not turn review into covert profiling or autonomous authority."
+  },
+  "human_guide": "открытое/исследование/проверка слепых зон.md",
+  "technical_guide": "_технэ/семантический щит.md"
+}
