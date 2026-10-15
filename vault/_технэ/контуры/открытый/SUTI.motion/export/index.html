@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Различить наблюдение, версию и следующий шаг.</title>
+<style>
+:root{color-scheme:light}*{box-sizing:border-box}body{margin:0;background:#F4EFE5;color:#263631;font-family:system-ui}
+main{width:100%;max-width:1280px;margin:auto}.stage{position:relative;aspect-ratio:1280 / 720;overflow:hidden}
+.scene{position:absolute;inset:0;padding:8%;display:flex;flex-direction:column;justify-content:center;opacity:0;visibility:hidden}
+.label{color:#245B5B;font-size:clamp(12px,2vw,24px);margin:0 0 1.5em}
+h1{font-size:clamp(22px,5vw,62px);font-weight:500;line-height:1.15;max-width:20ch;margin:0 0 .65em;overflow-wrap:anywhere}
+p{font-size:clamp(14px,2.3vw,28px);line-height:1.4;margin:0;max-width:45ch}
+.controls{display:flex;gap:12px;padding:16px 8%}button{font:inherit;border:1px solid currentColor;border-radius:24px;background:transparent;color:inherit;padding:10px 18px;cursor:pointer}
+button:focus-visible{outline:3px solid #245B5B;outline-offset:4px}.track{height:3px;background:#245B5B;transform-origin:left;transform:scaleX(0)}
+.static .stage{aspect-ratio:auto}.static .scene{position:relative;opacity:1!important;visibility:visible!important;transform:none!important;border-bottom:1px solid currentColor}
+.static .controls,.static .track{display:none}
+@media(prefers-reduced-motion:reduce){.stage{aspect-ratio:auto}.scene{position:relative;opacity:1!important;visibility:visible!important;transform:none!important}.controls,.track{display:none}}
+</style>
+<main class="static" id="motion"><div class="stage" aria-label="Различить наблюдение, версию и следующий шаг."><section class="scene"><p class="label">наблюдение</p><h1>сообщение осталось без ответа</h1><p>это то, что можно проверить</p></section><section class="scene"><p class="label">версия</p><h1>«меня игнорируют»</h1><p>это объяснение, требующее проверки</p></section><section class="scene"><p class="label">следующий шаг</p><h1>уточнить, когда удобно ответить</h1><p>выбрать действие после различения</p></section></div>
+<div class="track" aria-hidden="true"></div><nav class="controls" aria-label="управление анимацией">
+<button id="pause" type="button">пауза</button><button id="replay" type="button">сначала</button></nav></main>
+<script type="application/json" id="scene-data">{"schema_version": "0.2", "id": "distinguish-before-action", "language": "ru", "purpose": "Различить наблюдение, версию и следующий шаг.", "canvas": {"width": 1280, "height": 720}, "duration_ms": 12000, "loop": false, "style": {"background": "#F4EFE5", "foreground": "#263631", "accent": "#245B5B", "font_family": "system-ui"}, "scenes": [{"id": "observe", "start_ms": 0, "duration_ms": 4000, "label": "наблюдение", "headline": "сообщение осталось без ответа", "support": "это то, что можно проверить", "motion": {"type": "fade", "duration_ms": 400}}, {"id": "distinguish", "start_ms": 4000, "duration_ms": 4000, "label": "версия", "headline": "«меня игнорируют»", "support": "это объяснение, требующее проверки", "motion": {"type": "rise", "duration_ms": 400}}, {"id": "act", "start_ms": 8000, "duration_ms": 4000, "label": "следующий шаг", "headline": "уточнить, когда удобно ответить", "support": "выбрать действие после различения", "motion": {"type": "fade", "duration_ms": 400}}]}</script>
+<script>
+(()=>{'use strict';
+const data=JSON.parse(document.getElementById('scene-data').textContent);
+const root=document.getElementById('motion'), cards=[...root.querySelectorAll('.scene')];
+const pause=document.getElementById('pause'), replay=document.getElementById('replay');
+const track=root.querySelector('.track'), preference=matchMedia('(prefers-reduced-motion: reduce)');
+let elapsed=0,last=0,running=true,frame=0;
+function paint(){
+ const index=Math.max(0,data.scenes.findIndex((s,i)=>elapsed<s.start_ms+s.duration_ms||i===data.scenes.length-1));
+ cards.forEach((card,i)=>{
+  const s=data.scenes[i], active=i===index, local=elapsed-s.start_ms;
+  const progress=s.motion.type==='none'||s.motion.duration_ms===0?1:Math.min(1,Math.max(0,local/s.motion.duration_ms));
+  const eased=1-Math.pow(1-progress,3);
+  card.style.visibility=active?'visible':'hidden';card.setAttribute('aria-hidden',String(!active));
+  card.style.opacity=active?eased:0;card.style.transform=s.motion.type==='rise'?`translateY(${(1-eased)*16}px)`:'none';
+ });track.style.transform=`scaleX(${elapsed/data.duration_ms})`;
+}
+function tick(now){
+ if(!running||preference.matches)return;
+ if(last)elapsed+=now-last;last=now;
+ if(elapsed>=data.duration_ms){if(data.loop)elapsed%=data.duration_ms;else{elapsed=data.duration_ms;running=false;pause.textContent='продолжить';}}
+ paint();if(running)frame=requestAnimationFrame(tick);
+}
+function start(){cancelAnimationFrame(frame);last=0;if(running&&!preference.matches)frame=requestAnimationFrame(tick);}
+function mode(){
+ root.classList.toggle('static',preference.matches);
+ if(preference.matches){cancelAnimationFrame(frame);cards.forEach(c=>c.removeAttribute('aria-hidden'));}
+ else{paint();start();}
+}
+pause.addEventListener('click',()=>{if(elapsed>=data.duration_ms)elapsed=0;running=!running;pause.textContent=running?'пауза':'продолжить';cancelAnimationFrame(frame);start();});
+replay.addEventListener('click',()=>{elapsed=0;running=true;pause.textContent='пауза';start();});
+document.addEventListener('visibilitychange',()=>{if(document.hidden){cancelAnimationFrame(frame);last=0;}else start();});
+preference.addEventListener('change',mode);mode();
+})();
+</script></html>

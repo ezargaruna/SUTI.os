@@ -1,0 +1,61 @@
+{
+  "manifest_version": "0.2",
+  "artifact_id": "distinguish-before-action",
+  "status": "rendered_html_svg",
+  "source": "scene.json",
+  "schema": "scene.schema.json",
+  "entrypoint": "index.html",
+  "files": [
+    {
+      "path": "index.html",
+      "media_type": "text/html"
+    },
+    {
+      "path": "poster.svg",
+      "media_type": "image/svg+xml"
+    },
+    {
+      "path": "scene.json",
+      "media_type": "application/json"
+    },
+    {
+      "path": "scene.schema.json",
+      "media_type": "application/schema+json"
+    },
+    {
+      "path": "embed.html",
+      "media_type": "text/html"
+    }
+  ],
+  "embedding": {
+    "strategy": "iframe",
+    "aspect_ratio": "1280 / 720",
+    "title": "Различить наблюдение, версию и следующий шаг."
+  },
+  "accessibility": {
+    "reduced_motion": "static storyboard",
+    "controls": [
+      "pause",
+      "replay"
+    ],
+    "text_fallback": "all scene text remains in HTML"
+  },
+  "optional_targets": [
+    {
+      "format": "mp4",
+      "status": "not_rendered"
+    },
+    {
+      "format": "webm",
+      "status": "not_rendered"
+    },
+    {
+      "format": "lottie",
+      "status": "requires_adapter"
+    }
+  ],
+  "canvas": {
+    "width": 1280,
+    "height": 720
+  }
+}

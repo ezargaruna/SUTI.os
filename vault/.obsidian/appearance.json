@@ -1,0 +1,12 @@
+{
+  "theme": "obsidian",
+  "accentColor": "#58b8ad",
+  "baseFontSize": 16,
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "suti-os"
+  ]
+}

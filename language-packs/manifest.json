@@ -1,0 +1,22 @@
+{
+  "schema": "suti.language-packs.v1",
+  "product": "SUTI.os",
+  "default_locale": "ru",
+  "locales": [
+    {"id":"ru","label":"русский","status":"complete-base","archive":"SUTI.os.zip","full_vault":true,"review":"authorial source"},
+    {"id":"en","label":"English","status":"partial-entry","archive":"SUTI.os-en-entry.zip","full_vault":false,"review":"draft; language review pending"},
+    {"id":"es","label":"español","status":"partial-entry","archive":"SUTI.os-es-entry.zip","full_vault":false,"review":"draft; language review pending"},
+    {"id":"pt-BR","label":"português brasileiro","status":"partial-entry","archive":"SUTI.os-pt-BR-entry.zip","full_vault":false,"review":"draft; language review pending"},
+    {"id":"eo","label":"Esperanto","status":"research","archive":null,"full_vault":false,"review":"no user archive"},
+    {"id":"la","label":"Latin","status":"research","archive":null,"full_vault":false,"review":"no user archive"},
+    {"id":"sa","label":"Sanskrit","status":"research","archive":null,"full_vault":false,"review":"no user archive"},
+    {"id":"yzh","label":"язэхъ / YAZEKH","status":"authorial-experiment","archive":null,"full_vault":false,"review":"not a translation or historical reconstruction"}
+  ],
+  "age_adaptations": {"status":"not-implemented","age_verification":"not-collected","note":"Do not infer or collect age. Age-specific packages require separate review."},
+  "adaptation_rules": [
+    "Do not attribute one cognitive or civilizational pattern to all speakers of a language.",
+    "Separate translation, interpretation, and cultural hypothesis; cite sources for factual claims.",
+    "Preserve provenance, author credit, license, and a route back to the source version.",
+    "Do not include personal data, private vault material, credentials, or third-party records."
+  ]
+}

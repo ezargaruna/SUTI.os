@@ -1,0 +1,63 @@
+/* SUTI.os · спокойная навигация */
+
+:root {
+  --suti-petrol: #245b5b;
+  --suti-turquoise: #58b8ad;
+  --suti-ivory: #f4efe5;
+  --suti-sunlight: #d6a64f;
+}
+
+.theme-dark {
+  --background-primary: #1f302d;
+  --background-primary-alt: #263b37;
+  --background-secondary: #29433f;
+  --background-secondary-alt: #345752;
+  --text-normal: #f4efe5;
+  --text-muted: #c3d2cc;
+  --text-faint: #9fb5ad;
+  --interactive-accent: #58b8ad;
+  --interactive-accent-hover: #79cec1;
+  --text-accent: #91d7cd;
+  --background-modifier-hover: #3b5d57;
+  --background-modifier-border: #52736b;
+}
+
+.theme-light {
+  --background-primary: #f4efe5;
+  --background-primary-alt: #fbf8f1;
+  --background-secondary: #e8e1d4;
+  --background-secondary-alt: #ded5c5;
+  --text-normal: #263631;
+  --text-muted: #53645d;
+  --interactive-accent: #245b5b;
+  --interactive-accent-hover: #347b76;
+  --text-accent: #245b5b;
+  --background-modifier-hover: #d9e7df;
+  --background-modifier-border: #c5c7b9;
+}
+
+/* подсветка выбранного файла */
+
+.nav-file-title.is-active,
+.tree-item-self.nav-file-title.is-active {
+  position: relative;
+  background: var(--background-modifier-hover);
+  color: var(--text-accent);
+  font-weight: 650;
+  text-decoration: underline;
+  text-decoration-color: var(--interactive-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  border-inline-start: 3px solid var(--interactive-accent);
+  border-radius: 0 8px 8px 0;
+}
+
+.nav-file-title.is-active .nav-file-title-content,
+.tree-item-self.nav-file-title.is-active .tree-item-inner {
+  color: var(--text-accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--interactive-accent);
+  outline-offset: 2px;
+}

@@ -1,0 +1,45 @@
+{
+  "manifest_version": "0.2",
+  "artifact_id": "distinguish-before-action",
+  "status": "template",
+  "source": "scene.json",
+  "schema": "scene.schema.json",
+  "entrypoint": "index.html",
+  "files": [
+    {
+      "path": "index.html",
+      "media_type": "text/html"
+    },
+    {
+      "path": "poster.svg",
+      "media_type": "image/svg+xml"
+    }
+  ],
+  "embedding": {
+    "strategy": "iframe",
+    "aspect_ratio": "16 / 9",
+    "title": "Наблюдение, версия, следующий шаг"
+  },
+  "accessibility": {
+    "reduced_motion": "static storyboard",
+    "controls": [
+      "pause",
+      "replay"
+    ],
+    "text_fallback": "all scene text remains in HTML"
+  },
+  "optional_targets": [
+    {
+      "format": "mp4",
+      "status": "not_rendered"
+    },
+    {
+      "format": "webm",
+      "status": "not_rendered"
+    },
+    {
+      "format": "lottie",
+      "status": "requires_adapter"
+    }
+  ]
+}

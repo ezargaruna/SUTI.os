@@ -1,11 +1,11 @@
 {
   "id": "SUTI.os",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "status": "public-release",
   "locale": "ru",
   "format": "portable-markdown-vault",
   "installer_questions_max": 4,
   "network_during_install": false,
   "imports_personal_data": false,
-  "payload_files": 124
+  "payload_files": 156
 }

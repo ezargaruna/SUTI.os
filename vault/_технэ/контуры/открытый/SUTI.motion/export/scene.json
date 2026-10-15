@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.2",
+  "id": "distinguish-before-action",
+  "language": "ru",
+  "purpose": "Различить наблюдение, версию и следующий шаг.",
+  "canvas": {
+    "width": 1280,
+    "height": 720
+  },
+  "duration_ms": 12000,
+  "loop": false,
+  "style": {
+    "background": "#F4EFE5",
+    "foreground": "#263631",
+    "accent": "#245B5B",
+    "font_family": "system-ui"
+  },
+  "scenes": [
+    {
+      "id": "observe",
+      "start_ms": 0,
+      "duration_ms": 4000,
+      "label": "наблюдение",
+      "headline": "сообщение осталось без ответа",
+      "support": "это то, что можно проверить",
+      "motion": {
+        "type": "fade",
+        "duration_ms": 400
+      }
+    },
+    {
+      "id": "distinguish",
+      "start_ms": 4000,
+      "duration_ms": 4000,
+      "label": "версия",
+      "headline": "«меня игнорируют»",
+      "support": "это объяснение, требующее проверки",
+      "motion": {
+        "type": "rise",
+        "duration_ms": 400
+      }
+    },
+    {
+      "id": "act",
+      "start_ms": 8000,
+      "duration_ms": 4000,
+      "label": "следующий шаг",
+      "headline": "уточнить, когда удобно ответить",
+      "support": "выбрать действие после различения",
+      "motion": {
+        "type": "fade",
+        "duration_ms": 400
+      }
+    }
+  ]
+}
