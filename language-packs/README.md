@@ -1,29 +1,18 @@
-# SUTI.os · языковые редакции
+# Language entry packs
 
-здесь лежат отдельные входные пакеты для выбора языка. это языковая адаптация интерфейса и базовых маршрутов, а не утверждение о едином «национальном мышлении» или характере носителей языка.
+The entry packs provide a short starting route in English, Spanish, and Brazilian Portuguese. They are not full translations of the main SUTI.os vault. The full vault is currently Russian-first.
 
-## готовность
-
-| пакет | статус | что внутри |
+| Pack | Contents | Status |
 |---|---|---|
-| ru | готовая основа | полное открытое хранилище на русском: `vault/` |
-| en | частичная редакция | начало, навигация и базовые различения; остальная библиотека открывается на русском |
-| es | частичная редакция | начало, навигация и базовые различения; остальная библиотека открывается на русском |
-| pt-BR | частичная редакция | начало, навигация и базовые различения; остальная библиотека открывается на русском |
-| eo, la, sa | исследование | план адаптации и место для редакторской работы; готового перевода нет |
-| язэхъ / YAZEKH | авторский эксперимент | отдельная лаборатория языка; не перевод и не реконструкция исторического языка |
+| `en` | Start page, navigation, selected core distinctions | Partial entry edition |
+| `es` | Start page, navigation, selected core distinctions | Partial entry edition |
+| `pt-BR` | Start page, navigation, selected core distinctions | Partial entry edition |
+| `ru` | Full vault | Main edition |
 
-возрастной статус: отдельные возрастные архивы и проверка возраста пока не реализованы. публичная копия не запрашивает дату рождения и не должна собирать профиль несовершеннолетнего. возрастно-специфические маршруты остаются в плане до отдельной редакторской, доступностной и правовой проверки.
+See [all 13 language layers](../LANGUAGE_STATUS.md) for the status of each edition. A locale's presence in a list or selector does not mean the full vault is translated. Review the package contents and release manifest before redistribution.
 
-пакеты en, es и pt-BR пока являются входными редакциями поверх русскоязычной основы. они не переводят всё хранилище. отдельные архивы называются `SUTI.os-<locale>-entry.zip`, чтобы состав был виден до скачивания.
+## Translation and review
 
-перевод проверяется носителем или редактором целевого языка до смены статуса на полный. культурные и цивилизационные гипотезы маркируются отдельно; язык нельзя использовать для приписывания человеку свойств по его происхождению.
+Work from the Russian source for full-vault translations, or from the canonical English source for shared project documentation. Do not translate from a translation. Keep machine IDs, schema keys, and file paths stable. Record translator, reviewer, source version, and date before marking an edition reviewed.
 
-## как расширять
-
-1. переводи сначала точку входа, правила согласия и приватности, затем основные практики.
-2. сохраняй идентификаторы и ссылки на исходные заметки, а расхождения фиксируй в локальном словаре решений.
-3. указывай переводчика, редактора, дату и исходную версию; сохраняй авторский текст и лицензию.
-4. не добавляй пользовательские заметки, медицинские данные, профили и сведения третьих лиц.
-5. сверяй смысл, тон, доступность и обратные ссылки перед выпуском.
-
+Yazekh is an authorial language experiment, not a historical reconstruction. Sanskrit and Latin editions require specialist review. Arabic requires right-to-left review. No translation status implies cultural equivalence or a claim about speakers.

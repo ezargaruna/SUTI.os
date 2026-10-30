@@ -1,46 +1,51 @@
-# SUTI.os · открытая версия
+# SUTI.os
 
-это единственный публичный репозиторий SUTI.os и источник открытых файлов хранилища. в каталоге `website/` лежит публичная сборка сайта [SUTI.world](https://suti.world).
+**A portable, local-first Markdown workspace for language, learning, creative work, and everyday projects.**
 
-переносимое Markdown-хранилище для личной жизни, языка, обучения, творчества и дел. работает в Obsidian или любом редакторе Markdown; пользоваться можно без аккаунта, сети, ИИ и платной подписки.
+SUTI.os can be opened in Obsidian or any Markdown editor. The public package does not require an account, network connection, AI service, or subscription for ordinary offline use.
 
-## скачать и открыть без терминала
+## Choose a language
 
-1. скачай [последний архив](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os.zip)
-2. распакуй его
-3. открой папку `SUTI.os/vault` как отдельное хранилище Obsidian или читай Markdown напрямую
-4. начни с `vault/начать.md`
+- [English entry pack](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os-en-entry.zip) — a short English start and core navigation; the full vault is not yet translated into English.
+- [Spanish entry pack](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os-es-entry.zip) — a short Spanish start and core navigation; the full vault is not yet translated into Spanish.
+- [Brazilian Portuguese entry pack](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os-pt-BR-entry.zip) — a short Portuguese start and core navigation; the full vault is not yet translated into Portuguese.
+- [Full SUTI.os package](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os.zip) — the current full vault, whose main content is Russian.
 
-не копируй поверх уже существующего хранилища. если хочешь переименовать папку, сделай это после распаковки.
+See [language coverage and review status](LANGUAGE_STATUS.md) before choosing a package. A localized entry is not a complete translation of the vault.
 
-## установить с короткой настройкой
+## Open without an installer
 
-из папки распакованного пакета выполни:
+1. Download a package from the links above.
+2. Extract it into a new folder.
+3. Open the extracted `vault/` as a separate Obsidian vault, or read the Markdown files directly.
+4. Begin with `vault/начать.md` in the full Russian package, or the `start.md` file in a localized entry pack.
 
-- macOS или Linux: `python3 install.py`
+Do not extract over an existing vault. On a phone, use the file manager to extract the archive; automated mobile installation has not been verified.
+
+## Optional installer
+
+From the extracted package folder, run:
+
+- macOS or Linux: `python3 install.py`
 - Windows PowerShell: `py install.py`
 
-имя созданной папки по умолчанию — `SUTI.os`. в первом вопросе можно оставить это имя или ввести `SUTI.%username%`: установщик подставит имя текущей учётной записи только на этом устройстве. можно также ввести собственный вариант после `SUTI.`. папка с таким именем не будет перезаписана.
+The installer asks up to four questions, creates a new target folder, and stops if that target already exists. It does not read or import other vaults or personal notes. Python is needed only for this installation route; manual extraction does not require it.
 
-ответь на четыре коротких вопроса: имя копии, место, стартовый вход и подтверждение. установщик работает локально, не требует учётной записи, сети, прав администратора или сторонних библиотек. он не читает другие хранилища, не переносит личные записи и остановится, если целевая папка уже существует.
+To verify package file hashes without installing, run `python3 install.py --verify-only` or `py install.py --verify-only`. The expected hashes are listed in `MANIFEST.sha256`.
 
-Python нужен только для этого способа. обычный путь — распаковать архив и открыть `vault` вручную. на телефоне используй ручную распаковку; автоматическая мобильная установка не проверялась.
+## Privacy and reuse
 
-## проверка целостности
+The package contains templates and authored materials, not a user's private archive. It does not automatically upload notes. Share only the specific material you choose, and review it before sending it to an AI service, another person, or a public site.
 
-в корне пакета выполни `python3 install.py --verify-only` или `py install.py --verify-only`. проверка сверяет SHA-256 и ничего не устанавливает. список файлов находится в `MANIFEST.sha256`.
+Vault content and installer code have separate licenses. Read [content terms](LICENSE-CONTENT.md), [code terms](LICENSE-CODE.txt), and the license included with any theme or third-party asset. The SUTI name and marks are not granted automatically.
 
-## вход и глубина
+## Project links
 
-`vault/начать.md` ведёт к короткому маршруту. карта «поле своих» соединяет человека и ситуацию, собственные слова и следующий шаг. игру можно пропустить. язэхъ сохранён отдельно как авторский эксперимент в «белом кубе SUTI».
+- [SUTI.world](https://suti.world/) — public project entry
+- [SUTIcore](https://github.com/ezargaruna/suticore) — shared concepts, site, and system map
+- [SUTI.os language editions](language-packs/README.md)
+- [Contribution guidance](vault/CONTRIBUTING.md)
 
-личные заметки не отправляются автоматически. пустые шаблоны не являются профилем. данные остаются на выбранном устройстве, пока ты сам не решишь иначе. передавай помощнику только выбранные фрагменты.
+## Authorship
 
-## лицензии и границы
-
-оригинальные тексты и пустые формы в `vault/` распространяются по CC BY-SA 4.0; установочный код — MIT. см. `LICENSE-CONTENT.md` и `LICENSE-CODE.txt`. лицензия не передаёт права на имя, знаки или товарные марки SUTI и не распространяется автоматически на сторонние материалы или пользовательские записи.
-
-авторство открытых материалов: **Ezar Garuna** · [SUTI.world](https://suti.world)
-
-
-оформление Obsidian заранее включено в чистую копию. CSS распространяется по 0BSD, лицензия находится рядом со сниппетом.
+Public byline: **Ezar Garuna · Saritama**. SUTI.os is an author-created project. A local vault or written method does not by itself establish clinical, legal, or scientific validation.
