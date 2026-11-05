@@ -1,6 +1,16 @@
-# SUTI.os · открытая версия
+# SUTI.os · portable local-first Markdown vault
 
-это единственный публичный репозиторий SUTI.os и источник открытых файлов хранилища. в каталоге `website/` лежит публичная сборка сайта [SUTI.world](https://suti.world).
+Russian full edition · short EN, ES, and PT-BR entry packs.
+
+This repository owns the portable vault, local installer, release manifest, and language entry packs. It is separate from [SUTIcore](https://github.com/ezargaruna/suticore), which owns the semantic specifications and canonical SUTI.world source. `website/` is a versioned static snapshot with its own current Pages configuration; the custom-domain ownership still needs reconciliation. See [repository contours](docs/REPOSITORY_CONTOURS.md) and the [13-language map](language-packs/README.md).
+
+## быстрый вход
+
+- [выбрать язык и открыть SUTI.world](https://suti.world/)
+- [скачать полный русский vault](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os.zip)
+- [статус всех 13 языковых слоёв](language-packs/README.md)
+
+## русское руководство
 
 переносимое Markdown-хранилище для личной жизни, языка, обучения, творчества и дел. работает в Obsidian или любом редакторе Markdown; пользоваться можно без аккаунта, сети, ИИ и платной подписки.
 

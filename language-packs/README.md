@@ -2,6 +2,28 @@
 
 здесь лежат отдельные входные пакеты для выбора языка. это языковая адаптация интерфейса и базовых маршрутов, а не утверждение о едином «национальном мышлении» или характере носителей языка.
 
+## быстрый выбор · 13 языковых слоёв
+
+Выбери язык для сайта. Если перевода пока нет, SUTI.world показывает русский исходник с явной пометкой. Полный архив есть только для русского; пакеты EN, ES и PT-BR — частичные входы.
+
+| язык | открыть SUTI.world | SUTI.os |
+|---|---|---|
+| русский · `ru` | [SUTI.world ↗](https://suti.world/?lang=ru) | [полный vault](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os.zip) |
+| English · `en` | [SUTI.world ↗](https://suti.world/?lang=en) | [partial entry](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os-en-entry.zip) |
+| español · `es` | [SUTI.world ↗](https://suti.world/?lang=es) | [entrada parcial](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os-es-entry.zip) |
+| português brasileiro · `pt-BR` | [SUTI.world ↗](https://suti.world/?lang=pt-BR) | [entrada parcial](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os-pt-BR-entry.zip) |
+| 简体中文 · `zh-Hans` | [SUTI.world ↗](https://suti.world/?lang=zh-Hans) | пакет не готов · русский fallback |
+| हिन्दी · `hi` | [SUTI.world ↗](https://suti.world/?lang=hi) | пакет не готов · русский fallback |
+| français · `fr` | [SUTI.world ↗](https://suti.world/?lang=fr) | пакет не готов · русский fallback |
+| العربية · `ar` | [SUTI.world ↗](https://suti.world/?lang=ar) | пакет не готов · русский fallback |
+| বাংলা · `bn` | [SUTI.world ↗](https://suti.world/?lang=bn) | пакет не готов · русский fallback |
+| Esperanto · `eo` | [SUTI.world ↗](https://suti.world/?lang=eo) | пакет не готов · русский fallback |
+| संस्कृतम् · `sa` | [SUTI.world ↗](https://suti.world/?lang=sa) | пакет не готов · русский fallback |
+| Latina · `la` | [SUTI.world ↗](https://suti.world/?lang=la) | пакет не готов · русский fallback |
+| язэхъ · `yzh` | [SUTI.world ↗](https://suti.world/?lang=yzh) | авторская транскреация не сверена |
+
+Названия языков ведут к соответствующему выбору на сайте. Статус пакета не означает, что весь интерфейс или vault уже переведён. Для `yzh` нужна авторская проверка языка.
+
 ## готовность
 
 | пакет | статус | что внутри |
