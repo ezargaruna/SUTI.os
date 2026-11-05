@@ -4,6 +4,8 @@ Russian full edition · short EN, ES, and PT-BR entry packs.
 
 This repository owns the portable vault, local installer, release manifest, and language entry packs. It is separate from [SUTIcore](https://github.com/ezargaruna/suticore), which owns the semantic specifications and canonical SUTI.world source. `website/` is a versioned static snapshot published on this repository's Pages URL; `suti.world` is not configured as this Pages site's domain. Cloudflare origin settings are outside this repository and were not changed. See [repository contours](docs/REPOSITORY_CONTOURS.md) and the [13-language map](language-packs/README.md).
 
+The vault's [symbol guide](vault/%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D0%B5/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0/%D0%B7%D0%BD%D0%B0%D0%BA%D0%B8%20%D1%8F%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8.md) is the practical Russian reference; the matching [SUTIcore specification](https://github.com/ezargaruna/suticore/blob/main/app/docs/docs/canon/symbols_reference.md) documents the extended palette and access rules.
+
 ## быстрый вход
 
 - [выбрать язык и открыть SUTI.world](https://suti.world/)

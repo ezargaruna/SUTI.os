@@ -7,5 +7,5 @@
   "installer_questions_max": 4,
   "network_during_install": false,
   "imports_personal_data": false,
-  "payload_files": 156
+  "payload_files": 157
 }
