@@ -2,7 +2,7 @@
 
 Russian full edition · short EN, ES, and PT-BR entry packs.
 
-This repository owns the portable vault, local installer, release manifest, and language entry packs. It is separate from [SUTIcore](https://github.com/ezargaruna/suticore), which owns the semantic specifications and canonical SUTI.world source. `website/` is a versioned static snapshot with its own current Pages configuration; the custom-domain ownership still needs reconciliation. See [repository contours](docs/REPOSITORY_CONTOURS.md) and the [13-language map](language-packs/README.md).
+This repository owns the portable vault, local installer, release manifest, and language entry packs. It is separate from [SUTIcore](https://github.com/ezargaruna/suticore), which owns the semantic specifications and canonical SUTI.world source. `website/` is a versioned static snapshot published on this repository's Pages URL; `suti.world` is not configured as this Pages site's domain. Cloudflare origin settings are outside this repository and were not changed. See [repository contours](docs/REPOSITORY_CONTOURS.md) and the [13-language map](language-packs/README.md).
 
 ## быстрый вход
 

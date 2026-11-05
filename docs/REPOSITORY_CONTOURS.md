@@ -22,11 +22,11 @@ SUTI.os does not own the canonical semantic specifications or SUTI.world site so
 | licenses | check the content, code, and asset license for each artifact; the repository description is not a blanket license |
 | release | the versioned manifest and exact release artifacts define the package; local edits alone do not change a release |
 
-## Hosting state · HOLD
+## Hosting state · bounded
 
-The intended architecture assigns the canonical website source to `suticore`. Current GitHub Pages settings still list `suti.world` as the custom domain for this repository, and this repository's Pages workflow publishes `website/`. `suticore` has a separate Pages workflow. This overlap has not been reconciled.
+This repository's GitHub Pages custom domain is now unset; the snapshot is served at `https://ezargaruna.github.io/SUTI.os/`. `suticore` separately deploys the canonical website source to its own GitHub Pages URL. The fetched `suti.world` HTML currently matches the `suticore` page output, while DNS and response headers show Cloudflare in front. Cloudflare's zone and origin configuration were not inspected or changed.
 
-No custom-domain setting is changed by this file. Before any transfer, verify DNS/CDN routing, the destination Pages build, and rollback. Keep this repository's `website/` as a clearly versioned snapshot until the route is reviewed.
+Keep `website/` as a versioned snapshot. Any later DNS, cache, or origin change needs its own route check and rollback plan.
 
 ## Review questions
 
