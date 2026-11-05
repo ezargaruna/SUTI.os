@@ -3,7 +3,7 @@
   "schema": "suti.package/1",
   "module_id": "suti-open-core",
   "tier": "open",
-  "status": "open-content; standalone portable release 0.2.3",
+  "status": "open-content; standalone portable release 0.2.4",
   "install_mode": "copy-as-new-vault; never merge over an existing vault",
   "file_count": 136,
   "files": [
@@ -823,7 +823,7 @@
     "rights_hold_files": [],
     "external_upload": "authorized for this open derivative by explicit maintainer request",
     "privacy_review": "private source vault excluded; public package reviewed",
-    "visual_qa": "pending local package and browser link checks",
+    "visual_qa": "vault links, package hashes, and release archive integrity checked; Obsidian rendering not independently reviewed",
     "payment_or_delivery": "not-connected"
   },
   "notes": [
@@ -837,5 +837,5 @@
     "plus",
     "pro"
   ],
-  "version": "0.2.3"
+  "version": "0.2.4"
 }

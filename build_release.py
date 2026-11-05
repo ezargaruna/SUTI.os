@@ -35,15 +35,15 @@ def main() -> None:
         row.update({"path": rel, "sha256": hashlib.sha256(path.read_bytes()).hexdigest()})
         package_files.append(row)
     package.update({
-        "status": "open-content; standalone portable release 0.2.3",
-        "version": "0.2.3",
+        "status": "open-content; standalone portable release 0.2.4",
+        "version": "0.2.4",
         "file_count": len(package_files) + 1,
         "files": package_files,
         "release_gate": {
             "rights_hold_files": [],
             "external_upload": "authorized for this open derivative by explicit maintainer request",
             "privacy_review": "private source vault excluded; public package reviewed",
-            "visual_qa": "pending local package and browser link checks",
+            "visual_qa": "vault links, package hashes, and release archive integrity checked; Obsidian rendering not independently reviewed",
             "payment_or_delivery": "not-connected",
         },
         "notes": [
@@ -57,7 +57,7 @@ def main() -> None:
 
     release_path = ROOT / "RELEASE.json"
     release = json.loads(release_path.read_text(encoding="utf-8"))
-    release["version"] = "0.2.3"
+    release["version"] = "0.2.4"
     release["payload_files"] = sum(1 for p in ROOT.rglob("*") if included(p)) + 1
     release_path.write_text(json.dumps(release, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
