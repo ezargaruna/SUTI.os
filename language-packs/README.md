@@ -4,14 +4,14 @@
 
 ## быстрый выбор · 13 языковых слоёв
 
-Выбери язык для сайта. Если перевода пока нет, SUTI.world показывает русский исходник с явной пометкой. Полный архив есть только для русского; пакеты EN, ES и PT-BR — частичные входы.
+Выбери язык для сайта. Если перевода пока нет, SUTI.world показывает русский исходник с явной пометкой. Полный архив есть только для русского. Пакеты EN, ES и PT-BR — частичные входы из v0.2.2; полный русский vault обновлён до v0.2.4.
 
 | язык | открыть SUTI.world | SUTI.os |
 |---|---|---|
 | русский · `ru` | [SUTI.world ↗](https://suti.world/?lang=ru) | [полный vault](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os.zip) |
-| English · `en` | [SUTI.world ↗](https://suti.world/?lang=en) | [partial entry](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os-en-entry.zip) |
-| español · `es` | [SUTI.world ↗](https://suti.world/?lang=es) | [entrada parcial](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os-es-entry.zip) |
-| português brasileiro · `pt-BR` | [SUTI.world ↗](https://suti.world/?lang=pt-BR) | [entrada parcial](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os-pt-BR-entry.zip) |
+| English · `en` | [SUTI.world ↗](https://suti.world/?lang=en) | [partial entry](https://github.com/ezargaruna/SUTI.os/releases/download/v0.2.2/SUTI.os-en-entry.zip) · [sha256](https://github.com/ezargaruna/SUTI.os/releases/download/v0.2.2/SUTI.os-en-entry.zip.sha256) |
+| español · `es` | [SUTI.world ↗](https://suti.world/?lang=es) | [entrada parcial](https://github.com/ezargaruna/SUTI.os/releases/download/v0.2.2/SUTI.os-es-entry.zip) · [sha256](https://github.com/ezargaruna/SUTI.os/releases/download/v0.2.2/SUTI.os-es-entry.zip.sha256) |
+| português brasileiro · `pt-BR` | [SUTI.world ↗](https://suti.world/?lang=pt-BR) | [entrada parcial](https://github.com/ezargaruna/SUTI.os/releases/download/v0.2.2/SUTI.os-pt-BR-entry.zip) · [sha256](https://github.com/ezargaruna/SUTI.os/releases/download/v0.2.2/SUTI.os-pt-BR-entry.zip.sha256) |
 | 简体中文 · `zh-Hans` | [SUTI.world ↗](https://suti.world/?lang=zh-Hans) | пакет не готов · русский fallback |
 | हिन्दी · `hi` | [SUTI.world ↗](https://suti.world/?lang=hi) | пакет не готов · русский fallback |
 | français · `fr` | [SUTI.world ↗](https://suti.world/?lang=fr) | пакет не готов · русский fallback |
