@@ -32,6 +32,10 @@ Keep `website/` as a versioned snapshot. Any later DNS, cache, or origin change 
 
 Use these as a written Veche review, not an autonomous vote:
 
+The canonical `.veche` module and its research limits live in [suticore](https://github.com/ezargaruna/suticore/blob/main/app/docs/protocols/veche.md) and its [claim and threat audit](https://github.com/ezargaruna/suticore/blob/main/docs/research/veche-consensus-research.v1.md). SUTI.os may hold a person's own local decision notes; it does not create a shared participant register, vote, or group mandate.
+
+This source-tree integration does not change the current versioned SUTI.os release archive. A new archive needs its own integrity and release review.
+
 1. Does each repository contain only files that its role owns?
 2. Does each language link reveal the real translation and package status?
 3. Can a visitor choose a fallback, leave, or use the Russian full vault without sharing personal data?
