@@ -3,9 +3,9 @@
   "schema": "suti.package/1",
   "module_id": "suti-open-core",
   "tier": "open",
-  "status": "open-content; standalone portable release 0.2.2",
+  "status": "open-content; standalone portable release 0.2.3",
   "install_mode": "copy-as-new-vault; never merge over an existing vault",
-  "file_count": 137,
+  "file_count": 136,
   "files": [
     {
       "license": "CC-BY-SA-4.0 (оригинальный текст; сторонние источники исключены)",
@@ -264,12 +264,6 @@
       "rights_basis": "открытый производный пакет; сторонние материалы и личные данные не включены",
       "path": "_технэ/контуры/открытый/SUTI.motion/README.md",
       "sha256": "f6d3c5b39598dc48225d47321e1fcfcd6ad909c945df758d7981a145a2dad286"
-    },
-    {
-      "license": "CC-BY-SA-4.0; см. LICENSE.md",
-      "rights_basis": "открытый производный пакет; сторонние материалы и личные данные не включены",
-      "path": "_технэ/контуры/открытый/SUTI.motion/__pycache__/export.cpython-315.pyc",
-      "sha256": "53b1e14d1d27cb14d30244a10ae54b5f0ff6e7cf056bfb2933369204e1380c17"
     },
     {
       "license": "CC-BY-SA-4.0; см. LICENSE.md",
@@ -843,5 +837,5 @@
     "plus",
     "pro"
   ],
-  "version": "0.2.2"
+  "version": "0.2.3"
 }

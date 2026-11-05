@@ -35,8 +35,8 @@ def main() -> None:
         row.update({"path": rel, "sha256": hashlib.sha256(path.read_bytes()).hexdigest()})
         package_files.append(row)
     package.update({
-        "status": "open-content; standalone portable release 0.2.2",
-        "version": "0.2.2",
+        "status": "open-content; standalone portable release 0.2.3",
+        "version": "0.2.3",
         "file_count": len(package_files) + 1,
         "files": package_files,
         "release_gate": {
@@ -57,7 +57,7 @@ def main() -> None:
 
     release_path = ROOT / "RELEASE.json"
     release = json.loads(release_path.read_text(encoding="utf-8"))
-    release["version"] = "0.2.2"
+    release["version"] = "0.2.3"
     release["payload_files"] = sum(1 for p in ROOT.rglob("*") if included(p)) + 1
     release_path.write_text(json.dumps(release, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
