@@ -8,6 +8,7 @@ The vault's [symbol guide](vault/%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D0%B
 
 ## быстрый вход
 
+- [атлас заботы](https://ezargaruna.github.io/suticore/care-atlas.html) · [Virenium с SUTI.os для работы без сети](https://ezargaruna.github.io/suticore/downloads/Virenium.zip)
 - [выбрать язык и открыть SUTI.world](https://suti.world/)
 - [скачать полный русский vault](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os.zip)
 - [статус всех 13 языковых слоёв](language-packs/README.md)
