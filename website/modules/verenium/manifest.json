@@ -16,5 +16,20 @@
   ],
   "storage": "explicit local JSON export/import",
   "implementation": "offline browser workshop",
-  "hosted_agent": false
+  "hosted_agent": false,
+  "protocol": "modules/verenium/protocol.md",
+  "depths": [
+    "касание",
+    "различение",
+    "сборка"
+  ],
+  "settings": [
+    "name",
+    "route",
+    "depth"
+  ],
+  "profile_versions_read": [
+    1,
+    2
+  ]
 }
