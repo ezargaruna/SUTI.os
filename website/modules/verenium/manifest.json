@@ -1,0 +1,20 @@
+{
+  "id": ".verenium",
+  "name": "Verenium",
+  "legacy_name": "Virenium",
+  "entry": "verenium.html",
+  "legacy_entry": "virenium.html",
+  "routes": [
+    "care",
+    "order",
+    "council",
+    "setup"
+  ],
+  "resources": [
+    "care-map.html",
+    "care-atlas.html"
+  ],
+  "storage": "explicit local JSON export/import",
+  "implementation": "offline browser workshop",
+  "hosted_agent": false
+}
