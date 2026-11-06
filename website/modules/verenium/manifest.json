@@ -31,5 +31,11 @@
   "profile_versions_read": [
     1,
     2
-  ]
+  ],
+  "telegram": {
+    "username": "verenium_bot",
+    "adapter": "modules/verenium/telegram/bot.py",
+    "mode": "private chat navigation",
+    "deployment": "not verified"
+  }
 }
