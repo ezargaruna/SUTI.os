@@ -37,5 +37,19 @@
     "adapter": "modules/verenium/telegram/bot.py",
     "mode": "private chat navigation",
     "deployment": "not verified"
+  },
+  "activation": {
+    "fragment": "activate",
+    "preset": {
+      "name": "Verenium",
+      "route": "care",
+      "depth": "0"
+    },
+    "scope": "current tab"
+  },
+  "entrypoints": {
+    "care": "https://docs.google.com/forms/d/e/1FAIpQLScXLTMQ3UUywSRd73n-817sHVL3bfWpas5jlu9KWCAdSDXlyg/viewform",
+    "verenium": "https://ezargaruna.github.io/suticore/verenium.html#activate",
+    "council": "https://ezargaruna.github.io/suticore/verenium.html#council"
   }
 }
