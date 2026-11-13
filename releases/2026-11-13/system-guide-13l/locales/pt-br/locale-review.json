@@ -1,0 +1,39 @@
+{
+  "artifact_id": "suti.ai-soul-system-contour.pt-br.review.v1",
+  "source_path": "locales/ru/guide.md",
+  "source_locale": "ru",
+  "target_locale": "pt-BR",
+  "source_version": "1.1.0-draft",
+  "source_sha256": "73d2ab00a04c8426d6009702bcb752dae0d668054b3dcf39d7fad0162009ff79",
+  "audience": "adults configuring or documenting an AI assistant; children only through reviewed adult/institution-led routes",
+  "purpose": "complete direct transcreation of all 12 source sections for understanding, local configuration, a worked example, and recovery",
+  "visibility": "public-safe-content / local-review-only",
+  "rights_status": "authorial editorial draft; reuse terms and publication not approved by this record",
+  "transcreation_status": "draft",
+  "format_profile": "Synaura quiet luxury; local grammar and punctuation; stable machine IDs and keys",
+  "review_scope": "all 12 section markers present; additions directly translated from Russian; consent, uncertainty, source and runtime limits retained",
+  "reviewer_status": "AI editorial pass only; independent native and meaning review pending",
+  "open_questions": [
+    "independent language review",
+    "native idiom and neuro-poetic register",
+    "accessibility and owner acceptance"
+  ],
+  "updated_at": "2026-11-13",
+  "back_brief": "The guide defines AI soul as a person-chosen metaphor, maps system roles, gives a five-step first use and eight configuration settings, preserves the Russian worked example, names seven recovery cases, and distinguishes package completeness from language or runtime acceptance.",
+  "losses": [
+    "No deliberate semantic omissions; stylistic cadence adapted to local prose."
+  ],
+  "unresolved": [
+    "Independent native/meaning/accessibility review remains pending.",
+    "Russian worked-example output is intentionally retained verbatim; local-language glosses are explanatory additions."
+  ],
+  "changes": [
+    "12 stable section markers; 5 complete new sections",
+    "remote service/memory/analytics disclosure included",
+    "English-only essence/footer labels localized"
+  ],
+  "source_path_base": "package-root",
+  "guide_path": "locales/pt-br/guide.md",
+  "source_vault_sha256": "61b51ce83b1ffdc18c8654a3b32a66fc2abb838d5598edd447530c069388eeaa",
+  "package_transformation": "relative machine link rebasing only"
+}

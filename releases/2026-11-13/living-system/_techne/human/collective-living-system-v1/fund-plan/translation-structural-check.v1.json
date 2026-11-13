@@ -1,0 +1,46 @@
+{
+  "schema": "suti.care-fund.translation-structural-check.v1",
+  "date": "2026-11-13",
+  "scope": "structural correspondence and authored direct-draft coverage; no runtime execution or independent language review",
+  "checks": {
+    "plan_section_count_match": {
+      "status": "PASS",
+      "en": 10,
+      "ru": 10
+    },
+    "contour_ids_in_russian_plan_and_spec": {
+      "status": "PASS",
+      "count": 13
+    },
+    "calendar_row_and_stable_field_match": {
+      "status": "PASS",
+      "rows": 90,
+      "stable_fields": [
+        "day",
+        "date",
+        "week",
+        "role_acceptance",
+        "status",
+        "evidence_path"
+      ]
+    },
+    "spec_acceptance_criteria": {
+      "status": "defined-not-run",
+      "count": 18
+    },
+    "spec_locale_records": {
+      "status": "PASS",
+      "count": 13,
+      "not_started_HOLD": 12
+    },
+    "native_meaning_and_author_review": {
+      "status": "HOLD"
+    },
+    "runtime_accessibility_privacy_delete_export": {
+      "status": "NOT_RUN"
+    },
+    "external_actions": {
+      "status": "NONE"
+    }
+  }
+}

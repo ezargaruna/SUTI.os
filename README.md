@@ -6,6 +6,15 @@ This repository owns the portable vault, local installer, release manifest, and 
 
 The vault's [symbol guide](vault/%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D0%B5/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0/%D0%B7%D0%BD%D0%B0%D0%BA%D0%B8%20%D1%8F%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8.md) is the practical Russian reference; the matching [SUTIcore specification](https://github.com/ezargaruna/suticore/blob/main/app/docs/docs/canon/symbols_reference.md) documents the extended palette and access rules.
 
+## 2026-11-13 · selected common-system review drafts
+
+- [new common operating layer · thirteen routes](releases/2026-11-13/living-system/README.md)
+- [separate system guide · thirteen draft editions](releases/2026-11-13/system-guide-13l/README.md)
+- [download sets, hashes and publication scope](releases/2026-11-13/README.md)
+- planned website entries: [system](https://ezargaruna.github.io/suticore/system/) · [AI system guide](https://ezargaruna.github.io/suticore/modules/ai-soul-13l/)
+
+These selected author-owned drafts are prepared for public review by the owner's current request. They do not replace the existing stable vault or imply that the full legacy corpus is translated. Native review, fund/financial/participant operations and runtime remain separate gates. The existing CC BY-SA/MIT scopes are not silently extended to the new releases; see the [release notice](releases/2026-11-13/NOTICE.md).
+
 ## быстрый вход
 
 - [атлас заботы](https://ezargaruna.github.io/suticore/care-atlas.html) · [Verenium с SUTI.os для работы без сети](https://ezargaruna.github.io/suticore/downloads/Verenium.zip)

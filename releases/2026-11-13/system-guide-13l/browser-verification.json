@@ -1,0 +1,30 @@
+{
+  "schema": "suti.browser-smoke-verification.v1",
+  "date": "2026-11-13",
+  "status": "PASS_SCOPED_BROWSER_SMOKE",
+  "surface": "offline index.html via file://",
+  "browser": "installed Google Chrome via Playwright channel",
+  "observations": {
+    "locale_switches": 13,
+    "sections_per_locale": 12,
+    "tables_per_locale": 1,
+    "language_tags": "pt-BR, zh-Hans, appropriate standard tags; YZH und",
+    "arabic_direction": "root and article rtl",
+    "other_directions": "ltr",
+    "keyboard_skip_link": "focuses guide",
+    "mobile_widths_checked": [
+      "ru",
+      "ar",
+      "bn"
+    ],
+    "mobile_viewport_px": 375,
+    "mobile_horizontal_overflow": false,
+    "page_errors": [],
+    "remote_requests": []
+  },
+  "limits": [
+    "No independent native-language acceptance",
+    "Not a comprehensive visual or accessibility audit",
+    "No deployed service or permission enforcement is implied"
+  ]
+}

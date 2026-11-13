@@ -1,0 +1,35 @@
+{
+  "artifact_id": "suti.ai-soul-system-contour.hi.v1",
+  "source_path": "locales/ru/guide.md",
+  "source_locale": "ru",
+  "target_locale": "hi",
+  "source_version": "1.1.0-draft",
+  "source_sha256": "73d2ab00a04c8426d6009702bcb752dae0d668054b3dcf39d7fad0162009ff79",
+  "audience": "adult readers and system configurators; minors only through a reviewed adult/institution route",
+  "purpose": "explain the human-chosen AI soul metaphor and the full local SUTI configuration guide",
+  "visibility": "public-safe-content / local-review-only",
+  "rights_status": "authorial draft / reuse terms unassigned / RELEASE_HOLD",
+  "transcreation_status": "draft",
+  "format_profile": "Synaura quiet luxury; native script; LTR",
+  "review_scope": "all 12 source sections translated directly from Russian; model-assisted semantic reconciliation; local structure and links checked; no independent native review",
+  "reviewer_status": "independent_native_and_meaning_review_pending",
+  "open_questions": [
+    "Independent native-language, terminology and cultural review",
+    "Native-script font shaping, wrapping and accessibility review",
+    "Owner acceptance and item-level release decision",
+    "Named-environment runtime verification remains separate"
+  ],
+  "updated_at": "2026-11-13",
+  "back_brief": "The metaphor is explicitly human-chosen. The text preserves no consciousness claim, local draft status, human authority, source/minimum-scope checks, optional memory, no hidden data collection, eight configuration defaults, a no-send/no-save Russian worked example, seven recovery cases, version 1.1.0-draft and separate release/runtime gates.",
+  "losses": [],
+  "adaptations": [
+    "Human-readable examples are explained in the target language; original Russian answer quotations and machine IDs are preserved."
+  ],
+  "unresolved": [
+    "Fluency is not independent acceptance; release remains HOLD."
+  ],
+  "source_path_base": "package-root",
+  "guide_path": "locales/hi/guide.md",
+  "source_vault_sha256": "61b51ce83b1ffdc18c8654a3b32a66fc2abb838d5598edd447530c069388eeaa",
+  "package_transformation": "relative machine link rebasing only"
+}

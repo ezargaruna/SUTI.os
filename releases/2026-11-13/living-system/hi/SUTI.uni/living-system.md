@@ -1,0 +1,20 @@
+# SUTI.uni · स्वाध्याय
+
+locale :: hi
+source_locale :: ru
+state :: direct-source-draft-unreviewed
+release :: HOLD
+source_sha256 :: a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312
+
+
+प्रश्न को छोटे सीखने के अभ्यास में बदलना
+
+कौशल बताएँ → एक उदाहरण पढ़ें → छोटा कार्य करें → अपनी भाषा में समझ की जाँच करें
+
+लघु पाठ, उदाहरण और प्रतिक्रिया
+
+सीखना पेशेवर सहायता या योग्यता का विकल्प नहीं है
+
+[SUTI · साझा जीवंत प्रणाली](../living-system.md) · [जीवन और जीवनप्रेमियों की सहायता निधि · देखभाल के फ़रिश्तों की एजेंसी](../care-90-days.md)
+
+[ru · source](../../_techne/machine/collective-living-system-v1/source.ru.json)

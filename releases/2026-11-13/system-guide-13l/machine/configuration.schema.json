@@ -1,0 +1,710 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:suti:ai-soul:configuration:1.1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "version",
+    "locale",
+    "voice",
+    "persona_metaphor",
+    "selected_modules",
+    "memory",
+    "external_actions",
+    "network",
+    "background_jobs",
+    "tier",
+    "disclosure_depth"
+  ],
+  "properties": {
+    "schema": {
+      "const": "suti.ai-soul.configuration.v1"
+    },
+    "version": {
+      "const": "1.1.0-draft"
+    },
+    "locale": {
+      "enum": [
+        "ru",
+        "en",
+        "es",
+        "pt-br",
+        "zh-hans",
+        "hi",
+        "fr",
+        "ar",
+        "bn",
+        "eo",
+        "sa",
+        "la",
+        "yzh"
+      ]
+    },
+    "voice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tone",
+        "length",
+        "imagery"
+      ],
+      "properties": {
+        "tone": {
+          "type": "string",
+          "minLength": 1
+        },
+        "length": {
+          "enum": [
+            "short",
+            "standard",
+            "detailed"
+          ]
+        },
+        "imagery": {
+          "enum": [
+            "none",
+            "optional",
+            "poetic"
+          ]
+        }
+      }
+    },
+    "persona_metaphor": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "selected_modules": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "SUTI.os",
+          "SUTI.veche",
+          "SUTI.verenium",
+          "SUTIcore",
+          "synaura",
+          "Syntaxium",
+          "VereNITYA",
+          "SUTI.oracle",
+          "SUTI.sotkan",
+          "LinguaFUSION",
+          "SRETENIYA_OS",
+          "consented-presence",
+          "SUTI.care",
+          "SUTI.angels",
+          "SUTI.world",
+          "SUTI.game",
+          "NITYA"
+        ]
+      }
+    },
+    "memory": {
+      "enum": [
+        "none",
+        "local_opt_in"
+      ]
+    },
+    "external_actions": {
+      "const": "require_exact_authorization"
+    },
+    "network": {
+      "const": "off_by_default"
+    },
+    "background_jobs": {
+      "const": "off"
+    },
+    "tier": {
+      "enum": [
+        "Open",
+        "Plus",
+        "Pro"
+      ]
+    },
+    "disclosure_depth": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.os"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTIcore"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.veche"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.os"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.veche"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "VereNITYA"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.verenium"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.os"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.verenium"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "synaura"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.verenium"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "Syntaxium"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "synaura"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTIcore"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "Syntaxium"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTIcore"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "VereNITYA"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTIcore"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.oracle"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "VereNITYA"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.sotkan"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "VereNITYA"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "LinguaFUSION"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "Syntaxium"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "LinguaFUSION"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "VereNITYA"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SRETENIYA_OS"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.os"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "consented-presence"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.os"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "consented-presence"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "synaura"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.care"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.os"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.care"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "VereNITYA"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.angels"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.care"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.angels"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.veche"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.world"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.os"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.world"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "synaura"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.game"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.os"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.game"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "synaura"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "NITYA"
+            }
+          }
+        },
+        "required": [
+          "selected_modules"
+        ]
+      },
+      "then": {
+        "properties": {
+          "selected_modules": {
+            "contains": {
+              "const": "SUTI.game"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

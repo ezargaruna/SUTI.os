@@ -1,0 +1,20 @@
+# SUTI.audit · verificación
+
+locale :: es
+source_locale :: ru
+state :: direct-source-draft-unreviewed
+release :: HOLD
+source_sha256 :: a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312
+
+
+Comparar un resultado con un criterio explícito.
+
+Define el alcance → elige un criterio → revisa el material → registra PASS, PARTIAL, FAIL o UNKNOWN.
+
+Un informe, evidencia y preguntas abiertas.
+
+PASS se aplica solo a la versión y comprobación nombradas.
+
+[SUTI · sistema vivo compartido](../living-system.md) · [Fondo de apoyo a la vida y agencia de ángeles del cuidado](../care-90-days.md)
+
+[ru · source](../../_techne/machine/collective-living-system-v1/source.ru.json)

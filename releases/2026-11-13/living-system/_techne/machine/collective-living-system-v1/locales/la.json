@@ -1,0 +1,164 @@
+{
+  "schema": "suti.living-system.source.v1",
+  "source_locale": "ru",
+  "version": "2026-11-13.v1",
+  "title": "SUTI · systema commune vivum",
+  "intro": "systema publicum methodorum et operis communis: rem gravem intellegere, verba invenire, gradum possibilem eligere. Quisque particeps auctoritatem operis sui et ius corrigendi, recusandi atque discedendi retinet.",
+  "status": "novus ordo communis operandi: adumbratio editorialis localis; recognitio linguistica independens exspectatur; constitutio iuridica fundationis, pecuniae acceptio, rete mundanum operans et publicatio nondum comprobata sunt",
+  "cycle": "quaestio → verba → nexus → tabula → gradus → vestigium → emendatio",
+  "privacy": "in ambitu publico methodi, praecepta generalia et exempla comprobata manent. Notae personales, indicia contactus, commercium epistularum et res sensibiles separatim servantur nec in exportationem communem includuntur.",
+  "rights": "auctor, visibilitas, licentia et actiones permissae cuiusque contributionis separatim definiuntur. Licentia totius corporis veteris nondum constituta est.",
+  "contribution": "mutationem cum fonte et causa propone → probationem describe → consensum participum quorum interest pete → homo responsabilis mutationem accipit aut differt → vestigium et facultatem restituendi serva",
+  "sovereignty": "autonomia informationis: originem datorum intellegere atque aditum, exportationem et deletionem propriarum notarum eligere. Autonomia linguae, discendi, creandi, rerum oeconomicarum et ordinationis artibus intellegibilibus et decisionibus examinabilibus colitur; effectus non promittitur.",
+  "fund_title": "fundus ad vitam sustinendam et ad eos adiuvandos qui vitam amant · agentia angelorum curae",
+  "fund_purpose": "propositum apertum ad incepta utilia sustinenda: doctrinam, instrumenta accessibilia, auxilium mutuum et curam ambitus viventis. Nomen ad tempus positum est; participatio et imago angeli voluntariae sunt.",
+  "fund_state": "die 13 Novembris 2026 cyclus localis praeparationis inceptus est. Dies 90 est 10 Februarii 2027. Inscriptio, iurisdictio, administratores, argentaria, regulae donationum et ratio tributorum adhuc UNKNOWN sunt; operationes pecuniariae non sunt activatae.",
+  "fund_flow": "petitio aperta sine rebus sensibilibus → convenientiam cum proposito et facultatibus examinare → decernere sine conflictu utilitatum → auxilium limitatum → effectum comprobare recipiente non patefacto → facultas appellandi et corrigendi",
+  "fund_phases": [
+    [
+      "1–15",
+      "2026-11-13 — 2026-11-27",
+      "de proposito, eo qui decisionibus respondet, terra inscriptionis, distributione munerum et condicionibus participationis consentire; rationem impensarum sine pecunia colligenda componere"
+    ],
+    [
+      "16–30",
+      "2026-11-28 — 2026-12-12",
+      "viam iuridicam et optionem societatis examinare; regulas auxilii, conflictuum utilitatum, appellationum, tractationis datorum et inspectionis pecuniae constituere"
+    ],
+    [
+      "31–45",
+      "2026-12-13 — 2026-12-27",
+      "praecepta publica tredecim linguis, exemplar accessibile machinae colloquentis et formulae, bibliothecamque lectionum brevium componere; recognitionem independentem incipere"
+    ],
+    [
+      "46–60",
+      "2026-12-28 — 2027-01-11",
+      "experimentum parvum voluntarium post permissiones necessarias agere; consensum, accessibilitatem, responsa, exportationem et deletionem propriorum datorum examinare"
+    ],
+    [
+      "61–75",
+      "2027-01-12 — 2027-01-26",
+      "experimentum aestimare, vitia corrigere, circulos socios locales praeparare; tantum processus comprobatos ampliare"
+    ],
+    [
+      "76–90",
+      "2027-01-27 — 2027-02-10",
+      "effectus cum criteriis conferre, relationem permissam et personarum indiciis privatam post approbationem publicare, de proximo cyclo et terris decernere"
+    ]
+  ],
+  "fund_roles": "responsabilis programmatis; pecunia et rationum collatio independens; tutela datorum et securitas participum; recognitores linguarum; coordinatores experimenti; examen independens appellationum. Munera proponuntur; homines nondum nominati sunt.",
+  "fund_metrics": "participationem consentaneam, actiones utiles perfectas, tempus responsi, accessibilitatem, correctiones et impensas veras observare. Fines et limina numerica ante experimentum probantur; propagatio celeris et ambitus mundanus non praestantur.",
+  "fund_pause": "discrepantia pecuniae et relationis, violatio consensus, effluxus datorum, querela de damno aut absentia responsabilis processum pertinentem sistunt; examen et decisio humana sequuntur.",
+  "contours": [
+    {
+      "id": "SUTI.os",
+      "title": "ordinatio systematis",
+      "purpose": "fines, instrumenta, conservationem et restitutionem concordare",
+      "procedure": "opus et ambitum elige → initium et effectum describe → aditum et reditum examina → praeceptum operandi serva",
+      "output": "tabula ambitus et gradus operandi iterabilis",
+      "boundary": "descriptio neque systema institutum neque securitatem comprobat"
+    },
+    {
+      "id": "SUTI.world",
+      "title": "aditus publicus",
+      "purpose": "hominem adiuvare ut viam idoneam et gradum proximum inveniat",
+      "procedure": "quaestionem nomina → linguam elige → partem idoneam aperi → unum gradum possibilem tenta",
+      "output": "via intellegibilis et actio electa",
+      "boundary": "amplitudo retis et utilitas observationibus comprobantur, non promissione"
+    },
+    {
+      "id": "SUTI.uni",
+      "title": "doctrina propria",
+      "purpose": "quaestionem in brevem exercitationem discendi convertere",
+      "procedure": "artem defini → unum exemplum disce → opus parvum perfice → intellectum propriis verbis examina",
+      "output": "lectio brevis, exemplum et responsum",
+      "boundary": "doctrina auxilium peritum et qualificationem non substituit"
+    },
+    {
+      "id": "SUTI.clan",
+      "title": "cooperatio",
+      "purpose": "munera, contributiones et fines participationis concordare",
+      "procedure": "opus commune defini → participationem expressam pete → de iuribus et munere conveni → decisionem serva",
+      "output": "consensus participum et tabula responsabilitatum",
+      "boundary": "nomen hominis vel institutionis in tabula neque societatem neque consensum significat"
+    },
+    {
+      "id": "SUTI.lab",
+      "title": "investigatio",
+      "purpose": "ideas parvis experimentis revocabilibus examinare",
+      "procedure": "hypothesin nomina → signum observabile elige → experimentum limitatum age → effectum et dubia nota",
+      "output": "nota investigationis cum fundamentis",
+      "boundary": "hypothesis et symbolum sine probatione non fiunt res comprobatae"
+    },
+    {
+      "id": "SUTI.audit",
+      "title": "examinatio",
+      "purpose": "effectum cum criterio expresso conferre",
+      "procedure": "ambitum defini → criterium elige → materiam examina → PASS, PARTIAL, FAIL aut UNKNOWN nota",
+      "output": "relatio, testimonia et quaestiones apertae",
+      "boundary": "PASS tantum ad versionem et probationem nominatam pertinet"
+    },
+    {
+      "id": "SUTI.crystal",
+      "title": "forma clara",
+      "purpose": "rem essentialem in artefacto per se intellegibili servare",
+      "procedure": "quaestionem et fontem distingue → rem invariantem nomina → exemplum et limitem monstra → gradum proximum adde",
+      "output": "scheda rei essentialis cum fonte et contextu",
+      "boundary": "brevitas amissionem condicionum, auctoritatis aut incertitudinis non excusat"
+    },
+    {
+      "id": "SUTI.oracle",
+      "title": "discretio fundamentorum",
+      "purpose": "notitias, interpretationes et incognita distinguere",
+      "procedure": "enuntiatum formula → genus nomina → fundamentum indica → modum probationis describe",
+      "output": "tabula enuntiatorum et fundamentorum",
+      "boundary": "haec est methodus examinandi, non praedictio neque auctoritas autonoma"
+    },
+    {
+      "id": "SUTI.veche",
+      "title": "consideratio communis",
+      "purpose": "propositiones et dissensiones visibiles facere",
+      "procedure": "propositionem exhibe → sententias pete → favorem, obiectionem, abstentionem et absentiam responsi separatim nota → homo responsabilis decernit",
+      "output": "acta considerationis et decisio humana",
+      "boundary": "silentium non est consensus; examen per AI non est suffragium hominum"
+    },
+    {
+      "id": "SUTI.sotkan",
+      "title": "nexus et origo",
+      "purpose": "materias cum fontibus et historia mutationum coniungere",
+      "procedure": "fontem indica → transformationem describe → versionem cum originali coniunge → facultatem corrigendi et revertendi examina",
+      "output": "vestigium originis examinabile",
+      "boundary": "similitudo textus neque auctorem neque licentiam neque translationem iurium probat"
+    },
+    {
+      "id": "SUTI.game",
+      "title": "exercitatio voluntaria",
+      "purpose": "artes per ludos NITYA et Samurai Dharma explorare",
+      "procedure": "linguam ordinariam aut symbolicam elige → parvum opus ludicum accipe → tenta → observationem nota aut praetermitte → continuationem elige",
+      "output": "usus exercitationis et proprius gradus proximus",
+      "boundary": "ludus voluntarius est; mora, praetermissio et exitus praebentur; viae aetatum separatum examen requirunt"
+    },
+    {
+      "id": "SUTI.logos",
+      "title": "lingua et transcreatio",
+      "purpose": "sensum inter linguas et ambitus transferendo servare",
+      "procedure": "intentionem et rem invariantem distingue → recta e fonte verte → condiciones et certitudinem confer → recognitionem independentem pete",
+      "output": "textus intellegibilis, termini et status cuiusque linguae",
+      "boundary": "adumbratio non est translatio comprobata; Yazekh glossam auctoris requirit"
+    },
+    {
+      "id": "SUTI.verenium",
+      "title": "navigatio curae",
+      "purpose": "hominem adiuvare ut auxilium possibile et gradum proprium eligat",
+      "procedure": "quaere quid grave sit → optiones intellegibiles propone → fines explica → electionem, moram et exitum relinque",
+      "output": "via auxilii electa et actio concordata",
+      "boundary": "angelus curae imago voluntaria est; ministerium neque subitis rebus neque medicinae destinatur"
+    }
+  ],
+  "locale": "la",
+  "editorial_status": "experimental-AI-assisted-draft; specialist-and-semantic-review-pending",
+  "editorial_note": "Versio Latina experimentalis; usus terminorum recentiorum et grammatica a perito recognoscenda sunt.",
+  "translation_state": "direct-source-draft-unreviewed",
+  "native_review": "pending",
+  "release": "HOLD"
+}

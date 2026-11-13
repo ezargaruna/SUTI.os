@@ -1,0 +1,144 @@
+{
+  "schema": "suti.research.veche-history-note.v1",
+  "date": "2026-11-13",
+  "scope": "Bounded academic source check of a user-supplied historical Veche excerpt; research evidence metadata, separate from the 13-language operational guide",
+  "overall": "PARTIAL / HISTORY_IS_NOT_A_RUNTIME_OR_AUTHORITY_CLAIM",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Pavel B. Lukin, Assemblies and Councils in Medieval Novgorod and Western Pomerania",
+      "url": "https://eusp.org/sites/default/files/archive/RESPUBLICA/RepTradition/03.Lukin_-_Assemblies_and_Councils_in_Novgorod_and_Western_Pomerania.pdf",
+      "type": "Original academic research, university-hosted PDF",
+      "access": "Full PDF read in browser tool",
+      "locations": "PDF pp. 1-4, especially printed text on pp. 2-4",
+      "supported_claims": [
+        "Lukin argues from Russian and Hanseatic documents that the veche was a political institution, not merely an undifferentiated crowd.",
+        "His reconstruction includes different categories of free urban citizens while also stressing boyar leadership; it does not establish universal participation by all inhabitants.",
+        "He finds no basis in the examined documents for treating the rural population as participants on equal terms.",
+        "The article dates the first Novgorod veche mention to 1015 and describes institutional emergence as extended and uncertain."
+      ],
+      "limits": "This is one scholar's source-based interpretation, not a settled universal model for every city, century or group."
+    },
+    {
+      "id": "S2",
+      "title": "Pavel V. Lukin, dissertation on the Novgorod veche, Institute of Russian History RAS PDF",
+      "url": "https://iriran.ru/sites/default/files/Lukin_Disser.pdf",
+      "type": "Original academic dissertation, research-institute-hosted PDF",
+      "access": "Relevant sections read; not an exhaustive reading of all 635 PDF pages",
+      "locations": "PDF pp. 4-10 (historiography and sources), 155 and 168 (chronology), 386-388 (acclamation and unanimity)",
+      "supported_claims": [
+        "The dissertation explicitly presents the veche's social composition, functions and institutional nature as disputed because the source base is sparse and narratively mediated.",
+        "It discusses the Belgorod 997 reference as a chronicle-text insertion, Kyiv assemblies in 1068-1069, and Novgorod events dated 1015/1016 in different texts.",
+        "It treats acclamation and ideals of collective unanimity historically; this does not establish one formally documented consensus algorithm.",
+        "Source criticism is necessary: chronicles are literary and ideological texts, not verbatim meeting minutes."
+      ],
+      "limits": "Narrative date, manuscript date and reconstructed event date must remain distinct; a single date is not a verified founding date."
+    },
+    {
+      "id": "S3",
+      "title": "Ferdinand Feldbrugge, Popular Assemblies in Early Medieval Russia: The Veche in Legal History, in Law in Medieval Russia",
+      "url": "https://brill.com/previewpdf/book/9789004180857/Bej.9789004169852.i-336_006.xml",
+      "type": "Original academic legal-history chapter, publisher-hosted preview",
+      "access": "Substantive publisher search-index excerpt available; direct PDF fetch returned 403",
+      "supported_claims": [
+        "The chapter describes procedures, jurisdiction and composition as subjects of continuing historiographical debate.",
+        "It reports the earliest veche reference as 997 and the first recorded Novgorod meeting as 1016.",
+        "It notes the scarcity of medieval legal information about veche activities and the central role of chronicles."
+      ],
+      "limits": "Partial access only. This supports careful attribution and the existence of differing dating conventions, not a full procedural reconstruction."
+    },
+    {
+      "id": "S4",
+      "title": "Lawrence N. Langer, V. L. Ianin and the History of Novgorod, Slavic Review",
+      "url": "https://www.cambridge.org/core/journals/slavic-review/article/abs/v-l-ianin-and-the-history-of-novgorod/6FF227379064B094815C82BE68B72153",
+      "type": "Scholarly historiographical article, publisher-hosted extract",
+      "access": "Publisher extract read",
+      "supported_claims": [
+        "The extract stresses the paucity of early sources and warns against describing fourteenth- and fifteenth-century arrangements as unchanged since 1136.",
+        "It situates accounts of veche sovereignty and open citizen meetings within historiographical debate."
+      ],
+      "limits": "Extract only; not evidence for every proposed procedural detail."
+    }
+  ],
+  "excerpt_claims": [
+    {
+      "claim": "Belgorod 997, Novgorod 1016 and Kyiv 1068 are historical veche reference dates",
+      "status": "PARTIAL",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "correction": "These are attributed chronicle/reconstruction reference dates. Retain Novgorod 1015/1016 as a dating/source variation; do not present them as exact institutional founding dates."
+    },
+    {
+      "claim": "Ancient veche had strict, universal access protocols",
+      "status": "UNVERIFIED",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "correction": "Participation and status boundaries varied and remain disputed. Contemporary project access rules may be designed explicitly, but must be labeled modern rules rather than recovered ancient procedure."
+    },
+    {
+      "claim": "Veche was a universally inclusive assembly of all inhabitants",
+      "status": "NOT_SUPPORTED_AS_STATED",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "correction": "The examined research discusses free urban citizen categories, elite leadership and exclusion or lack of evidence for other groups. It does not support modern universal suffrage across age, gender, status and residence."
+    },
+    {
+      "claim": "All decisions were made through a single strict consensus algorithm",
+      "status": "UNVERIFIED",
+      "sources": [
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "correction": "Distinguish ideals/rhetoric of unanimity, acclamation, factional conflict and actual decision processes. No universally applicable formal algorithm was established by this bounded check."
+    },
+    {
+      "claim": "Fractal topology is a documented historical organizational principle of veche",
+      "status": "UNVERIFIED_MODERN_ANALOGY",
+      "sources": [],
+      "correction": "If useful, retain 'fractal' only as a modern authorial design metaphor. It was not verified as an historical term, measurement or institutional rule."
+    },
+    {
+      "claim": "Modern SUTI.veche or DAO directly continues the ancient institution and inherits its authority",
+      "status": "UNVERIFIED",
+      "sources": [],
+      "correction": "Use a named historical inspiration and separately authored present-day deliberation protocol; historical analogy provides no consent, membership, lawfulness or runtime authority."
+    }
+  ],
+  "modern_design_implications": [
+    {
+      "kind": "AUTHORIAL_DESIGN_PROPOSAL",
+      "proposal": "State membership, eligibility, invitation, scope, quorum and the chosen decision rule before deliberation; these are modern, inspectable project rules."
+    },
+    {
+      "kind": "AUTHORIAL_DESIGN_PROPOSAL",
+      "proposal": "Record support, objection, abstention and no response separately; never convert silence into consent or simulate a real participant vote."
+    },
+    {
+      "kind": "AUTHORIAL_DESIGN_PROPOSAL",
+      "proposal": "Provide a pause, correction, appeal and exit route; consensus may be a selected method for a bounded group, not a universal historical claim."
+    },
+    {
+      "kind": "AUTHORIAL_DESIGN_PROPOSAL",
+      "proposal": "Keep human deliberation and machine assistance distinct. AI may summarize evidence or alternatives but does not represent absent people, produce consent, or authorize external actions."
+    },
+    {
+      "kind": "AUTHORIAL_DESIGN_PROPOSAL",
+      "proposal": "Separate a historical source note from current machine configuration; preserve evidence status and source/date variants rather than converting inspiring prose into executable policy."
+    }
+  ],
+  "verification_limits": [
+    "Four academic sources, including publisher extracts and one partial-access chapter; not an exhaustive historiographical review.",
+    "The note uses no long quotations and does not reproduce restricted scholarly text.",
+    "Modern design proposals above are authorial recommendations, not historical facts or legal advice."
+  ],
+  "translation_status": "source-note in English; not used to assert historical facts in localized guides"
+}

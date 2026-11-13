@@ -1,0 +1,162 @@
+{
+  "schema": "suti.living-system.source.v1",
+  "source_locale": "ru",
+  "version": "2026-11-13.v1",
+  "title": "SUTI · sistema vivo compartilhado",
+  "intro": "Um sistema público de métodos e colaboração: entender o que importa, encontrar palavras e escolher um próximo passo possível. Cada participante mantém a autoria e o direito de corrigir, recusar e sair.",
+  "status": "Nova camada operacional compartilhada: rascunho editorial local; revisão linguística independente pendente. Uma fundação legal, o recebimento de dinheiro, uma rede mundial em funcionamento e a publicação não foram confirmados.",
+  "cycle": "pergunta → palavras → vínculos → mapa → passo → registro → revisão",
+  "privacy": "O espaço público contém métodos, instruções gerais e exemplos revisados. Registros pessoais, contatos, correspondências e informações sensíveis ficam separados e não entram nas exportações compartilhadas.",
+  "rights": "Autoria, visibilidade, licença e ações permitidas são definidas separadamente para cada contribuição. Não foi estabelecida uma licença aplicável a todo o acervo anterior.",
+  "contribution": "Proponha uma mudança com fonte e motivo → descreva a verificação → solicite consentimento das pessoas afetadas → uma pessoa responsável aceita ou adia a mudança → preserve o registro e a possibilidade de reversão.",
+  "sovereignty": "Soberania informacional significa entender a origem dos dados e escolher acesso, exportação e exclusão dos próprios registros. A autonomia linguística, educacional, criativa, econômica e organizacional se desenvolve com habilidades compreensíveis e decisões verificáveis; sua realização não é prometida.",
+  "fund_title": "Fundo de apoio à vida e agência dos anjos do cuidado",
+  "fund_purpose": "Proposta de programa aberto para apoiar iniciativas úteis: aprendizagem, ferramentas acessíveis, ajuda mútua e cuidado com o ambiente vivo. O nome é provisório; a participação e a imagem do anjo são opcionais.",
+  "fund_state": "O ciclo local de preparação começou em 13 de novembro de 2026. O dia 90 será 10 de fevereiro de 2027. Registro, jurisdição, responsáveis pela gestão, banco, regras de doação e regime tributário permanecem UNKNOWN; operações financeiras não foram ativadas.",
+  "fund_flow": "Solicitação aberta sem detalhes sensíveis → verificar adequação ao propósito e aos recursos disponíveis → decisão sem conflitos de interesse → apoio delimitado → comprovar o resultado sem expor quem recebe apoio → recurso e correção.",
+  "fund_phases": [
+    [
+      "1–15",
+      "2026-11-13 — 2026-11-27",
+      "Acordar propósito, responsável pelas decisões, país de registro, papéis e condições de participação; modelar o orçamento sem arrecadar dinheiro."
+    ],
+    [
+      "16–30",
+      "2026-11-28 — 2026-12-12",
+      "Revisar o caminho jurídico e a opção de parceria; acordar regras de apoio, conflitos de interesse, recursos, dados e controles financeiros."
+    ],
+    [
+      "31–45",
+      "2026-12-13 — 2026-12-27",
+      "Preparar instruções públicas em 13 idiomas, um protótipo acessível de bot e formulário e uma biblioteca de microaulas; iniciar revisão independente."
+    ],
+    [
+      "46–60",
+      "2026-12-28 — 2027-01-11",
+      "Realizar um piloto pequeno e voluntário após as permissões necessárias; verificar consentimento, acessibilidade, respostas, exportação e exclusão dos próprios dados."
+    ],
+    [
+      "61–75",
+      "2027-01-12 — 2027-01-26",
+      "Avaliar o piloto, corrigir falhas e preparar grupos locais parceiros; ampliar somente processos confirmados."
+    ],
+    [
+      "76–90",
+      "2027-01-27 — 2027-02-10",
+      "Comparar resultados com critérios, publicar um relatório anonimizado adequado após autorização e decidir o próximo ciclo e a área geográfica."
+    ]
+  ],
+  "fund_roles": "Responsável pelo programa; finanças e conciliação independente; proteção de dados e segurança dos participantes; edição linguística; coordenação do piloto; análise independente de recursos. São papéis propostos; nenhuma pessoa foi nomeada.",
+  "fund_metrics": "Registrar participação consentida, ações úteis concluídas, tempo de resposta, acessibilidade, correções e despesas reais. Metas e limites numéricos são acordados antes do piloto; viralidade e alcance mundial não são garantidos.",
+  "fund_pause": "Divergência entre dinheiro e relatório, violação de consentimento, vazamento, reclamação sobre dano ou ausência de responsável levam à pausa do processo afetado, à análise e à decisão humana.",
+  "contours": [
+    {
+      "id": "SUTI.os",
+      "title": "estrutura do sistema",
+      "purpose": "Alinhar limites, ferramentas, armazenamento e recuperação.",
+      "procedure": "Escolha uma tarefa e um âmbito → descreva entrada e resultado → verifique acesso e recuperação → salve uma instrução de trabalho.",
+      "output": "Um mapa do ambiente e um passo reproduzível.",
+      "boundary": "Uma descrição não comprova instalação nem segurança."
+    },
+    {
+      "id": "SUTI.world",
+      "title": "entrada pública",
+      "purpose": "Ajudar a encontrar um caminho pertinente e o próximo passo.",
+      "procedure": "Nomeie a pergunta → escolha o idioma → abra um módulo adequado → experimente um passo possível.",
+      "output": "Um caminho claro e uma ação escolhida.",
+      "boundary": "O alcance da rede e sua utilidade exigem observações, não promessas."
+    },
+    {
+      "id": "SUTI.uni",
+      "title": "autoaprendizagem",
+      "purpose": "Transformar uma pergunta em uma prática curta de aprendizagem.",
+      "procedure": "Defina uma habilidade → estude um exemplo → faça uma tarefa pequena → explique o que entendeu com suas palavras.",
+      "output": "Uma microaula, um exemplo e retorno.",
+      "boundary": "Aprender não substitui ajuda profissional nem qualificação."
+    },
+    {
+      "id": "SUTI.clan",
+      "title": "colaboração",
+      "purpose": "Acordar papéis, contribuições e limites de participação.",
+      "procedure": "Descreva uma tarefa comum → solicite participação explícita → combine direitos e papéis → registre a decisão.",
+      "output": "Um acordo entre participantes e um mapa de responsabilidades.",
+      "boundary": "Citar uma pessoa ou organização não estabelece parceria nem consentimento."
+    },
+    {
+      "id": "SUTI.lab",
+      "title": "pesquisa",
+      "purpose": "Explorar ideias com testes pequenos e reversíveis.",
+      "procedure": "Nomeie uma hipótese → escolha um indicador observável → faça um teste delimitado → registre resultados e incertezas.",
+      "output": "Uma nota de pesquisa com fundamentos.",
+      "boundary": "Hipóteses e símbolos não se tornam fatos sem verificação."
+    },
+    {
+      "id": "SUTI.audit",
+      "title": "verificação",
+      "purpose": "Comparar um resultado com um critério explícito.",
+      "procedure": "Defina o escopo → escolha um critério → confira o material → registre PASS, PARTIAL, FAIL ou UNKNOWN.",
+      "output": "Um relatório, evidências e questões abertas.",
+      "boundary": "PASS vale apenas para a versão e a verificação nomeadas."
+    },
+    {
+      "id": "SUTI.crystal",
+      "title": "forma clara",
+      "purpose": "Preservar o essencial em um artefato compreensível por si só.",
+      "procedure": "Identifique pergunta e fonte → nomeie o invariante → mostre exemplo e limites → acrescente um próximo passo.",
+      "output": "Uma ficha de sentido com fonte e contexto.",
+      "boundary": "A brevidade não justifica perder condições, autoria ou incerteza."
+    },
+    {
+      "id": "SUTI.oracle",
+      "title": "fundamentos das afirmações",
+      "purpose": "Distinguir informações, interpretações e o desconhecido.",
+      "procedure": "Formule uma afirmação → nomeie seu tipo → indique a base → descreva como verificá-la.",
+      "output": "Um mapa de afirmações e fundamentos.",
+      "boundary": "É um método de análise; não faz previsões nem exerce autoridade autônoma."
+    },
+    {
+      "id": "SUTI.veche",
+      "title": "deliberação compartilhada",
+      "purpose": "Tornar visíveis propostas e divergências.",
+      "procedure": "Apresente uma proposta → solicite posições → registre separadamente apoio, objeção, abstenção e ausência de resposta → uma pessoa responsável decide.",
+      "output": "Um registro da deliberação e uma decisão humana.",
+      "boundary": "Silêncio não é consentimento; revisão por IA não é votação de pessoas."
+    },
+    {
+      "id": "SUTI.sotkan",
+      "title": "vínculos e proveniência",
+      "purpose": "Vincular materiais às fontes e ao histórico de mudanças.",
+      "procedure": "Indique a fonte → descreva a transformação → vincule a edição ao original → verifique correção e reversão.",
+      "output": "Um registro verificável de proveniência.",
+      "boundary": "Semelhança textual não comprova autoria, licença nem transferência de direitos."
+    },
+    {
+      "id": "SUTI.game",
+      "title": "prática voluntária",
+      "purpose": "Explorar habilidades por meio dos jogos NITYA e Samurai Dharma.",
+      "procedure": "Escolha linguagem cotidiana ou simbólica → aceite uma pequena missão → experimente → registre uma observação ou pule → escolha se quer continuar.",
+      "output": "Experiência de prática e um próximo passo próprio.",
+      "boundary": "O jogo é voluntário; pausa, pular e sair ficam disponíveis; percursos por idade exigem revisão específica."
+    },
+    {
+      "id": "SUTI.logos",
+      "title": "língua e transcriação",
+      "purpose": "Preservar o sentido entre idiomas e contextos.",
+      "procedure": "Identifique intenção e invariante → traduza diretamente da fonte → compare condições e grau de certeza → solicite revisão independente.",
+      "output": "Texto compreensível, termos e estado de cada idioma.",
+      "boundary": "Rascunho não equivale a tradução revisada; Yazekh requer uma glosa aprovada pelo autor."
+    },
+    {
+      "id": "SUTI.verenium",
+      "title": "orientação para o cuidado",
+      "purpose": "Ajudar a escolher apoio viável e um passo próprio.",
+      "procedure": "Pergunte o que importa → ofereça opções claras → esclareça limites → preserve escolha, pausa e saída.",
+      "output": "Um caminho de apoio escolhido e uma ação acordada.",
+      "boundary": "Anjo do cuidado é uma imagem opcional; o serviço não é de emergência nem clínico."
+    }
+  ],
+  "locale": "pt-br",
+  "translation_state": "direct-source-draft-unreviewed",
+  "native_review": "pending",
+  "release": "HOLD"
+}

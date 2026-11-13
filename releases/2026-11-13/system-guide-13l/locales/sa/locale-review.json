@@ -1,0 +1,56 @@
+{
+  "artifact_id": "suti.ai-soul-system-contour.sa.v1",
+  "source_path": "locales/ru/guide.md",
+  "source_locale": "ru",
+  "source_version": "1.1.0-draft",
+  "source_sha256": "73d2ab00a04c8426d6009702bcb752dae0d668054b3dcf39d7fad0162009ff79",
+  "target_locale": "sa",
+  "audience": "People configuring a bounded AI assistant and developers inspecting its local contract",
+  "purpose": "Explain the symbolic AI-soul metaphor, SUTI roles, concrete configuration, use example, recovery and version trace",
+  "visibility": "public-safe-content / local-review-only",
+  "rights_status": "authorial local draft; release and reuse-license acceptance remain separate",
+  "transcreation_status": "draft-complete-sections",
+  "format_profile": "synaura quiet luxury / Markdown / native orthography / 12 stable section IDs",
+  "review_scope": "Section completeness and source comparison by drafting agent; no independent linguistic, cultural, accessibility, legal or runtime review",
+  "reviewer_status": "specialist-review-required",
+  "open_questions": [
+    "Sanskrit specialist grammar, compounding and modern technical register",
+    "Devanagari font rendering and line-wrap review",
+    "Confirm terminology for legal scope, data lifecycle and child safeguarding"
+  ],
+  "updated_at": "2026-11-13",
+  "back_brief": "The AI soul is a human-chosen symbolic configuration; human authority, data minimization, opt-in persistence, optional game, source checks, defaults, complete setup table, Russian worked example, recovery and release gates remain explicit.",
+  "losses_and_adaptations": [
+    "Worked example keeps the source-selected Russian response and exact Russian output, with a target-language meaning gloss.",
+    "Modern technical terms require specialist confirmation; no independent acceptance is claimed."
+  ],
+  "unresolved": [
+    "Sanskrit specialist grammar, compounding and modern technical register",
+    "Devanagari font rendering and line-wrap review",
+    "Confirm terminology for legal scope, data lifecycle and child safeguarding"
+  ],
+  "verification": {
+    "section_ids_present": [
+      "meaning",
+      "voice-memory",
+      "systems",
+      "workflow",
+      "authority-data",
+      "configuration",
+      "maturity-release",
+      "quick-start",
+      "parameters",
+      "worked-example",
+      "recovery",
+      "version-trace"
+    ],
+    "section_count": 12,
+    "meaning_review": "DRAFT_SELF_COMPARISON_ONLY",
+    "runtime": "NOT_VERIFIED",
+    "release": "HOLD"
+  },
+  "source_path_base": "package-root",
+  "guide_path": "locales/sa/guide.md",
+  "source_vault_sha256": "61b51ce83b1ffdc18c8654a3b32a66fc2abb838d5598edd447530c069388eeaa",
+  "package_transformation": "relative machine link rebasing only"
+}

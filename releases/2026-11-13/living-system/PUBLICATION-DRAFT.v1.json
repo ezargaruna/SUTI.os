@@ -1,0 +1,14 @@
+{
+  "schema": "suti.public-draft-authorization.v1",
+  "date": "2026-11-13",
+  "state": "OWNER_AUTHORIZED_PUBLIC_REVIEW_CANDIDATE",
+  "purpose": "public website and GitHub review of the selected new operating layer",
+  "authorization_source": "current owner request in working session",
+  "scope": "222 source allowlist files plus draft wrapper/provenance/manifest",
+  "source_allowlist_sha256": "098c471c2d92568d34a07e79578efe4be4b5afeef10c65a7d8d8e9089f72fc2e",
+  "source_statuses_preserved": true,
+  "translation_acceptance": "PENDING",
+  "fund_legal_financial_participant_runtime_gates": "UNCHANGED / UNKNOWN_OR_HOLD",
+  "new_reuse_license": "NONE_GRANTED",
+  "legacy_private_archives": "EXCLUDED"
+}

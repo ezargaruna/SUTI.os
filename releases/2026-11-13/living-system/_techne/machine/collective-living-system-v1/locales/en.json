@@ -1,0 +1,162 @@
+{
+  "schema": "suti.living-system.source.v1",
+  "source_locale": "ru",
+  "version": "2026-11-13.v1",
+  "title": "SUTI · a shared living system",
+  "intro": "A public system of methods and collaboration: understand what matters, find words and choose an achievable next step. Each participant retains authorship and the right to correct, decline and leave.",
+  "status": "New shared operating layer: local editorial draft; independent language review pending. A legal fund, receipt of money, an operating worldwide network and publication are unconfirmed.",
+  "cycle": "question → words → connections → map → step → trace → revision",
+  "privacy": "The public space contains methods, general instructions and reviewed examples. Personal records, contacts, correspondence and sensitive information are kept separately and excluded from shared exports.",
+  "rights": "Authorship, visibility, licence and permitted actions are defined separately for each contribution. No applicable licence for the entire legacy collection has been established.",
+  "contribution": "Propose a change with its source and reason → describe verification → seek consent from affected participants → an accountable person accepts or defers the change → preserve a trace and rollback.",
+  "sovereignty": "Information sovereignty means understanding where data comes from and choosing access, export and deletion of your own records. Linguistic, educational, creative, economic and organisational autonomy develops through understandable skills and verifiable decisions; achievement is not promised.",
+  "fund_title": "Life-support fund and agency of care angels",
+  "fund_purpose": "A proposed open programme supporting useful initiatives: learning, accessible tools, mutual aid and care for the living environment. The name is provisional; participation and angel imagery are optional.",
+  "fund_state": "The local preparation cycle began on 13 November 2026. Day 90 is 10 February 2027. Registration, jurisdiction, trustees, banking, donation rules and tax treatment remain UNKNOWN; financial operations have not been activated.",
+  "fund_flow": "Open request without sensitive details → check alignment with purpose and available resources → decision without conflicts of interest → bounded support → evidence of outcome without exposing recipients → appeal and correction.",
+  "fund_phases": [
+    [
+      "1–15",
+      "2026-11-13 — 2026-11-27",
+      "Agree purpose, accountable decision owner, registration country, roles and participation terms; model a budget without collecting money."
+    ],
+    [
+      "16–30",
+      "2026-11-28 — 2026-12-12",
+      "Review the legal route and partnership option; agree support rules, conflicts of interest, appeals, data handling and financial controls."
+    ],
+    [
+      "31–45",
+      "2026-12-13 — 2026-12-27",
+      "Assemble public instructions in 13 languages, an accessible bot and form prototype, and a micro-lesson library; begin independent review."
+    ],
+    [
+      "46–60",
+      "2026-12-28 — 2027-01-11",
+      "Run a small voluntary pilot after required permissions; check consent, accessibility, responses, export and deletion of participants’ own data."
+    ],
+    [
+      "61–75",
+      "2027-01-12 — 2027-01-26",
+      "Evaluate the pilot, fix defects and prepare local partner groups; expand only confirmed processes."
+    ],
+    [
+      "76–90",
+      "2027-01-27 — 2027-02-10",
+      "Compare outcomes with criteria, publish an eligible anonymised report after approval, and decide the next cycle and geographic scope."
+    ]
+  ],
+  "fund_roles": "Programme accountability; finance and independent reconciliation; data protection and participant safety; language editors; pilot coordinators; independent handling of appeals. Roles are proposed; no people have been appointed.",
+  "fund_metrics": "Track consented participation, completed useful actions, response time, accessibility, corrections and actual expenditure. Targets and numerical thresholds are agreed before the pilot; virality and worldwide reach are not guaranteed.",
+  "fund_pause": "A discrepancy between money and reporting, a consent breach, a leak, a complaint about harm or lack of an accountable person pauses the relevant process for review and a human decision.",
+  "contours": [
+    {
+      "id": "SUTI.os",
+      "title": "system structure",
+      "purpose": "Align boundaries, tools, storage and recovery.",
+      "procedure": "Choose a task and contour → describe input and output → check access and recovery → save a working instruction.",
+      "output": "An environment map and a reproducible working step.",
+      "boundary": "A description does not establish an installed system or security."
+    },
+    {
+      "id": "SUTI.world",
+      "title": "public entry",
+      "purpose": "Help people find a relevant direction and next step.",
+      "procedure": "Name a question → choose a language → open a suitable module → try one achievable step.",
+      "output": "A clear route and a chosen action.",
+      "boundary": "Network scale and usefulness require observations, not promises."
+    },
+    {
+      "id": "SUTI.uni",
+      "title": "self-directed learning",
+      "purpose": "Turn a question into a short learning practice.",
+      "procedure": "Name a skill → study one example → complete a small task → explain your understanding in your own words.",
+      "output": "A micro-lesson, example and feedback.",
+      "boundary": "Learning does not replace professional help or qualifications."
+    },
+    {
+      "id": "SUTI.clan",
+      "title": "collaboration",
+      "purpose": "Agree roles, contributions and participation boundaries.",
+      "procedure": "Describe a shared task → ask for explicit participation → agree rights and roles → record the decision.",
+      "output": "A participant agreement and responsibility map.",
+      "boundary": "Naming a person or organisation does not establish partnership or consent."
+    },
+    {
+      "id": "SUTI.lab",
+      "title": "research",
+      "purpose": "Explore ideas through small reversible trials.",
+      "procedure": "Name a hypothesis → choose an observable indicator → run a bounded trial → record outcomes and uncertainty.",
+      "output": "A research note with evidence.",
+      "boundary": "Hypotheses and symbols do not become facts without verification."
+    },
+    {
+      "id": "SUTI.audit",
+      "title": "verification",
+      "purpose": "Compare an outcome with an explicit criterion.",
+      "procedure": "Define scope → choose a criterion → check the material → record PASS, PARTIAL, FAIL or UNKNOWN.",
+      "output": "A report, evidence and open questions.",
+      "boundary": "PASS applies only to the named version and check."
+    },
+    {
+      "id": "SUTI.crystal",
+      "title": "clear form",
+      "purpose": "Preserve what matters in a self-contained artifact.",
+      "procedure": "Identify a question and source → name the invariant → show an example and limits → add a next step.",
+      "output": "A concise meaning card with source and context.",
+      "boundary": "Brevity does not justify losing conditions, authorship or uncertainty."
+    },
+    {
+      "id": "SUTI.oracle",
+      "title": "grounds for claims",
+      "purpose": "Distinguish information, interpretations and unknowns.",
+      "procedure": "State a claim → name its type → identify its basis → describe how to check it.",
+      "output": "A map of claims and their grounds.",
+      "boundary": "This is a review method, not prediction or autonomous authority."
+    },
+    {
+      "id": "SUTI.veche",
+      "title": "shared deliberation",
+      "purpose": "Make proposals and disagreements visible.",
+      "procedure": "Present a proposal → request positions → record support, objection, abstention and no response separately → an accountable person decides.",
+      "output": "A deliberation record and a human decision.",
+      "boundary": "Silence is not consent; AI review is not a vote by people."
+    },
+    {
+      "id": "SUTI.sotkan",
+      "title": "connections and provenance",
+      "purpose": "Connect material with sources and change history.",
+      "procedure": "Identify the source → describe the transformation → link the edition to the original → check correction and rollback.",
+      "output": "A verifiable provenance trace.",
+      "boundary": "Text similarity does not establish authorship, licensing or transfer of rights."
+    },
+    {
+      "id": "SUTI.game",
+      "title": "voluntary practice",
+      "purpose": "Explore skills through NITYA and Samurai Dharma play.",
+      "procedure": "Choose plain or symbolic language → take a small quest → try it → record an observation or skip → choose whether to continue.",
+      "output": "Practice experience and your own next step.",
+      "boundary": "Play is voluntary; pause, skip and exit remain available; age pathways need separate review."
+    },
+    {
+      "id": "SUTI.logos",
+      "title": "language and transcreation",
+      "purpose": "Preserve meaning across languages and settings.",
+      "procedure": "Identify intent and invariant → translate directly from the source → compare conditions and confidence → request independent review.",
+      "output": "Understandable text, terminology and a status for each locale.",
+      "boundary": "A draft is not a reviewed translation; Yazekh requires an author-approved gloss."
+    },
+    {
+      "id": "SUTI.verenium",
+      "title": "care navigation",
+      "purpose": "Help people choose feasible support and their own step.",
+      "procedure": "Ask what matters → offer clear options → clarify boundaries → preserve choice, pause and exit.",
+      "output": "A chosen support route and an agreed action.",
+      "boundary": "Care angel is an optional image; the service is not an emergency or clinical service."
+    }
+  ],
+  "locale": "en",
+  "translation_state": "direct-source-draft-unreviewed",
+  "native_review": "pending",
+  "release": "HOLD"
+}

@@ -1,0 +1,38 @@
+{
+  "request_id": "example-local-001",
+  "locale": "ru",
+  "scope": [
+    "current user-provided sentence only"
+  ],
+  "input": {
+    "text": "ответь на русском, дай два спокойных варианта просьбы о дополнительном времени; ничего не сохраняй и не отправляй",
+    "source_kind": "user_provided",
+    "sensitive": false
+  },
+  "module_route": [
+    "SUTI.verenium",
+    "synaura",
+    "Syntaxium"
+  ],
+  "output": {
+    "text": "можно я отвечу завтра? / мне нужно немного больше времени; когда тебе удобно получить ответ?",
+    "claims": [
+      {
+        "text": "первый вариант короче, второй предлагает согласовать срок",
+        "kind": "INTERPRETATION",
+        "source_ref": "current_draft",
+        "criterion": "compare two phrases in this example",
+        "status": "PARTIAL"
+      }
+    ],
+    "sources": [
+      "current user-provided request",
+      "current_draft"
+    ],
+    "uncertainties": [
+      "Whether either phrase fits the recipient is not known."
+    ]
+  },
+  "choice": "pending",
+  "persistence": "none"
+}
