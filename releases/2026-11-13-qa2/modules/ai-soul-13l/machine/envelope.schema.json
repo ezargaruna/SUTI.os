@@ -1,0 +1,479 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:suti:ai-soul:envelope:1.1.0",
+  "title": "SUTI AI interaction envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "locale",
+    "scope",
+    "input",
+    "module_route",
+    "output",
+    "choice",
+    "persistence"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "locale": {
+      "enum": [
+        "ru",
+        "en",
+        "es",
+        "pt-br",
+        "zh-hans",
+        "hi",
+        "fr",
+        "ar",
+        "bn",
+        "eo",
+        "sa",
+        "la",
+        "yzh"
+      ]
+    },
+    "scope": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "input": {
+      "type": "object",
+      "required": [
+        "text",
+        "source_kind"
+      ],
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "source_kind": {
+          "enum": [
+            "user_provided",
+            "selected_local_source",
+            "public_source",
+            "unknown"
+          ]
+        },
+        "sensitive": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "module_route": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "SUTI.os",
+          "SUTI.veche",
+          "SUTI.verenium",
+          "SUTIcore",
+          "synaura",
+          "Syntaxium",
+          "VereNITYA",
+          "SUTI.oracle",
+          "SUTI.sotkan",
+          "LinguaFUSION",
+          "SRETENIYA_OS",
+          "consented-presence",
+          "SUTI.care",
+          "SUTI.angels",
+          "SUTI.world",
+          "SUTI.game",
+          "NITYA"
+        ]
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "output": {
+      "type": "object",
+      "required": [
+        "text",
+        "claims",
+        "sources",
+        "uncertainties"
+      ],
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "claims": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "text",
+              "kind",
+              "status"
+            ],
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "kind": {
+                "enum": [
+                  "FACT",
+                  "OBSERVATION",
+                  "INTERPRETATION",
+                  "HYPOTHESIS",
+                  "SYMBOL",
+                  "UNKNOWN"
+                ]
+              },
+              "source_ref": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "criterion": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "status": {
+                "enum": [
+                  "PASS",
+                  "PARTIAL",
+                  "FAIL",
+                  "UNKNOWN"
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "allOf": [
+              {
+                "if": {
+                  "properties": {
+                    "status": {
+                      "const": "PASS"
+                    }
+                  },
+                  "required": [
+                    "status"
+                  ]
+                },
+                "then": {
+                  "required": [
+                    "criterion",
+                    "source_ref"
+                  ],
+                  "properties": {
+                    "criterion": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "source_ref": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "uncertainties": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "choice": {
+      "enum": [
+        "pending",
+        "accept",
+        "edit",
+        "skip",
+        "pause",
+        "exit"
+      ]
+    },
+    "persistence": {
+      "enum": [
+        "none",
+        "local_opt_in",
+        "external_opt_in"
+      ]
+    },
+    "external_action": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "state",
+        "action",
+        "material",
+        "purpose",
+        "recipient",
+        "channel",
+        "payload_preview",
+        "retention",
+        "withdrawal_route"
+      ],
+      "properties": {
+        "action": {
+          "type": "string",
+          "minLength": 1
+        },
+        "material": {
+          "type": "string",
+          "minLength": 1
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 1
+        },
+        "recipient": {
+          "type": "string",
+          "minLength": 1
+        },
+        "channel": {
+          "type": "string",
+          "minLength": 1
+        },
+        "payload_preview": {
+          "type": "string",
+          "minLength": 1
+        },
+        "state": {
+          "enum": [
+            "draft",
+            "authorized",
+            "executed",
+            "failed",
+            "unknown"
+          ]
+        },
+        "authorization_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "result_evidence_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retention": {
+          "type": "string",
+          "minLength": 1
+        },
+        "withdrawal_route": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "state": {
+                "enum": [
+                  "authorized",
+                  "executed"
+                ]
+              }
+            },
+            "required": [
+              "state"
+            ]
+          },
+          "then": {
+            "required": [
+              "authorization_ref"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "state": {
+                "const": "executed"
+              }
+            },
+            "required": [
+              "state"
+            ]
+          },
+          "then": {
+            "required": [
+              "result_evidence_ref"
+            ]
+          }
+        }
+      ]
+    },
+    "consent_record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evidence_ref",
+        "purpose",
+        "scope",
+        "retention",
+        "withdrawal_route"
+      ],
+      "properties": {
+        "evidence_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retention": {
+          "type": "string",
+          "minLength": 1
+        },
+        "withdrawal_route": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "choice_record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "actor_class",
+        "evidence_ref"
+      ],
+      "properties": {
+        "actor_class": {
+          "const": "human"
+        },
+        "evidence_ref": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "persistence": {
+            "enum": [
+              "local_opt_in",
+              "external_opt_in"
+            ]
+          }
+        },
+        "required": [
+          "persistence"
+        ]
+      },
+      "then": {
+        "required": [
+          "consent_record"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "persistence": {
+            "const": "external_opt_in"
+          }
+        },
+        "required": [
+          "persistence"
+        ]
+      },
+      "then": {
+        "required": [
+          "external_action"
+        ],
+        "properties": {
+          "external_action": {
+            "properties": {
+              "state": {
+                "enum": [
+                  "authorized",
+                  "executed"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "choice": {
+            "enum": [
+              "accept",
+              "edit",
+              "skip",
+              "pause",
+              "exit"
+            ]
+          }
+        },
+        "required": [
+          "choice"
+        ]
+      },
+      "then": {
+        "required": [
+          "choice_record"
+        ]
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "external_action"
+        ],
+        "properties": {
+          "external_action": {
+            "properties": {
+              "state": {
+                "enum": [
+                  "authorized",
+                  "executed"
+                ]
+              }
+            },
+            "required": [
+              "state"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "consent_record"
+        ]
+      }
+    }
+  ],
+  "$comment": "Draft data contract only. A JSON document does not enforce consent, authentication or authorization."
+}

@@ -1,0 +1,128 @@
+{
+  "schema": "suti.package-link-closure.v1",
+  "date": "2026-11-13",
+  "scope": "All payload HTML/Markdown/CSS local href/src/url() references, static JS URLs, all 13 dynamic portal/module/publication-note routes and guide/configuration routes",
+  "result": "PASS_SCOPED",
+  "local_reference_count": 2679,
+  "local_target_count": 462,
+  "missing_local_targets": [],
+  "paths_outside_package": [],
+  "remote_runtime_resources": [],
+  "optional_external_citations": [
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.en.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.en.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.en.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.en.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.en.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.en.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ru.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ru.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ru.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ru.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ru.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ru.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    }
+  ],
+  "limits": [
+    "No network fetch is required for browser portal assets or guide content",
+    "External research citations require connectivity when opened",
+    "This static check does not certify browser behavior or platform font glyph coverage",
+    "Machine provenance locators and historical source paths are metadata, not runtime dependencies"
+  ],
+  "dynamic_portal_locales": [
+    "ru",
+    "en",
+    "es",
+    "pt-br",
+    "zh-hans",
+    "hi",
+    "fr",
+    "ar",
+    "bn",
+    "eo",
+    "sa",
+    "la",
+    "yzh"
+  ],
+  "dynamic_guide_locales": [
+    "ru",
+    "en",
+    "es",
+    "pt-br",
+    "zh-hans",
+    "hi",
+    "fr",
+    "ar",
+    "bn",
+    "eo",
+    "sa",
+    "la",
+    "yzh"
+  ],
+  "local_visual_dependencies": [
+    "assets/css/suti-angels-editorial.css",
+    "assets/fonts/NunitoSans-variable.ttf",
+    "assets/fonts/Manrope-variable.ttf",
+    "assets/fonts/OFL-Nunito-Sans.txt",
+    "assets/fonts/OFL-Manrope.txt"
+  ]
+}

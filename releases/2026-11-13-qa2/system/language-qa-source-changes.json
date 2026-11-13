@@ -1,0 +1,900 @@
+{
+  "schema": "suti.language-qa-source-changes.v1",
+  "date": "2026-11-13",
+  "scope": "editorial corrections of published drafts; independent language review not asserted",
+  "baseline_commit": "b57b4b7e1026979401778c5d7c81be6c4f24f11a",
+  "source_changes": [
+    {
+      "path": "_techne/machine/collective-living-system-v1/locale-status.v1.json",
+      "prior_sha256": "5de06d88e10daf06e44dce9dc7c1427786f3457d9acd93fbc54aa8befe779013",
+      "sha256": "1dd09800c32f35512b819b1e2a3a08776d244d044fe4cb0e712ee9b9d27b8a2f"
+    },
+    {
+      "path": "_techne/machine/collective-living-system-v1/locales/bn.json",
+      "prior_sha256": "c0cc3827433e59b6b91f44f3874d82d0c2f55225ffa6aa827401b3a273b84ec7",
+      "sha256": "dcb69302f77290ed80c9467705ac6aef88c941a8f3bc603ed876c168cf535bfe"
+    },
+    {
+      "path": "_techne/machine/collective-living-system-v1/locales/en.json",
+      "prior_sha256": "c9638b6b8ee61e29581ed727021768f8e464bd0fd7e31c75de65099e3ee2e88d",
+      "sha256": "1cdda16b763f9ccc1bdb0f0706d124008082727b2b590b3b44c9249e4e91744b"
+    },
+    {
+      "path": "_techne/machine/collective-living-system-v1/locales/eo.json",
+      "prior_sha256": "cb8dce5a369ecd3de8c790efa898738ddfde1978f441d2f6301d883daa7cf533",
+      "sha256": "07949ede2a8c83845d7974c77c644797bbb0faaec4a641da1b8fd1512263a0c1"
+    },
+    {
+      "path": "_techne/machine/collective-living-system-v1/locales/es.json",
+      "prior_sha256": "82036d03704addd25e98ed7f791964f5dc64b2ba80eb7a6be02e94b9b3e22f9a",
+      "sha256": "936a7ee969470b67e0d91e5b8ffe6bc665deefb68b046ecbc5731761d601f31a"
+    },
+    {
+      "path": "_techne/machine/collective-living-system-v1/locales/hi.json",
+      "prior_sha256": "0931639da61b834b21a32ead2891dc7146b844d759585043e229cd410253f1f0",
+      "sha256": "6c647bfb62e7378a3e898e508fd984586337679f41c38d6ee3198afeb416fe31"
+    },
+    {
+      "path": "_techne/machine/collective-living-system-v1/locales/la.json",
+      "prior_sha256": "1ae41e0cf1e1599f74238149671151757ac325b1c5f63fd471a779d78d32b3a6",
+      "sha256": "93952fefa419a886b18608b371ecf946b7e59a50043d0c690213daaf5b7ab62f"
+    },
+    {
+      "path": "_techne/machine/collective-living-system-v1/locales/pt-br.json",
+      "prior_sha256": "fb40350abf27377b8d3ceae304d65784a65922bb8a966c0d260948cce90fa348",
+      "sha256": "9db16bca3f8c8c0bc6c61665003674c48e09d26ef98a762845fe20847b783851"
+    },
+    {
+      "path": "_techne/machine/collective-living-system-v1/locales/sa.json",
+      "prior_sha256": "4b4ac9b14ed6e8a71dbe39f97628c99e2f54f1cc3a45a746f42562dd171e7a77",
+      "sha256": "9265681c385ec7256950fa9e7bff09068474644e6823a013c6de5f800a857af7"
+    },
+    {
+      "path": "_techne/machine/collective-living-system-v1/locales/zh-hans.json",
+      "prior_sha256": "603ae32e8070a9e0f608e2bffe907072149b15f760aaa5b1604b2910e50938c1",
+      "sha256": "8b497ff4be2b4743f24c2836e3d7b5a56cd08cc71675a7f502bd09c00e4b980d"
+    },
+    {
+      "path": "_techne/site/collective-living-system-v1/index.html",
+      "prior_sha256": "3e0ab5c5634a9fb8a60b187a6e35d7168bb5807dfa87f5267c022b1c69e32b35",
+      "sha256": "50ae90a4f5c9fe83bb93401e56d15f72db92b5f6ec366144ee7f70287ed357ed"
+    },
+    {
+      "path": "ar/SUTI.audit/living-system.md",
+      "prior_sha256": "8b66d93516d13692fc4515e380f145217681e2da3da5541818de7bd1fff46069",
+      "sha256": "388b401b451828a5246390f06e8aae99ab1ce31097021cb56d984a26b1d9dc60"
+    },
+    {
+      "path": "ar/SUTI.clan/living-system.md",
+      "prior_sha256": "04fee2cb23ac7331233ebcd14c85b0261e6af63df946a28c1c6d85dc3020ac9a",
+      "sha256": "e81a517b31867fdd8c3b5c0bcd45a14f8f03f22da6770ee670e99011cc3bb364"
+    },
+    {
+      "path": "ar/SUTI.crystal/living-system.md",
+      "prior_sha256": "dfd1b8d61baea57007334eb1910cc26c9a8b136c41a4f66cbc5d2f005580a773",
+      "sha256": "02a7508cb2ceadf09fe63006b5d500845409d805c278d45e66f01875ce5a8924"
+    },
+    {
+      "path": "ar/SUTI.game/living-system.md",
+      "prior_sha256": "dd06c727f370cb88ae477992f367f76354a4b5169cd4ff782202f56a1fdcf3ae",
+      "sha256": "56cc6243088cc212b7109fce7dc3d0329eb42158c85e6c807b27247193f1134d"
+    },
+    {
+      "path": "ar/SUTI.lab/living-system.md",
+      "prior_sha256": "b384c67c6fcb8f16c4a87b195794501342fdc54b08e2138d98f00955f8de8b22",
+      "sha256": "2d06a6591bda18e2d3e0ff799c96e1fa822e9dcce92847dd3957405a380cf026"
+    },
+    {
+      "path": "ar/SUTI.logos/living-system.md",
+      "prior_sha256": "bf503c10b9f8d4f1ce9386e11a0e55fab187e1c3cc4dd17225026140c19c4840",
+      "sha256": "40a7611f292c9e8e3f861675a5c55c3d8ede85d96ee7f8778fe698207ca0a906"
+    },
+    {
+      "path": "ar/SUTI.oracle/living-system.md",
+      "prior_sha256": "f779dab4648cfdc82ecd965aa80ca3f8635b98e47b9b84fdc83a40e52f9fa8c4",
+      "sha256": "6cdde0b9b4bb121a5700235c410b92029b2ad3c7421ef27feb96b06f2b6fd51c"
+    },
+    {
+      "path": "ar/SUTI.os/living-system.md",
+      "prior_sha256": "1e0f9f7d81a26ed004014f36c5cbf4ac5afcf87536c8551fc684c283eb4c14b4",
+      "sha256": "09fa08b315bee654e2e009d1d6948e4a2e980de162a671405e1baf224d32680b"
+    },
+    {
+      "path": "ar/SUTI.sotkan/living-system.md",
+      "prior_sha256": "5b8444c1f27f7fa3e1190ca599651e68fdd7e9ff1b526aa6f41bcd9bfd7b702a",
+      "sha256": "abf30589d4f953c9f83ef0e5fe51d45d1a68c7019a3fafa427d6d7eec95e32e2"
+    },
+    {
+      "path": "ar/SUTI.uni/living-system.md",
+      "prior_sha256": "4de44fa581c528178306dc89eb142059aeb1c5b60361956c1c13dd4e17aef909",
+      "sha256": "b1a33509928705f31e9cd4edcacb5568e6e8c455897a93c727233c987af1922c"
+    },
+    {
+      "path": "ar/SUTI.veche/living-system.md",
+      "prior_sha256": "0e842166166fbe4c1f5c327d83a0c6f5f86c545d2e018d61d10d0af4974e732e",
+      "sha256": "e5307ca38fb6cc237ce9d9c6ba250277473ed1df746830516334bd406ade0669"
+    },
+    {
+      "path": "ar/SUTI.verenium/living-system.md",
+      "prior_sha256": "dabca319e654ae7d3107dd46d52037b7cc9a1939f1681be66c3b71e6d692085b",
+      "sha256": "cf7b890aed09ece25bc9a4a118a85422cf7ee7fbf7146ae713a6c05d723debb4"
+    },
+    {
+      "path": "ar/SUTI.world/living-system.md",
+      "prior_sha256": "e95ad944a52e688e110302bc997b4cd69fc981dee4cc38daa11754f2f8982a8c",
+      "sha256": "edfb38915ab7c555e96d53f36b81df77ca204ff5b3aa2febac0a592d3c7d74f2"
+    },
+    {
+      "path": "ar/care-90-days.md",
+      "prior_sha256": "1e5d9564515d3757a8dbd3fb2a3f5b86d3d57e5cbe5d8c82188d5d5ed24d6000",
+      "sha256": "80a39ed32893f53ee26e06bae900497db3ae1bdc0aa12cbee116bca8cea95ad1"
+    },
+    {
+      "path": "ar/living-system.md",
+      "prior_sha256": "8cc965a737da2c244b0ee05aac089b595c192fe65e8d00fd821f5497ad3f61ff",
+      "sha256": "9a5bb51bf459a3504a86a7c5edb15d29ec6ef2623f8dacb2600b57fbad5fa5f5"
+    },
+    {
+      "path": "bn/SUTI.audit/living-system.md",
+      "prior_sha256": "ec5e788502c61e9a120ecc01c223b666b5f3dfe9973e797253f820b121b8099e",
+      "sha256": "604fe5d6b1f9c5dbb2ced4602d5f7e4d86bac7ba01080026d48673a2d68e4f5e"
+    },
+    {
+      "path": "bn/SUTI.clan/living-system.md",
+      "prior_sha256": "4c6317703448b6d1ae4fcd3cc54fb6f6b6da498b3b737a5435cfd918556cc575",
+      "sha256": "3377fe8d98d626bdbb8eb77e213575de8e9110ce3ea33cff02e5927e041e6f81"
+    },
+    {
+      "path": "bn/SUTI.crystal/living-system.md",
+      "prior_sha256": "45b2cb90341c30024d4000e2379fd7014f165ef4b9ff1b2779b2046ca7c96021",
+      "sha256": "9d3c83295c230e7d021e0c35fa37bb9984665b39100b02ffb0555fe71ad093de"
+    },
+    {
+      "path": "bn/SUTI.game/living-system.md",
+      "prior_sha256": "a353cc8d8449b4e39423409d806f323d305d67f19cd23cb0a916cb58281e226e",
+      "sha256": "8d7fc890e66ec33cd1ea974b8a58acfbb997e75c14bb81d311e693e2f50ac55b"
+    },
+    {
+      "path": "bn/SUTI.lab/living-system.md",
+      "prior_sha256": "ff74c83af1f0b07de14720abb741a5670641eb833db78bf47f59dbbd8047ad1a",
+      "sha256": "c08d31e8b5f0735dd51539b660786feffa823fa7577f08b51b7ff9c3b1f73d32"
+    },
+    {
+      "path": "bn/SUTI.logos/living-system.md",
+      "prior_sha256": "2d56e346e1a5fb1154888c23775007bfeefe8af9c0077317864eb6b21f2b9c92",
+      "sha256": "c51bf1fdac8acf4b1d34888f5b344452ce52aa5b39db81e0d1e341b84facafcb"
+    },
+    {
+      "path": "bn/SUTI.oracle/living-system.md",
+      "prior_sha256": "9a34ea1fbf957b501e398f34bcecbd9ebd55fd7391d3984bca1562f65026626f",
+      "sha256": "d8a8585c364d4f50939f75c41c34a5874c4c501b4a230b50a421a0f514dcf860"
+    },
+    {
+      "path": "bn/SUTI.os/living-system.md",
+      "prior_sha256": "d822b908b614786e424bef17843c2592dcdcc33ba979475966d56e1299c87d50",
+      "sha256": "75e6221c4a126a70712a0f9f99ab283dd24a80244c907a2e3589ad5dfadd7153"
+    },
+    {
+      "path": "bn/SUTI.sotkan/living-system.md",
+      "prior_sha256": "7acb00a3a90bf393bd622efc5e344f5cb8e45890631558b73e41dc38bfdbcf25",
+      "sha256": "c0f356a19142ba0a46b6b9b786e08202114c3c74a2ec6e4779301851e913450e"
+    },
+    {
+      "path": "bn/SUTI.uni/living-system.md",
+      "prior_sha256": "3097e65cbf65b9c5bbab9079e4f17d1671c2bf3cf396cb83c834fa4afaab8d0c",
+      "sha256": "c49862411621f85aff18ac4598e618f0dabc0d5937221da3a8ada0aab2203403"
+    },
+    {
+      "path": "bn/SUTI.veche/living-system.md",
+      "prior_sha256": "3d7c9297f600e515d41a6101821638d08e8354cd3a583d80284596fb93e4ede4",
+      "sha256": "f89ed6e1bed3d28b5bdbb760d86ff2cd2679e7c4b4d65586f52c70f2c665307f"
+    },
+    {
+      "path": "bn/SUTI.verenium/living-system.md",
+      "prior_sha256": "31b4f06bb812cee6bc908182eea1aca7599590a30efbbb201a1ae0060d5cb944",
+      "sha256": "32a06bda85a4562489a2620c714c26a3200338aca1e7af97cda0ed171efa8068"
+    },
+    {
+      "path": "bn/SUTI.world/living-system.md",
+      "prior_sha256": "fd345e36f3e5b512fb527a73e5ade7383c2e5107d76aa63112fca1d9aac49476",
+      "sha256": "e7c8ec3adddb4fe5e6fcba4fff527a18cd4a622595b319d8c1f84befe4909dee"
+    },
+    {
+      "path": "bn/care-90-days.md",
+      "prior_sha256": "daac45e3f0c0b2d9bc87be2c097b4d6374ccebc5cf8f4045c0fdb7e24ef45fef",
+      "sha256": "d5a8a6118d568b826457f5d5a215cc8dea161d48a2ec660827183edc297b5efe"
+    },
+    {
+      "path": "bn/living-system.md",
+      "prior_sha256": "b19f056828cb591b4eb165279c0533daf19e91bfc2a03e9dc002da650c57787f",
+      "sha256": "4e6090ae01bc332858b0bd6c2920c8cd72fc31b8abd909f858611149a5229af2"
+    },
+    {
+      "path": "en/SUTI.audit/living-system.md",
+      "prior_sha256": "7887528c4acf7e4753034ad1744aee70fbce8f6cab29e4e1e7caf03cd8488cb2",
+      "sha256": "168081a7b50b62c8c0bb939d589de8b5051157d7e7343de16bba6c0692b4cb23"
+    },
+    {
+      "path": "en/SUTI.clan/living-system.md",
+      "prior_sha256": "3f624da2cb582b4fd039c50807c589d0e9cdf8c9552449a6abedf3b7601124e8",
+      "sha256": "f9f5f2978686a88700554378b7c23520f6911bde40a73d35af664c77fb92457f"
+    },
+    {
+      "path": "en/SUTI.crystal/living-system.md",
+      "prior_sha256": "57d433c137f5067cffd1063cd3d0e2f8a275e09e42ec729c44500515f72d6cd0",
+      "sha256": "c80a94273420728b46202d1a14c628659633796361d52f1856f10737666d42fa"
+    },
+    {
+      "path": "en/SUTI.game/living-system.md",
+      "prior_sha256": "b036aa5c06d232f7a47f30632a32f82f9024dab6d4382433dedf6bfad98c3f09",
+      "sha256": "c444c8f7ee3852d36ca94f40576040b067515f7c085f9ff52a06219a4bbaea7c"
+    },
+    {
+      "path": "en/SUTI.lab/living-system.md",
+      "prior_sha256": "cd7092c90a91ebf3dd2026f045217a32c996029e5b1cb9a04d0e4e66b97a0b2a",
+      "sha256": "d9ef816972720ed1c8f669d3b2bef400245c67505ca38ede987cc24ad0d5813f"
+    },
+    {
+      "path": "en/SUTI.logos/living-system.md",
+      "prior_sha256": "ab205ed0f8ffb4223cd1392fd7b821af04a5ae48b388466d9b96fbf534ae55b3",
+      "sha256": "4e4cb8a268e621f372167e9a5091af9d949b089f57fa307534753eb0205a2114"
+    },
+    {
+      "path": "en/SUTI.oracle/living-system.md",
+      "prior_sha256": "c8bb4da96e12191437c2f97050e790be4e60930774e91fa358fc27f48ca0554e",
+      "sha256": "f798a52a4603850d1acf5c12bc32a5d4b6297ba8896b4985813ef8dd10425210"
+    },
+    {
+      "path": "en/SUTI.os/living-system.md",
+      "prior_sha256": "01b33ed8d7a0d9033d6b0f02ede42aa4ef3075b4474efaf5a38474f6cddb5e99",
+      "sha256": "fec3b02920ad58c91084870b3c358e2fc1304e01c02bf3548f0948687b5d0434"
+    },
+    {
+      "path": "en/SUTI.sotkan/living-system.md",
+      "prior_sha256": "c308eb1d88474255fc17c37154d4bfb576e7ff3bd89956221504c45bfee816b5",
+      "sha256": "3ac029cb291b06a8a0dc4acf12c24361fa6964c61c05333ee88e2200bca6fbdf"
+    },
+    {
+      "path": "en/SUTI.uni/living-system.md",
+      "prior_sha256": "e2a11641ef6c9b20abc07d9d0e40386d575d7c245dae177918b31b3c9b005352",
+      "sha256": "537709b3658cae33c738b538355b34241b6461662b3579155e8733f9eeb79602"
+    },
+    {
+      "path": "en/SUTI.veche/living-system.md",
+      "prior_sha256": "4e4ad63fc655329b4b18b100255136e1bcd31e7efc18aa21ea1ab3a2760e068a",
+      "sha256": "c70f68952832cb584e199f701b8941a6323162a838f056e162d4b5670a9f5756"
+    },
+    {
+      "path": "en/SUTI.verenium/living-system.md",
+      "prior_sha256": "17f3a45be6c82d1d2eb0c02c8c9114a28f7229a2018145e635bfcb0c09dfa1ae",
+      "sha256": "7d9b3ef945b0c292b656cc485e7296a378b8b0ba094062307ef5cab33bb8c26c"
+    },
+    {
+      "path": "en/SUTI.world/living-system.md",
+      "prior_sha256": "a83c4c24b7fba4e2832614f243f866641d575e4ad207e64610f7debae1f75460",
+      "sha256": "95ee527c339f2bc32f4b5e148c5293893997c2eea771f97e4cd51547f75317da"
+    },
+    {
+      "path": "en/care-90-days.md",
+      "prior_sha256": "8494d81291558e449391543e2e158ab537280a72fb49d4ef9e291d1a71489ccd",
+      "sha256": "d4a9696c0f04b30b64012d154e4ee402aee20e369959f6601308efe778cde58d"
+    },
+    {
+      "path": "en/living-system.md",
+      "prior_sha256": "5c2fd1165d55211e88313818ef5da8b3013491c7bd32e922e6530f29018edf09",
+      "sha256": "67efa0ea16f81290b7365370de56d33a6fbb5ce5807d8de97ae9490401c51b3a"
+    },
+    {
+      "path": "eo/SUTI.audit/living-system.md",
+      "prior_sha256": "ba0cea9de25c2424e2e292e3084209dfa68c90fb293822d798f5f6beadbf4759",
+      "sha256": "3ed779793c6cc083bb436749e2db0afd2ab5eb1d2ddefe2b758d90d6b9fe7dda"
+    },
+    {
+      "path": "eo/SUTI.clan/living-system.md",
+      "prior_sha256": "c2d145cfa4dcb55780511577a2cb84b2fbb5335fc7ad30848202f3e2e100114a",
+      "sha256": "42f8946d35f63a79397265c202f49d147ca19809abc9ffb46178ddab6ac0ac3f"
+    },
+    {
+      "path": "eo/SUTI.crystal/living-system.md",
+      "prior_sha256": "6f9a829a6555a62c62e5ac15268cd6034fbcf8f82d80804e219755f145b1085d",
+      "sha256": "30e60986d112afdfc35b2cc29fc21c294664e876a8aab9a43c081b162f876fac"
+    },
+    {
+      "path": "eo/SUTI.game/living-system.md",
+      "prior_sha256": "3eff62627dac1978973cfed11f1de1ec900a48c0d7ca07f0a8beda05ca254744",
+      "sha256": "eb48b16996a70da0c8aabfa5d7a97b697e311e7df21725ced2031a0a82779cf3"
+    },
+    {
+      "path": "eo/SUTI.lab/living-system.md",
+      "prior_sha256": "9e4d5cf2b6b5e83ec4e9cdf553f530c102149b4189b6eaf3ed82d8b1427d6fdf",
+      "sha256": "29649fe305fc5356a83fa51f76147db6c7ce6233ef1a7eed540ad2c4b4f5c9e9"
+    },
+    {
+      "path": "eo/SUTI.logos/living-system.md",
+      "prior_sha256": "a23c009520bd277953b3348ea196f25a18bb5b8200f30e18f5ed5441613c6af7",
+      "sha256": "cf8c27194abfb37112787b7e8c1ec4887730669a95eb6297623c4c77996cd816"
+    },
+    {
+      "path": "eo/SUTI.oracle/living-system.md",
+      "prior_sha256": "5c8a0bbc74a4542dda23986aca092cf84feb1d0b7c0e847783a25df1f9acd70c",
+      "sha256": "0ce9b2a3643c9dfb4fe1259bfda47c5cd5ff752d6e7df9cb0454aedec6abf90f"
+    },
+    {
+      "path": "eo/SUTI.os/living-system.md",
+      "prior_sha256": "2283b14d031fa2ee42d4736fb0f0be7e29f52979aa3bb6e74e5e8d61b9a47d3b",
+      "sha256": "5c1dc3976f95a1e40ff6396e542ab1e1b17fb976ab9cc943548ea5c0129ca9e4"
+    },
+    {
+      "path": "eo/SUTI.sotkan/living-system.md",
+      "prior_sha256": "1bd552694e3b5947937adb1a521806c5278b87efd0f4dabc8ba73f4b99e504de",
+      "sha256": "69f53b3e6410ff3b689746a213848d42a8031eb4d6d525e80da94cd87a142ba0"
+    },
+    {
+      "path": "eo/SUTI.uni/living-system.md",
+      "prior_sha256": "43490de6f9596a946c69a9ab9a3bdfbec89751c3a734ce261e389edb24291fbb",
+      "sha256": "d509dfa7bce8398527de4e015cb52e22c4efda9c0ea1a4e025a8979c33ec165e"
+    },
+    {
+      "path": "eo/SUTI.veche/living-system.md",
+      "prior_sha256": "0852338328e401f9bf97afc88f5a86b58fab9d164a0b4c070a0e42319c3e5968",
+      "sha256": "a4feb7d47b98b3421b4d75196de2753d6aff10c2ac71c36f967d6cbd29c1af69"
+    },
+    {
+      "path": "eo/SUTI.verenium/living-system.md",
+      "prior_sha256": "564f40b5cec3c9147420f8f60dbe6242023f7f13288dbb0a50b48e7f4018fdb5",
+      "sha256": "9af50ea2c02b7b5f942b2bcbd4c680a82b34259f1232dc6837ae486180c6c788"
+    },
+    {
+      "path": "eo/SUTI.world/living-system.md",
+      "prior_sha256": "231905da89313103796e340b646be7f3d0f53de62b30224b57bb0fa4b62eb851",
+      "sha256": "c8f740d96f4c20ed0870d6b62cea23b978717197a355a2ab7b8a186178392a84"
+    },
+    {
+      "path": "eo/care-90-days.md",
+      "prior_sha256": "fc10828f5f9469b265d08db976d61ce4c532d098ac9901b792c7590e777d0268",
+      "sha256": "c0b21dae0df7fdb47217ed87b1dde40445504769759dc9ddf5a05626072161d5"
+    },
+    {
+      "path": "eo/living-system.md",
+      "prior_sha256": "88ad7bb94d2e7e4fe0f20b14abf38fcf0b4d044e56f420b5fdfc434267a2d8e4",
+      "sha256": "ca4151b77dde64b9b73e51c93cb0bb92b14ced733e6a3ee1b2172832e86dbf53"
+    },
+    {
+      "path": "es/SUTI.audit/living-system.md",
+      "prior_sha256": "e83bbf4679e4810230498a63e9c9b738ef97a84a413d0757e64e0232de1f3eac",
+      "sha256": "2f1ac65eb3387fccebc9cbf32d916b9dd95359b16c2746873d1fdf77776385c1"
+    },
+    {
+      "path": "es/SUTI.clan/living-system.md",
+      "prior_sha256": "ff8b13017a1970965f2917b27892f479c9810524c2e39774b823c9c132c928fb",
+      "sha256": "31458150e5f3482da7492de945dcde83a0824dbb0b02c83ac2834956cd149e8f"
+    },
+    {
+      "path": "es/SUTI.crystal/living-system.md",
+      "prior_sha256": "47aa02bbb62225a87f2e3d0cc9336a86d2e6c8f1c68a10b20ba273a644ab036d",
+      "sha256": "95bf6c9b017c2819b8a0703e293cd85b6320c52d46039007c46fea333f060cab"
+    },
+    {
+      "path": "es/SUTI.game/living-system.md",
+      "prior_sha256": "a34da4bf72fd1efc174845f5dcbb0fa52e2934c8aae168ba34d62cad898f7ede",
+      "sha256": "dc8fd7e16b8ab40bf91036bc6776a1295ee433f18f2e239f53cf8640aa322c2b"
+    },
+    {
+      "path": "es/SUTI.lab/living-system.md",
+      "prior_sha256": "d7e6869ee7dbc4022aab8f13dd8ecf1c0b1ed99ba59b5c23e790ac7f494bd95d",
+      "sha256": "c1029b2de95c1a5225c1efcd7d8198e897f6ca829a9bb1e0057535623ee8feb0"
+    },
+    {
+      "path": "es/SUTI.logos/living-system.md",
+      "prior_sha256": "4eed92984d2c0d13983157c66ace278db34cb50f8bf8c3a7479cd276babb4977",
+      "sha256": "20d8927bbc8dd12979f732de19364e427f74eae49d4a4e0b847d4249464762de"
+    },
+    {
+      "path": "es/SUTI.oracle/living-system.md",
+      "prior_sha256": "016c0cd706f0f3adfd05a32e25812fd8ec16e0aac03926caad73b535e6aa9f07",
+      "sha256": "4ad68b11c9c9718023d420ee59994f1a2b5b46bd2fc6bd0c19c3716bc531b4d0"
+    },
+    {
+      "path": "es/SUTI.os/living-system.md",
+      "prior_sha256": "9fcbc9ab50a30db804f57e3fadef71263f03edccce5fdcca16b9a8fef504b528",
+      "sha256": "701141f2fe15d1be42fc0f1740f09f15efc89955abdad995bd7cca7cf2ba65c4"
+    },
+    {
+      "path": "es/SUTI.sotkan/living-system.md",
+      "prior_sha256": "8241d2cf479b4149d610f05c6af4bc9119c19547572f31d223b8a4d7777ec09b",
+      "sha256": "245df9e812409f35b33a46ee6bc97cfd1e4c78b80c06d26a12a710b1ad0360d9"
+    },
+    {
+      "path": "es/SUTI.uni/living-system.md",
+      "prior_sha256": "9995a7569c64834af2c7b770270a2b5fe4aebc721d9b31a41e32d3584e789869",
+      "sha256": "c21eb37aa36c862391fb412c5141712c79f820c44dd20d1519ad5d9306fb33f5"
+    },
+    {
+      "path": "es/SUTI.veche/living-system.md",
+      "prior_sha256": "947abeed5d429bba72597051084a52c37b5e2a9c35603db22f7bbd7e60e4e7a3",
+      "sha256": "111275af3ca21fa3dc5825f7b98f1b4a7a6526e305daae15356e102c39cc84ba"
+    },
+    {
+      "path": "es/SUTI.verenium/living-system.md",
+      "prior_sha256": "bf3dceffa7ce3bb2806ff587e58c66859d8ab452b38a82cc23abc112304c951c",
+      "sha256": "ca55d46ed74479e8a5c1f5a92c60c4e21c4cbe26c96c32232e9fa31dd2efd6ec"
+    },
+    {
+      "path": "es/SUTI.world/living-system.md",
+      "prior_sha256": "443d3a66d43a06e872c8d1c7b9931d6e11b0db8278f8c989e505980d82b454c3",
+      "sha256": "e8a45b662fbb09921c7cae2eed886dc628b53a8ee8b1741b430fe27131debd3c"
+    },
+    {
+      "path": "es/care-90-days.md",
+      "prior_sha256": "9abd8c448ed5520bd95f03545d68475f95e53a1ccd5fb0d936d8445ce98d4762",
+      "sha256": "f399a2ccbfc44342804de3200456853105210edb847fa888dc2421267fcf94ed"
+    },
+    {
+      "path": "es/living-system.md",
+      "prior_sha256": "bca8ed6bfef51c9c865b0394115fefa33225e51943e04d2fb37f5c333596dbba",
+      "sha256": "1001768faca6714f9fabb580e635e91266fa61c68940762eef60dd5ddd0146c0"
+    },
+    {
+      "path": "hi/SUTI.audit/living-system.md",
+      "prior_sha256": "e66f8bcee24219716bbf5a340da54ca90105a1f2f1f8efa7d36525fcbe99afda",
+      "sha256": "15844248d55a0a0ac3e92d90ba14c3034ac07040b4d50e2613d903e96a7554dc"
+    },
+    {
+      "path": "hi/SUTI.clan/living-system.md",
+      "prior_sha256": "8cccf3de5c2a28409279bcc8f75e1151002e428bca2ac8be23e67f131a813cc1",
+      "sha256": "41f6b202126213e26b204fe6f6645b0016f4a1e409bcf687faf396b96e61900d"
+    },
+    {
+      "path": "hi/SUTI.crystal/living-system.md",
+      "prior_sha256": "7f0b0d22c830a9bb9709ac3a49bc11456619568da8c8f22d9e259839eb002cbe",
+      "sha256": "1fccaa6fd5790b588027e3d2594c0bb1ddf1a4149b16b8c3592fd5b7ff5e8c19"
+    },
+    {
+      "path": "hi/SUTI.game/living-system.md",
+      "prior_sha256": "a63453b4a6993bc1be73fcb6598fc91d1f02a4527e1a723a10904b47ff2b6ca1",
+      "sha256": "53ada503e9aa58a6d17db4725f4231d1d0bbdc0f4efae116604454d769cf476d"
+    },
+    {
+      "path": "hi/SUTI.lab/living-system.md",
+      "prior_sha256": "7b4016da96fe426d91a33f9b856d4322200d057ccbe6b26ef809eb0d38253fc2",
+      "sha256": "0912d7e0209d595e0a0c0b7baf87f1a2c44ec9a8300d779358e2f2c71a7c5cf9"
+    },
+    {
+      "path": "hi/SUTI.logos/living-system.md",
+      "prior_sha256": "b6f9f5d9d1203408c2d36c0fb56976191858ec50f3bd8ba51aa9a7cf80724511",
+      "sha256": "f3d173d917abb9c258dcb4bcf98bee4de3833708f31d8969d3f4f32e21c73b72"
+    },
+    {
+      "path": "hi/SUTI.oracle/living-system.md",
+      "prior_sha256": "a22bd51479acde07a039d7ae45d13a7f8e46ab916d6b69a1f1973614fa9bff59",
+      "sha256": "044a18d64236e6144fc7104bfe95ef05ee9fd47565a6ccb30fb585bbb578fa4f"
+    },
+    {
+      "path": "hi/SUTI.os/living-system.md",
+      "prior_sha256": "d9f69b0581b38ae088f2cfa38ceb2498a0da2eee649fd5291c09b0a48d37df0a",
+      "sha256": "7f68a27d8d43dba397b7edf9170d558fbcc3e92c3ea76bed17624df395dab589"
+    },
+    {
+      "path": "hi/SUTI.sotkan/living-system.md",
+      "prior_sha256": "7a3568defa21bc9d93f476f0feb7d4c9ab9742f077ece47e8def8a0259fa64bb",
+      "sha256": "7b8ff68d28c84aaf6eb176fe01ee56814c30b3413ec3126ae95b92094f6f1ae1"
+    },
+    {
+      "path": "hi/SUTI.uni/living-system.md",
+      "prior_sha256": "ad7e756bad7392cacc5e4dfeb08e6ba5b71fbd580616b22548dc1cdda9a5a517",
+      "sha256": "22e25f679c7e4a18b74a93369f1cdbeee56156388a7b889b932f4e25483ebe3c"
+    },
+    {
+      "path": "hi/SUTI.veche/living-system.md",
+      "prior_sha256": "21ddec4145e640d0eeb23a1886c362ea8a6384505c51b4bdf91510dd59687961",
+      "sha256": "29946f1a3be2fa50b5543dbfe08f8b51373ea99ad3119120a3ba273772f955fb"
+    },
+    {
+      "path": "hi/SUTI.verenium/living-system.md",
+      "prior_sha256": "ce9af9725f5187b6a68c47ca32d76280cc5ed9f6b12e3598d0d6069c147ba136",
+      "sha256": "0e18589baa79a19929007334c68465a77042647b14738bc1d37a58c3e80cbdb8"
+    },
+    {
+      "path": "hi/SUTI.world/living-system.md",
+      "prior_sha256": "4c3c174c32b2bb01d2a0ab8e29cc538ab581a82cadc0801f03b9892fb45f95ea",
+      "sha256": "b728d61cc3fe2bb3fe90784eccb9af12ebe1e858c95b1ac0ad97ce549ae9d15c"
+    },
+    {
+      "path": "hi/care-90-days.md",
+      "prior_sha256": "5b90c260610d8d0147fd98f1f4dda6e36183a6abca8d38d2fba621aab1054161",
+      "sha256": "74a57c32761e5d71e03ea3796d1d70c9f861bcc657921392722ee458881790bc"
+    },
+    {
+      "path": "hi/living-system.md",
+      "prior_sha256": "5ae884ae23e9dfaf58391dc7e4c5382aeab508ef3b094cfe995624a6ae239bd7",
+      "sha256": "1ed6343af8c37882f0ac0449d9e64f01c20a90c8931913f73f63db677f531cca"
+    },
+    {
+      "path": "la/SUTI.audit/living-system.md",
+      "prior_sha256": "cdf6c08e716eb252f8989a9f912d9f626057159a3cadc5b5d77f46e0d8aa044d",
+      "sha256": "d9e3f649abad01ef5a469cd6744dcaf8e1e262601d9045c1b7e8a0213c8a6262"
+    },
+    {
+      "path": "la/SUTI.clan/living-system.md",
+      "prior_sha256": "582aa73c27d615bef5171f7e9dc214f2605ad874db0008cd60d3ac22e4861d4d",
+      "sha256": "e456a0a3ca698360f4dbc387062233727d3008e1586b46f484d4ee34abfd4d83"
+    },
+    {
+      "path": "la/SUTI.crystal/living-system.md",
+      "prior_sha256": "f9c6ab71a8d24b485fda6bfea5e594b5e03704141a08fa5f1968bf48d80558a0",
+      "sha256": "7223a6e7c5ecd7b287e80340076bb668a0c3426bd0f3267ce47f4743e94d6eba"
+    },
+    {
+      "path": "la/SUTI.game/living-system.md",
+      "prior_sha256": "56647dbc3cb49797e03324668ceaeedbe8d5d994dcafb28d539c51d65d324e47",
+      "sha256": "53b611fe726dc1bbfab74d565d52a1d2ed644226bd542f67f695c73af8d67a3f"
+    },
+    {
+      "path": "la/SUTI.lab/living-system.md",
+      "prior_sha256": "ea72c320e842417246c8978a9b78c7d6d25e56f2ef10a3c1fc96cfe3d978dcc0",
+      "sha256": "d914e06551175e8870e5087942013448d1067ef46c1fc71a5684d3dc1e8cfb42"
+    },
+    {
+      "path": "la/SUTI.logos/living-system.md",
+      "prior_sha256": "34bdea8bfc3427e31ba649c339c72d982fc50a7b35831bf8cf8bd6c2a3812109",
+      "sha256": "a19cf553f3531bc3ad7e1e059f31e7b56b6b48cd33e08c7c74e1f34383fcf16d"
+    },
+    {
+      "path": "la/SUTI.oracle/living-system.md",
+      "prior_sha256": "08a00113f17afe16d69f76d8b6c30e43bce6a8b05029f6aa35e8c622fd296ec8",
+      "sha256": "772bef52e812e6c373612dbd31130e9fedd17cf92090958e22d355464e843051"
+    },
+    {
+      "path": "la/SUTI.os/living-system.md",
+      "prior_sha256": "597ae72d0ce4f7d918343fc408c2abf8dbd698ca58e369d15fa77e0f10c4500b",
+      "sha256": "07432b27e463614d6896674381bfab029d6e050fa1e33ef35e3d4351eae26b9c"
+    },
+    {
+      "path": "la/SUTI.sotkan/living-system.md",
+      "prior_sha256": "2d8bb268a106ffb718f9f80da2f42fc898d5ec29b816086c35c734a29f6305dc",
+      "sha256": "c33089c6fddcbfd933aef43ad82af60c8993ed31abdc8757a11ff89e73156bc7"
+    },
+    {
+      "path": "la/SUTI.uni/living-system.md",
+      "prior_sha256": "f5ad4f534144baafebe7aa6195eebbe2fbeb9727e4785f01a92e64b5d4eda185",
+      "sha256": "0702c51bb2dc09d065697481deaf0f2ff89b3aa733be9adc7a816f09f1014ec4"
+    },
+    {
+      "path": "la/SUTI.veche/living-system.md",
+      "prior_sha256": "e80cee3902c06921f17334b24bcdfdbf778bee2aa1682b15c595bc04d6e8bc1a",
+      "sha256": "62270017891673e3205e9d01a93776f7b9e35bd77f7525cfa5855573adfd3b0a"
+    },
+    {
+      "path": "la/SUTI.verenium/living-system.md",
+      "prior_sha256": "56b39190095e9fade68d84a337d4d3c69cf7585ca7a2820b824dbb9b85f55d6e",
+      "sha256": "28a9039125c647d851538836056f4447f49fffe739cbde6505e8971f193991db"
+    },
+    {
+      "path": "la/SUTI.world/living-system.md",
+      "prior_sha256": "270f31a8ae9515c97901d6d8121c250b6e82fbf8ddf88a71588a3df6bf79acfd",
+      "sha256": "bac4b577be79b8ebe537d6bd9cb3ff71859341033a386730ac3487a93553623c"
+    },
+    {
+      "path": "la/care-90-days.md",
+      "prior_sha256": "8c6c6b81c231c8c0375d5eeb30cf4ce5265f46568ff552c984a6d3237f1eb731",
+      "sha256": "7526a406e53f5f914b95a354a33a9879e517f2d7ba87ed995fc6517a8999c3f3"
+    },
+    {
+      "path": "la/living-system.md",
+      "prior_sha256": "19b2a2899826fb22cc097aada37c98cfdfa2870b852d0ab3809073076a5cc4bb",
+      "sha256": "33b6734f10703bfa782be76ef0d56ae31bc1842151f4a50eca49c08caf93706a"
+    },
+    {
+      "path": "pt-br/SUTI.audit/living-system.md",
+      "prior_sha256": "b5303f4eb3bb2108dccc6bf50066c31fb19e787e03e1a2488330374ad03b90c9",
+      "sha256": "b1eb8bfbc85f8b6c3caf3159f51208d46f80da7a415e535e85944a02ad3653dc"
+    },
+    {
+      "path": "pt-br/SUTI.clan/living-system.md",
+      "prior_sha256": "7860ec435571637e6587d01fa87a439f7ad19fdbbc9d3f22512fb60e715d3904",
+      "sha256": "45c272ba746307e35e1d730a888b3ced57c01306dbae7fec977112dd82059907"
+    },
+    {
+      "path": "pt-br/SUTI.crystal/living-system.md",
+      "prior_sha256": "f1dfb09dc793a3dafb324147e5b221466f3b0f63d4623597b9296a57feb38e6f",
+      "sha256": "451dcbc181fa9674b7dd23b8362b44e2e484e510c987529c80a33f1f708fb1df"
+    },
+    {
+      "path": "pt-br/SUTI.game/living-system.md",
+      "prior_sha256": "6fc6aed45bddf136320a7d6b4e23ea9547e400060da9bc393b3da59f2e601777",
+      "sha256": "6d1565df3d4632b83fe7975d3dc30c037b4afd36643312c09d51400378947ae9"
+    },
+    {
+      "path": "pt-br/SUTI.lab/living-system.md",
+      "prior_sha256": "60f83b8e8ad618850e6d03101973819d949fcaa2722dbb68378358104cba00f0",
+      "sha256": "0ecabbe0ad324efc0e03fee48b54c4c052b2a1ee0114bf3ca24faac2b71b182a"
+    },
+    {
+      "path": "pt-br/SUTI.logos/living-system.md",
+      "prior_sha256": "d90549c3efba64875a1733213305d340ad13fcf234c544c017252394b5bb86d3",
+      "sha256": "ae2bbaa1abf0a3d32a3a757fc84db72f19bb6da50c271448b299c01b1cc24dfc"
+    },
+    {
+      "path": "pt-br/SUTI.oracle/living-system.md",
+      "prior_sha256": "7c825cb2976518d83d642351f5823d11a3e802d04434dbebb92665cc9154a191",
+      "sha256": "e2b304b9d48a501d7cb277fe14b80a8542cb02b73b3686b074113e9bfe07ba3a"
+    },
+    {
+      "path": "pt-br/SUTI.os/living-system.md",
+      "prior_sha256": "93d65820e8fe21bc56e407ccbdaa242e74a0115c7da5c7db39b470ef68160204",
+      "sha256": "879ae8a171be5034784f322e90e8001cd1fcab3aba4ba2054f01a2ee34b43f23"
+    },
+    {
+      "path": "pt-br/SUTI.sotkan/living-system.md",
+      "prior_sha256": "2ae54995a6b3833f4c311dbe9e627cf09994f4406a61243a372a406f48c8a5b7",
+      "sha256": "cc2847921d06cbffe738eba9c1cab8e0d2c19918f20a49d04a7c0787dca62626"
+    },
+    {
+      "path": "pt-br/SUTI.uni/living-system.md",
+      "prior_sha256": "69ae4010f4c1214722872ac659a40419fb06f675c92289d97cef725d5b451696",
+      "sha256": "e1d45c8cf56b825eb3389b9fc659f9932700feeecdaf5f129ccdd8ebb80faa9f"
+    },
+    {
+      "path": "pt-br/SUTI.veche/living-system.md",
+      "prior_sha256": "b77cbba7cf1a5b7ecb0a0eb86dfd372115ccd9c7fc6d58c453b2bae952008ad4",
+      "sha256": "c7a968804cbd5ab5e34d8fe9a587d803d8b572bc155c24182a1ea0e8bb2a38d6"
+    },
+    {
+      "path": "pt-br/SUTI.verenium/living-system.md",
+      "prior_sha256": "575951cacfb350e5b01c748101c8d46cb8957cf8e5cc9dd6da3d8d90a4ac8f16",
+      "sha256": "7612c384edc3baac2dad8375c25975c823775f637c1605bf5aceda7b9d57cd7b"
+    },
+    {
+      "path": "pt-br/SUTI.world/living-system.md",
+      "prior_sha256": "d79b0249228fc0c856fda3f57c72b7971991427f3ad69d321b93159e7e76eea0",
+      "sha256": "b911da16a7529fafd89670250b695b23ac84cee335b642649cf34f95361323e9"
+    },
+    {
+      "path": "pt-br/care-90-days.md",
+      "prior_sha256": "7fe41cb6dfd2edb19ff069d7ef0a5602e79d162082db893ac73c5061e2b802ee",
+      "sha256": "a923d4aa5ec62f4dc08072e993b2c84ed6744f198fd6f7b8a7aabadf7f989023"
+    },
+    {
+      "path": "pt-br/living-system.md",
+      "prior_sha256": "ca53e7f2ae4e2956951d7c2d92ae1e8527e47936ac9e6a404fc08e58f439d66f",
+      "sha256": "41b417ca7a4b2e95d3286214f14a38ca2de7f03a6d946da6ef34832f62e4a102"
+    },
+    {
+      "path": "sa/SUTI.audit/living-system.md",
+      "prior_sha256": "2669aba4d08ce636e042b68faa895657cad7c3f5692edff0b549907febdf2bfa",
+      "sha256": "861aa5433b7ebb6113e83171419602fe44aa6f036b6c9986b7b391caf4ccc712"
+    },
+    {
+      "path": "sa/SUTI.clan/living-system.md",
+      "prior_sha256": "9e0b3bffca318fb3cba231bbf8cf8dd2235f47c4df1a8e38b16a2d2092ab2c5f",
+      "sha256": "0d31c6a50b2953eccbd121f3cfb543c4bd3221c4ff84f812af16a069476ea62d"
+    },
+    {
+      "path": "sa/SUTI.crystal/living-system.md",
+      "prior_sha256": "ef4354a89789218108ce26ab5be26f800c6704935c70780ab2ef62a10e7b18f3",
+      "sha256": "dcb4ebf9b2d476f2261975a995000a60f61b5f1e3a7f8bf989e1887ff18b92c3"
+    },
+    {
+      "path": "sa/SUTI.game/living-system.md",
+      "prior_sha256": "18a5fb7af720b4bc1f1432895e104385e9e7aac71bd3c0724a1192e7fcad380d",
+      "sha256": "c0fb7d441bfb7048b38c12c9fa1d9f5be5318155bfcc991f29642b2812203c1b"
+    },
+    {
+      "path": "sa/SUTI.lab/living-system.md",
+      "prior_sha256": "96677deb51b176e8bd28887ad1e3f6a7d0619137e2a5863d2602c6e31dcd4cb2",
+      "sha256": "cd5b7aa1cec7f833f54a824adb90b671795e30766fa961cadd5b9fd002ab3ed0"
+    },
+    {
+      "path": "sa/SUTI.logos/living-system.md",
+      "prior_sha256": "223fcfb0e1ab28b06e09027d2982c09a5da3c6724816397d6221e7062904cf9e",
+      "sha256": "e92264042cea51f875d52d2e559f6e2877f0a9fbde36f5d4f272abea66d733c7"
+    },
+    {
+      "path": "sa/SUTI.oracle/living-system.md",
+      "prior_sha256": "75e30b08bfc011aca53c88db79291713a4a53e79aa12b198c56c3329dc6fa9a6",
+      "sha256": "3155d68e42815cf61df84bcb5ac1e9f6f7c0324e1e4f495d38481dfc6d81bfc6"
+    },
+    {
+      "path": "sa/SUTI.os/living-system.md",
+      "prior_sha256": "9e22feba9ff18c77ed4836c06e2e10e3f346ea73c92f7d19e7d8ae1a578d126d",
+      "sha256": "b6d25c36d96e26b0202be30de32920f8ed04006f431f5ed39baa557a4207428a"
+    },
+    {
+      "path": "sa/SUTI.sotkan/living-system.md",
+      "prior_sha256": "b6f016e4feef2356d3ec5e3b3b156a459988cccf4b426a07c1dba4b500a7cf07",
+      "sha256": "600dc3bd09ceeddd3411a1b3a45265da28c03e31db8343bbfac04a4519de8de6"
+    },
+    {
+      "path": "sa/SUTI.uni/living-system.md",
+      "prior_sha256": "fec110948cf6a0dabc5efd11d6b33327662e6377ceec33d4380314b68e25e01c",
+      "sha256": "23b761912fd5c9292ef418b3c669fcfddb632b1209b56348499f2965a6b2c9d1"
+    },
+    {
+      "path": "sa/SUTI.veche/living-system.md",
+      "prior_sha256": "7b19cb8f57b37ae04635eea10055f9a57cf4a27c00e6c1e6110d89c049fa05e6",
+      "sha256": "1a63c531241d7489d1f1df0a549a23f0585bab8ef61a03de72f533a20f3a07aa"
+    },
+    {
+      "path": "sa/SUTI.verenium/living-system.md",
+      "prior_sha256": "9fc18e5cfd28fe8355640497fdc5d0d5bcf3c8ead4e1a40b0168811896e684eb",
+      "sha256": "41f2473e19eb9915e73111b0862795b1a703c0d61fcaf850f682dffe15a3042c"
+    },
+    {
+      "path": "sa/SUTI.world/living-system.md",
+      "prior_sha256": "c22f00bd96766499f526c1858021fb43b14d5d94526945678b9a9dd9a3280211",
+      "sha256": "62532fcd6d2abd84b564df2b72cf39344a438bfb20c8440d78b08f219e678395"
+    },
+    {
+      "path": "sa/care-90-days.md",
+      "prior_sha256": "129cb40dbed2b9de23bfd0d510a0140da012e0f02df80f96e630366f3690a42b",
+      "sha256": "b53cd77de2c5819950567e6510b21dd668e6dea37d3d11b8f2030dd0ca4656fd"
+    },
+    {
+      "path": "sa/living-system.md",
+      "prior_sha256": "3e0b3944d706b304ac271f363f6fb81287e5383b4a05bb955d223b655c75a89d",
+      "sha256": "8c0418cac1728295b51d6131eb6a3f13ba31616921b9cb91bc45608caba139dd"
+    },
+    {
+      "path": "yzh/SUTI.audit/living-system.md",
+      "prior_sha256": "45574a11eb2030651cfe4d0676a25b4564721bd6e1e72500078225cc50f48b85",
+      "sha256": "2fbf213394e0a3f8c99d01db5f2ce0d5cecc814e4252d900ece5077209dfec14"
+    },
+    {
+      "path": "yzh/SUTI.clan/living-system.md",
+      "prior_sha256": "0c57091e18286694b448ed84a416a8494f0ec5f3048bd0a62c176ff7e43bbeef",
+      "sha256": "25a72578bbd03c58e816d114ca8f51fea158a902dda9015792c737827925bc0f"
+    },
+    {
+      "path": "yzh/SUTI.crystal/living-system.md",
+      "prior_sha256": "f8df2deb44f677f8ba869b31b70a9b60678b9b9190a1382eaad49c08b23e9348",
+      "sha256": "9384d30ef79338142d15f2a107c7b7679846c5125ed48a12688d9e78331eab61"
+    },
+    {
+      "path": "yzh/SUTI.game/living-system.md",
+      "prior_sha256": "3ac6a8481c7c65fa52e6df76a63d44df87269b41dea74917e0d44c5bd8f3d1d4",
+      "sha256": "af46a3c76d47ff69b062d188369cb682a6c76e186ed9e8e2f62d940ba3ab3154"
+    },
+    {
+      "path": "yzh/SUTI.lab/living-system.md",
+      "prior_sha256": "0d4631ffa99c80d6a1ccddfc536223fcad684428634b4a20882bea4f2053a6a1",
+      "sha256": "046c15e500d5503feb0a13a4cbc16b2cd65f1ed6be629b02dd52e74aee316af6"
+    },
+    {
+      "path": "yzh/SUTI.logos/living-system.md",
+      "prior_sha256": "06a152df15f04829c9ad5ba6d05383c9388ed6cd1e6870cee56a7558f185e458",
+      "sha256": "a812a1de0ae150a25c00722d61995610638d8fed7109cbf1db9a95e04b0855b3"
+    },
+    {
+      "path": "yzh/SUTI.oracle/living-system.md",
+      "prior_sha256": "8f0f6bac8de0bee79d6a6957d901a8db510780dfba8c7462c55ace8a8b966e86",
+      "sha256": "0f530e9f269a8d25a6de2b5d06a389529e8ce85f268f74981bf7a55a2507c07f"
+    },
+    {
+      "path": "yzh/SUTI.os/living-system.md",
+      "prior_sha256": "7d21f8f0a356852756026ce5f76fd9ecfc91187b3cd360fbd2273e8b332cb9f7",
+      "sha256": "5f3951da888f8d516516320881452342c6e3d89cecdf8ecd8acf1e555f3c27b5"
+    },
+    {
+      "path": "yzh/SUTI.sotkan/living-system.md",
+      "prior_sha256": "22a16ded8b084affe804dce31164b4644bdca846814e6d6920804ba16be698b0",
+      "sha256": "4bc013f77bb45156bc24f2fe81842e30beeef998af04158b1c973b6b971a7127"
+    },
+    {
+      "path": "yzh/SUTI.uni/living-system.md",
+      "prior_sha256": "49efca26cbb873673e2fbfd186d54c644fd1baa09af876909633eca332e78e6a",
+      "sha256": "49719e968e5f3ad5f469a2f7fb76e9e89b94f83a295685ed112b92309be913e9"
+    },
+    {
+      "path": "yzh/SUTI.veche/living-system.md",
+      "prior_sha256": "b30e5af19c035871f89a51615d451cc390451f2843f3de2b047c93d6bc8fe706",
+      "sha256": "661379576c622a29a3848f33dbb85660deeeb4d5a3aed64dea98a1dfa862232b"
+    },
+    {
+      "path": "yzh/SUTI.verenium/living-system.md",
+      "prior_sha256": "feeb8e044282fa6cc850c69414374c89c49b48565593fac7b470d6eed5b12378",
+      "sha256": "c4cdbdeb37a11a211d021e06c96b1542ab7b63da4b0d5cf5190d902455ec7d74"
+    },
+    {
+      "path": "yzh/SUTI.world/living-system.md",
+      "prior_sha256": "d74d8961f0b7432c776e3804d658f63689d7685cd5479da5190447bf801d2613",
+      "sha256": "cefe564942ff06efe3693f7cb814c86c42a3cbcf21adc9bd45ab32281b434cb5"
+    },
+    {
+      "path": "yzh/care-90-days.md",
+      "prior_sha256": "80013bed198848264a83f08a28b15e4674b3f67f99ffefea908e683b5a517332",
+      "sha256": "36a1311f990518795d6cb14de28dd67bfab083a93d9bc12a91d2892487e9ccd5"
+    },
+    {
+      "path": "yzh/living-system.md",
+      "prior_sha256": "5d7fb19fbb4f9aa0aa380c66ca2c985e47ca22fe13709084ba126f1408020afb",
+      "sha256": "b69b1802a9fbd469d1a02f66e38041bed257ccf87c8cbd43f8fb038d6bb1e95a"
+    },
+    {
+      "path": "zh-hans/SUTI.audit/living-system.md",
+      "prior_sha256": "165692d2ad6a175572c645656053e3da375251b98ed3c02691013462067ed467",
+      "sha256": "57c8240138f8c82cf66d0183bdca3c352ae38256202eaf021fb027d747751a1b"
+    },
+    {
+      "path": "zh-hans/SUTI.clan/living-system.md",
+      "prior_sha256": "d15413143c3e0a629f0850623f9c958ac920708b4fab9364592beb565060906a",
+      "sha256": "b4faac2291b063640f1285c6fe68f5ae492b351615d4d8a91420b964f04ddc30"
+    },
+    {
+      "path": "zh-hans/SUTI.crystal/living-system.md",
+      "prior_sha256": "0f3ab7a8370ef4a8590f18d4b2779cc717b5e40081cdf6992c1ebf8becd85fae",
+      "sha256": "01f37657035eca3d49d55d45fb56966b0afccfc611e6aeb0c428e7ecd4365f4b"
+    },
+    {
+      "path": "zh-hans/SUTI.game/living-system.md",
+      "prior_sha256": "935c803712cf1944c37151cee40c4282edb7dee915ff363864dcd35ae45c860e",
+      "sha256": "dbb027d42d20d9384c2deb03eed9c19d5114c7746c8c5d6c298a2917da5f96a7"
+    },
+    {
+      "path": "zh-hans/SUTI.lab/living-system.md",
+      "prior_sha256": "52366228d4ef794fe74239d764f3763ded472695c5132e92b11ba47fe7bd4d58",
+      "sha256": "58015a42fd0bb019d50cedd1b99276a2bf9141049e1f7bf4daa5d6d21e4d5f24"
+    },
+    {
+      "path": "zh-hans/SUTI.logos/living-system.md",
+      "prior_sha256": "fff2ad1f4b87c179a1bc015b1f9ce29035d52df1fe0136e905d70bac608ff93d",
+      "sha256": "a48bf9bc1e6186c9c4595e1a55afb03d41761bb488ddb0f80eecf704e830639d"
+    },
+    {
+      "path": "zh-hans/SUTI.oracle/living-system.md",
+      "prior_sha256": "507d0986c2f0b4da75e0342fce4132b515d3bdf86117e38b7d3f44db439f45eb",
+      "sha256": "336aca896c9120765b807a2d2b2bd1127f62520224cb3159d17feb0a06a38c44"
+    },
+    {
+      "path": "zh-hans/SUTI.os/living-system.md",
+      "prior_sha256": "fa3d501d9611953e3a695fcadae068c1ee44fd9b91cf70b8713d3d3fd5ff1e1a",
+      "sha256": "7b5445c59dc8cca8b184a3d3580e8bc4b4b5a4e2fbb25762c225092d4a196a8d"
+    },
+    {
+      "path": "zh-hans/SUTI.sotkan/living-system.md",
+      "prior_sha256": "d8cebbce5a8fb240c62ddd1528e0adf928785d4a2358f738f201165027b683d3",
+      "sha256": "136dc818288ee16d73da08b5f370fe042e5815dc98c7d3aa7056a8cea1608c73"
+    },
+    {
+      "path": "zh-hans/SUTI.uni/living-system.md",
+      "prior_sha256": "a9f4c0193340afc854e0f53d6b31a11fbc0d3e2321597ebe047bd71ff424a4a0",
+      "sha256": "4a4998bfb2519a76c2d6c4ad3949de94160427557ca2660df951e2ab7486b86e"
+    },
+    {
+      "path": "zh-hans/SUTI.veche/living-system.md",
+      "prior_sha256": "1d77b14a76f2d149e3b8a2a683366b7c181def67cc8e8a7123cf38efdf1a694e",
+      "sha256": "0e515865aa2ed2fdfe56b5ae572685043b62cfb4273ab983789333c21c56d98a"
+    },
+    {
+      "path": "zh-hans/SUTI.verenium/living-system.md",
+      "prior_sha256": "0ede5a1c90ddf7bb080e46e0834947efa936265ba6e56cd9467b06601895a301",
+      "sha256": "cb33719d40a0997c4635bbc1c74576af541a9e161ef5c3033da0dc99c0b82bde"
+    },
+    {
+      "path": "zh-hans/SUTI.world/living-system.md",
+      "prior_sha256": "488cfca9c85484441aa61eb70f2639dca5dcc5d1b9460b16d697deb30de98d92",
+      "sha256": "102595933e1ada769892b3ce827bca4b2efe57a71aad784229fc2b44c5519214"
+    },
+    {
+      "path": "zh-hans/care-90-days.md",
+      "prior_sha256": "16dbded2fb390fcf66ed60b4171fee54a889e37e5e7ff6ce35867aabb4e89b8b",
+      "sha256": "a56d6ac74becc140218cb351fff66d0d1d8e49f9efcd5b5d7ad78e4be85f8587"
+    },
+    {
+      "path": "zh-hans/living-system.md",
+      "prior_sha256": "be5587ff849e8af83cfa3c800273ed5af47eb341196f12962f271cd3be6ae32e",
+      "sha256": "10301521eaf70c7a6d337aa2788ed9f87a42c62f390a24daab292c38ad64a526"
+    }
+  ],
+  "semantic_replacement_pairs": 35,
+  "locale_json_updated": [
+    "system/_techne/machine/collective-living-system-v1/locales/bn.json",
+    "system/_techne/machine/collective-living-system-v1/locales/en.json",
+    "system/_techne/machine/collective-living-system-v1/locales/eo.json",
+    "system/_techne/machine/collective-living-system-v1/locales/es.json",
+    "system/_techne/machine/collective-living-system-v1/locales/hi.json",
+    "system/_techne/machine/collective-living-system-v1/locales/la.json",
+    "system/_techne/machine/collective-living-system-v1/locales/pt-br.json",
+    "system/_techne/machine/collective-living-system-v1/locales/sa.json",
+    "system/_techne/machine/collective-living-system-v1/locales/zh-hans.json"
+  ]
+}

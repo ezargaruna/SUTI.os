@@ -1,0 +1,101 @@
+{
+  "schema": "suti.bot-collaboration-spec.locale-status.v1",
+  "source_locale": "ru",
+  "source_path": "bot-and-collaboration-spec.ru.md",
+  "source_sha256": "76509088c1554bb71008e7076afc0683bd2669b57b26bd0535a6b8bab19e2ffe",
+  "implementation": "specification-only",
+  "acceptance_execution": "NOT_RUN",
+  "locales": [
+    {
+      "locale": "ru",
+      "path": "bot-and-collaboration-spec.ru.md",
+      "state": "source-draft",
+      "reason": "author and independent content review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "en",
+      "path": null,
+      "state": "not-started",
+      "reason": "direct draft from Russian master not created; independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "es",
+      "path": null,
+      "state": "not-started",
+      "reason": "direct draft from Russian master not created; independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "pt-br",
+      "path": null,
+      "state": "not-started",
+      "reason": "direct draft from Russian master not created; independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "zh-hans",
+      "path": null,
+      "state": "not-started",
+      "reason": "direct draft from Russian master not created; independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "hi",
+      "path": null,
+      "state": "not-started",
+      "reason": "direct draft from Russian master not created; independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "fr",
+      "path": null,
+      "state": "not-started",
+      "reason": "direct draft from Russian master not created; independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "ar",
+      "path": null,
+      "state": "not-started",
+      "reason": "direct draft from Russian master not created; independent meaning/native-or-expert/script/accessibility review pending; RTL rendering review required",
+      "release": "HOLD"
+    },
+    {
+      "locale": "bn",
+      "path": null,
+      "state": "not-started",
+      "reason": "direct draft from Russian master not created; independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "eo",
+      "path": null,
+      "state": "not-started",
+      "reason": "direct draft from Russian master not created; independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "sa",
+      "path": null,
+      "state": "not-started",
+      "reason": "direct draft from Russian master not created; independent meaning/native-or-expert/script/accessibility review pending; specialist review required",
+      "release": "HOLD"
+    },
+    {
+      "locale": "la",
+      "path": null,
+      "state": "not-started",
+      "reason": "direct draft from Russian master not created; independent meaning/native-or-expert/script/accessibility review pending; specialist review required",
+      "release": "HOLD"
+    },
+    {
+      "locale": "yzh",
+      "path": null,
+      "state": "not-started",
+      "reason": "direct draft from Russian master not created; independent meaning/native-or-expert/script/accessibility review pending; author-approved gloss required",
+      "release": "HOLD"
+    }
+  ]
+}

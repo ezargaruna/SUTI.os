@@ -6,6 +6,15 @@ This repository owns the portable vault, local installer, release manifest, and 
 
 The vault's [symbol guide](vault/%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D0%B5/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0/%D0%B7%D0%BD%D0%B0%D0%BA%D0%B8%20%D1%8F%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8.md) is the practical Russian reference; the matching [SUTIcore specification](https://github.com/ezargaruna/suticore/blob/main/app/docs/docs/canon/symbols_reference.md) documents the extended palette and access rules.
 
+## 2026-11-13 · QA2 correction snapshot
+
+- [current self-contained system and guide · QA2](releases/2026-11-13-qa2/README.md)
+- [download corrected 13-route system and full guide](releases/2026-11-13-qa2/SUTI-public-system-13routes-QA2-2026-11-13.zip)
+- [separate guide · 1.1.1-draft](releases/2026-11-13-qa2/SUTI-ai-soul-system-contour-13L-v1.1.1-draft.zip)
+- [actual file/archive hashes and verification](releases/2026-11-13-qa2/archive-set.v1.json)
+
+The corrected core has twelve natural-language drafts and an explicit YZH/Russian-gloss route; the separate guide contains all twelve source sections in thirteen editions. Detailed fund planning remains EN/RU and the detailed bot specification RU-only. Independent native/specialist acceptance remains pending. The previous release below is retained unchanged; see the [QA2 notice](releases/2026-11-13-qa2/NOTICE.md).
+
 ## 2026-11-13 · selected common-system review drafts
 
 - [new common operating layer · thirteen routes](releases/2026-11-13/living-system/README.md)

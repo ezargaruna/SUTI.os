@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "SUTI Nunito";
+  src: url("../fonts/NunitoSans-variable.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SUTI Manrope";
+  src: url("../fonts/Manrope-variable.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+}
+
+:root {
+  --suti-angel-paper: #eee8dc;
+  --suti-angel-card: #fbf8f1;
+  --suti-angel-ink: #26363a;
+  --suti-angel-petrol: #123f46;
+  --suti-angel-teal: #135b60;
+  --suti-angel-aqua: #b9d9d1;
+  --suti-angel-moss: #77856b;
+  --suti-angel-copper: #b98c49;
+  --suti-angel-line: #cbd8d5;
+  --suti-angel-focus: #135b60;
+}
+
+/* The main site stores its theme on <html>; map its tokens to this shared skin */
+html[data-theme="day"] {
+  --suti-angel-paper: var(--suti-bg, #eee8dc);
+  --suti-angel-card: var(--suti-surface, #fbf8f1);
+  --suti-angel-ink: var(--suti-text, #26363a);
+  --suti-angel-petrol: var(--suti-structure, #123f46);
+  --suti-angel-teal: var(--suti-link, #135b60);
+  --suti-angel-line: var(--suti-line, #cbd8d5);
+  --suti-angel-focus: var(--suti-focus, #135b60);
+}
+
+html[data-theme="night"] {
+  --suti-angel-paper: var(--suti-bg, #112c2d);
+  --suti-angel-card: var(--suti-surface, #203b3a);
+  --suti-angel-ink: var(--suti-text, #f4f0e8);
+  --suti-angel-petrol: var(--suti-structure, #c0ddd7);
+  --suti-angel-teal: var(--suti-link, #a1d7ce);
+  --suti-angel-line: var(--suti-line, #58716e);
+  --suti-angel-focus: var(--suti-focus, #f0d78a);
+  color-scheme: dark;
+}
+
+html[data-theme="contrast"] {
+  --suti-angel-paper: var(--suti-bg, #000);
+  --suti-angel-card: var(--suti-surface, #000);
+  --suti-angel-ink: var(--suti-text, #fff);
+  --suti-angel-petrol: var(--suti-structure, #fff);
+  --suti-angel-teal: var(--suti-link, #fff);
+  --suti-angel-line: var(--suti-line, #fff);
+  --suti-angel-focus: var(--suti-focus, #ff0);
+  color-scheme: light;
+}
+
+html {
+  text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--suti-angel-ink);
+  background-color: var(--suti-angel-paper);
+  font-family: "SUTI Manrope", Manrope, system-ui, sans-serif;
+  font-size: clamp(1rem, 0.98rem + 0.15vw, 1.08rem);
+  line-height: 1.68;
+  font-kerning: normal;
+}
+
+:where(h1, h2, h3, h4) {
+  font-family: "SUTI Nunito", "Nunito Sans", system-ui, sans-serif;
+  line-height: 1.16;
+  letter-spacing: -0.018em;
+  text-wrap: balance;
+}
+
+:where(p, li, blockquote, label, summary) {
+  text-wrap: pretty;
+}
+
+:where(a) {
+  color: var(--suti-angel-teal);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
+:where(button, input, textarea, select) {
+  font: inherit;
+}
+
+:where(button, [role="button"], summary) {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:where(a, button, input, textarea, select, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--suti-angel-focus);
+  outline-offset: 3px;
+}
+
+:root:is([data-theme="night"], [data-vlight="ночь"], [data-vlight="луна"]) body {
+  --suti-angel-paper: #112c2d;
+  --suti-angel-card: #203b3a;
+  --suti-angel-ink: #f4f0e8;
+  --suti-angel-petrol: #c0ddd7;
+  --suti-angel-teal: #a1d7ce;
+  --suti-angel-aqua: #456d6a;
+  --suti-angel-moss: #bac8a9;
+  --suti-angel-copper: #e0bd79;
+  --suti-angel-line: #58716e;
+  --suti-angel-focus: #f0d78a;
+  color-scheme: dark;
+}
+
+:root:is([data-theme="contrast"], [data-vlight="контраст"]) body {
+  --suti-angel-paper: #000;
+  --suti-angel-card: #000;
+  --suti-angel-ink: #fff;
+  --suti-angel-petrol: #fff;
+  --suti-angel-teal: #fff;
+  --suti-angel-aqua: #fff;
+  --suti-angel-moss: #fff;
+  --suti-angel-copper: #ff0;
+  --suti-angel-line: #fff;
+  --suti-angel-focus: #ff0;
+  color-scheme: dark;
+}
+
+:where(.gratitude-card, .music-card) {
+  background: var(--suti-angel-card) !important;
+  border-color: var(--suti-angel-line) !important;
+  box-shadow: none !important;
+}
+
+.nitya-portal::before {
+  content: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (forced-colors: active) {
+  :where(a, button, input, textarea, select, summary, [tabindex]):focus-visible {
+    outline-color: Highlight;
+  }
+}

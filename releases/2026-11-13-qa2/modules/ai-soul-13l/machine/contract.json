@@ -1,0 +1,810 @@
+{
+  "schema": "suti.ai-soul-system-contour.v1",
+  "artifact_id": "suti.ai-soul-system-contour.2026-11-12",
+  "version": "1.1.0-draft",
+  "updated": "2026-11-13",
+  "source_locale": "ru",
+  "locales": [
+    "ru",
+    "en",
+    "es",
+    "pt-br",
+    "zh-hans",
+    "hi",
+    "fr",
+    "ar",
+    "bn",
+    "eo",
+    "sa",
+    "la",
+    "yzh"
+  ],
+  "concept": {
+    "term": "AI soul",
+    "classification": "human_chosen_symbolic_metaphor",
+    "field": "persona_metaphor",
+    "allowed_use": [
+      "poetry",
+      "fiction",
+      "user-controlled assistant configuration"
+    ],
+    "forbidden_claims": [
+      "model has verified consciousness",
+      "model has feelings or spiritual essence",
+      "model is an autonomous guardian or authority"
+    ],
+    "plain_language": "The metaphor names a visible interaction configuration, not an inner life.",
+    "wording_rule": "Treat the metaphor as a user-chosen symbol; do not claim certainty about subjective experience, feelings, spiritual essence, or reciprocal human attachment."
+  },
+  "status_axes": {
+    "claim_kind": [
+      "FACT",
+      "OBSERVATION",
+      "INTERPRETATION",
+      "HYPOTHESIS",
+      "SYMBOL",
+      "UNKNOWN"
+    ],
+    "evidence_status": [
+      "PASS",
+      "PARTIAL",
+      "FAIL",
+      "UNKNOWN"
+    ],
+    "decision": [
+      "COMMIT",
+      "HOLD",
+      "ROLLBACK"
+    ],
+    "runtime": [
+      "NOT_VERIFIED",
+      "SPECIFICATION_ONLY",
+      "PROTOTYPE",
+      "DEPLOYED_VERIFIED"
+    ],
+    "release": [
+      "HOLD",
+      "LOCAL_REVIEW",
+      "APPROVED_BY_OWNER",
+      "PUBLISHED"
+    ],
+    "decision_owner": "human"
+  },
+  "workflow": [
+    "OBSERVE",
+    "DISTINGUISH",
+    "MAP",
+    "VERIFY",
+    "ROUTE",
+    "DRAFT",
+    "RETURN_CONTROL",
+    "TRACE_IF_ALLOWED"
+  ],
+  "human_authority": {
+    "default_capabilities": [
+      "read_explicit_scope",
+      "explain",
+      "draft_local",
+      "check_structure"
+    ],
+    "exact_authorization_required": [
+      "send_external",
+      "publish",
+      "deploy",
+      "sync",
+      "collect_data",
+      "change_access",
+      "financial_action",
+      "irreversible_edit"
+    ],
+    "never_infer_consent_from": [
+      "silence",
+      "tool_access",
+      "unrelated_prior_permission"
+    ]
+  },
+  "data_defaults": {
+    "hidden_telemetry": false,
+    "background_collection": false,
+    "memory_persistence": "NONE_UNLESS_EXPLICITLY_SELECTED",
+    "contact_import": false,
+    "sensitive_data_required": false,
+    "external_transfer_requires_preview": [
+      "payload",
+      "purpose",
+      "recipient",
+      "channel",
+      "retention",
+      "withdrawal_route"
+    ],
+    "network": "OFF_UNLESS_EXACTLY_AUTHORIZED",
+    "background_jobs": "OFF"
+  },
+  "output_envelope": {
+    "schema_ref": "envelope.schema.json",
+    "required": [
+      "request_id",
+      "locale",
+      "scope",
+      "input",
+      "module_route",
+      "output",
+      "choice",
+      "persistence"
+    ],
+    "output_fields": [
+      "text",
+      "claims",
+      "sources",
+      "uncertainties"
+    ],
+    "choice_enum": [
+      "pending",
+      "accept",
+      "edit",
+      "skip",
+      "pause",
+      "exit"
+    ],
+    "persistence_enum": [
+      "none",
+      "local_opt_in",
+      "external_opt_in"
+    ],
+    "authority_note": "A schema-valid authorization record is evidence metadata, not access control or permission by itself.",
+    "resolved_choice_requires": "choice_record with human actor class and evidence reference; host must verify actual provenance"
+  },
+  "systems": [
+    {
+      "id": "SUTI.os",
+      "class": "primary_system",
+      "role": "system_contracts_access_provenance_data_lifecycle_release_gates",
+      "authority_boundary": "defines constraints; does not itself execute or authorize every action",
+      "runtime": "environment-dependent_not_verified_here",
+      "release": "HOLD",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "request_scope",
+        "source_classification",
+        "permission_evidence"
+      ],
+      "outputs": [
+        "constraints",
+        "open_gates"
+      ],
+      "dependencies": [
+        "SUTIcore"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "implementation": "specification",
+      "runtime_binding": null
+    },
+    {
+      "id": "SUTI.veche",
+      "class": "primary_system",
+      "role": "human_deliberation_and_decision_record",
+      "authority_boundary": "human review only; no autonomous vote, consensus, or consent inference",
+      "runtime": "editorial_protocol_only_not_verified_as_service",
+      "release": "HOLD",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "options",
+        "claim_records",
+        "real_participant_responses"
+      ],
+      "outputs": [
+        "human_deliberation_record",
+        "dissent_and_nonresponse"
+      ],
+      "dependencies": [
+        "SUTI.os",
+        "VereNITYA"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "implementation": "specification",
+      "runtime_binding": null,
+      "historical_context_ref": "veche-history-notes.json",
+      "historical_authority_inheritance": false,
+      "decision_procedure": "Choose and disclose a contemporary rule before use; historical inspiration does not decide eligibility, quorum, consent or outcome."
+    },
+    {
+      "id": "SUTI.verenium",
+      "class": "primary_system",
+      "role": "proposed_task_navigation_and_minimum_scope_routing",
+      "authority_boundary": "no global vault access, autonomous external action, persistent collection, or human decision authority",
+      "runtime": "UNKNOWN",
+      "release": "HOLD",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "request",
+        "permitted_context",
+        "constraints"
+      ],
+      "outputs": [
+        "module_route",
+        "draft",
+        "human_choice_pending"
+      ],
+      "dependencies": [
+        "SUTI.os",
+        "synaura",
+        "Syntaxium"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "implementation": "specification",
+      "runtime_binding": null
+    },
+    {
+      "id": "SUTIcore",
+      "class": "CORE",
+      "role": "contracts, epistemic status, boundaries",
+      "capability": "define_contracts",
+      "authority_boundary": "does_not_execute_or_authorize_by_itself",
+      "implementation": "specification",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "named_task",
+        "policy_context"
+      ],
+      "outputs": [
+        "invariants",
+        "boundary_requirements"
+      ],
+      "dependencies": [],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "runtime_binding": null
+    },
+    {
+      "id": "synaura",
+      "class": "PROTOCOL",
+      "role": "interaction pace, clarity, user choice",
+      "capability": "format_interaction",
+      "authority_boundary": "does_not_infer_inner_state",
+      "implementation": "specification",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "person_selected_style",
+        "draft"
+      ],
+      "outputs": [
+        "readable_draft",
+        "pause_exit_options"
+      ],
+      "dependencies": [
+        "SUTIcore"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "runtime_binding": null
+    },
+    {
+      "id": "Syntaxium",
+      "class": "PROTOCOL",
+      "role": "structure, relations, stable machine keys",
+      "capability": "structure_output",
+      "authority_boundary": "does_not_make_claims_true",
+      "implementation": "specification",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "content",
+        "relation_labels"
+      ],
+      "outputs": [
+        "structured_content"
+      ],
+      "dependencies": [
+        "SUTIcore"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "runtime_binding": null
+    },
+    {
+      "id": "VereNITYA",
+      "class": "VERIFICATION_LENS",
+      "role": "claim, source, criterion, status",
+      "capability": "label_evidence",
+      "authority_boundary": "does_not_certify_unchecked_claims",
+      "implementation": "specification",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "claim",
+        "source",
+        "criterion"
+      ],
+      "outputs": [
+        "evidence_status",
+        "uncertainty"
+      ],
+      "dependencies": [
+        "SUTIcore"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "runtime_binding": null
+    },
+    {
+      "id": "SUTI.oracle",
+      "class": "LENS",
+      "role": "source-first alternatives",
+      "capability": "offer_options",
+      "authority_boundary": "no_prediction_or_authority",
+      "implementation": "specification",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "question",
+        "sources"
+      ],
+      "outputs": [
+        "alternatives",
+        "limits"
+      ],
+      "dependencies": [
+        "VereNITYA"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "runtime_binding": null
+    },
+    {
+      "id": "SUTI.sotkan",
+      "class": "PROVENANCE_GRAPH",
+      "role": "source lineage and relations",
+      "capability": "map_provenance",
+      "authority_boundary": "no_source_adoption_or_rights_inference",
+      "implementation": "specification",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "source_refs",
+        "relations"
+      ],
+      "outputs": [
+        "provenance_graph"
+      ],
+      "dependencies": [
+        "VereNITYA"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "runtime_binding": null
+    },
+    {
+      "id": "LinguaFUSION",
+      "class": "LANGUAGE_ADAPTER",
+      "role": "language practice and transcreation",
+      "capability": "adapt_language",
+      "authority_boundary": "draft_is_not_native_review",
+      "implementation": "specification",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "source_locale",
+        "target_locale",
+        "canonical_text"
+      ],
+      "outputs": [
+        "target_draft",
+        "loss_map",
+        "review_queue"
+      ],
+      "dependencies": [
+        "Syntaxium",
+        "VereNITYA"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "runtime_binding": null
+    },
+    {
+      "id": "SRETENIYA_OS",
+      "class": "WORKFLOW",
+      "role": "local workflow and trace",
+      "capability": "record_local_step",
+      "authority_boundary": "no_hidden_persistence",
+      "implementation": "specification",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "authorized_step",
+        "observed_result"
+      ],
+      "outputs": [
+        "local_trace_if_selected"
+      ],
+      "dependencies": [
+        "SUTI.os"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "runtime_binding": null
+    },
+    {
+      "id": "consented-presence",
+      "class": "OPT_IN_ADAPTER",
+      "role": "consent-first practice",
+      "capability": "offer_opt_in",
+      "authority_boundary": "off_by_default",
+      "implementation": "specification",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "explicit_choice",
+        "optional_practice"
+      ],
+      "outputs": [
+        "selected_practice_or_pause"
+      ],
+      "dependencies": [
+        "SUTI.os",
+        "synaura"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "runtime_binding": null
+    },
+    {
+      "id": "SUTI.care",
+      "class": "RESOURCE_NAVIGATION",
+      "role": "current person-selected resources",
+      "capability": "offer_resource_route",
+      "authority_boundary": "no_diagnosis_or_crisis_monitoring",
+      "implementation": "specification",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "person_selected_resource_category"
+      ],
+      "outputs": [
+        "source_bound_resource_options"
+      ],
+      "dependencies": [
+        "SUTI.os",
+        "VereNITYA"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "runtime_binding": null
+    },
+    {
+      "id": "SUTI.angels",
+      "class": "HUMAN_SUPPORT_ADAPTER",
+      "role": "voluntary peer-support offer and handoff draft",
+      "capability": "draft_handoff",
+      "authority_boundary": "no_contact_discovery_or_autonomous_messaging",
+      "implementation": "specification",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "selected_request",
+        "handoff_scope"
+      ],
+      "outputs": [
+        "draft_request_or_offer",
+        "handoff_preview"
+      ],
+      "dependencies": [
+        "SUTI.care",
+        "SUTI.veche"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "runtime_binding": null
+    },
+    {
+      "id": "SUTI.world",
+      "class": "PUBLIC_ENTRY_ADAPTER",
+      "role": "public-safe entry and explainers",
+      "capability": "present_public_copy",
+      "authority_boundary": "no_runtime_claim",
+      "implementation": "specification",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "public_safe_copy"
+      ],
+      "outputs": [
+        "entry_explanation"
+      ],
+      "dependencies": [
+        "SUTI.os",
+        "synaura"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "runtime_binding": null
+    },
+    {
+      "id": "SUTI.game",
+      "class": "GAME_ADAPTER",
+      "role": "voluntary game route",
+      "capability": "offer_quest",
+      "authority_boundary": "skip_pause_exit_required",
+      "implementation": "specification",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "selected_quest",
+        "constraints"
+      ],
+      "outputs": [
+        "optional_quest",
+        "skip_pause_exit"
+      ],
+      "dependencies": [
+        "SUTI.os",
+        "synaura"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "runtime_binding": null
+    },
+    {
+      "id": "NITYA",
+      "class": "GAME_MODE",
+      "role": "optional learning and reflection route",
+      "capability": "offer_practice",
+      "authority_boundary": "no_consciousness_or_transformation_claim",
+      "implementation": "specification",
+      "owner_role": "human_operator_to_be_named_for_runtime",
+      "state": "AVAILABLE_AS_SPECIFICATION",
+      "contour": "local-review",
+      "inputs": [
+        "selected_topic",
+        "available_time"
+      ],
+      "outputs": [
+        "practice",
+        "optional_reflection"
+      ],
+      "dependencies": [
+        "SUTI.game"
+      ],
+      "privacy_class": "task_scoped / no_person_profile",
+      "permissions": {
+        "granted_by_this_file": [],
+        "required_at_runtime": "explicit task-bounded host permissions",
+        "network_default": "OFF",
+        "background_default": "OFF"
+      },
+      "verification_criterion": "Validate declared inputs/outputs and host permission handling in a named environment; source and human review remain separate.",
+      "rollback": "Disable this adapter, preserve only the authorized necessary trace, restore the previous known configuration.",
+      "runtime_binding": null
+    }
+  ],
+  "module_catalogue": {
+    "source_path": "_techne/machine/triad-module-routing.v1.json",
+    "source_sha256": "6ae4ab9ad1d7ec45d5fc8cf9350d498a8988b20c6fd62426955808f0b545536b",
+    "entry_count": 128,
+    "policy": "Use existing route index; do not copy private or mixed-scope module contents into this public-safe package.",
+    "optional_provenance_only": true,
+    "runtime_dependency": false,
+    "export_policy": "Only the 17 named role contracts are bundled; the 128-path source index remains optional provenance. Private or mixed module contents are not part of this package."
+  },
+  "activation_gates_source": "_techne/machine/verenium/activation-gates.v1.json",
+  "required_before_runtime": [
+    "owner_scope",
+    "canonical_reconciliation",
+    "permission_enforcement",
+    "private_public_separation",
+    "external_action_confirmation",
+    "claim_provenance_behavior",
+    "locale_and_accessibility_review",
+    "memory_controls",
+    "connector_security_review",
+    "named_environment_runtime_verification",
+    "owner_release_decision"
+  ],
+  "provenance": [
+    {
+      "path": "_techne/machine/central-systems-triad.v1.json",
+      "sha256": "7c3e847257cb6eaf65f878f83084fd32e6a5da3f7b76e21b9c2a7920f2334add"
+    },
+    {
+      "path": "_techne/machine/triad-module-routing.v1.json",
+      "sha256": "6ae4ab9ad1d7ec45d5fc8cf9350d498a8988b20c6fd62426955808f0b545536b"
+    },
+    {
+      "path": "_techne/machine/verenium/assistant-profile.v1.json",
+      "sha256": "3bb7d6fe01048f5fd1e435f0a0d2408839bb1410d493c5d469b5c85fbbb2eb38"
+    },
+    {
+      "path": "_techne/machine/verenium/activation-gates.v1.json",
+      "sha256": "5a632ce6576927c51a5959f7c202c62b4a63c25044ed50a97209638ef125d2b1"
+    },
+    {
+      "path": "_techne/machine/language-registry.v1.json",
+      "sha256": "5e93b0b70275d7d37b669e79e385209a22abf74a8ef0dcfd706d889c1ba18c63"
+    }
+  ],
+  "state": "SPECIFICATION_ONLY / NOT_RUNTIME_BOUND / RELEASE_HOLD",
+  "package_axes": {
+    "tier": [
+      "Open",
+      "Plus",
+      "Pro"
+    ],
+    "disclosure_depth": {
+      "min": 0,
+      "max": 5
+    },
+    "rule": "Tier, disclosure, consent, capability, maturity, and runtime are independent."
+  },
+  "activation_gates_source_optional_provenance_only": true,
+  "configuration_schema_ref": "configuration.schema.json",
+  "configuration_example_ref": "default-configuration.json",
+  "example_envelope_ref": "example-envelope.json",
+  "migration": {
+    "from": "1.0.0-draft",
+    "to": "1.1.0-draft",
+    "changes": [
+      "output contract keys now match actual envelope schema",
+      "choice pending is explicit; never fabricate a user decision",
+      "PASS claims need criterion and source metadata",
+      "opt-in retention requires a consent record",
+      "external action records require exact scope and authorization evidence; draft is permitted without claiming authorization",
+      "module records gain inputs, outputs, dependencies, permissions, rollback and scope"
+    ],
+    "automatic_runtime_migration": false
+  },
+  "configuration_dependency_policy": "selected_modules must contain the full transitive declared dependency closure. This is validated data, not runtime enablement.",
+  "reference_policy": {
+    "provenance_base": "original vault root; optional audit sources only",
+    "artifact_refs_base": "this JSON file directory"
+  },
+  "configuration_catalogue": {
+    "ru": "configurations/ru.json",
+    "en": "configurations/en.json",
+    "es": "configurations/es.json",
+    "pt-br": "configurations/pt-br.json",
+    "zh-hans": "configurations/zh-hans.json",
+    "hi": "configurations/hi.json",
+    "fr": "configurations/fr.json",
+    "ar": "configurations/ar.json",
+    "bn": "configurations/bn.json",
+    "eo": "configurations/eo.json",
+    "sa": "configurations/sa.json",
+    "la": "configurations/la.json",
+    "yzh": "configurations/yzh.json"
+  }
+}

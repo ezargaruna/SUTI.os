@@ -1,0 +1,108 @@
+{
+  "schema": "suti.care-fund.gates.v1",
+  "created": "2026-11-13",
+  "scope": "proposed project evidence gates; context-specific legal requirements remain to be assessed",
+  "operational_state": "OFF",
+  "gates": [
+    {
+      "id": "jurisdiction-operator",
+      "criterion": "Qualified local adviser identifies applicable entity/host and current requirements; accountable lawful operator accepted",
+      "proposed_owner_role": "legal adviser",
+      "status": "UNKNOWN",
+      "decision": "HOLD",
+      "evidence": [],
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "governance",
+      "criterion": "Accountable human roles; authority limits; conflicts/recusal and review accepted",
+      "proposed_owner_role": "governance council",
+      "status": "UNKNOWN",
+      "decision": "HOLD",
+      "evidence": [],
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "financial-route",
+      "criterion": "Lawful receiving/disbursing route; approved budget/currency/limits; independent review and reconciliation verified",
+      "proposed_owner_role": "finance lead",
+      "status": "UNKNOWN",
+      "decision": "HOLD",
+      "evidence": [],
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "fundraising-transfers",
+      "criterion": "Selected fundraising locations/channels and relevant cross-border restrictions assessed with current local advice",
+      "proposed_owner_role": "legal adviser",
+      "status": "UNKNOWN",
+      "decision": "HOLD",
+      "evidence": [],
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "privacy-lifecycle",
+      "criterion": "Controller; purposes; appropriate legal basis; minimum fields; access; retention; correction/export/deletion and incident route verified",
+      "proposed_owner_role": "privacy lead",
+      "status": "UNKNOWN",
+      "decision": "HOLD",
+      "evidence": [],
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "care-safeguarding",
+      "criterion": "Competent staff and backup; capacity; complaint/referral boundaries; youth route separately checked if proposed",
+      "proposed_owner_role": "care lead",
+      "status": "UNKNOWN",
+      "decision": "HOLD",
+      "evidence": [],
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "delivery-capacity",
+      "criterion": "One bounded offer; available resources; accepted owners; workload; backup and pause criteria verified",
+      "proposed_owner_role": "project lead",
+      "status": "UNKNOWN",
+      "decision": "HOLD",
+      "evidence": [],
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "language-accessibility",
+      "criterion": "Chosen pilot language independently reviewed for meaning/script; tested access routes; other locale gaps visible",
+      "proposed_owner_role": "language editor",
+      "status": "UNKNOWN",
+      "decision": "HOLD",
+      "evidence": [],
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "rights-publication",
+      "criterion": "Each selected item has source; rights/license; privacy review; named audience/channel and explicit release decision",
+      "proposed_owner_role": "audit reviewer",
+      "status": "UNKNOWN",
+      "decision": "HOLD",
+      "evidence": [],
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "id": "pilot-authorization",
+      "criterion": "Specific local setting; offer; dates; participant capacity; budget; evidence; all applicable gates and owner approval recorded",
+      "proposed_owner_role": "project lead",
+      "status": "UNKNOWN",
+      "decision": "HOLD",
+      "evidence": [],
+      "reviewed_by": null,
+      "reviewed_at": null
+    }
+  ]
+}

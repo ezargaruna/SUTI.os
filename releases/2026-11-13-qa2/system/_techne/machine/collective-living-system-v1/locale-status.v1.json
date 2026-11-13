@@ -1,0 +1,1667 @@
+{
+  "schema": "suti.collective-living-system.locale-status.v1",
+  "source_locale": "ru",
+  "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312",
+  "scope": "new common operating layer only; preserved legacy corpus not fully translated or reviewed",
+  "locales": [
+    {
+      "locale": "ru",
+      "label": "Русский",
+      "path": "_techne/human/collective-living-system-v1/ru/living-system.md",
+      "contours": 13,
+      "status": "source-draft",
+      "native_review": "pending",
+      "release": "HOLD",
+      "target_sha256": "1d50a5516049850e8c01f9ac8c68b48a0be5fbaf47aff555600338a2f4575dd4"
+    },
+    {
+      "locale": "en",
+      "label": "English",
+      "path": "en/living-system.md",
+      "contours": 13,
+      "status": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "target_sha256": "67efa0ea16f81290b7365370de56d33a6fbb5ce5807d8de97ae9490401c51b3a"
+    },
+    {
+      "locale": "es",
+      "label": "Español",
+      "path": "es/living-system.md",
+      "contours": 13,
+      "status": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "target_sha256": "1001768faca6714f9fabb580e635e91266fa61c68940762eef60dd5ddd0146c0"
+    },
+    {
+      "locale": "pt-br",
+      "label": "Português brasileiro",
+      "path": "pt-br/living-system.md",
+      "contours": 13,
+      "status": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "target_sha256": "41b417ca7a4b2e95d3286214f14a38ca2de7f03a6d946da6ef34832f62e4a102"
+    },
+    {
+      "locale": "zh-hans",
+      "label": "简体中文",
+      "path": "zh-hans/living-system.md",
+      "contours": 13,
+      "status": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "target_sha256": "10301521eaf70c7a6d337aa2788ed9f87a42c62f390a24daab292c38ad64a526"
+    },
+    {
+      "locale": "hi",
+      "label": "हिन्दी",
+      "path": "hi/living-system.md",
+      "contours": 13,
+      "status": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "target_sha256": "1ed6343af8c37882f0ac0449d9e64f01c20a90c8931913f73f63db677f531cca"
+    },
+    {
+      "locale": "fr",
+      "label": "Français",
+      "path": "fr/living-system.md",
+      "contours": 13,
+      "status": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "target_sha256": "7e42288b339ac79a1e7bda7c7a52ed117d466b18ad3b01d52b3fa4fdf0e6d75c"
+    },
+    {
+      "locale": "ar",
+      "label": "العربية",
+      "path": "ar/living-system.md",
+      "contours": 13,
+      "status": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "target_sha256": "9a5bb51bf459a3504a86a7c5edb15d29ec6ef2623f8dacb2600b57fbad5fa5f5"
+    },
+    {
+      "locale": "bn",
+      "label": "বাংলা",
+      "path": "bn/living-system.md",
+      "contours": 13,
+      "status": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "target_sha256": "4e6090ae01bc332858b0bd6c2920c8cd72fc31b8abd909f858611149a5229af2"
+    },
+    {
+      "locale": "eo",
+      "label": "Esperanto",
+      "path": "eo/living-system.md",
+      "contours": 13,
+      "status": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "target_sha256": "ca4151b77dde64b9b73e51c93cb0bb92b14ced733e6a3ee1b2172832e86dbf53"
+    },
+    {
+      "locale": "sa",
+      "label": "संस्कृतम्",
+      "path": "sa/living-system.md",
+      "contours": 13,
+      "status": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "target_sha256": "8c0418cac1728295b51d6131eb6a3f13ba31616921b9cb91bc45608caba139dd"
+    },
+    {
+      "locale": "la",
+      "label": "Latina",
+      "path": "la/living-system.md",
+      "contours": 13,
+      "status": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "target_sha256": "33b6734f10703bfa782be76ef0d56ae31bc1842151f4a50eca49c08caf93706a"
+    },
+    {
+      "locale": "yzh",
+      "label": "Язэхъ · авторский глосс / HOLD",
+      "path": "yzh/living-system.md",
+      "contours": 13,
+      "status": "not-started-author-gloss-required",
+      "native_review": "pending",
+      "release": "HOLD",
+      "target_sha256": "b69b1802a9fbd469d1a02f66e38041bed257ccf87c8cbd43f8fb038d6bb1e95a"
+    }
+  ],
+  "contours": [
+    {
+      "locale": "ru",
+      "contour_id": "SUTI.os",
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.os/living-system.md",
+      "draft_state": "source-draft",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ru",
+      "contour_id": "SUTI.world",
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.world/living-system.md",
+      "draft_state": "source-draft",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ru",
+      "contour_id": "SUTI.uni",
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.uni/living-system.md",
+      "draft_state": "source-draft",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ru",
+      "contour_id": "SUTI.clan",
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.clan/living-system.md",
+      "draft_state": "source-draft",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ru",
+      "contour_id": "SUTI.lab",
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.lab/living-system.md",
+      "draft_state": "source-draft",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ru",
+      "contour_id": "SUTI.audit",
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.audit/living-system.md",
+      "draft_state": "source-draft",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ru",
+      "contour_id": "SUTI.crystal",
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.crystal/living-system.md",
+      "draft_state": "source-draft",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ru",
+      "contour_id": "SUTI.oracle",
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.oracle/living-system.md",
+      "draft_state": "source-draft",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ru",
+      "contour_id": "SUTI.veche",
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.veche/living-system.md",
+      "draft_state": "source-draft",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ru",
+      "contour_id": "SUTI.sotkan",
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.sotkan/living-system.md",
+      "draft_state": "source-draft",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ru",
+      "contour_id": "SUTI.game",
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.game/living-system.md",
+      "draft_state": "source-draft",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ru",
+      "contour_id": "SUTI.logos",
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.logos/living-system.md",
+      "draft_state": "source-draft",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ru",
+      "contour_id": "SUTI.verenium",
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.verenium/living-system.md",
+      "draft_state": "source-draft",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "en",
+      "contour_id": "SUTI.os",
+      "path": "en/SUTI.os/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "en",
+      "contour_id": "SUTI.world",
+      "path": "en/SUTI.world/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "en",
+      "contour_id": "SUTI.uni",
+      "path": "en/SUTI.uni/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "en",
+      "contour_id": "SUTI.clan",
+      "path": "en/SUTI.clan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "en",
+      "contour_id": "SUTI.lab",
+      "path": "en/SUTI.lab/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "en",
+      "contour_id": "SUTI.audit",
+      "path": "en/SUTI.audit/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "en",
+      "contour_id": "SUTI.crystal",
+      "path": "en/SUTI.crystal/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "en",
+      "contour_id": "SUTI.oracle",
+      "path": "en/SUTI.oracle/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "en",
+      "contour_id": "SUTI.veche",
+      "path": "en/SUTI.veche/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "en",
+      "contour_id": "SUTI.sotkan",
+      "path": "en/SUTI.sotkan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "en",
+      "contour_id": "SUTI.game",
+      "path": "en/SUTI.game/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "en",
+      "contour_id": "SUTI.logos",
+      "path": "en/SUTI.logos/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "en",
+      "contour_id": "SUTI.verenium",
+      "path": "en/SUTI.verenium/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "es",
+      "contour_id": "SUTI.os",
+      "path": "es/SUTI.os/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "es",
+      "contour_id": "SUTI.world",
+      "path": "es/SUTI.world/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "es",
+      "contour_id": "SUTI.uni",
+      "path": "es/SUTI.uni/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "es",
+      "contour_id": "SUTI.clan",
+      "path": "es/SUTI.clan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "es",
+      "contour_id": "SUTI.lab",
+      "path": "es/SUTI.lab/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "es",
+      "contour_id": "SUTI.audit",
+      "path": "es/SUTI.audit/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "es",
+      "contour_id": "SUTI.crystal",
+      "path": "es/SUTI.crystal/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "es",
+      "contour_id": "SUTI.oracle",
+      "path": "es/SUTI.oracle/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "es",
+      "contour_id": "SUTI.veche",
+      "path": "es/SUTI.veche/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "es",
+      "contour_id": "SUTI.sotkan",
+      "path": "es/SUTI.sotkan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "es",
+      "contour_id": "SUTI.game",
+      "path": "es/SUTI.game/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "es",
+      "contour_id": "SUTI.logos",
+      "path": "es/SUTI.logos/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "es",
+      "contour_id": "SUTI.verenium",
+      "path": "es/SUTI.verenium/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "pt-br",
+      "contour_id": "SUTI.os",
+      "path": "pt-br/SUTI.os/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "pt-br",
+      "contour_id": "SUTI.world",
+      "path": "pt-br/SUTI.world/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "pt-br",
+      "contour_id": "SUTI.uni",
+      "path": "pt-br/SUTI.uni/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "pt-br",
+      "contour_id": "SUTI.clan",
+      "path": "pt-br/SUTI.clan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "pt-br",
+      "contour_id": "SUTI.lab",
+      "path": "pt-br/SUTI.lab/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "pt-br",
+      "contour_id": "SUTI.audit",
+      "path": "pt-br/SUTI.audit/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "pt-br",
+      "contour_id": "SUTI.crystal",
+      "path": "pt-br/SUTI.crystal/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "pt-br",
+      "contour_id": "SUTI.oracle",
+      "path": "pt-br/SUTI.oracle/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "pt-br",
+      "contour_id": "SUTI.veche",
+      "path": "pt-br/SUTI.veche/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "pt-br",
+      "contour_id": "SUTI.sotkan",
+      "path": "pt-br/SUTI.sotkan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "pt-br",
+      "contour_id": "SUTI.game",
+      "path": "pt-br/SUTI.game/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "pt-br",
+      "contour_id": "SUTI.logos",
+      "path": "pt-br/SUTI.logos/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "pt-br",
+      "contour_id": "SUTI.verenium",
+      "path": "pt-br/SUTI.verenium/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "zh-hans",
+      "contour_id": "SUTI.os",
+      "path": "zh-hans/SUTI.os/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "zh-hans",
+      "contour_id": "SUTI.world",
+      "path": "zh-hans/SUTI.world/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "zh-hans",
+      "contour_id": "SUTI.uni",
+      "path": "zh-hans/SUTI.uni/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "zh-hans",
+      "contour_id": "SUTI.clan",
+      "path": "zh-hans/SUTI.clan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "zh-hans",
+      "contour_id": "SUTI.lab",
+      "path": "zh-hans/SUTI.lab/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "zh-hans",
+      "contour_id": "SUTI.audit",
+      "path": "zh-hans/SUTI.audit/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "zh-hans",
+      "contour_id": "SUTI.crystal",
+      "path": "zh-hans/SUTI.crystal/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "zh-hans",
+      "contour_id": "SUTI.oracle",
+      "path": "zh-hans/SUTI.oracle/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "zh-hans",
+      "contour_id": "SUTI.veche",
+      "path": "zh-hans/SUTI.veche/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "zh-hans",
+      "contour_id": "SUTI.sotkan",
+      "path": "zh-hans/SUTI.sotkan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "zh-hans",
+      "contour_id": "SUTI.game",
+      "path": "zh-hans/SUTI.game/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "zh-hans",
+      "contour_id": "SUTI.logos",
+      "path": "zh-hans/SUTI.logos/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "zh-hans",
+      "contour_id": "SUTI.verenium",
+      "path": "zh-hans/SUTI.verenium/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "hi",
+      "contour_id": "SUTI.os",
+      "path": "hi/SUTI.os/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "hi",
+      "contour_id": "SUTI.world",
+      "path": "hi/SUTI.world/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "hi",
+      "contour_id": "SUTI.uni",
+      "path": "hi/SUTI.uni/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "hi",
+      "contour_id": "SUTI.clan",
+      "path": "hi/SUTI.clan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "hi",
+      "contour_id": "SUTI.lab",
+      "path": "hi/SUTI.lab/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "hi",
+      "contour_id": "SUTI.audit",
+      "path": "hi/SUTI.audit/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "hi",
+      "contour_id": "SUTI.crystal",
+      "path": "hi/SUTI.crystal/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "hi",
+      "contour_id": "SUTI.oracle",
+      "path": "hi/SUTI.oracle/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "hi",
+      "contour_id": "SUTI.veche",
+      "path": "hi/SUTI.veche/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "hi",
+      "contour_id": "SUTI.sotkan",
+      "path": "hi/SUTI.sotkan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "hi",
+      "contour_id": "SUTI.game",
+      "path": "hi/SUTI.game/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "hi",
+      "contour_id": "SUTI.logos",
+      "path": "hi/SUTI.logos/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "hi",
+      "contour_id": "SUTI.verenium",
+      "path": "hi/SUTI.verenium/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "fr",
+      "contour_id": "SUTI.os",
+      "path": "fr/SUTI.os/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "fr",
+      "contour_id": "SUTI.world",
+      "path": "fr/SUTI.world/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "fr",
+      "contour_id": "SUTI.uni",
+      "path": "fr/SUTI.uni/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "fr",
+      "contour_id": "SUTI.clan",
+      "path": "fr/SUTI.clan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "fr",
+      "contour_id": "SUTI.lab",
+      "path": "fr/SUTI.lab/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "fr",
+      "contour_id": "SUTI.audit",
+      "path": "fr/SUTI.audit/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "fr",
+      "contour_id": "SUTI.crystal",
+      "path": "fr/SUTI.crystal/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "fr",
+      "contour_id": "SUTI.oracle",
+      "path": "fr/SUTI.oracle/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "fr",
+      "contour_id": "SUTI.veche",
+      "path": "fr/SUTI.veche/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "fr",
+      "contour_id": "SUTI.sotkan",
+      "path": "fr/SUTI.sotkan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "fr",
+      "contour_id": "SUTI.game",
+      "path": "fr/SUTI.game/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "fr",
+      "contour_id": "SUTI.logos",
+      "path": "fr/SUTI.logos/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "fr",
+      "contour_id": "SUTI.verenium",
+      "path": "fr/SUTI.verenium/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ar",
+      "contour_id": "SUTI.os",
+      "path": "ar/SUTI.os/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ar",
+      "contour_id": "SUTI.world",
+      "path": "ar/SUTI.world/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ar",
+      "contour_id": "SUTI.uni",
+      "path": "ar/SUTI.uni/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ar",
+      "contour_id": "SUTI.clan",
+      "path": "ar/SUTI.clan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ar",
+      "contour_id": "SUTI.lab",
+      "path": "ar/SUTI.lab/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ar",
+      "contour_id": "SUTI.audit",
+      "path": "ar/SUTI.audit/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ar",
+      "contour_id": "SUTI.crystal",
+      "path": "ar/SUTI.crystal/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ar",
+      "contour_id": "SUTI.oracle",
+      "path": "ar/SUTI.oracle/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ar",
+      "contour_id": "SUTI.veche",
+      "path": "ar/SUTI.veche/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ar",
+      "contour_id": "SUTI.sotkan",
+      "path": "ar/SUTI.sotkan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ar",
+      "contour_id": "SUTI.game",
+      "path": "ar/SUTI.game/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ar",
+      "contour_id": "SUTI.logos",
+      "path": "ar/SUTI.logos/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "ar",
+      "contour_id": "SUTI.verenium",
+      "path": "ar/SUTI.verenium/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "bn",
+      "contour_id": "SUTI.os",
+      "path": "bn/SUTI.os/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "bn",
+      "contour_id": "SUTI.world",
+      "path": "bn/SUTI.world/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "bn",
+      "contour_id": "SUTI.uni",
+      "path": "bn/SUTI.uni/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "bn",
+      "contour_id": "SUTI.clan",
+      "path": "bn/SUTI.clan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "bn",
+      "contour_id": "SUTI.lab",
+      "path": "bn/SUTI.lab/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "bn",
+      "contour_id": "SUTI.audit",
+      "path": "bn/SUTI.audit/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "bn",
+      "contour_id": "SUTI.crystal",
+      "path": "bn/SUTI.crystal/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "bn",
+      "contour_id": "SUTI.oracle",
+      "path": "bn/SUTI.oracle/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "bn",
+      "contour_id": "SUTI.veche",
+      "path": "bn/SUTI.veche/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "bn",
+      "contour_id": "SUTI.sotkan",
+      "path": "bn/SUTI.sotkan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "bn",
+      "contour_id": "SUTI.game",
+      "path": "bn/SUTI.game/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "bn",
+      "contour_id": "SUTI.logos",
+      "path": "bn/SUTI.logos/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "bn",
+      "contour_id": "SUTI.verenium",
+      "path": "bn/SUTI.verenium/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "eo",
+      "contour_id": "SUTI.os",
+      "path": "eo/SUTI.os/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "eo",
+      "contour_id": "SUTI.world",
+      "path": "eo/SUTI.world/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "eo",
+      "contour_id": "SUTI.uni",
+      "path": "eo/SUTI.uni/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "eo",
+      "contour_id": "SUTI.clan",
+      "path": "eo/SUTI.clan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "eo",
+      "contour_id": "SUTI.lab",
+      "path": "eo/SUTI.lab/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "eo",
+      "contour_id": "SUTI.audit",
+      "path": "eo/SUTI.audit/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "eo",
+      "contour_id": "SUTI.crystal",
+      "path": "eo/SUTI.crystal/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "eo",
+      "contour_id": "SUTI.oracle",
+      "path": "eo/SUTI.oracle/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "eo",
+      "contour_id": "SUTI.veche",
+      "path": "eo/SUTI.veche/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "eo",
+      "contour_id": "SUTI.sotkan",
+      "path": "eo/SUTI.sotkan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "eo",
+      "contour_id": "SUTI.game",
+      "path": "eo/SUTI.game/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "eo",
+      "contour_id": "SUTI.logos",
+      "path": "eo/SUTI.logos/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "eo",
+      "contour_id": "SUTI.verenium",
+      "path": "eo/SUTI.verenium/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "sa",
+      "contour_id": "SUTI.os",
+      "path": "sa/SUTI.os/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "sa",
+      "contour_id": "SUTI.world",
+      "path": "sa/SUTI.world/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "sa",
+      "contour_id": "SUTI.uni",
+      "path": "sa/SUTI.uni/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "sa",
+      "contour_id": "SUTI.clan",
+      "path": "sa/SUTI.clan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "sa",
+      "contour_id": "SUTI.lab",
+      "path": "sa/SUTI.lab/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "sa",
+      "contour_id": "SUTI.audit",
+      "path": "sa/SUTI.audit/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "sa",
+      "contour_id": "SUTI.crystal",
+      "path": "sa/SUTI.crystal/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "sa",
+      "contour_id": "SUTI.oracle",
+      "path": "sa/SUTI.oracle/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "sa",
+      "contour_id": "SUTI.veche",
+      "path": "sa/SUTI.veche/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "sa",
+      "contour_id": "SUTI.sotkan",
+      "path": "sa/SUTI.sotkan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "sa",
+      "contour_id": "SUTI.game",
+      "path": "sa/SUTI.game/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "sa",
+      "contour_id": "SUTI.logos",
+      "path": "sa/SUTI.logos/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "sa",
+      "contour_id": "SUTI.verenium",
+      "path": "sa/SUTI.verenium/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "la",
+      "contour_id": "SUTI.os",
+      "path": "la/SUTI.os/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "la",
+      "contour_id": "SUTI.world",
+      "path": "la/SUTI.world/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "la",
+      "contour_id": "SUTI.uni",
+      "path": "la/SUTI.uni/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "la",
+      "contour_id": "SUTI.clan",
+      "path": "la/SUTI.clan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "la",
+      "contour_id": "SUTI.lab",
+      "path": "la/SUTI.lab/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "la",
+      "contour_id": "SUTI.audit",
+      "path": "la/SUTI.audit/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "la",
+      "contour_id": "SUTI.crystal",
+      "path": "la/SUTI.crystal/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "la",
+      "contour_id": "SUTI.oracle",
+      "path": "la/SUTI.oracle/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "la",
+      "contour_id": "SUTI.veche",
+      "path": "la/SUTI.veche/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "la",
+      "contour_id": "SUTI.sotkan",
+      "path": "la/SUTI.sotkan/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "la",
+      "contour_id": "SUTI.game",
+      "path": "la/SUTI.game/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "la",
+      "contour_id": "SUTI.logos",
+      "path": "la/SUTI.logos/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "la",
+      "contour_id": "SUTI.verenium",
+      "path": "la/SUTI.verenium/living-system.md",
+      "draft_state": "direct-source-draft-unreviewed",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "yzh",
+      "contour_id": "SUTI.os",
+      "path": "yzh/SUTI.os/living-system.md",
+      "draft_state": "not-started-author-gloss-required",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "yzh",
+      "contour_id": "SUTI.world",
+      "path": "yzh/SUTI.world/living-system.md",
+      "draft_state": "not-started-author-gloss-required",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "yzh",
+      "contour_id": "SUTI.uni",
+      "path": "yzh/SUTI.uni/living-system.md",
+      "draft_state": "not-started-author-gloss-required",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "yzh",
+      "contour_id": "SUTI.clan",
+      "path": "yzh/SUTI.clan/living-system.md",
+      "draft_state": "not-started-author-gloss-required",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "yzh",
+      "contour_id": "SUTI.lab",
+      "path": "yzh/SUTI.lab/living-system.md",
+      "draft_state": "not-started-author-gloss-required",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "yzh",
+      "contour_id": "SUTI.audit",
+      "path": "yzh/SUTI.audit/living-system.md",
+      "draft_state": "not-started-author-gloss-required",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "yzh",
+      "contour_id": "SUTI.crystal",
+      "path": "yzh/SUTI.crystal/living-system.md",
+      "draft_state": "not-started-author-gloss-required",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "yzh",
+      "contour_id": "SUTI.oracle",
+      "path": "yzh/SUTI.oracle/living-system.md",
+      "draft_state": "not-started-author-gloss-required",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "yzh",
+      "contour_id": "SUTI.veche",
+      "path": "yzh/SUTI.veche/living-system.md",
+      "draft_state": "not-started-author-gloss-required",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "yzh",
+      "contour_id": "SUTI.sotkan",
+      "path": "yzh/SUTI.sotkan/living-system.md",
+      "draft_state": "not-started-author-gloss-required",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "yzh",
+      "contour_id": "SUTI.game",
+      "path": "yzh/SUTI.game/living-system.md",
+      "draft_state": "not-started-author-gloss-required",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "yzh",
+      "contour_id": "SUTI.logos",
+      "path": "yzh/SUTI.logos/living-system.md",
+      "draft_state": "not-started-author-gloss-required",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    },
+    {
+      "locale": "yzh",
+      "contour_id": "SUTI.verenium",
+      "path": "yzh/SUTI.verenium/living-system.md",
+      "draft_state": "not-started-author-gloss-required",
+      "native_review": "pending",
+      "release": "HOLD",
+      "source_sha256": "a546e8b55ba1f9ab230d5001e68ad7caed47a02a7afc3542535413b9a138b312"
+    }
+  ],
+  "editorial_qa": {
+    "date": "2026-11-13",
+    "kind": "AI-assisted source comparison and clear editorial corrections",
+    "native_review": "pending",
+    "details": "system/language-coverage.json"
+  }
+}

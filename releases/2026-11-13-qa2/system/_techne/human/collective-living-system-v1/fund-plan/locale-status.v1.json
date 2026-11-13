@@ -1,0 +1,103 @@
+{
+  "schema": "suti.care-fund.locale-status.v1",
+  "source_locale": "en",
+  "source_path": "plan.en.md",
+  "source_sha256": "f0694291339461427e97bf7d1ea30756c9ab6eebe48bda697bb2a206b3257b41",
+  "locales": [
+    {
+      "locale": "ru",
+      "path": "plan.ru.md",
+      "state": "AI-first-direct-draft",
+      "review": "owner and independent meaning/native review pending",
+      "release": "HOLD",
+      "source_path": "plan.en.md",
+      "source_sha256": "f0694291339461427e97bf7d1ea30756c9ab6eebe48bda697bb2a206b3257b41",
+      "target_sha256": "d4abf4f2a59feaf4b70752ab3254049cb2e14de3b8264e3ca2df5d18e2d03cb4"
+    },
+    {
+      "locale": "en",
+      "path": "plan.en.md",
+      "state": "source-draft",
+      "review": "owner-review-pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "es",
+      "path": null,
+      "state": "not-started",
+      "review": "direct translation from master and independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "pt-br",
+      "path": null,
+      "state": "not-started",
+      "review": "direct translation from master and independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "zh-hans",
+      "path": null,
+      "state": "not-started",
+      "review": "direct translation from master and independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "hi",
+      "path": null,
+      "state": "not-started",
+      "review": "direct translation from master and independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "fr",
+      "path": null,
+      "state": "not-started",
+      "review": "direct translation from master and independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "ar",
+      "path": null,
+      "state": "not-started",
+      "review": "direct translation from master and independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "bn",
+      "path": null,
+      "state": "not-started",
+      "review": "direct translation from master and independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "eo",
+      "path": null,
+      "state": "not-started",
+      "review": "direct translation from master and independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "sa",
+      "path": null,
+      "state": "not-started",
+      "review": "direct translation from master and independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "la",
+      "path": null,
+      "state": "not-started",
+      "review": "direct translation from master and independent meaning/native-or-expert/script/accessibility review pending",
+      "release": "HOLD"
+    },
+    {
+      "locale": "yzh",
+      "path": null,
+      "state": "not-started",
+      "review": "author-approved YZH gloss required; native/meaning/accessibility review pending",
+      "release": "HOLD"
+    }
+  ],
+  "updated": "2026-11-13"
+}
