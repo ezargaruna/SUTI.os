@@ -1,0 +1,117 @@
+{
+  "schema": "suti.artifact-verification.v1",
+  "scope": "JSON Schema draft 2020-12 validity and positive/negative data vectors only",
+  "date": "2026-11-13",
+  "validator": "jsonschema.Draft202012Validator (isolated temporary installation)",
+  "state": "PASS",
+  "results": [
+    {
+      "id": "valid_local_no_retention",
+      "expected_valid": true,
+      "actual_valid": true,
+      "passed": true,
+      "error_count": 0
+    },
+    {
+      "id": "valid_safe_configuration",
+      "expected_valid": true,
+      "actual_valid": true,
+      "passed": true,
+      "error_count": 0
+    },
+    {
+      "id": "pass_without_criterion_rejected",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true,
+      "error_count": 1
+    },
+    {
+      "id": "pass_without_source_rejected",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true,
+      "error_count": 1
+    },
+    {
+      "id": "local_retention_without_consent_rejected",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true,
+      "error_count": 1
+    },
+    {
+      "id": "external_retention_with_draft_only_rejected",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true,
+      "error_count": 3
+    },
+    {
+      "id": "executed_action_without_result_evidence_rejected",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true,
+      "error_count": 4
+    },
+    {
+      "id": "unknown_route_rejected",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true,
+      "error_count": 1
+    },
+    {
+      "id": "undeclared_envelope_property_rejected",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true,
+      "error_count": 1
+    },
+    {
+      "id": "configuration_network_on_rejected",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true,
+      "error_count": 1
+    },
+    {
+      "id": "configuration_external_memory_default_rejected",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true,
+      "error_count": 1
+    },
+    {
+      "id": "resolved_choice_without_evidence_rejected",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true,
+      "error_count": 1
+    },
+    {
+      "id": "missing_dependency_closure_rejected",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true,
+      "error_count": 1
+    },
+    {
+      "id": "executed_transfer_without_consent_record_rejected",
+      "expected_valid": false,
+      "actual_valid": false,
+      "passed": true,
+      "error_count": 1
+    },
+    {
+      "id": "recorded_human_pause_valid",
+      "expected_valid": true,
+      "actual_valid": true,
+      "passed": true,
+      "error_count": 0
+    }
+  ],
+  "limits": [
+    "No host enforcement, model behavior, native language review, security testing or deployment is implied."
+  ]
+}

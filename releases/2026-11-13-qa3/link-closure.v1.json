@@ -1,0 +1,681 @@
+{
+  "schema": "suti.package-link-closure.v1",
+  "date": "2026-11-13",
+  "result": "PASS_SCOPED",
+  "scope": "All payload HTML/Markdown/CSS local href/src/poster/action/url() references, static JS URLs, 13 dynamic portal/module/publication-notice/entry/guide/config routes and all39 localized planning links",
+  "local_reference_count": 2923,
+  "local_target_count": 529,
+  "missing_local_targets": [],
+  "paths_outside_package": [],
+  "remote_runtime_resources": [],
+  "optional_external_citations": [
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ar.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ar.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ar.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ar.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ar.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ar.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.bn.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.bn.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.bn.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.bn.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.bn.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.bn.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.en.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.en.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.en.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.en.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.en.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.en.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.eo.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.eo.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.eo.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.eo.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.eo.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.eo.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.es.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.es.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.es.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.es.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.es.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.es.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.fr.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.fr.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.fr.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.fr.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.fr.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.fr.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.hi.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.hi.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.hi.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.hi.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.hi.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.hi.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.la.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.la.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.la.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.la.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.la.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.la.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.pt-br.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.pt-br.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.pt-br.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.pt-br.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.pt-br.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.pt-br.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ru.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ru.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ru.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ru.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ru.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ru.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.sa.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.sa.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.sa.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.sa.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.sa.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.sa.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.yzh.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.yzh.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.yzh.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.yzh.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.yzh.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.yzh.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.zh-hans.html",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.zh-hans.html",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.zh-hans.html",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "html-href",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.zh-hans.md",
+      "url": "https://handbook.corehumanitarianstandard.org/en/chs/2024",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.zh-hans.md",
+      "url": "https://www.icrc.org/en/data-protection-humanitarian-action-handbook",
+      "kind": "markdown-link",
+      "tag": "a"
+    },
+    {
+      "source": "system/_techne/human/collective-living-system-v1/fund-plan/plan.zh-hans.md",
+      "url": "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Financialinclusionandnpoissues/Bpp-combating-abuse-npo.html",
+      "kind": "markdown-link",
+      "tag": "a"
+    }
+  ],
+  "dynamic_portal_locales": [
+    "ru",
+    "en",
+    "es",
+    "pt-br",
+    "zh-hans",
+    "hi",
+    "fr",
+    "ar",
+    "bn",
+    "eo",
+    "sa",
+    "la",
+    "yzh"
+  ],
+  "dynamic_guide_locales": [
+    "ru",
+    "en",
+    "es",
+    "pt-br",
+    "zh-hans",
+    "hi",
+    "fr",
+    "ar",
+    "bn",
+    "eo",
+    "sa",
+    "la",
+    "yzh"
+  ],
+  "dynamic_planning_links": [
+    {
+      "locale": "ru",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ru.html"
+    },
+    {
+      "locale": "ru",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.ru.html"
+    },
+    {
+      "locale": "ru",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.ru.html"
+    },
+    {
+      "locale": "en",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/plan.en.html"
+    },
+    {
+      "locale": "en",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.en.html"
+    },
+    {
+      "locale": "en",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.en.html"
+    },
+    {
+      "locale": "es",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/plan.es.html"
+    },
+    {
+      "locale": "es",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.es.html"
+    },
+    {
+      "locale": "es",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.es.html"
+    },
+    {
+      "locale": "pt-br",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/plan.pt-br.html"
+    },
+    {
+      "locale": "pt-br",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.pt-br.html"
+    },
+    {
+      "locale": "pt-br",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.pt-br.html"
+    },
+    {
+      "locale": "zh-hans",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/plan.zh-hans.html"
+    },
+    {
+      "locale": "zh-hans",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.zh-hans.html"
+    },
+    {
+      "locale": "zh-hans",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.zh-hans.html"
+    },
+    {
+      "locale": "hi",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/plan.hi.html"
+    },
+    {
+      "locale": "hi",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.hi.html"
+    },
+    {
+      "locale": "hi",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.hi.html"
+    },
+    {
+      "locale": "fr",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/plan.fr.html"
+    },
+    {
+      "locale": "fr",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.fr.html"
+    },
+    {
+      "locale": "fr",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.fr.html"
+    },
+    {
+      "locale": "ar",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/plan.ar.html"
+    },
+    {
+      "locale": "ar",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.ar.html"
+    },
+    {
+      "locale": "ar",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.ar.html"
+    },
+    {
+      "locale": "bn",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/plan.bn.html"
+    },
+    {
+      "locale": "bn",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.bn.html"
+    },
+    {
+      "locale": "bn",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.bn.html"
+    },
+    {
+      "locale": "eo",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/plan.eo.html"
+    },
+    {
+      "locale": "eo",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.eo.html"
+    },
+    {
+      "locale": "eo",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.eo.html"
+    },
+    {
+      "locale": "sa",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/plan.sa.html"
+    },
+    {
+      "locale": "sa",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.sa.html"
+    },
+    {
+      "locale": "sa",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.sa.html"
+    },
+    {
+      "locale": "la",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/plan.la.html"
+    },
+    {
+      "locale": "la",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.la.html"
+    },
+    {
+      "locale": "la",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.la.html"
+    },
+    {
+      "locale": "yzh",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/plan.yzh.html"
+    },
+    {
+      "locale": "yzh",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.yzh.html"
+    },
+    {
+      "locale": "yzh",
+      "path": "system/_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.yzh.html"
+    }
+  ],
+  "local_visual_dependencies": [
+    "assets/css/suti-angels-editorial.css",
+    "assets/fonts/NunitoSans-variable.ttf",
+    "assets/fonts/Manrope-variable.ttf",
+    "assets/fonts/OFL-Nunito-Sans.txt",
+    "assets/fonts/OFL-Manrope.txt"
+  ],
+  "limits": [
+    "External research citations need connectivity when opened",
+    "Source provenance locators and schema identifiers are metadata, not runtime dependencies",
+    "Static checks do not certify native-language review, every-platform glyph coverage or runtime operation"
+  ]
+}

@@ -6,6 +6,15 @@ This repository owns the portable vault, local installer, release manifest, and 
 
 The vault's [symbol guide](vault/%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D0%B5/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0/%D0%B7%D0%BD%D0%B0%D0%BA%D0%B8%20%D1%8F%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8.md) is the practical Russian reference; the matching [SUTIcore specification](https://github.com/ezargaruna/suticore/blob/main/app/docs/docs/canon/symbols_reference.md) documents the extended palette and access rules.
 
+## 2026-11-13 · QA3 full planning drafts
+
+- [current self-contained system and guide · QA3](releases/2026-11-13-qa3/README.md)
+- [download the system with full localized planning and bot specification](releases/2026-11-13-qa3/SUTI-public-system-13routes-QA3-2026-11-13.zip)
+- [unchanged separate guide · 1.1.1-draft](releases/2026-11-13-qa3/SUTI-ai-soul-system-contour-13L-v1.1.1-draft.zip)
+- [actual archive hashes and integrity checks](releases/2026-11-13-qa3/archive-set.v1.json)
+
+The detailed plan has 10 sections and 90 daily rows in twelve language drafts. The bot specification has 12 sections and 18 defined acceptance criteria in the same twelve languages. The thirteenth planning route, YZH, is explicitly a Russian explanatory gloss, not a completed Yazekh translation. Independent native/specialist acceptance is pending; implementation acceptance remains NOT_RUN and runtime OFF. QA2 and older releases below remain unchanged.
+
 ## 2026-11-13 · QA2 correction snapshot
 
 - [current self-contained system and guide · QA2](releases/2026-11-13-qa2/README.md)

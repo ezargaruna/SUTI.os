@@ -1,0 +1,401 @@
+{
+  "schema": "suti.planning-and-spec.structural-check.v2",
+  "date": "2026-11-13",
+  "scope": "full source/target inventory and invariants; not language acceptance or runtime",
+  "bot_source_sha256": "76509088c1554bb71008e7076afc0683bd2669b57b26bd0535a6b8bab19e2ffe",
+  "source_unchanged": true,
+  "checks": [
+    {
+      "locale": "ru",
+      "sections": 12,
+      "acceptance_criteria": 18,
+      "tables": [
+        8,
+        14,
+        10,
+        11,
+        13,
+        6
+      ],
+      "sha256": "76509088c1554bb71008e7076afc0683bd2669b57b26bd0535a6b8bab19e2ffe",
+      "native_or_expert_review": "PENDING",
+      "authored_yzh_review": null
+    },
+    {
+      "locale": "en",
+      "sections": 12,
+      "acceptance_criteria": 18,
+      "tables": [
+        8,
+        14,
+        10,
+        11,
+        13,
+        6
+      ],
+      "sha256": "27e262e452c038f3fb4945fe59a3b283b1816bb966fd702d5bd508a742a4f191",
+      "native_or_expert_review": "PENDING",
+      "authored_yzh_review": null
+    },
+    {
+      "locale": "es",
+      "sections": 12,
+      "acceptance_criteria": 18,
+      "tables": [
+        8,
+        14,
+        10,
+        11,
+        13,
+        6
+      ],
+      "sha256": "f79c5bbd827c34be9150de10a15b01d6d70d84db0d6bc91e9d71484f1d7ac9ce",
+      "native_or_expert_review": "PENDING",
+      "authored_yzh_review": null
+    },
+    {
+      "locale": "pt-br",
+      "sections": 12,
+      "acceptance_criteria": 18,
+      "tables": [
+        8,
+        14,
+        10,
+        11,
+        13,
+        6
+      ],
+      "sha256": "78b373374b8ce191467f3d019db1a6f6521869a81249629eac64c8f366ffd40a",
+      "native_or_expert_review": "PENDING",
+      "authored_yzh_review": null
+    },
+    {
+      "locale": "zh-hans",
+      "sections": 12,
+      "acceptance_criteria": 18,
+      "tables": [
+        8,
+        14,
+        10,
+        11,
+        13,
+        6
+      ],
+      "sha256": "82822bee87c237f83cfcb96237771e5cec22d63641579daa2abef095df2b07bf",
+      "native_or_expert_review": "PENDING",
+      "authored_yzh_review": null
+    },
+    {
+      "locale": "hi",
+      "sections": 12,
+      "acceptance_criteria": 18,
+      "tables": [
+        8,
+        14,
+        10,
+        11,
+        13,
+        6
+      ],
+      "sha256": "a7e6ad00d7a7092a8849596a481b12c81ffd379dead9fdada26cd852dfacb98e",
+      "native_or_expert_review": "PENDING",
+      "authored_yzh_review": null
+    },
+    {
+      "locale": "fr",
+      "sections": 12,
+      "acceptance_criteria": 18,
+      "tables": [
+        8,
+        14,
+        10,
+        11,
+        13,
+        6
+      ],
+      "sha256": "8485a3371e088fd8e7cf0a36883270865e80a88dfa142a175f942510877adef1",
+      "native_or_expert_review": "PENDING",
+      "authored_yzh_review": null
+    },
+    {
+      "locale": "ar",
+      "sections": 12,
+      "acceptance_criteria": 18,
+      "tables": [
+        8,
+        14,
+        10,
+        11,
+        13,
+        6
+      ],
+      "sha256": "0ce6dc30eb7bfbba6cf4fe069f7352a3c998d12add8dca741bba1c5546bc628c",
+      "native_or_expert_review": "PENDING",
+      "authored_yzh_review": null
+    },
+    {
+      "locale": "bn",
+      "sections": 12,
+      "acceptance_criteria": 18,
+      "tables": [
+        8,
+        14,
+        10,
+        11,
+        13,
+        6
+      ],
+      "sha256": "aba5b6037704101967971ce9ea378007a03537678fcf2aa9a7d2ef835427067d",
+      "native_or_expert_review": "PENDING",
+      "authored_yzh_review": null
+    },
+    {
+      "locale": "eo",
+      "sections": 12,
+      "acceptance_criteria": 18,
+      "tables": [
+        8,
+        14,
+        10,
+        11,
+        13,
+        6
+      ],
+      "sha256": "5bb5ad7f9d98b09afbe1cc1f4924ccd713b79b25ab783a189ecf66e76e2b99d9",
+      "native_or_expert_review": "PENDING",
+      "authored_yzh_review": null
+    },
+    {
+      "locale": "sa",
+      "sections": 12,
+      "acceptance_criteria": 18,
+      "tables": [
+        8,
+        14,
+        10,
+        11,
+        13,
+        6
+      ],
+      "sha256": "d51d389b6a121851947be0c2a2059d08025dac76388da3aa3c1ee7e2479112cb",
+      "native_or_expert_review": "PENDING",
+      "authored_yzh_review": null
+    },
+    {
+      "locale": "la",
+      "sections": 12,
+      "acceptance_criteria": 18,
+      "tables": [
+        8,
+        14,
+        10,
+        11,
+        13,
+        6
+      ],
+      "sha256": "8c6ee4486511b680bd3fcdd36eff6b7934a6f9fc0569613cb6e77a4da04bee8d",
+      "native_or_expert_review": "PENDING",
+      "authored_yzh_review": null
+    },
+    {
+      "locale": "yzh",
+      "sections": 12,
+      "acceptance_criteria": 18,
+      "tables": [
+        8,
+        14,
+        10,
+        11,
+        13,
+        6
+      ],
+      "sha256": "d863608e0c821a1b9f2abe70660f41168658af8279c8925b41b582cf8abf8264",
+      "native_or_expert_review": "PENDING",
+      "authored_yzh_review": "REQUIRED"
+    }
+  ],
+  "plan_calendar_check": {
+    "schema": "suti.plan-calendar.direct-draft-check.v1",
+    "source_locale": "en",
+    "source_sha256": "f0694291339461427e97bf7d1ea30756c9ab6eebe48bda697bb2a206b3257b41",
+    "scope": "section, table, stable ID, sourceURL, date, mode, calendar-field and completeness correspondence; no independent native acceptance",
+    "checks": [
+      {
+        "locale": "ru",
+        "plan_sections": 10,
+        "tables": [
+          6,
+          10,
+          13
+        ],
+        "contour_ids": 14,
+        "sources_preserved": 3,
+        "invariants": "PASS_SCOPED",
+        "plan_sha256": "d4abf4f2a59feaf4b70752ab3254049cb2e14de3b8264e3ca2df5d18e2d03cb4",
+        "calendar_sha256": "32f6e2124994fe5c1bfba74eb25896670b9a5d013ebca0d4e34ab47e5903be5a"
+      },
+      {
+        "locale": "en",
+        "plan_sections": 10,
+        "tables": [
+          6,
+          10,
+          13
+        ],
+        "contour_ids": 14,
+        "sources_preserved": 3,
+        "invariants": "PASS_SCOPED",
+        "plan_sha256": "f0694291339461427e97bf7d1ea30756c9ab6eebe48bda697bb2a206b3257b41",
+        "calendar_sha256": "85e4e37117905228f12cb08237205bdfd80910a8c611a0ef64d23b64e573818a"
+      },
+      {
+        "locale": "es",
+        "plan_sections": 10,
+        "tables": [
+          6,
+          10,
+          13
+        ],
+        "contour_ids": 14,
+        "sources_preserved": 3,
+        "invariants": "PASS_SCOPED",
+        "plan_sha256": "e6516efe1995749392b0c2fdb967c239b29a43139c1e25c45f581e13e8f12723",
+        "calendar_sha256": "4714f2d199ee54dd77afe93b38b8784facd52d50f9f2b81ae030f3898e55f862"
+      },
+      {
+        "locale": "pt-br",
+        "plan_sections": 10,
+        "tables": [
+          6,
+          10,
+          13
+        ],
+        "contour_ids": 14,
+        "sources_preserved": 3,
+        "invariants": "PASS_SCOPED",
+        "plan_sha256": "b7b990412965a7fc9cbfbad3227487b06caf5cb29dc662f965fa577f9288c9f0",
+        "calendar_sha256": "a9a58d8550a538a5026d5dfe3cade5abe2bc8ec69d002110b4b48a453ab30ae9"
+      },
+      {
+        "locale": "zh-hans",
+        "plan_sections": 10,
+        "tables": [
+          6,
+          10,
+          13
+        ],
+        "contour_ids": 14,
+        "sources_preserved": 3,
+        "invariants": "PASS_SCOPED",
+        "plan_sha256": "eaa6423fee05849671d2b3201092abb6d218f72e8812d566bcd856dcc75ea6bb",
+        "calendar_sha256": "13b75b607db2eeae36d48072f2b41ffe140d1abf402e5ad8bd3ec5a6e860703c"
+      },
+      {
+        "locale": "hi",
+        "plan_sections": 10,
+        "tables": [
+          6,
+          10,
+          13
+        ],
+        "contour_ids": 14,
+        "sources_preserved": 3,
+        "invariants": "PASS_SCOPED",
+        "plan_sha256": "7b34b9357689e91f6ec60c9d81b410da7c61b7263f42f471c84e07fc480a992d",
+        "calendar_sha256": "f8395ad13ff99f409941155c70af462a1bb282f12262f5a44b585cf3428c08b4"
+      },
+      {
+        "locale": "fr",
+        "plan_sections": 10,
+        "tables": [
+          6,
+          10,
+          13
+        ],
+        "contour_ids": 14,
+        "sources_preserved": 3,
+        "invariants": "PASS_SCOPED",
+        "plan_sha256": "038c712fc1302d17620136bd375331527c2728c5b6e632bb301599044b271599",
+        "calendar_sha256": "2d294a72e9a7f2dd4b8937e1b682d02761be2928cfac1f3d95a29dc0cce4888d"
+      },
+      {
+        "locale": "ar",
+        "plan_sections": 10,
+        "tables": [
+          6,
+          10,
+          13
+        ],
+        "contour_ids": 14,
+        "sources_preserved": 3,
+        "invariants": "PASS_SCOPED",
+        "plan_sha256": "5b7fa82c651d7e8149a604435b5be32483adf203fab54850be3f6fa81207a231",
+        "calendar_sha256": "d19422a1cc110f31ecdddd494e2b8e9fa20eeb2ba8d1c9e9c4bc22a2d688caff"
+      },
+      {
+        "locale": "bn",
+        "plan_sections": 10,
+        "tables": [
+          6,
+          10,
+          13
+        ],
+        "contour_ids": 14,
+        "sources_preserved": 3,
+        "invariants": "PASS_SCOPED",
+        "plan_sha256": "538b0087c5aa553126b2a008442ae9a089b65023d29edd904a33feacc73ea7dd",
+        "calendar_sha256": "1d78bff2820bbd9ca0a50dbdd6cb039842a503b6ba2d4bdc84fe5cfd50439a11"
+      },
+      {
+        "locale": "eo",
+        "plan_sections": 10,
+        "tables": [
+          6,
+          10,
+          13
+        ],
+        "contour_ids": 14,
+        "sources_preserved": 3,
+        "invariants": "PASS_SCOPED",
+        "plan_sha256": "9210e82aa9716c6b4e12e5dd46b71bdd03c08dd2c7b97aa71a6a787963e3f5ee",
+        "calendar_sha256": "dfd698250a4553cae171447c94b56f89dd9dec289c7f0938426e549a0230fccb"
+      },
+      {
+        "locale": "sa",
+        "plan_sections": 10,
+        "tables": [
+          6,
+          10,
+          13
+        ],
+        "contour_ids": 14,
+        "sources_preserved": 3,
+        "invariants": "PASS_SCOPED",
+        "plan_sha256": "c5135ce3bbee8cf5f5498b3587841854363e71119181d37b00d7da10d2812129",
+        "calendar_sha256": "5d47b68d3ef9f204ac803e0c5245cd2e573e56ff662423dcd7919f33543730c3"
+      },
+      {
+        "locale": "la",
+        "plan_sections": 10,
+        "tables": [
+          6,
+          10,
+          13
+        ],
+        "contour_ids": 14,
+        "sources_preserved": 3,
+        "invariants": "PASS_SCOPED",
+        "plan_sha256": "39b68dc13221fc1d89e0496b8afb3ff6d10ed4ecca6469253cf103edffb1d29a",
+        "calendar_sha256": "102b9befdbbcdb50e4a9db96b7507f5a272dba71fb0af6e306b29c4d475dd4e1"
+      }
+    ],
+    "not_verified": [
+      "independent native/cultural/specialist/accessibility review",
+      "local law and actual operational readiness",
+      "every target sentence equivalence by a separate human reviewer"
+    ]
+  },
+  "acceptance_execution": "NOT_RUN",
+  "runtime": "OFF",
+  "publication": "separate owner-authorized workflow; not established by this local check"
+}

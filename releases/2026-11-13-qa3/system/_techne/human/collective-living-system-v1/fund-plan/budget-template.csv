@@ -1,0 +1,19 @@
+﻿scenario,cost_category,unit,quantity,unit_cost,currency,total,quote_or_basis,committed_source,approved_limit,owner_role,reviewer,status
+no-external-money,direct participant-chosen support,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+no-external-money,coordinator time and supervision,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+no-external-money,language and accessibility review,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+no-external-money,privacy and technical operations,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+no-external-money,administration and local professional advice,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+no-external-money,contingency and restricted-reserve,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+capped-pilot,direct participant-chosen support,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+capped-pilot,coordinator time and supervision,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+capped-pilot,language and accessibility review,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+capped-pilot,privacy and technical operations,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+capped-pilot,administration and local professional advice,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+capped-pilot,contingency and restricted-reserve,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+continuation,direct participant-chosen support,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+continuation,coordinator time and supervision,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+continuation,language and accessibility review,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+continuation,privacy and technical operations,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+continuation,administration and local professional advice,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero
+continuation,contingency and restricted-reserve,,,,,,,,,finance lead,UNASSIGNED,UNKNOWN; blank is not zero

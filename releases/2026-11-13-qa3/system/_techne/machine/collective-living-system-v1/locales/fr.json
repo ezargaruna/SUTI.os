@@ -1,0 +1,163 @@
+{
+  "schema": "suti.living-system.source.v1",
+  "source_locale": "ru",
+  "version": "2026-11-13.v1",
+  "title": "SUTI · un système vivant partagé",
+  "intro": "un système public de méthodes et de coopération : comprendre ce qui compte, trouver les mots et choisir une étape accessible. Chaque personne conserve son rôle d’auteur et le droit de corriger, de refuser et de partir.",
+  "status": "nouvelle couche opérationnelle commune : brouillon éditorial local ; révision linguistique indépendante en attente ; la constitution juridique d’un fonds, la réception d’argent, un réseau mondial opérationnel et la publication ne sont pas confirmés",
+  "cycle": "question → mots → liens → carte → étape → trace → précision",
+  "privacy": "l’espace public conserve les méthodes, les instructions générales et les exemples vérifiés. Les notes personnelles, coordonnées, correspondances et informations sensibles sont conservées séparément et exclues de l’export commun.",
+  "rights": "l’attribution, la visibilité, la licence et les actions permises sont définies séparément pour chaque contribution. Aucune licence applicable à l’ensemble du corpus ancien n’a été établie.",
+  "contribution": "proposer une modification avec sa source et sa raison → décrire la vérification → demander l’accord des personnes concernées → la personne responsable accepte ou reporte la modification → conserver la trace et la possibilité de revenir en arrière",
+  "sovereignty": "souveraineté informationnelle : comprendre la provenance des données et choisir l’accès, l’export et la suppression de ses propres notes. L’autonomie linguistique, éducative, créative, économique et organisationnelle se développe par des compétences compréhensibles et des décisions vérifiables ; aucun résultat n’est promis.",
+  "fund_title": "fonds de soutien à la vie et aux personnes qui aiment la vie · agence des anges de sollicitude",
+  "fund_purpose": "projet de soutien ouvert à des initiatives utiles : apprentissage, outils accessibles, entraide et soin du milieu vivant. Le nom est provisoire ; la participation et l’image de l’ange sont facultatives.",
+  "fund_state": "le cycle local de préparation a commencé le 13 novembre 2026. Le jour 90 est le 10 février 2027. L’enregistrement, la juridiction, les responsables, la banque, les règles de dons et le régime fiscal sont encore UNKNOWN ; aucune opération financière n’est activée.",
+  "fund_flow": "demande ouverte sans détails sensibles → vérifier l’adéquation à l’objectif et aux ressources disponibles → décision sans conflit d’intérêts → soutien limité → confirmer le résultat sans dévoiler le bénéficiaire → possibilité de recours et de correction",
+  "fund_phases": [
+    [
+      "1–15",
+      "2026-11-13 — 2026-11-27",
+      "s’accorder sur l’objectif, la responsabilité des décisions, le pays d’enregistrement, la répartition des rôles et les conditions de participation ; élaborer un modèle budgétaire sans collecter d’argent"
+    ],
+    [
+      "16–30",
+      "2026-11-28 — 2026-12-12",
+      "vérifier le parcours juridique et l’option d’un partenaire ; s’accorder sur les règles de soutien, de conflits d’intérêts, de recours, de traitement des données et de contrôle financier"
+    ],
+    [
+      "31–45",
+      "2026-12-13 — 2026-12-27",
+      "assembler les instructions publiques en 13 langues, un prototype accessible du bot et du formulaire ainsi qu’une bibliothèque de microleçons ; commencer la révision indépendante"
+    ],
+    [
+      "46–60",
+      "2026-12-28 — 2027-01-11",
+      "mener un petit pilote volontaire après les autorisations nécessaires ; vérifier le consentement, l’accessibilité, les réponses, l’export et la suppression de ses propres données"
+    ],
+    [
+      "61–75",
+      "2027-01-12 — 2027-01-26",
+      "évaluer le pilote, corriger les défauts, préparer des groupes de partenaires locaux ; étendre seulement les processus confirmés"
+    ],
+    [
+      "76–90",
+      "2027-01-27 — 2027-02-10",
+      "comparer les résultats aux critères, publier un rapport anonymisé autorisé après accord, décider du prochain cycle et des zones géographiques"
+    ]
+  ],
+  "fund_roles": "responsable du programme ; finances et rapprochement indépendant ; protection des données et sécurité des participants ; réviseurs linguistiques ; coordinateurs du pilote ; examen indépendant des recours. Les rôles sont proposés ; personne n’est nommé.",
+  "fund_metrics": "suivre la participation consentie, les actions utiles réalisées, le délai de réponse, l’accessibilité, les corrections et les dépenses réelles. Les objectifs et les seuils chiffrés sont approuvés avant le pilote ; ni la viralité ni une portée mondiale ne sont garanties.",
+  "fund_pause": "un écart entre les fonds et le rapport, une violation du consentement, une fuite, une plainte pour préjudice ou l’absence de responsable entraîne une pause du processus concerné, un examen et une décision humaine.",
+  "contours": [
+    {
+      "id": "SUTI.os",
+      "title": "organisation du système",
+      "purpose": "s’accorder sur les limites, les outils, le stockage et la restauration",
+      "procedure": "choisir une tâche et un espace → décrire l’entrée et le résultat → vérifier l’accès et le retour → conserver une instruction de travail",
+      "output": "carte de l’environnement et étape de travail reproductible",
+      "boundary": "une description ne confirme ni une installation ni sa sécurité"
+    },
+    {
+      "id": "SUTI.world",
+      "title": "entrée publique",
+      "purpose": "aider une personne à trouver la bonne direction et une prochaine étape",
+      "procedure": "nommer la question → choisir la langue → ouvrir le module adapté → essayer une étape accessible",
+      "output": "parcours compréhensible et action choisie",
+      "boundary": "l’étendue du réseau et son utilité se confirment par des observations, pas par une promesse"
+    },
+    {
+      "id": "SUTI.uni",
+      "title": "apprentissage autonome",
+      "purpose": "transformer une question en une courte pratique d’apprentissage",
+      "procedure": "formuler la compétence → étudier un exemple → réaliser une petite tâche → vérifier la compréhension avec ses propres mots",
+      "output": "microleçon, exemple et retour",
+      "boundary": "l’apprentissage ne remplace ni une aide professionnelle ni une qualification"
+    },
+    {
+      "id": "SUTI.clan",
+      "title": "coopération",
+      "purpose": "s’accorder sur les rôles, les contributions et les limites de participation",
+      "procedure": "formuler le projet commun → demander une participation explicite → convenir des droits et du rôle → conserver la décision",
+      "output": "accord des participants et carte des responsabilités",
+      "boundary": "le nom d’une personne ou d’une organisation sur une carte ne signifie ni partenariat ni consentement"
+    },
+    {
+      "id": "SUTI.lab",
+      "title": "recherche",
+      "purpose": "éprouver les idées par de petites expériences réversibles",
+      "procedure": "nommer l’hypothèse → choisir un signe observable → mener une expérience limitée → noter le résultat et les doutes",
+      "output": "note de recherche avec ses fondements",
+      "boundary": "une hypothèse ou un symbole ne devient pas un fait sans vérification"
+    },
+    {
+      "id": "SUTI.audit",
+      "title": "vérification",
+      "purpose": "comparer un résultat à un critère explicite",
+      "procedure": "définir le périmètre → choisir le critère → examiner le matériau → consigner PASS, PARTIAL, FAIL ou UNKNOWN",
+      "output": "rapport, éléments probants et questions ouvertes",
+      "boundary": "PASS s’applique uniquement à la version et à la vérification nommées"
+    },
+    {
+      "id": "SUTI.crystal",
+      "title": "forme claire",
+      "purpose": "préserver l’essentiel dans un document compréhensible de manière autonome",
+      "procedure": "isoler la question et la source → nommer l’invariant → montrer un exemple et une limite → ajouter une prochaine étape",
+      "output": "fiche de l’essentiel avec source et contexte",
+      "boundary": "la brièveté ne justifie pas la perte des conditions, de l’attribution ou de l’incertitude"
+    },
+    {
+      "id": "SUTI.oracle",
+      "title": "distinction des fondements",
+      "purpose": "distinguer les informations, les interprétations et l’inconnu",
+      "procedure": "formuler l’énoncé → nommer son type → indiquer son fondement → décrire le moyen de le vérifier",
+      "output": "carte des énoncés et de leurs fondements",
+      "boundary": "c’est une méthode d’examen, sans prédiction ni autorité autonome"
+    },
+    {
+      "id": "SUTI.veche",
+      "title": "examen collectif",
+      "purpose": "rendre visibles les propositions et les désaccords",
+      "procedure": "présenter la proposition → solliciter les positions → noter séparément soutien, objection, abstention et absence de réponse → la personne responsable décide",
+      "output": "registre de l’examen et décision humaine",
+      "boundary": "le silence ne vaut pas consentement ; un examen par IA ne constitue pas un vote humain"
+    },
+    {
+      "id": "SUTI.sotkan",
+      "title": "liens et provenance",
+      "purpose": "relier les matériaux à leurs sources et à leur historique de modification",
+      "procedure": "indiquer la source → décrire la transformation → relier la version à l’original → vérifier la possibilité de corriger et de revenir en arrière",
+      "output": "trace de provenance vérifiable",
+      "boundary": "la similitude de texte ne prouve ni attribution, ni licence, ni cession de droits"
+    },
+    {
+      "id": "SUTI.game",
+      "title": "pratique volontaire",
+      "purpose": "explorer des compétences par le jeu NITYA et Samurai Dharma",
+      "procedure": "choisir un langage ordinaire ou symbolique → prendre une petite quête → essayer → noter une observation ou passer → choisir la suite",
+      "output": "expérience de pratique et prochaine étape choisie",
+      "boundary": "le jeu est volontaire ; pause, passage et sortie sont disponibles ; les parcours d’âge demandent une vérification distincte"
+    },
+    {
+      "id": "SUTI.logos",
+      "title": "langage et transcréation",
+      "purpose": "préserver le sens lors du passage entre langues et environnements",
+      "procedure": "isoler l’intention et l’invariant → traduire directement depuis la source → comparer les conditions et le degré de certitude → demander une révision indépendante",
+      "output": "texte compréhensible, termes et statut de chaque langue",
+      "boundary": "un brouillon n’est pas une traduction vérifiée ; Yazekh exige une glose de l’auteur"
+    },
+    {
+      "id": "SUTI.verenium",
+      "title": "orientation dans le soutien",
+      "purpose": "aider une personne à choisir un soutien à sa portée et sa propre étape",
+      "procedure": "demander ce qui compte → proposer des options compréhensibles → préciser les limites → laisser le choix, la pause et la sortie",
+      "output": "parcours de soutien choisi et action convenue",
+      "boundary": "l’ange de sollicitude est une image facultative ; le service n’est ni un service d’urgence ni un service clinique"
+    }
+  ],
+  "locale": "fr",
+  "editorial_status": "AI-assisted-draft; independent-native-and-semantic-review-pending",
+  "translation_state": "direct-source-draft-unreviewed",
+  "native_review": "pending",
+  "release": "HOLD"
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "suti.publication-overlay.v1",
+  "date": "2026-11-13",
+  "state": "PUBLISHED_EDITORIAL_DRAFT",
+  "owner_authorization": "explicit request to publish current system to website and GitHub; selected source255 and companion56, expanded same planning/specification family",
+  "audience": "public draft readers",
+  "source_release_records": "preserved unchanged; historical editorial review state, not an override of financial/youth/runtime gates",
+  "license_effect": "no automatic MIT/CC or other grant; per-file rights preserved",
+  "runtime": "not activated by this publication",
+  "scope": "new common operating layer plus AI system-contour guide; legacy vault, private records, contacts, raw archives and triad mixed-source archives excluded",
+  "first_publication_commit": "b57b4b7e1026979401778c5d7c81be6c4f24f11a",
+  "language_qa": "See language-coverage.json; independent native review remains pending",
+  "current_editorial_revision": "2026-11-13-qa3",
+  "detailed_languages": "12 source/direct drafts plus an explicit Russian YZH gloss; native acceptance pending"
+}

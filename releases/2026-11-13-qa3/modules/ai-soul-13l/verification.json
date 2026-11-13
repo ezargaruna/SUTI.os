@@ -1,0 +1,10 @@
+{
+  "scope": "offline package structure, hashes, JSON, section inventory, source fingerprints and links",
+  "status": "PASS",
+  "file_count": 55,
+  "locales": 13,
+  "errors": [],
+  "schema_vectors": "15 positive and negative vectors; see schema-verification.json",
+  "independent_language_review": "PENDING",
+  "runtime": "NOT_CONNECTED"
+}

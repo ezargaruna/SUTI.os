@@ -1,0 +1,1265 @@
+{
+  "schema": "suti.public-static-derivative.v1",
+  "date": "2026-11-13",
+  "source_allowlist_entries": 255,
+  "source_files_unchanged": true,
+  "generated_files": [
+    {
+      "path": "_techne/human/collective-living-system-v1/README.html",
+      "bytes": 4052,
+      "sha256": "d3af1b59d49bb72c04847f3de2bc653d4b79ed1dfe5360f4b1bb471365064c9f"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.ar.html",
+      "bytes": 35898,
+      "sha256": "9983361bceda53d741166d3891b0f439ff85c24e23fdfa1603d81b5fad294146"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.bn.html",
+      "bytes": 51350,
+      "sha256": "87dbec658987e6ae5196f908c33ea869c193c7272b0d6b742e599c24e9940aa4"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.en.html",
+      "bytes": 28202,
+      "sha256": "6cf317c0eb8f4297727bea7da886918bce6766e1b46d446dce06f1f25f51a6df"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.eo.html",
+      "bytes": 28525,
+      "sha256": "60d938b89ba145fb13f8c0e63b9b6df5ae5b3bdd5a21398d487bb955bcad8faa"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.es.html",
+      "bytes": 30173,
+      "sha256": "0e8b1d1d94f98b5b31ef2b3e0e5bce7432ac36ae6295b6ec024a9b85f8fbc44f"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.fr.html",
+      "bytes": 32115,
+      "sha256": "729421d20514959371ccba0a083b46e7e959d8fbc7938872a84c2e4450f199a4"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.hi.html",
+      "bytes": 49630,
+      "sha256": "9fdd4c0022cc3784473008aa139aab7e94d508d51c14e41aba5eec6ca8d16eaa"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.la.html",
+      "bytes": 29499,
+      "sha256": "da3d4a7c20efa1edf3e305ce157fa605b7883ab0d88c4038f021fa823cb046ab"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.pt-br.html",
+      "bytes": 29693,
+      "sha256": "8efc79465983e0bbe631692a9386b95db2cdbe485b3a09c798cd2b78b0d39138"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.ru.html",
+      "bytes": 42949,
+      "sha256": "3f992d5af2609a61ffc17e7c016c717ce2b46d66ac7c2dda01b3a33ab8f74bfd"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.sa.html",
+      "bytes": 54898,
+      "sha256": "96d5b0fb4a2c0292563af47f40bf3d76c365b4a657d106d63a3d4c37ea81f0ae"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.yzh.html",
+      "bytes": 45365,
+      "sha256": "e2623cc7cf912b3467a48950ce9e35f80b5e9ab6e77280b016af8887645fd06e"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/bot-and-collaboration-spec.zh-hans.html",
+      "bytes": 25243,
+      "sha256": "43b61ca8f75b99aba7e7142bcfde5c6f9062746e58cda2432dc4d61a46c3e42f"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/plan.ar.html",
+      "bytes": 27862,
+      "sha256": "f46a48e77d555a68dd40aa89a8013ebd199a861ff9939df26e6389c8b525553e"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/plan.bn.html",
+      "bytes": 39947,
+      "sha256": "e1cf8a1bed99b603dcddb3fd5a9b5967b64ff9c4efd28c4876aa711df57e53a0"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/plan.en.html",
+      "bytes": 19752,
+      "sha256": "9dbbfbcd1622ed49689d43476b541ad45793f4c47ee0bb6ee86f73e9fcd08d91"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/plan.eo.html",
+      "bytes": 19883,
+      "sha256": "3cc8f56e4fb61d38b7b2d00122d122a549d646b045a989a80e29c796c2b1e307"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/plan.es.html",
+      "bytes": 21499,
+      "sha256": "ed5b2b0cd7315e55a57e70c2e7a860758a8564c573c8669ff4885657c6a81b00"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/plan.fr.html",
+      "bytes": 22417,
+      "sha256": "a6d25fcf0aac3af1d3d3f6a35d60c2f3a6b541ac9eab1841685d7cab7cf8a011"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/plan.hi.html",
+      "bytes": 41625,
+      "sha256": "1381bbebe627b92b68f4a9c3283d8c3d66d69a5f4eb4bcd14b3bb581af13727e"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/plan.la.html",
+      "bytes": 21230,
+      "sha256": "397492033df849d1217017364c0874ed11a9d46564fbaafe4e79f025ed5bec45"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/plan.pt-br.html",
+      "bytes": 21251,
+      "sha256": "c1f0a74d9c30307f9c3a408124cce1b69e984fcdd631d6f78b0de53657734b9c"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/plan.ru.html",
+      "bytes": 35394,
+      "sha256": "36888f6e6db48708fa938a9253be2b02b3c053b4d5f5d9cbea8e3fc986c77099"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/plan.sa.html",
+      "bytes": 43096,
+      "sha256": "1e0454bc3a3a34d6ba4f32a9d154735c463bf390a5b279d6322c3cf7ef8e5223"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/plan.yzh.html",
+      "bytes": 37252,
+      "sha256": "69354ddc0a53ba77491592bf746fecce7f40dc9e02ccdf8ebdcf54e2365b621e"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/plan.zh-hans.html",
+      "bytes": 17510,
+      "sha256": "cc06114a43fa457c28471ab3f43b6f824ece4f2a4d673286b65b892ed8ba6f0e"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.audit/living-system.html",
+      "bytes": 2402,
+      "sha256": "1df48508433bbe7b5a060fecb2b6cfff0fa6833d6f9700a5492bc6c411d2e811"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.clan/living-system.html",
+      "bytes": 2499,
+      "sha256": "aafbddb31ac985c993ea5637449dadc32d707304162823fc8c4db58c06a935b7"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.crystal/living-system.html",
+      "bytes": 2504,
+      "sha256": "5d2a3f4bba07e6ced4bfad6a996b5fb36a0c3d7589262bc2df8a80cad8718af6"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.game/living-system.html",
+      "bytes": 2633,
+      "sha256": "93ec44817e5f96a71f0660f0713fe3c3d1a1f03d076c013ccb4ff46b49bdaa67"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.lab/living-system.html",
+      "bytes": 2460,
+      "sha256": "945ae38e2d2b6d3778584e9352e8514c65f28293cdde976716478b05821509cb"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.logos/living-system.html",
+      "bytes": 2600,
+      "sha256": "3d3557b22aad6f50ed627591358f4c45c61d914ce41698eb96823c7e9df20661"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.oracle/living-system.html",
+      "bytes": 2478,
+      "sha256": "94b80174831fc4d1c8305d9394796725251c8e1b2c527b461fdffef856ac2663"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.os/living-system.html",
+      "bytes": 2543,
+      "sha256": "478b183702d38fff5cabb66df7b214188896f9d2836c54ca76415717ccaf5fea"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.sotkan/living-system.html",
+      "bytes": 2567,
+      "sha256": "50657d82c3fe93d2970d82b7948da36e8848f9d0d13b3f8609e722002f57e817"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.uni/living-system.html",
+      "bytes": 2472,
+      "sha256": "1e869b1439b9de2867b3f34bbb6a79f8a02ffd6fcd8b5709ef18cfb611cece90"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.veche/living-system.html",
+      "bytes": 2674,
+      "sha256": "6319a7b7258f807accf656f41eb83bea2bf0379a2482afbaf1cc486c2353576d"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.verenium/living-system.html",
+      "bytes": 2592,
+      "sha256": "b00f2b695a269e87713651db5de234d0e29ac521001b8128257ef90922191c1d"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/SUTI.world/living-system.html",
+      "bytes": 2479,
+      "sha256": "73480f9524a6f008b5036414b184e6daeba4c6461b9956d9a136d91dbbf3e428"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/care-90-days.html",
+      "bytes": 6426,
+      "sha256": "7efce190cbdeba638b8bfc1b36ac2f06cc3727d8aeb35dbf423d17d0bf6bed11"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/ru/living-system.html",
+      "bytes": 8624,
+      "sha256": "1e165d9776aee7f7bb2b467dff1b0d13ebc3ec259e0569ef35526f4dab20c5e4"
+    },
+    {
+      "path": "ar/SUTI.audit/living-system.html",
+      "bytes": 2231,
+      "sha256": "8fbb8857400b778ebc9578c30a5abba5e9f8ed57b53e8c3083ed241e3ad0b303"
+    },
+    {
+      "path": "ar/SUTI.clan/living-system.html",
+      "bytes": 2333,
+      "sha256": "0ff58f34c14673d829e8f32ff632ec40b99bc39889126c7e2f9372cc280be983"
+    },
+    {
+      "path": "ar/SUTI.crystal/living-system.html",
+      "bytes": 2369,
+      "sha256": "6d47ddeaffaf54d15e830602be4a2c2c682f7ef8a89f4d1f67d7032ea8579613"
+    },
+    {
+      "path": "ar/SUTI.game/living-system.html",
+      "bytes": 2422,
+      "sha256": "12eed254c1f3fff10aafe1630192d7b1f4b51ca40ee57d45ecbcde3f0687a207"
+    },
+    {
+      "path": "ar/SUTI.lab/living-system.html",
+      "bytes": 2267,
+      "sha256": "007fa93043abd1418c0ad2b363a2e93b089500b61e02ac6438032c973b83f440"
+    },
+    {
+      "path": "ar/SUTI.logos/living-system.html",
+      "bytes": 2542,
+      "sha256": "659b1462e83e89b990c0f4b92329e7ca02ab0a6a5ad8b6860b19350da636fafc"
+    },
+    {
+      "path": "ar/SUTI.oracle/living-system.html",
+      "bytes": 2293,
+      "sha256": "e22ea9b9308cfc0c386a3a63b2708a72071b536f8e8bec4469769a328b026e36"
+    },
+    {
+      "path": "ar/SUTI.os/living-system.html",
+      "bytes": 2345,
+      "sha256": "a28115f5a6da22b647bd2d5a4a9c7a173d36ac94a44e5386d58ff6b062f4fd34"
+    },
+    {
+      "path": "ar/SUTI.sotkan/living-system.html",
+      "bytes": 2353,
+      "sha256": "4379102d1c9d5b1933abf8fdd4a362c17511d9252b353ff97ff80eae43ecf189"
+    },
+    {
+      "path": "ar/SUTI.uni/living-system.html",
+      "bytes": 2311,
+      "sha256": "1bc159daeb7df0f022cf99f74d267f0988c219bc4fbbcc474fce86a3d63ca8f2"
+    },
+    {
+      "path": "ar/SUTI.veche/living-system.html",
+      "bytes": 2383,
+      "sha256": "c7e456efe81958a93b5de41dc57e944710acfde9b803fd4a116349cdbab4c7e0"
+    },
+    {
+      "path": "ar/SUTI.verenium/living-system.html",
+      "bytes": 2433,
+      "sha256": "92a8813b5038f9a598131b002029acb78e7bb9f59db2f92bc9698a0b818d666f"
+    },
+    {
+      "path": "ar/SUTI.world/living-system.html",
+      "bytes": 2322,
+      "sha256": "ee3ed4e31a11759eef8829dad4600eeab589e53aa1ebc610d463447d8a0ca063"
+    },
+    {
+      "path": "ar/care-90-days.html",
+      "bytes": 5803,
+      "sha256": "6ff759a2bd3875187a222aebc75051dc77ec79b871e53fc0bb33a47f4defb652"
+    },
+    {
+      "path": "ar/living-system.html",
+      "bytes": 7762,
+      "sha256": "5bb4ce86fba751ee248f525d7fe0ca419d8a564c566cd076568e81c87da8bfb4"
+    },
+    {
+      "path": "bn/SUTI.audit/living-system.html",
+      "bytes": 2657,
+      "sha256": "27dff96adfec2690fc862347ca8a761351dffc7ca0c6a6f009c1389656819267"
+    },
+    {
+      "path": "bn/SUTI.clan/living-system.html",
+      "bytes": 2857,
+      "sha256": "0d334ff1e1b0cbe231be6003ae0d2134b193fe489179a543db18c67384e0bdba"
+    },
+    {
+      "path": "bn/SUTI.crystal/living-system.html",
+      "bytes": 2833,
+      "sha256": "683b8d04a5b3c7a90790d8aaec79c8077aaedada185fbd914e04fab2bccbb21c"
+    },
+    {
+      "path": "bn/SUTI.game/living-system.html",
+      "bytes": 3014,
+      "sha256": "1eca1bb05490c5dc423aee1ce91e6fb2776b8a1c35b256e0530fff2ff8e9b9de"
+    },
+    {
+      "path": "bn/SUTI.lab/living-system.html",
+      "bytes": 2663,
+      "sha256": "ae67020def1035445eff1a0695b6d48f59000de3c536c9b464d61016a76daac6"
+    },
+    {
+      "path": "bn/SUTI.logos/living-system.html",
+      "bytes": 3060,
+      "sha256": "fb40b4ce538122652c6280a6cba63ae790134c20eb1cf51ebce9c45b4f2e42b8"
+    },
+    {
+      "path": "bn/SUTI.oracle/living-system.html",
+      "bytes": 2780,
+      "sha256": "e861db134918ea467987bf03b61ee48fcc1433cd7e319a6040c60158eefc4b66"
+    },
+    {
+      "path": "bn/SUTI.os/living-system.html",
+      "bytes": 2918,
+      "sha256": "95401da2d68b5926b37de818dd72698a0342c9893f2ad4121ca1563485b7cd70"
+    },
+    {
+      "path": "bn/SUTI.sotkan/living-system.html",
+      "bytes": 2868,
+      "sha256": "e357a5eed5ca032e3ba3b5f1af3266a70c496286cd5e29268fb019e46afb77ce"
+    },
+    {
+      "path": "bn/SUTI.uni/living-system.html",
+      "bytes": 2701,
+      "sha256": "fb094cd301c3e01b9658503ddc36b418c1bcb531f42f35f109ba57633e8e2fdc"
+    },
+    {
+      "path": "bn/SUTI.veche/living-system.html",
+      "bytes": 2853,
+      "sha256": "fdc7abc33903394068ae548dc818ba1e3d35e9d20c23a477f26b095f99c65863"
+    },
+    {
+      "path": "bn/SUTI.verenium/living-system.html",
+      "bytes": 2965,
+      "sha256": "d925cca3dd9a217aab6583fb86dd18182363be5a79428c18d752ef1c2f283a9a"
+    },
+    {
+      "path": "bn/SUTI.world/living-system.html",
+      "bytes": 2886,
+      "sha256": "dd5431b9ca95903bfa9dd887c0e5b009fd6f4198ccf159910684b404469abc5c"
+    },
+    {
+      "path": "bn/care-90-days.html",
+      "bytes": 8438,
+      "sha256": "00361490d76ade61f4c793fc8ba56e83bd4814a1fdb1de30ad893a265196a725"
+    },
+    {
+      "path": "bn/living-system.html",
+      "bytes": 10684,
+      "sha256": "934b6122c6e2b6303f0dfa09bc02ebb10492b49e8dc115c6a604ad4bb8699037"
+    },
+    {
+      "path": "en/SUTI.audit/living-system.html",
+      "bytes": 2058,
+      "sha256": "18400c292f35065bf8dc0ef0ee3a2048e874e0b97dc22bb0e70e5169c008e316"
+    },
+    {
+      "path": "en/SUTI.clan/living-system.html",
+      "bytes": 2110,
+      "sha256": "9b08641981924b0a6985f8b3887e425c556716db16050cbb21ae2f53c2a0f369"
+    },
+    {
+      "path": "en/SUTI.crystal/living-system.html",
+      "bytes": 2097,
+      "sha256": "e5046ac181b740acfa93e418375aced424a99ade86eb81454a1c743dfcd2856d"
+    },
+    {
+      "path": "en/SUTI.game/living-system.html",
+      "bytes": 2160,
+      "sha256": "139a56e967fc28c57dd4b50a5d3678b5cdc453a3c7490a36effd4713fa95d319"
+    },
+    {
+      "path": "en/SUTI.lab/living-system.html",
+      "bytes": 2059,
+      "sha256": "68dd7289123e8184c4a4125f04741abee95a458d7c84425cae00ff159553333a"
+    },
+    {
+      "path": "en/SUTI.logos/living-system.html",
+      "bytes": 2193,
+      "sha256": "bf4776b544ee40ce1a35225618fb5883b0944474cde4e7ee55ccbfcb10493109"
+    },
+    {
+      "path": "en/SUTI.oracle/living-system.html",
+      "bytes": 2081,
+      "sha256": "723e2ed77929389455970e57bdd99663b07a711561da98c936fbdcca3d0e215d"
+    },
+    {
+      "path": "en/SUTI.os/living-system.html",
+      "bytes": 2106,
+      "sha256": "742df8d5be350fd389a3db6f5b119ce574df03625621c87d32309f810d39d0d1"
+    },
+    {
+      "path": "en/SUTI.sotkan/living-system.html",
+      "bytes": 2150,
+      "sha256": "16604cf3efcbfc14c806e9cac3900ed201c5be496b130655a8fb82bcf1e9b051"
+    },
+    {
+      "path": "en/SUTI.uni/living-system.html",
+      "bytes": 2104,
+      "sha256": "bf0e07db1d5792ca244fce614ecc84f8ed21cca3b36e513d84cd992196b5a392"
+    },
+    {
+      "path": "en/SUTI.veche/living-system.html",
+      "bytes": 2131,
+      "sha256": "d1759357a7028be284473b05aa5835b1e28fc946fba7bbff54b1f52b069fffd5"
+    },
+    {
+      "path": "en/SUTI.verenium/living-system.html",
+      "bytes": 2126,
+      "sha256": "998fd5def720fd52d3b420ac8a6bcb4911e2ec17d3335e9eec162a7b4eeef73d"
+    },
+    {
+      "path": "en/SUTI.world/living-system.html",
+      "bytes": 2067,
+      "sha256": "beeaef900bc998aa43ddad14a0461f2036ce53ebd0e77a76c2321ce2e4435d71"
+    },
+    {
+      "path": "en/care-90-days.html",
+      "bytes": 4536,
+      "sha256": "cad06d3506e9d4f2692db233117cbf9ad0e7a660f270976dfd5b69947ab4333e"
+    },
+    {
+      "path": "en/living-system.html",
+      "bytes": 6288,
+      "sha256": "ef29888159f67c45245f5e27cd9a53071741c92eb310dc8896edf172480e3af5"
+    },
+    {
+      "path": "eo/SUTI.audit/living-system.html",
+      "bytes": 2084,
+      "sha256": "5e6bc8f4406db11ab7e7498fa5601afcd8b058d623d05d35f51f4cf141d565a1"
+    },
+    {
+      "path": "eo/SUTI.clan/living-system.html",
+      "bytes": 2140,
+      "sha256": "f242c7a2dc093b825f3c25a04c8b8bc0526bfe84d8f8d0d462ca9b64f62c8c9b"
+    },
+    {
+      "path": "eo/SUTI.crystal/living-system.html",
+      "bytes": 2113,
+      "sha256": "54311308b8da45f4505ef4d0f64de5afe8e3f627a24df6523f405616efdd141b"
+    },
+    {
+      "path": "eo/SUTI.game/living-system.html",
+      "bytes": 2194,
+      "sha256": "42d0b926af97a3ba36e6ecae987da470762dca0469b5b37c9175d315395f1f86"
+    },
+    {
+      "path": "eo/SUTI.lab/living-system.html",
+      "bytes": 2061,
+      "sha256": "4178b2845e4b4bda3e9a61714cf4cc60e867a8b0731f3891abdb1326eabb3763"
+    },
+    {
+      "path": "eo/SUTI.logos/living-system.html",
+      "bytes": 2187,
+      "sha256": "20b740c9fa4da3467fe3444d9e258a6424bed5720f1ad43ca54f5614353c8273"
+    },
+    {
+      "path": "eo/SUTI.oracle/living-system.html",
+      "bytes": 2123,
+      "sha256": "beadeee8d0edc7900e60dafd46dfe836a1efc4fc21432d9f0856ccf9105939c7"
+    },
+    {
+      "path": "eo/SUTI.os/living-system.html",
+      "bytes": 2141,
+      "sha256": "7d8a28b68f2f47593e1be61ed004c9aa569c9642ff0204821674dfdd9c2ffa5b"
+    },
+    {
+      "path": "eo/SUTI.sotkan/living-system.html",
+      "bytes": 2116,
+      "sha256": "79b758d3f2789391142a5d12d46c3bed8e1acc90610915ac0e1a08375e923a80"
+    },
+    {
+      "path": "eo/SUTI.uni/living-system.html",
+      "bytes": 2078,
+      "sha256": "8a3cecd3e9c0a6e0e2b3ba910ac29a3da2c5f502af01152d843e0e1efda3341f"
+    },
+    {
+      "path": "eo/SUTI.veche/living-system.html",
+      "bytes": 2148,
+      "sha256": "6d293ffa326d856501fb867c4bddcb14e92e1822098695c33692b4dcf72857ea"
+    },
+    {
+      "path": "eo/SUTI.verenium/living-system.html",
+      "bytes": 2148,
+      "sha256": "0c1f7b4cf13cefc5d7eca58f85723a5e3d7fc4ac5540d45be1e0b2109e6910c6"
+    },
+    {
+      "path": "eo/SUTI.world/living-system.html",
+      "bytes": 2124,
+      "sha256": "c9b002c7cf1e958363755ef07ebf3188ed97bc339f6070b4a5ef5188154ccd1d"
+    },
+    {
+      "path": "eo/care-90-days.html",
+      "bytes": 4649,
+      "sha256": "754f7d0874d60bc6cbaff6c2ab6be219a7bc1ded02806243eca0aa06bebf792c"
+    },
+    {
+      "path": "eo/living-system.html",
+      "bytes": 6257,
+      "sha256": "e37ce3f202f8f542b2b4659bed2d01e516a1b23440af0f0b8ba23d2dad7cc1a9"
+    },
+    {
+      "path": "es/SUTI.audit/living-system.html",
+      "bytes": 2112,
+      "sha256": "7cc6565755e07fa7cab3a4fdf817cc850d2ae2dafb024d46551eea914e5a4f5f"
+    },
+    {
+      "path": "es/SUTI.clan/living-system.html",
+      "bytes": 2168,
+      "sha256": "d8042ec1fe80c73f715b74dc575286bb8950e18bfd14b919bc58db68a82b2b12"
+    },
+    {
+      "path": "es/SUTI.crystal/living-system.html",
+      "bytes": 2143,
+      "sha256": "9b87c2bf23df83ff845433e289eb20d272fd406b2e895754c5d482e484c414c4"
+    },
+    {
+      "path": "es/SUTI.game/living-system.html",
+      "bytes": 2246,
+      "sha256": "b055517b6d33abf4642621a127175d5b3d8249aba533170809adc7111bc6dac4"
+    },
+    {
+      "path": "es/SUTI.lab/living-system.html",
+      "bytes": 2168,
+      "sha256": "17541c6b5f364980d781e615eccf0eb46229dea618ce1caaa47c29db598f1a5a"
+    },
+    {
+      "path": "es/SUTI.logos/living-system.html",
+      "bytes": 2237,
+      "sha256": "38e45e13c1d903a00336cb9a6eafe50dc66dfc504be57eab00aa107fb3a4d938"
+    },
+    {
+      "path": "es/SUTI.oracle/living-system.html",
+      "bytes": 2179,
+      "sha256": "846852ec3402ce97e8394b55c03124a6b2541f2e40924347f176369e0ee5cbc9"
+    },
+    {
+      "path": "es/SUTI.os/living-system.html",
+      "bytes": 2171,
+      "sha256": "4b1502c53a5e18a65b0ed7cbef726a0470d5a2d2b6741de65543410bed6ea4ee"
+    },
+    {
+      "path": "es/SUTI.sotkan/living-system.html",
+      "bytes": 2186,
+      "sha256": "9bae2e56e5de46737a37727ca91b0410617d8f0d6c8a99f11429ac2beb112898"
+    },
+    {
+      "path": "es/SUTI.uni/living-system.html",
+      "bytes": 2149,
+      "sha256": "27dbaa3e8bab88f5e06356af26239fb8bfb06f2573c9354264b48c6ae13fd24d"
+    },
+    {
+      "path": "es/SUTI.veche/living-system.html",
+      "bytes": 2227,
+      "sha256": "e39375b03d543e1c4bd502bebd33d94a5d90016a150d4ac4347756117d662bea"
+    },
+    {
+      "path": "es/SUTI.verenium/living-system.html",
+      "bytes": 2198,
+      "sha256": "85ec02c2acd5190d0cd993cf0d8b4e3377175c1aecebb1164426ccde8a0622db"
+    },
+    {
+      "path": "es/SUTI.world/living-system.html",
+      "bytes": 2128,
+      "sha256": "751ec2b8f4230da56146eb0eb54099c08d102889b0f3771540fa7422af0760fd"
+    },
+    {
+      "path": "es/care-90-days.html",
+      "bytes": 4879,
+      "sha256": "fd88462d1215d32397095bb668bec46a16933180747242007811846b9d56e525"
+    },
+    {
+      "path": "es/living-system.html",
+      "bytes": 6721,
+      "sha256": "6a3e888eee57115ef11d6a401bbeda02974b9925abc5df551b71cb650c3a16cd"
+    },
+    {
+      "path": "fr/SUTI.audit/living-system.html",
+      "bytes": 2166,
+      "sha256": "35d9c06bddc1539504157d81356e57bf095261665318b6f5a441d0b766e744de"
+    },
+    {
+      "path": "fr/SUTI.clan/living-system.html",
+      "bytes": 2236,
+      "sha256": "af1113e5da8a64c54a5bf3c1881631f4b0851df2e86bcef3ba005edcfaf8edc9"
+    },
+    {
+      "path": "fr/SUTI.crystal/living-system.html",
+      "bytes": 2226,
+      "sha256": "a8c06920d9f58d5a047c8f48ca841949ad03a42745b477b425949a49f0c380d2"
+    },
+    {
+      "path": "fr/SUTI.game/living-system.html",
+      "bytes": 2272,
+      "sha256": "fdb934509020a042cac6f02c5e47a72c6ebeaff5a74815aeaf35e60bc1efd100"
+    },
+    {
+      "path": "fr/SUTI.lab/living-system.html",
+      "bytes": 2153,
+      "sha256": "6f948de37be944afaea11e43890ab435e70c0009f1194e664ba497959366c1a5"
+    },
+    {
+      "path": "fr/SUTI.logos/living-system.html",
+      "bytes": 2299,
+      "sha256": "5a0c8ade89b560a65cf46315d984b1fa36cfed0fc191c5e255d8de91aa614ad7"
+    },
+    {
+      "path": "fr/SUTI.oracle/living-system.html",
+      "bytes": 2203,
+      "sha256": "84f330adbd12f9bb23af54e1888bb2c0844ac40abb9bfe3cdf853cb72c181325"
+    },
+    {
+      "path": "fr/SUTI.os/living-system.html",
+      "bytes": 2250,
+      "sha256": "0273b20872c1ab7cba923d38cf8c99c3f7f365c2fa24b2db500353652836522d"
+    },
+    {
+      "path": "fr/SUTI.sotkan/living-system.html",
+      "bytes": 2242,
+      "sha256": "5912e1c7a61864e0c88a6ed1372cd5d522892649dc490e1ff803bf4882ff53e5"
+    },
+    {
+      "path": "fr/SUTI.uni/living-system.html",
+      "bytes": 2205,
+      "sha256": "a59e834418815ed54e971e984250b28bd5fa0a63e1411d21e3a6dc8adde787c2"
+    },
+    {
+      "path": "fr/SUTI.veche/living-system.html",
+      "bytes": 2234,
+      "sha256": "bd034628a6e609f79909566e915574364040d14774924a70b5c4943c3f4f3e4f"
+    },
+    {
+      "path": "fr/SUTI.verenium/living-system.html",
+      "bytes": 2301,
+      "sha256": "9ad9de12bfc1a6e4e732904c4e2f11d97169eaff8c886f3f427834cd372d29f8"
+    },
+    {
+      "path": "fr/SUTI.world/living-system.html",
+      "bytes": 2200,
+      "sha256": "5c2eb1725f2f776a8a9e05421a83b856f5317020699fa91fed58dbb25d80c0cd"
+    },
+    {
+      "path": "fr/care-90-days.html",
+      "bytes": 5139,
+      "sha256": "cdb005bed311658a19fab6a69d56d7f4bdc61d543e62bf980f461a571c31116a"
+    },
+    {
+      "path": "fr/living-system.html",
+      "bytes": 6979,
+      "sha256": "7d157ca8b09ed73d0873ff66d8aa1d2554df2abe12d714e746dc7c0a3c492c7a"
+    },
+    {
+      "path": "hi/SUTI.audit/living-system.html",
+      "bytes": 2618,
+      "sha256": "cedf1634d0e9f8b63f464c1c8fb839d78279462bb4f59bf71d017f3fa7970d94"
+    },
+    {
+      "path": "hi/SUTI.clan/living-system.html",
+      "bytes": 2876,
+      "sha256": "d0bfbcf19a77d716859e6a07e11f410476b76f24a0994ad36063efa4727cf150"
+    },
+    {
+      "path": "hi/SUTI.crystal/living-system.html",
+      "bytes": 2865,
+      "sha256": "b728e3d8a82b17c45ebc30d44fbdf35d7f7cbadd6ea189044dcccebf56863880"
+    },
+    {
+      "path": "hi/SUTI.game/living-system.html",
+      "bytes": 2989,
+      "sha256": "5c1e2bfabd28aaa8fd13e3fbb622f1b5154cf956e2cbb43b26e754357523db0d"
+    },
+    {
+      "path": "hi/SUTI.lab/living-system.html",
+      "bytes": 2734,
+      "sha256": "c50c6af3b440614612b98017dbb64ba17c55eb176e620cc4a739317695416b79"
+    },
+    {
+      "path": "hi/SUTI.logos/living-system.html",
+      "bytes": 2998,
+      "sha256": "760128885219d01a471304d76c77fc0b248c7d78e2eff8bdd50260abc782de8a"
+    },
+    {
+      "path": "hi/SUTI.oracle/living-system.html",
+      "bytes": 2718,
+      "sha256": "00f5dad3ad9961c257cc741d498a53a6f32f0418d338727f6910d0e76c893b9c"
+    },
+    {
+      "path": "hi/SUTI.os/living-system.html",
+      "bytes": 2918,
+      "sha256": "31cdd2f6ebca52de7a717b3d4488e76fd6583ddc990dd0ddf37f221a7b6c5ba0"
+    },
+    {
+      "path": "hi/SUTI.sotkan/living-system.html",
+      "bytes": 2898,
+      "sha256": "4b9b3a122c14c5d9928bd41e872510be40b96f44cb0c8088b4dd24a01b6407df"
+    },
+    {
+      "path": "hi/SUTI.uni/living-system.html",
+      "bytes": 2693,
+      "sha256": "8d25ddd5ed3d040ff0da801219260d14c4cd48f4ea599a81601005d2130f2637"
+    },
+    {
+      "path": "hi/SUTI.veche/living-system.html",
+      "bytes": 2965,
+      "sha256": "7ec9b99cd8bc74528f0a66b6009cc5c04554874b8dc102b02331eb693dab83db"
+    },
+    {
+      "path": "hi/SUTI.verenium/living-system.html",
+      "bytes": 2995,
+      "sha256": "000083442a5db26c8a84bc269eda29d94b34be3d8872f71da28a38cee6c4d0af"
+    },
+    {
+      "path": "hi/SUTI.world/living-system.html",
+      "bytes": 2835,
+      "sha256": "47ed40c6a0e7e8464e7440734bebcf7faca3cd76f66842779995acac33facf04"
+    },
+    {
+      "path": "hi/care-90-days.html",
+      "bytes": 8026,
+      "sha256": "b783eba3150b44fb4b238f6b560075d329fdc1792a4ee420733a0dc64f273ced"
+    },
+    {
+      "path": "hi/living-system.html",
+      "bytes": 10328,
+      "sha256": "ad155cb049be11447bd05eac6e49e9900eb7b7177124578b8f81f04a63cc6dfa"
+    },
+    {
+      "path": "la/SUTI.audit/living-system.html",
+      "bytes": 2095,
+      "sha256": "c89eb5413a17fc8da5c930a8e76eb1dddb6788bdfc44daf5672c024de6c59411"
+    },
+    {
+      "path": "la/SUTI.clan/living-system.html",
+      "bytes": 2156,
+      "sha256": "7eb0882d111910f98bc20bcdedf5bf49e5c60d13492dcecb4c0d7faa28a9e58c"
+    },
+    {
+      "path": "la/SUTI.crystal/living-system.html",
+      "bytes": 2165,
+      "sha256": "3e8c5f74b970a098af7f63a18b86bfa727b9fb12172dab08979b46b99eef93c3"
+    },
+    {
+      "path": "la/SUTI.game/living-system.html",
+      "bytes": 2238,
+      "sha256": "bbc83366cf9794fa2acbc867c425e8889f3757249b6be063bfc0a07fc27e25ae"
+    },
+    {
+      "path": "la/SUTI.lab/living-system.html",
+      "bytes": 2113,
+      "sha256": "43561b5a3b831ee3402804ee042993d906f576467b0a5de080c376178da3aa67"
+    },
+    {
+      "path": "la/SUTI.logos/living-system.html",
+      "bytes": 2219,
+      "sha256": "48fd255fafc681f4efe53b60d26640cde5930adb27f4ff28998b72b9da8d1323"
+    },
+    {
+      "path": "la/SUTI.oracle/living-system.html",
+      "bytes": 2148,
+      "sha256": "03b38c6da9297ef100a40cf244b81ba9ffb69e725da920135455c2af31ed16cd"
+    },
+    {
+      "path": "la/SUTI.os/living-system.html",
+      "bytes": 2184,
+      "sha256": "b22e4acd617d3a10bc6c42e0ea59324beee05bde6eaca8f8ed32ce1689656e78"
+    },
+    {
+      "path": "la/SUTI.sotkan/living-system.html",
+      "bytes": 2170,
+      "sha256": "fbe615ba8c6c47ab29c98a6f0ff4c1258128b156dede7839bda587683f1b5dbe"
+    },
+    {
+      "path": "la/SUTI.uni/living-system.html",
+      "bytes": 2123,
+      "sha256": "e0c6dfb01ff376c3cc5c3a61fd183527fb13204932c72670941a079a6b1258ea"
+    },
+    {
+      "path": "la/SUTI.veche/living-system.html",
+      "bytes": 2194,
+      "sha256": "d8bbcef82ad0c946e52a498944abe366ac7e759eb5f37387e5e3c7a4b417c38f"
+    },
+    {
+      "path": "la/SUTI.verenium/living-system.html",
+      "bytes": 2196,
+      "sha256": "55bc21dcd3d05171a014e7b6192a0a98e8616a4ca00ca79ec7e742d219c6ef6e"
+    },
+    {
+      "path": "la/SUTI.world/living-system.html",
+      "bytes": 2136,
+      "sha256": "e4f12f763599709a09cc6a2df0de34a28d1ed42d72f1b4799991dce4138d4e95"
+    },
+    {
+      "path": "la/care-90-days.html",
+      "bytes": 4866,
+      "sha256": "b5fee9c5017457d7170426e361e993fe7462df40beef86b240e7bd81ff2cebb9"
+    },
+    {
+      "path": "la/living-system.html",
+      "bytes": 6583,
+      "sha256": "1f0064712672d5d4bf1d120006fcf69d63425982861a10130aa3507a2d188ef1"
+    },
+    {
+      "path": "pt-br/SUTI.audit/living-system.html",
+      "bytes": 2139,
+      "sha256": "16991ad22cde48db3e62ca2f6ff7d80f95061ce4bbdc71298c526a0f565c23cd"
+    },
+    {
+      "path": "pt-br/SUTI.clan/living-system.html",
+      "bytes": 2191,
+      "sha256": "deb3069b4e2845adc1a1b949db0eb562ab0340e5783d81ebc4b535197b6fab94"
+    },
+    {
+      "path": "pt-br/SUTI.crystal/living-system.html",
+      "bytes": 2163,
+      "sha256": "8196a1da63720e0bf943c1aa99ea3abe2ccdc07e8b7115fd217d24e524d5f0c8"
+    },
+    {
+      "path": "pt-br/SUTI.game/living-system.html",
+      "bytes": 2278,
+      "sha256": "14628bbf117d7ad48d26222cdbae76e7c13442d86b89cb51b30f58939afe5ccf"
+    },
+    {
+      "path": "pt-br/SUTI.lab/living-system.html",
+      "bytes": 2129,
+      "sha256": "c653b853ed2e9019361a35aa7a35d6ce2fe901e2f81a0fcc350bce812f77ac7e"
+    },
+    {
+      "path": "pt-br/SUTI.logos/living-system.html",
+      "bytes": 2243,
+      "sha256": "933cc5e49a9f13b07f7ce645ea855bae2daa0fc66af1f0b7bd8f1d4ff20d14fd"
+    },
+    {
+      "path": "pt-br/SUTI.oracle/living-system.html",
+      "bytes": 2194,
+      "sha256": "3abfaefe876acb6b08182f5ca3eba807e1bf74053f72a09153b4f91993b8ca4c"
+    },
+    {
+      "path": "pt-br/SUTI.os/living-system.html",
+      "bytes": 2190,
+      "sha256": "561d0adabbfcbfc50a7acfd28b3087166b32ceadeec8066201abd3bfb159e918"
+    },
+    {
+      "path": "pt-br/SUTI.sotkan/living-system.html",
+      "bytes": 2217,
+      "sha256": "43da06b5c4ba415997c6d51b88a858912ac22456f49bf94028cea48ba4579b97"
+    },
+    {
+      "path": "pt-br/SUTI.uni/living-system.html",
+      "bytes": 2158,
+      "sha256": "94fca83f197a2b75f6ea9098b7996c6f13326091dc387d2b5f56be24c4f0a383"
+    },
+    {
+      "path": "pt-br/SUTI.veche/living-system.html",
+      "bytes": 2252,
+      "sha256": "08c788cb2018d4ba327a826b785e4f6a60dcb2568d0761f2fb750b5fb0f89e0f"
+    },
+    {
+      "path": "pt-br/SUTI.verenium/living-system.html",
+      "bytes": 2229,
+      "sha256": "721758f8c922a2d8ac12bafc116d6f9fcf5952c01e6189c84f21beb1eecd7444"
+    },
+    {
+      "path": "pt-br/SUTI.world/living-system.html",
+      "bytes": 2158,
+      "sha256": "5408c7cb06460dd3330b9cd530e57193c00c9ce4c3a0c63f5867864f93376a57"
+    },
+    {
+      "path": "pt-br/care-90-days.html",
+      "bytes": 4816,
+      "sha256": "8ae90514b6287a533d711be753da28ca2137d6312b202f8c6e0d922e713f6e55"
+    },
+    {
+      "path": "pt-br/living-system.html",
+      "bytes": 6694,
+      "sha256": "4f9d05f3506bff426b5900c79c40185d4d19758b671c885918606e928f1bc0c5"
+    },
+    {
+      "path": "sa/SUTI.audit/living-system.html",
+      "bytes": 2750,
+      "sha256": "4e3c297ff522d7b4e53291cf02aad95c7461c8f460282eb7e26d3624a35c6427"
+    },
+    {
+      "path": "sa/SUTI.clan/living-system.html",
+      "bytes": 2933,
+      "sha256": "25d86a043d68c734b4fcc006e4a66bfd2e014e8e953cbe36260e05cdd32d45dd"
+    },
+    {
+      "path": "sa/SUTI.crystal/living-system.html",
+      "bytes": 2828,
+      "sha256": "109283f2092cbf8b59bebf6e0cbc8b9df789703efdf67bca4dddeeec29a622b0"
+    },
+    {
+      "path": "sa/SUTI.game/living-system.html",
+      "bytes": 3023,
+      "sha256": "a3b371eaf196e2c355b94a479a9c691234e64d72689bc95fdd5dd2f69d7f6c6d"
+    },
+    {
+      "path": "sa/SUTI.lab/living-system.html",
+      "bytes": 2759,
+      "sha256": "457f9922012846ae28119d4af4797cc7a6ca0b583e1dc5d42c49d1fb9120b9cd"
+    },
+    {
+      "path": "sa/SUTI.logos/living-system.html",
+      "bytes": 3040,
+      "sha256": "ac5b0c36377bbe21379d885d28f9466348519a501c83bdc74758627f3e89ae31"
+    },
+    {
+      "path": "sa/SUTI.oracle/living-system.html",
+      "bytes": 2711,
+      "sha256": "57cefaa32cec3a43a05b10aca90c426dc74dfcf5bf19641ca86197f06f369c8a"
+    },
+    {
+      "path": "sa/SUTI.os/living-system.html",
+      "bytes": 2879,
+      "sha256": "0ea4a2cf521177f87d55fa78edcaea6c7dfbeeb03e0890c94adee7b6f6b74b69"
+    },
+    {
+      "path": "sa/SUTI.sotkan/living-system.html",
+      "bytes": 2965,
+      "sha256": "3d4354639b25e01744b953950fc6fa8ee88b8331fe7d53e33f94fbe2aa9cee51"
+    },
+    {
+      "path": "sa/SUTI.uni/living-system.html",
+      "bytes": 2779,
+      "sha256": "5b5b1347341aedbd74321f8395b29e2e82dbca39c6cd9b3acbc1b6859423429c"
+    },
+    {
+      "path": "sa/SUTI.veche/living-system.html",
+      "bytes": 2904,
+      "sha256": "8dc5720fcec79d687c9a1bc68ee42824976d4aa953992dfa3b0d98a5ab15db82"
+    },
+    {
+      "path": "sa/SUTI.verenium/living-system.html",
+      "bytes": 3040,
+      "sha256": "76a2af96e56a2740f6ae91938605defe3191048cbd095a297b4f6f93855507f0"
+    },
+    {
+      "path": "sa/SUTI.world/living-system.html",
+      "bytes": 2857,
+      "sha256": "8765ca15af2c27689176fa5f981d2a0f41dc9a23b3af5da76c05c2cec8ff78ed"
+    },
+    {
+      "path": "sa/care-90-days.html",
+      "bytes": 8347,
+      "sha256": "c82d1191741c8b87fd5c9a1344f2707bdc895ecb983b762fb10143c353a7eb2a"
+    },
+    {
+      "path": "sa/living-system.html",
+      "bytes": 10938,
+      "sha256": "18e6a1a68bfafacf8723a19799b1414b8bfc81474e539ee37d7266be7a58830e"
+    },
+    {
+      "path": "yzh/SUTI.audit/living-system.html",
+      "bytes": 2729,
+      "sha256": "064abea6f74bc2ede6baaf78d172bdb70c0e1c7d37efb725a6c58d20ceb9c1a1"
+    },
+    {
+      "path": "yzh/SUTI.clan/living-system.html",
+      "bytes": 2826,
+      "sha256": "daf8b2ff54c4cd5b7a0e242b02efdd79d7b78d2148f9c4aa5be3c42dc2e7aa3f"
+    },
+    {
+      "path": "yzh/SUTI.crystal/living-system.html",
+      "bytes": 2831,
+      "sha256": "d72676e03a7c1d4bba4a84edaf3d72bcc546771d874e7546fb9c40ed1bfd3ff2"
+    },
+    {
+      "path": "yzh/SUTI.game/living-system.html",
+      "bytes": 2960,
+      "sha256": "50893155dba53db59afac9a7e16ba6725ba39e64178acce32edf94e8a08484c3"
+    },
+    {
+      "path": "yzh/SUTI.lab/living-system.html",
+      "bytes": 2787,
+      "sha256": "0d20d6f877db8a5bdbc521b1f357a01e7b92eed1b5c2d8c3d52e39c217e7ddac"
+    },
+    {
+      "path": "yzh/SUTI.logos/living-system.html",
+      "bytes": 2927,
+      "sha256": "0ede80ea048a07b3cdac1246d5b08236ba35a65edc648a685f1f13bb5fc683ec"
+    },
+    {
+      "path": "yzh/SUTI.oracle/living-system.html",
+      "bytes": 2805,
+      "sha256": "fbe2006ce887eda3221c9db0802a5cfdd150dd2b6dac04c9ceb6eef1d3ef5c40"
+    },
+    {
+      "path": "yzh/SUTI.os/living-system.html",
+      "bytes": 2870,
+      "sha256": "58a5d9c61e9369540aaa94a0d8f5170c6f11a368208b77abf0c4973657e9da8f"
+    },
+    {
+      "path": "yzh/SUTI.sotkan/living-system.html",
+      "bytes": 2894,
+      "sha256": "bec3ee567921a18fe67fbf049fe8f5a00b97a93da63a42438b5109a3f774e115"
+    },
+    {
+      "path": "yzh/SUTI.uni/living-system.html",
+      "bytes": 2799,
+      "sha256": "06fba69cf6930f3fa73977a575c35e79878d0f2e948f6f95e93c3d4591893628"
+    },
+    {
+      "path": "yzh/SUTI.veche/living-system.html",
+      "bytes": 3001,
+      "sha256": "23239723b158f93147ca822fada1389b27a47c3488b0c26afadd09a42a047829"
+    },
+    {
+      "path": "yzh/SUTI.verenium/living-system.html",
+      "bytes": 2919,
+      "sha256": "a7ec3805fe4a2cdcdd84bcda6135c145c2890cb0f43d1652ef742b1732f0595a"
+    },
+    {
+      "path": "yzh/SUTI.world/living-system.html",
+      "bytes": 2806,
+      "sha256": "b63ad2b5e3e9a8e2a6c20f7b1b932ee36c74fc4761932881c895c71a7c05495a"
+    },
+    {
+      "path": "yzh/care-90-days.html",
+      "bytes": 6795,
+      "sha256": "c2bab2fa755991d9b02ff7e9ceb54f6f3008f43458e7a4102108c980e4b9d6f4"
+    },
+    {
+      "path": "yzh/living-system.html",
+      "bytes": 9047,
+      "sha256": "55a8c8c7e457e76442e0c859a02a0aa613c26dd87930caa3d57b0771ae05a104"
+    },
+    {
+      "path": "zh-hans/SUTI.audit/living-system.html",
+      "bytes": 2015,
+      "sha256": "4bd640bfee796b7d7d46515608cf896c1a70b34ae517e57203a9e6d7b0ea06ab"
+    },
+    {
+      "path": "zh-hans/SUTI.clan/living-system.html",
+      "bytes": 2046,
+      "sha256": "fb44f78e856f26e51816f2ff9b672f4098239059bdd16c52a34713954cdf6e3a"
+    },
+    {
+      "path": "zh-hans/SUTI.crystal/living-system.html",
+      "bytes": 2085,
+      "sha256": "4b520d8fdfff9b8c7a1fecc1cd5a8ffb0e2cb60d5d4f5a87172d493753e4c17e"
+    },
+    {
+      "path": "zh-hans/SUTI.game/living-system.html",
+      "bytes": 2115,
+      "sha256": "4ca42f6f39fb9facc33c21cb6863e8b290eea2038009ab02cab7e851851a45ca"
+    },
+    {
+      "path": "zh-hans/SUTI.lab/living-system.html",
+      "bytes": 2025,
+      "sha256": "7e4abca3193b1dc55890d425d4e58a4451151cd451a2560e59daecb29c5ca0c5"
+    },
+    {
+      "path": "zh-hans/SUTI.logos/living-system.html",
+      "bytes": 2146,
+      "sha256": "39e5ec23056a1a6ab2561d195dfc6d5651b1dbf4652a4d889b3be5b8ccd151e1"
+    },
+    {
+      "path": "zh-hans/SUTI.oracle/living-system.html",
+      "bytes": 2031,
+      "sha256": "df5d073774c882e0960a11b9a7f38d4a49bf6eb9ff3b3a1a6b69513ea21e05c9"
+    },
+    {
+      "path": "zh-hans/SUTI.os/living-system.html",
+      "bytes": 2079,
+      "sha256": "b390d6ffab78215825686fe8d36bf512b6d0de5f4ad515dc5739723311e5c6bf"
+    },
+    {
+      "path": "zh-hans/SUTI.sotkan/living-system.html",
+      "bytes": 2070,
+      "sha256": "17c4b978bb80f605131a73bcf83f23a9f15896ea2e857a4a3288de1b872b8ce7"
+    },
+    {
+      "path": "zh-hans/SUTI.uni/living-system.html",
+      "bytes": 2025,
+      "sha256": "4954ab2ac5b157b9c75fe5b1e4e281a7c58e30970b49795f184472083c94daa8"
+    },
+    {
+      "path": "zh-hans/SUTI.veche/living-system.html",
+      "bytes": 2069,
+      "sha256": "5137758cf239af2f753747bf774d8d65d40f8b0d68431bfed4ed06511c8b98d9"
+    },
+    {
+      "path": "zh-hans/SUTI.verenium/living-system.html",
+      "bytes": 2121,
+      "sha256": "c6afb533cc398ef90e2a09f2831d11914731814b372daa9776e72c9ecacea890"
+    },
+    {
+      "path": "zh-hans/SUTI.world/living-system.html",
+      "bytes": 2061,
+      "sha256": "0e6d88cdeedfb87c78f22f570048d1e48a22ad0abb1c9c249a298b88a3d286b8"
+    },
+    {
+      "path": "zh-hans/care-90-days.html",
+      "bytes": 4255,
+      "sha256": "2dea02f2e6fcb51b5c495ef3d6ecb9c7efdb31adb19d2bc8f9ae2ab5ecdb3edc"
+    },
+    {
+      "path": "zh-hans/living-system.html",
+      "bytes": 5833,
+      "sha256": "4caef14a16929d4657ad1c727c8837519b77015757b14b45e4755030d344e6d6"
+    },
+    {
+      "path": "_techne/site/collective-living-system-v1/portal.html",
+      "bytes": 207244,
+      "sha256": "cd540c37d3e18f46d6574348b2961ad4dd6d71c3a5e040da55c8e8f12db1ef10"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1121,
+      "sha256": "c1b5db795fd47dfddfdd5ab267f49113d32afc3a855d403edeb3d569724dff86"
+    },
+    {
+      "path": "publication-note.ru.html",
+      "bytes": 1792,
+      "sha256": "8f4ef83e1730a444837e476c129c6e42c25e65302f8075cb3f65b326518fe205"
+    },
+    {
+      "path": "publication-note.en.html",
+      "bytes": 1412,
+      "sha256": "ffeab3fdfa562a1464ed7e69d6f4698dfb5a9ebe6be6793311a99eb7de85b028"
+    },
+    {
+      "path": "publication-note.es.html",
+      "bytes": 1478,
+      "sha256": "20f2f3619c84caa965b20382f77e8c4aa99071d5f85cf51c9f6a90dbf3021437"
+    },
+    {
+      "path": "publication-note.pt-br.html",
+      "bytes": 1489,
+      "sha256": "d965457961be0bac97096a260e4bc7330c1e9b31b8515225628698ca2f8d1269"
+    },
+    {
+      "path": "publication-note.zh-hans.html",
+      "bytes": 1364,
+      "sha256": "5e025d86e6d21424aa713d6b6d59ee7a98fdbf87f83838e0a82015d95c490417"
+    },
+    {
+      "path": "publication-note.hi.html",
+      "bytes": 2029,
+      "sha256": "894f5163702057d0858ab06c25abba3e7556cdd1b475f038eef4507889ac5dbc"
+    },
+    {
+      "path": "publication-note.fr.html",
+      "bytes": 1510,
+      "sha256": "dc3d9bade3c6427a7eb25b1af0667c3f7ea0356fa986384b76b8ff5544201259"
+    },
+    {
+      "path": "publication-note.ar.html",
+      "bytes": 1634,
+      "sha256": "7675e5d57e5c29979907d860768fc81d114f07b94e81cdef8949f87d4330285f"
+    },
+    {
+      "path": "publication-note.bn.html",
+      "bytes": 2077,
+      "sha256": "a3240c9e2d289f5aa4d5f4028bfde84c87c52965431d289b7b21f6b69cd4ef61"
+    },
+    {
+      "path": "publication-note.eo.html",
+      "bytes": 1456,
+      "sha256": "0fcc3d80cda127546e4cf3795b2fb633c3e1bc601781ce890bbc89ad57d07ff3"
+    },
+    {
+      "path": "publication-note.sa.html",
+      "bytes": 2142,
+      "sha256": "73e5b1b7698940a34926ab130b79f7162c9657cc8ec55262cc8339d4a4ec48f6"
+    },
+    {
+      "path": "publication-note.la.html",
+      "bytes": 1475,
+      "sha256": "42109557b37a074f6b9d026de8695decddb74e59a4545cf991c6e91d46b474d6"
+    },
+    {
+      "path": "publication-note.yzh.html",
+      "bytes": 1855,
+      "sha256": "ddce1dde61629769e92770194990dfef45f8b577b0bc144bc31fafe1d964487f"
+    },
+    {
+      "path": "publication-note.html",
+      "bytes": 2147,
+      "sha256": "cd0a994700523655aac785d6baf032b5b3f901e83f3c8fd9ae2c848d056d3b07"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.ru.html",
+      "bytes": 104383,
+      "sha256": "4088737318cf4986cc970270ae069c0d3391006bb8f5af6d00b2f395317120fa"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.en.html",
+      "bytes": 64417,
+      "sha256": "9ec33fb1007f8a25538c8d2529cbfac589bd6f1d541b6e3713eb9c47919b4598"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.es.html",
+      "bytes": 70117,
+      "sha256": "45b2b5f73bd943c4c85de1c8e0b78f7d5af556edd5431a16f74db64beef6bff4"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.pt-br.html",
+      "bytes": 69480,
+      "sha256": "b97afd156c555c3eedfe9a9081d1226405f5e7bc1bd64696e2aee8767f98aa3d"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.zh-hans.html",
+      "bytes": 60687,
+      "sha256": "72a680ba543090c0a28f81020c33be3b4d2820de212c4d30601a74a45bde7a2b"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.hi.html",
+      "bytes": 123122,
+      "sha256": "73b7a6afa7e84b3733647ed56da2b3104a7e60124445b1d336b61293aa762fb2"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.fr.html",
+      "bytes": 70521,
+      "sha256": "b80a1d9dea559088973907056aa28c81cd839e99016e9a71f28e00ef320d165a"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.ar.html",
+      "bytes": 87642,
+      "sha256": "b0045b57f6d235777b8f2ad6831dbc5f5b837a36f4093a74d44c5fca9aa9cd5d"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.bn.html",
+      "bytes": 119468,
+      "sha256": "6d723feed044a4060953ef987e81df0315098bd42bf4155a03cc9dc8abb770e9"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.eo.html",
+      "bytes": 65907,
+      "sha256": "9ca75815c2267ff8ab4e7d369556b51bc65f0d2844b31501caf39d8a303c64b3"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.sa.html",
+      "bytes": 130342,
+      "sha256": "5fffb21e7e0357047a5ba45a58c63b7983591e50030bfd50a6f6a7fba0a7a2b4"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.la.html",
+      "bytes": 69987,
+      "sha256": "a726df67d2568774849745000a5c01bcc81e0d88f3c3209c36d31c251e7433a3"
+    },
+    {
+      "path": "_techne/human/collective-living-system-v1/fund-plan/calendar-90-days.yzh.html",
+      "bytes": 104429,
+      "sha256": "7181d4cc4222142c76966b1aceed0382cf290cfc4dde164832a71a25f763332d"
+    }
+  ],
+  "transformation": "escaped HTML counterparts; public portal hrefs rebased; publication overlay added; no source review/runtime/financial/youth gate upgrades",
+  "publication": "owner-authorized draft display; no automatic license grant"
+}

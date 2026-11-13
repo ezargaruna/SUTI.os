@@ -1,0 +1,45 @@
+{
+  "schema": "suti.public-review-archive-set.v1",
+  "release_id": "2026-11-13-qa3",
+  "archives": [
+    {
+      "path": "SUTI-public-system-13routes-QA3-2026-11-13.zip",
+      "bytes": 2053192,
+      "sha256": "91f499e749f9230c5d5b62e9d7313c20c91c0f1c6d9bb56afac5febfd182defb",
+      "entries": 578,
+      "zip_crc": "PASS"
+    },
+    {
+      "path": "SUTI-ai-soul-system-contour-13L-v1.1.1-draft.zip",
+      "bytes": 185052,
+      "sha256": "498b0b18253b12630e00858cbaaa7641aedb0181fe64b38329978285f13c748c",
+      "entries": 56,
+      "zip_crc": "PASS"
+    }
+  ],
+  "payload_manifest": {
+    "path": "release-manifest.v1.json",
+    "sha256": "f0c42aed985064bb3e674c27c7f984e69ecee0de943f3bc466aad063f318823e"
+  },
+  "local_link_closure": {
+    "path": "link-closure.v1.json",
+    "sha256": "a22d85c272c4bf2185f25f82bd8db81b7d89b7dc8e856dc4f043e7b39991e5e4",
+    "result": "PASS_SCOPED"
+  },
+  "source_guide_exact_copy": {
+    "file_count": 56,
+    "manifest_hashes": "PASS",
+    "standalone_zip_exact_sha256": "498b0b18253b12630e00858cbaaa7641aedb0181fe64b38329978285f13c748c"
+  },
+  "deterministic_primary_ZIP": {
+    "fixed_timestamp": "2026-11-13T00:00:00",
+    "permissions": "regular file0644",
+    "order": "sorted relative path",
+    "two_build_bytes": "IDENTICAL"
+  },
+  "prior_releases": [
+    "../2026-11-13/",
+    "../2026-11-13-qa2/"
+  ],
+  "prior_releases_unchanged": true
+}
