@@ -35,6 +35,7 @@ These selected author-owned drafts are prepared for public review by the owner's
 
 ## быстрый вход
 
+- [NITYA · атлас 90 дней и анкета заботы](https://suti.world/nitya-practice.html?lang=ru) · [English](https://suti.world/nitya-practice.html?lang=en) · [español](https://suti.world/nitya-practice.html?lang=es-419) · [português brasileiro](https://suti.world/nitya-practice.html?lang=pt-BR)
 - [атлас заботы](https://ezargaruna.github.io/suticore/care-atlas.html) · [Verenium с SUTI.os для работы без сети](https://ezargaruna.github.io/suticore/downloads/Verenium.zip)
 - [выбрать язык и открыть SUTI.world](https://suti.world/)
 - [скачать полный русский vault](https://github.com/ezargaruna/SUTI.os/releases/latest/download/SUTI.os.zip)
